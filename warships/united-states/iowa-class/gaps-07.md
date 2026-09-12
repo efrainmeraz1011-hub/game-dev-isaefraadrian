@@ -70,3 +70,18 @@ Result: no DANFS entry found, 2026-09-11.
 Queries run: (search budget exhausted)
 Sources checked: NavWeaps 16-inch/50 Mark 7 page (no treaty text); NHHC H-Gram 029-4 (S322, no design history); NHHC modern-ships Iowa page (404); NavSource BB-61 (S288, Friedman caption only); Battleship New Jersey history (S309, tier 3, used)
 Result: only the tier 3 museum account found, 2026-09-11.
+
+## 07.3 Gunnery procedure: shore fire control party procedure for a battleship
+Queries run: (covered by the 07.5 queries of 2026-09-11; no new query composed)
+Sources checked: OP 1719 chapter 5 (S293: names the shore fire control party as a source of spots and says the pamphlet does not describe the tasks accompanying a bombardment); Naval Ordnance and Gunnery 1944 (S294: air spot in range with ship spotting in deflection, no shore party procedure); War Instructions chapter 14 (S292: names the bombardment and fire-support plans as annexes, reproduces none)
+Result: no source found, 2026-09-12. The dossier gives the Mark 37 secondary-battery procedure and labels it as such.
+
+## 07.5 Shore bombardment: rounds expended from a ship's own action report
+Queries run: Iowa class battleship Kamaishi bombardment July 1945 16-inch rounds expended history.navy.mil
+Sources checked: NHHC H-Gram 053-1 (S323, used: gives 860 16-inch shells and 170 direct hits at Muroran on 15 July 1945 for Iowa, Missouri and Wisconsin, and 1,206 16-inch shells at Hitachi on 17 to 18 July 1945); DANFS Iowa (S281) and Wisconsin (S284), which give dates and targets but no expenditure; the sources listed under the 2026-09-11 entry for this sub-facet
+Result: a figure was found in a tier 2 official essay (S323) and is used with that label, 2026-09-12. No action report by an Iowa-class ship was found.
+
+## 07.9 Flagship duties: what flag plot held and how the flag spaces were laid out
+Queries run: (covered by the 2026-09-11 entry; no new query composed)
+Sources checked: Battleship New Jersey history (S309, tier 3, used for the flag plot and flag bridge anecdotes of 24 and 25 October 1944 and for the enlargement of the flag quarters at Pearl Harbor); NHHC photo 80-G-471108 (S310, caption only); H-Gram 026-3 (S298, Spruance shifting his flag from Indianapolis); War Instructions paras. 1201 and 1412 (S292, the flagship as a task group and as the provider of command facilities)
+Result: no primary source on the flag spaces found, 2026-09-12.

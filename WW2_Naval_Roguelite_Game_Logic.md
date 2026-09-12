@@ -1,6 +1,6 @@
 # WW2 Naval Roguelite — Foundational Game-Logic Design
 
-**Version:** 0.7 — progression through logistics, enemy combinations, and procedural events  
+**Version:** 0.8 — interactive radar, sonar tracking, and torpedo evasion  
 **Date:** September 12, 2026  
 **Working project:** WW2 FTL Game; final title undecided  
 **Document purpose:** A living blueprint for gameplay, content design, prototyping, and implementation.  
@@ -198,7 +198,7 @@ There are **no energy shields**. Radar supplies information, warning time, and t
 | Generators/distribution | Supply electrical consumers | More capacity, efficiency, protected circuits, or emergency redundancy | Space, installation time, fuel demand, and exposure to local damage |
 | Fire control and mounts | Aim, reload, and fire eligible weapons | Solution speed, accuracy, loading, or ammunition handling | Finite ammo, power/staffing, arcs, and slot limits |
 
-The prototype uses three tiers for radar, sonar, and compartment protection, with branch choices to be tuned. Sensor state, installation tier, operational condition, staffing, and allocated power are independent. Purchasing a better radar does not repair a destroyed one or provide free full-power output.
+The prototype uses three tiers for radar, sonar, and compartment protection, with branch choices to be tuned. Sensor state, installation tier, operational condition, staffing, and allocated power are independent. Section 1.18 defines the interactive radar/sonar views and their shared timing and tracking rules. Purchasing a better radar does not repair a destroyed one or provide free full-power output.
 
 Doors are not invulnerable walls. Closed intact boundaries reduce or block the specified fire/water transfer; damage can compromise seals or jam the opening. Remote controls fail with their circuit; reachable manual operation remains possible unless the mechanism itself is blocked. A closure preview identifies isolated crew and cut-off escape routes. Automatic closure is an editable standing order and must not silently trap crew when a safe delay is available.
 
@@ -559,6 +559,102 @@ Use this checklist to cover the desired ship-management experience while choosin
 | Unlocks and repeat runs | Additional destroyer layouts/doctrines, meaningful failures, seeds, debrief, permanent run consequences |
 
 Teleportation, crew resurrection, and supernatural crew control have no core naval replacement. Future boarding, sabotage, or deception must have visible travel, access, equipment, and timing constraints. They remain explicit open features rather than silent missing systems.
+
+### 1.18 Interactive radar, sonar, and torpedo evasion
+
+**Direction:** Radar and sonar have focused views in which the player interprets observations, prioritizes contacts, and directs tracking. These are linked controls for the same tactical encounter, not separate arcade scenes. Radar's primary teaching role is tracking aircraft; it retains eligible surface-contact detection. Sonar covers submarines and detectable underwater torpedoes. Neither sensor grants universal visibility or protection.
+
+This section defines behavior and information. Sprites, cutaway art, screen styling, sound design, and final camera transitions remain a later design pass. The baseline automatic assistance and interaction details below are proposals to test against the user's goal of hands-on depth with manageable pressure.
+
+#### Control and time contract
+
+- Selecting a sensor station opens its focused panel. One focused panel is active at a time; critical ship alerts and access to the cutaway and helm remain available. Opening or closing a panel never changes the ship's physical state.
+- Prototype default: opening a panel pauses the shared simulation; the player may resume while using it. Allow disabling this opening auto-pause. Manual pause remains available throughout tracking and evasion.
+- During pause, inspect previous returns, choose search sectors, mark a contact, set priorities, and plan a course. New sweeps, echo returns, classification progress, torpedo motion, crew work, and track decay require simulated time. Clicking repeatedly or reopening a panel cannot create fresh information.
+- A staffed, powered station performs baseline search, warnings, and selected track maintenance. Manual interaction directs that crew's effort; it does not substitute for missing personnel, power, or functional equipment.
+- Baseline assistance remains usable through the campaign. The hands-on advantage is choosing better search coverage and priorities, resolving ambiguity, and obtaining useful information sooner. Do not require continuous cursor following, rhythm clicking, or a separate task for every aircraft in a raid.
+- After a player establishes a priority track, crew can maintain it until conditions change. Closing the panel retains that assignment. Losing contact, encountering conflicting returns, or choosing a different target creates the next decision.
+
+#### Radar interaction: establish and maintain an air track
+
+**Player loop:** inspect returns → select a suspected group → focus a search sector → compare its next observation with the previous one → assign the resulting track to a response.
+
+The view shows own heading, a range/bearing grid, time-stamped returns, last-known marks, and uncertainty areas. Unknown contacts remain unknown: a faint return is not automatically labeled an enemy bomber. Aircraft can be handled as formations rather than individual selectable blips. Friendly identification requires the appropriate observed information.
+
+A broad scan covers more bearings but provides fewer focused observations of any one contact. A focused scan updates a smaller area more frequently and leaves other approaches dependent on baseline coverage and lookouts. The player marks the contact or group to follow and can place a predicted next-observation area. When a new eligible return arrives, compare it with that prediction and the crew's estimate. This is a tracking decision, not a requirement to hit a moving dot within a tiny time window.
+
+Consistent observations reduce bearing/range uncertainty and improve the motion estimate. Inconsistent returns can represent a turn, a split formation, lost identification, or clutter; offer retaining, splitting, or dropping the association. An incorrect association costs useful observation time and leaves an uncertain estimate. It does not erase the real contact or immediately damage the player.
+
+An established track can support AA prioritization, fighter interception orders, or a maneuver to avoid the estimated attack corridor. Radar does not automatically fire every weapon or guarantee interception. Track quality enters the existing targeting system once; do not also grant an unrelated manual-play damage multiplier.
+
+#### Sonar interaction: bearing first, a better solution through observation
+
+**Player loop:** identify a possible acoustic contact → choose a listening sector and useful ship speed → compare observations over time → decide whether to ping → track, attack, evade, or disengage.
+
+The view presents directional sectors and a short observation history, with optional sound cues. Every necessary audio cue also has a readable visual equivalent. Passive listening can supply an uncertain bearing or broad contact category; one observation does not reveal exact position, range, course, and identity. Show an arc or area rather than a falsely precise submarine icon.
+
+The player can concentrate listening in a direction, reduce own speed to improve the next usable observation, or order an active ping when available. Slowing takes time and affects tactical position. An active ping can improve eligible range/classification information after its simulated return, while creating the existing acoustic exposure cue. Ping cooldown, operator work, power, and environmental limits prevent unlimited scanning. An issued ping cannot be undone after its emission by closing the view.
+
+Repeated observations update a motion estimate. The player may use a course change to obtain another useful bearing, but turning through a dangerous area has ordinary consequences. The crew assists with the estimate; the player is not required to calculate trigonometry or plot a separate paper chart. Depth-charge eligibility still requires the appropriate contact area, approach, and actual ammunition.
+
+A submarine track and a torpedo track are different records. Tracking the submarine does not automatically reveal every launch, and hearing a torpedo does not disclose the submarine's exact position. Detectability and classification rules determine what each observation supports.
+
+#### Torpedo evasion: turn information into a maneuver
+
+A newly detected underwater threat raises the configured alert and can auto-pause. With a weak observation, show a possible threat bearing and broad uncertainty. With a stronger track, show an estimated approach corridor, direction, and arrival-time interval. Do not provide an exact torpedo line or countdown when the sensor evidence does not support it.
+
+The player selects a heading and speed using the linked helm view. Preview the destroyer's curved path using current speed, turn limits, acceleration, engine condition, and command delay. Overlay it against the estimated torpedo corridor. A preview is advice based on available information, not a promise of a safe outcome; a spread or second unknown weapon may create another danger.
+
+**A successful dodge is a clean miss.** Turning to present a narrower profile can help in a particular geometry, but bow-on, stern-on, or parallel alignment is not a universal dodge command. A late turn can sweep the ship's middle or stern into the path. Slowing may let one torpedo cross ahead while increasing exposure to another. The correct decision depends on relative motion, spacing, and timing.
+
+Do not make a live torpedo reliably slide along the hull as the reward for a correct input. Under the baseline game rule, contact with its eligible collision area resolves the impact/fuze and damage rules. A miss passes clear of that area. Any later dud or special-fuze mechanic must be declared separately and must not act as a hidden reward for a steering gesture.
+
+Collision uses the actual ship footprint and the torpedo's traveled segment over each simulation step, including swept ship movement during a turn. This prevents a fast projectile from passing through a hull between sampled positions. A geometrically clear miss does not receive a second random “failed dodge” hit roll. Torpedo path deviations, guidance if a particular weapon supports it, and fuzes belong to the declared weapon definition; player panel inputs cannot secretly redirect enemy weapons.
+
+Fuel, sonar quality, firing arcs, and crew work remain connected. A high-speed turn burns fuel and can degrade the next sonar observation. Sending the sonar team to stop flooding degrades tracking. The existing fire continues while the simulation runs, even when the player is examining a torpedo. Pause and persistent alerts let the player manage these competing demands.
+
+#### Example encounter sequence
+
+1. Passive sonar picks up an uncertain bearing. The player opens the panel, pauses, assigns a listening sector, and requests lower speed.
+2. After resuming, another observation strengthens the contact. The player chooses between keeping a quiet search and using an active ping for more information.
+3. A separately detected torpedo generates a warning. The player pauses and compares two course/speed previews; the faster option clears the estimated corridor sooner but spends more fuel and weakens subsequent listening.
+4. The player commits a course and resumes. The ship turns with its real limits while the crew maintains the available track. A new observation can support a course correction; it cannot rewind the torpedo.
+5. A clear miss leaves the ship undamaged but still consumes time and fuel. A collision can start a breach and require damage control. In either case, the submarine may still be present and depth charges remain a separate decision.
+
+This sequence should be understandable through a few meaningful orders. It does not require every submarine encounter to contain every step or every torpedo to be avoidable from an already compromised position.
+
+#### Upgrades and increasing challenge
+
+| System | Early capability | Specialization choices | Retained tradeoff |
+|---|---|---|---|
+| Radar | Broad returns and one prioritized formation | Wider warning coverage or faster focused updates; clearer associations or more maintained tracks | Power, crew, emissions, and gaps outside the focused sector |
+| Sonar | Basic bearing history and deliberate active search | Better passive discrimination or more useful active returns; track persistence or classification speed | Own noise, environmental interference, search exposure, and finite operator capacity |
+| Tracking assistance | Crew maintains a selected track | Better extrapolation or prioritization of several known contacts | Estimates age; assistance cannot invent new observations |
+| Helm/propulsion | Course and speed orders with path preview | Faster response or better fuel economy | Turn radius, acceleration, damage, fuel, and changing firing bearings |
+
+Early encounters teach one formation, one acoustic contact, and a separated attack warning. Later encounters can involve splitting aircraft groups, ambiguous acoustic returns, a torpedo spread, or a radar decision competing with damage control. Use the sector's shared challenge budget. Increasing difficulty must not simply hide all cues, shorten every reaction window, or demand simultaneous manual operation of two panels.
+
+For a baseline detectable attack in tutorial/ordinary validation conditions, warning time must allow observation/recognition, helm response, the time required to clear the threat path, and a stated margin. Evaluate that window against the actual hull and geometry. An arbitrary universal warning duration is insufficient. Risky speed, lost crew, damaged engines, or entering a known close threat can consume the available margin.
+
+#### Persistence, accessibility, and acceptance checks
+
+Save observation timestamps and provenance, suspected associations, confidence/uncertainty, search mode/sector, focused target, crew tracking orders, pending ping emissions/returns, cooldowns, current motion, and committed maneuver orders. Presentation preferences may include the selected panel; restoring that panel must not advance or reset work. Resume from the same information and simulation tick without refreshing contacts or rerolling clutter.
+
+Provide mouse and keyboard equivalents, adjustable text/contrast, visual equivalents for sonar audio, and assistance/auto-pause settings. Baseline automated tracking must remain a meaningful alternative to fine motor input. Increased challenge should come from decisions rather than inaccessible controls.
+
+Acceptance cases for the next sensor prototype:
+
+- Opening, switching, closing, or saving a sensor view preserves the same simulation and observation history; paused interaction earns no new information.
+- A destroyed, unpowered, or unstaffed station cannot be restored by manual input. Last-known observations remain visibly stale rather than becoming live positions.
+- A submarine can be tracked without its torpedo yet being detected, and a torpedo can be detected without revealing its launcher.
+- A formation splitting or a lost sonar return increases uncertainty without teleporting a real entity or silently confirming a false identity.
+- Course previews use only player-known tracks; engine damage and turning limits affect execution. A turning stern can collide even when the bow appears clear.
+- Clean geometric misses stay misses; collisions use the same authoritative simulation with no extra minigame success roll.
+- Tracking quality affects existing targeting once. Repeated panel actions cannot stack bonuses, reset cooldowns, or create power, fuel, or ammunition.
+- A sensor warning can interrupt the other panel; a fire/flood alert remains visible, and full pause permits a response without hidden time loss.
+- Supported starters can learn and respond under baseline conditions using crew assistance; advanced manual work improves informed choices without becoming mandatory cursor labor.
+
+The existing mock campaign does not simulate these views, contact-estimation decisions, collision geometry, or simultaneous player attention. Its prior percentages must not be presented as validation of this design. A small sensor/helm interaction prototype should test these rules before adding their estimated effects to another bulk campaign simulation.
 
 ## 2. Progression
 
@@ -997,7 +1093,7 @@ An optional practice mode may allow manual checkpoints and altered rules. Its re
 | Campaign state | Generated sectors/edges and challenge-profile IDs with supply/enemy/event manifests, current location or transit, active state/phase including aftermath stabilization or reward selection, discovered information, campaign hours, threat, port stock/prices, relations, mission flags, deadlines, objective cargo ledger |
 | Event/port ledgers | Event-instance/family ID, committed arrival effects and applied IDs, initial values and choice outcomes, cooldowns, reward ownership/depletion, rescued/passenger team identities, transfer-credit entitlements, cart/service reservations and receipts |
 | Player force | Ship layout, installed module positions/variants/tiers/branches, team IDs/skills/health/tasks/home stations, ship morale, ration policy/shortage duration, local hazards, power/sensor modes, inventories, optional allies/cargo, owned planes and external support sources |
-| Tactical state | Tick, positions/headings/speeds, each side's contact knowledge, projectiles/torpedoes, mines/lanes, signal/effect state, owned/external aircraft missions and payload ownership, launcher/handling/recovery queues, boss hull/phase/trigger ledger/reserves, reloads, orders, AI, retreat and local objective timers |
+| Tactical state | Tick, positions/headings/speeds, each side's observation history/contact knowledge and uncertainty, search sectors/focused tracks, pending ping returns and tracking orders, projectiles/torpedoes, mines/lanes, signal/effect state, owned/external aircraft missions and payload ownership, launcher/handling/recovery queues, boss hull/phase/trigger ledger/reserves, reloads, orders, AI, retreat and local objective timers |
 | Pending work | Crew paths and setup progress, repairs already paid for, port/partial-transfer contracts, event commitments, unclaimed rewards, interrupted transit, aircraft recovery, pending signal responses, accumulated fractional fuel/ration use |
 | Randomness | Separate random-stream states/counters for map, events, combat, rewards, and cosmetic presentation where used |
 | Reliability metadata | Save generation number, checksum, timestamp, previous valid generation, journaled transaction IDs, terminal-processing status |
@@ -1641,7 +1737,8 @@ First fix rule errors and unintended multipliers, then address consistent domina
 | SET-01 | Geographic scenario and visual reference selections | Four confirmed factions; recognizable WWII destroyers; exact historical statistics/date gates unnecessary | Before detailed narrative/art production |
 | FACTION-01 | Resolved: faction versus ship mechanics | No blanket faction bonuses; strengths/weaknesses belong to designs/equipment | Review roster parity, not national buffs |
 | STORY-01 | Resolved: purpose of crossing the map | Sectors are levels; defeat a large boss ship at the end; no story justification required | Optional flavor only |
-| CTRL-01 | Tactical chart movement detail | Continuous relative movement with readable range bands | Combat sandbox playtest |
+| CTRL-01 | Tactical chart, sensor views, and evasion geometry | Linked radar/sonar/helm panels; full pause; bounded movement and swept collision, per Section 1.18 | Sensor/helm interaction prototype |
+| SENSOR-01 | Scan timing, association rules, confidence, assistance, and warning windows | Hands-on search/track priorities with usable crew assistance; no information gained during pause | One air-track and one submarine/torpedo encounter before bulk simulation |
 | CREW-01 | Resolved control unit; tune exact count and visual density | Teams are indivisible selections; prototype six, cap seven, two/three decorative sailors | Readability and room-capacity test |
 | ECON-01 | Ammo-class granularity and inventory capacity units | Main, secondary, AA, torpedo, depth-charge classes | Vertical-slice logistics test |
 | SCOPE-01 | Campaign duration and number of destroyer layouts | Six sectors; four confirmed factions with baseline destroyers; no playable capital-ship progression | Completed vertical slice |
@@ -1684,6 +1781,8 @@ For each revision, record the changed rule, reason, affected systems/content, sa
 | 0.6 | 2026-09-12 | Added an explicit gradual sector challenge plan and linked reproducible mock-campaign experiments covering builds, economy, resource pressure, boss tuning, and paid refits | Model enumeration, deterministic replay, resource bounds, numerical comparisons, and fresh-seed checks; no game implementation, human playtest, or final balance claim. Version 0.5 archived. Model-only coefficients do not change production save contracts. |
 
 | 0.7 | 2026-09-12 | Clarified progression through rarer/partial resupply, enemy equipment and tactical combinations, richer events, information, and environment; added sector challenge profiles and next-model controls | Document consistency review only; previous mock results and archive preserved as historical evidence. No new simulations run. Version 0.6 archived; future saved sector manifests must include the selected challenge profile and generated supply/enemy/event configuration. |
+
+| 0.8 | 2026-09-12 | Added interactive radar and sonar tracking, linked torpedo course/speed decisions, crew assistance, upgrade tradeoffs, and shared pause/information/collision contracts | Design consistency review; no sensor prototype or new balance simulation. Version 0.7 preserved locally. Future saves must preserve observation/association state, pending sensor work, and maneuver state. Sprites and visual styling remain deferred. |
 
 **Next design artifacts to add or link:**
 

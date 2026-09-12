@@ -25,4 +25,4 @@ Citations resolve to `../sources-07.md`.
 - Battleship New Jersey Museum and Memorial full history, tier 3, the source for flag-plot and flag-bridge detail [S309].
 - NHHC photograph 80-G-471108, Halsey on her bridge en route to the Philippine raids, December 1944 [S310].
 - NHHC H-Grams 026-3 and 038-2 for the Truk sweep and Leyte Gulf [S298] [S300].
-- The class registry lists her 1984 booklet of general plans on the Internet Archive; not fetched for this note.
+- The class registry lists her 1984 booklet of general plans on the Internet Archive; not fetched for this note. <!-- no-claim -->

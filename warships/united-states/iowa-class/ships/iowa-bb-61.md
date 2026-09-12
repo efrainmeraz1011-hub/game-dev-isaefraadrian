@@ -25,5 +25,5 @@ Citations resolve to `../sources-07.md`.
 - NHHC photograph page with a short history [S287].
 - NHHC H-Gram 026-3 gives her expenditure against Katori on 17 February 1944: 46 16-inch and 124 5-inch rounds [S298].
 - NHHC H-Gram 029-4 covers the 1989 Turret 2 explosion [S322].
-- The class registry (`skills/ww2-warship-research/SOURCES.md`) lists her 1984 booklet of general plans and 1954 general arrangement details on the Internet Archive; those belong to facets 01 and 05 and were not fetched for this note.
+- The class registry (`skills/ww2-warship-research/SOURCES.md`) lists her 1984 booklet of general plans and 1954 general arrangement details on the Internet Archive; those belong to facets 01 and 05 and were not fetched for this note. <!-- no-claim -->
 - No BuShips war damage report exists for her; the HyperWar war damage report index lists none for any Iowa-class ship [S297].

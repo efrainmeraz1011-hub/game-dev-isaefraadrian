@@ -13,6 +13,12 @@ Checks per class folder:
   4. meta     - meta.json present and parsable, ships and weapons non-empty
   5. images   - every image file has a row in images/CREDITS.md naming a licence
 Exit status is 1 when any check fails, so CI or a commit hook can gate on it.
+
+A line of bibliographic or navigational prose that carries a number but makes no
+claim about a ship (naming the report a facet rests on, pointing at another
+facet) can end with the marker <!-- no-claim -->. The script skips those lines
+and prints how many each class uses, so the exemptions stay visible and a
+reviewer can audit them. Never mark a line that states a fact about a ship.
 """
 import json
 import re
@@ -34,6 +40,9 @@ def strip_noise(line):
     line = re.sub(r"[\w./-]+\.(md|json|pdf|jpg|png|php|htm|html)\b", "", line)  # filenames
     line = re.sub(r"https?://\S+", "", line)       # bare urls
     line = re.sub(r"\bfacets? 0?\d+\b", "", line, flags=re.I)
+    line = re.sub(r"\btiers? [123]\b", "", line, flags=re.I)   # source classification
+    # document designators are identifiers, not claims: O-47(N)-1, S-06-2, ADM 234/271
+    line = re.sub(r"\b[A-Z]{1,7}[-\s]?\d+(\([A-Z]\))?([-/.]\d+)*([-/][A-Z])?\b", "", line)
     return line
 
 
@@ -48,10 +57,19 @@ def strip_code(text):
     return out
 
 
-def check_uncited(class_dir):
+LIST_RE = re.compile(r"^\s*(\d+[.)]|[-*+])\s+")
+
+
+def check_uncited(class_dir, exempt):
     bad = []
     for f in sorted(class_dir.glob("[0-9][0-9]-*.md")) + sorted(class_dir.glob("ships/*.md")):
+        stem_cited = False
         for i, line in enumerate(strip_code(f.read_text(encoding="utf-8", errors="replace")), 1):
+            # remember whether the paragraph introducing a list carried a citation
+            if line.strip() and not LIST_RE.match(line) and not line.strip().startswith(("|", "#")):
+                stem_cited = "[S" in line
+            if LIST_RE.match(line) and stem_cited:
+                continue
             s = line.strip()
             if not s or s.startswith("#") or s.startswith("|") or s.startswith("---"):
                 continue
@@ -63,6 +81,9 @@ def check_uncited(class_dir):
                 continue
             # a bullet that only points at a gaps file is not a claim
             if re.search(r"gaps-?\d*\.md", s):
+                continue
+            if "<!-- no-claim -->" in s:
+                exempt[0] += 1
                 continue
             bad.append(f"{f.relative_to(ROOT)}:{i}: {s[:90]}")
     return bad
@@ -135,7 +156,8 @@ def main():
     for cd in dirs:
         rel = cd.relative_to(WARSHIPS).as_posix()
         problems = []
-        uncited = check_uncited(cd)
+        exempt = [0]
+        uncited = check_uncited(cd, exempt)
         if uncited:
             problems.append(f"{len(uncited)} uncited numeric line(s)")
         used, defined = citations(cd)
@@ -150,7 +172,8 @@ def main():
         facets = len(list(cd.glob("[0-9][0-9]-*.md")))
         if problems:
             failed = True
-            print(f"FAIL {rel}  ({facets}/8 facets, {len(defined)} sources)")
+            note = f", {exempt[0]} no-claim" if exempt[0] else ""
+            print(f"FAIL {rel}  ({facets}/8 facets, {len(defined)} sources{note})")
             for p in problems:
                 print(f"     {p}")
             for line in uncited[:8]:
@@ -158,7 +181,8 @@ def main():
             if len(uncited) > 8:
                 print(f"       ... {len(uncited) - 8} more")
         else:
-            print(f"ok   {rel}  ({facets}/8 facets, {len(defined)} sources)")
+            note = f", {exempt[0]} no-claim" if exempt[0] else ""
+            print(f"ok   {rel}  ({facets}/8 facets, {len(defined)} sources{note})")
     return 1 if failed else 0
 
 

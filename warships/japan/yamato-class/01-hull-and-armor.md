@@ -2,7 +2,7 @@
 
 Status: covered
 
-The tier 1 source for this facet is US Naval Technical Mission to Japan report S-06-2, "Reports of Damage to Japanese Warships, Article 2: Yamato, Musashi, Taiho, Shinano", written in January 1946 by Constructor Commander R. E. Holtzworth. It carries the ships' principal characteristics as the mission recorded them from Japanese officers and from the Fourth Section (Ship Construction) of the Navy Ministry, and it is the source of the finding about the belt-to-bulkhead joint. Because the Japanese destroyed most design records in August 1945, almost every figure in this facet comes from post-war interrogation rather than from a surviving drawing.
+The tier 1 source for this facet is US Naval Technical Mission to Japan report S-06-2, "Reports of Damage to Japanese Warships, Article 2: Yamato, Musashi, Taiho, Shinano", written in January 1946 by Constructor Commander R. E. Holtzworth. It carries the ships' principal characteristics as the mission recorded them from Japanese officers and from the Fourth Section (Ship Construction) of the Navy Ministry, and it is the source of the finding about the belt-to-bulkhead joint. Because the Japanese destroyed most design records in August 1945, almost every figure in this facet comes from post-war interrogation rather than from a surviving drawing. <!-- no-claim -->
 
 ## Design history
 

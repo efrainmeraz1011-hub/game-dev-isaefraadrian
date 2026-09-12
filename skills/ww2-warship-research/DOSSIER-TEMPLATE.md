@@ -65,6 +65,10 @@ Status: covered | partial (see gaps.md) | gap
 - A table gets a citation in its caption line above it or a `Source` column.
 - A paragraph drawn wholly from one source may carry one citation at its end.
 
+## Bibliographic lines
+
+A line that carries a number but makes no claim about a ship (naming the report a facet rests on, pointing at another facet) ends with `<!-- no-claim -->`. `scripts/verify.py` skips those lines and prints how many each class uses, so a reviewer can audit them. A line stating a fact about a ship gets a citation, never this marker.
+
 ## Numbers
 
 State the unit the source used first. Convert in parentheses. Label the condition: `(as designed, 1938)`, `(as built, 1943)`, `(1945 refit)`, `(source undated)`.

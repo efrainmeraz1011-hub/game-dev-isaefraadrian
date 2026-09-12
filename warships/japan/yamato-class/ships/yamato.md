@@ -1,6 +1,6 @@
 # Yamato
 
-Name ship of the class, built at Kure Naval Arsenal as Battleship No. 1. This file holds what a source records about Yamato specifically. The class baseline is in facets 01 to 08.
+Name ship of the class, built at Kure Naval Arsenal as Battleship No. 1 [S1]. This file holds what a source records about Yamato specifically. The class baseline is in facets 01 to 08.
 
 ## Identity
 

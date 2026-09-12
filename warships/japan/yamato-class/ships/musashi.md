@@ -1,6 +1,6 @@
 # Musashi
 
-Second ship of the class, built at Mitsubishi's Nagasaki yard as Warship No. 2, hull No. 800.
+Second ship of the class, built at Mitsubishi's Nagasaki yard as Warship No. 2, hull No. 800 [S2].
 
 ## Identity
 

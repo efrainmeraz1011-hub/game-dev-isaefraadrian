@@ -48,7 +48,7 @@ The same compilation records that the Type 21 was first fitted to the battleship
 | 10 to 27 April 1944 | Musashi | Two Type 22 surface search and two Type 13 air search radars installed | [S2] |
 | mid 1944 | Musashi | Type 22 replaced by Type 22 Mod 4 with a limited fire-control capability | [S2] |
 
-The combinedfleet compilation's date of October 1943 for the Type 22 on both ships and the tabular records' refit dates of March 1944 for Yamato and April 1944 for Musashi cannot both be right; both are recorded here.
+The radar compilation's date of October 1943 for the Type 22 on both ships [S26] and the tabular records' refit dates of March 1944 for Yamato [S1] and April 1944 for Musashi [S2] cannot both be right. Both are recorded here.
 
 ### Radar in action
 

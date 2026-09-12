@@ -2,7 +2,7 @@
 
 Status: partial (see gaps.md)
 
-Two US Naval Technical Mission reports carry this facet. S-01-2, "Characteristics of Japanese Naval Vessels, Article 2: Surface Warship Machinery Design", December 1945, sets out the arrangement, the piping and the design philosophy, with Yamato as its battleship exemplar. S-01-12, "Article 12: Boilers and Machinery", April 1946, describes the standard Kampon boiler and then takes Yamato's boiler apart in detail as one of two worked examples, the other being the destroyer Akitsuki. Both reports are silent on several things a reader expects: no maker is named for the boilers or turbines, no shaft rpm is printed, and propeller dimensions appear nowhere.
+Two US Naval Technical Mission reports carry this facet. S-01-2, "Characteristics of Japanese Naval Vessels, Article 2: Surface Warship Machinery Design", December 1945, sets out the arrangement, the piping and the design philosophy, with Yamato as its battleship exemplar. S-01-12, "Article 12: Boilers and Machinery", April 1946, describes the standard Kampon boiler and then takes Yamato's boiler apart in detail as one of two worked examples, the other being the destroyer Akitsuki. Both reports are silent on several things a reader expects: no maker is named for the boilers or turbines, no shaft rpm is printed, and propeller dimensions appear nowhere. <!-- no-claim -->
 
 ## Principal machinery characteristics
 

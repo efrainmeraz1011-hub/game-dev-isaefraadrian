@@ -2,7 +2,7 @@
 
 Status: covered
 
-Timeline only. Design, damage mechanics and equipment changes belong to facets 01 to 07. Dates and times are as the cited source prints them; combinedfleet.com gives Japanese local time unless it marks a zone.
+Timeline only. Design, damage mechanics and equipment changes belong to facets 01 to 07. Dates and times are as the cited source prints them; combinedfleet.com gives Japanese local time unless it marks a zone. <!-- no-claim -->
 
 ## Building dates
 

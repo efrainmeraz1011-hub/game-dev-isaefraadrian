@@ -188,7 +188,53 @@ Recoil used two recoil cylinders charged with glycerine and water and two pneuma
 
 ### Hydraulic power
 
-Three turbo hydraulic pumps per turret, one of them a standby, supplied pressure at 1,000 to 1,100 psi through a ring main to the centre pivots below the lower cordite handling rooms. Water was the pressure medium. No local pump was fitted in the turrets for auxiliary purposes [S11, p. 17]. The mission refers the reader to report O-53(N), "Hydraulic Pumps in Japanese Naval Ordnance", for the pumps themselves [S11, p. 17], [S22].
+Report O-45(N) states that three turbo hydraulic pumps, one of them a standby, supplied pressure at 1,000 to 1,100 psi through a ring main to the centre pivots below the lower cordite handling rooms, with water as the pressure medium, and that no local pump was fitted in the turrets for auxiliary purposes [S11, p. 17]. It refers the reader to report O-53(N), "Hydraulic Pumps in Japanese Naval Ordnance", for the pumps themselves [S11, p. 17].
+
+O-53(N) describes those pumps directly. They were the only turbo-hydraulic pumps used in Japanese naval ordnance, fitted for the 18-inch turrets in Yamato and Musashi, with one trial pump in the battleship Hiei. Pumps and driving turbines were designed by Brown Boveri in Switzerland; the first set was built there and sent to Japan, and the remainder were built at the Hiro Navy Yard from the same designs [S22, pp. 1, 7].
+
+| Item | Value | Source |
+|---|---|---|
+| Number of pumps per ship | 4 (1 per turret, and 1 standby) | [S22, p. 7] |
+| Turbine shaft horsepower, normal | 3,600 | [S22, pp. 1, 7] |
+| Turbine shaft horsepower, overload | 5,000 | [S22, p. 7] |
+| Speed, normal | 3,700 rpm | [S22, pp. 1, 7] |
+| Speed, overload | approximately 4,000 rpm | [S22, p. 7] |
+| Steam pressure before chest | 284 lbs/in2 (given from memory and described as probably not reliable) | [S22, p. 7] |
+| Chest pressure | 227 lbs/in2 (same caveat) | [S22, p. 7] |
+| Type of pump | centrifugal impeller, driven at turbine speed, two-stage | [S22, pp. 1, 7] |
+| Pumps per turbine | one | [S22, p. 7] |
+| Impellers per pump | 3, of which 2 first stage | [S22, p. 7] |
+| First stage impeller diameter | 17.73 in | [S22, p. 7] |
+| Capacity | 1,100 cubic metres per hour (38,850 cubic feet per hour) | [S22, p. 7] |
+| Working pressure | 1,000 lbs/in2 | [S22, p. 7] |
+| Suction pipes, 2 per pump | 14.97 in diameter | [S22, p. 7] |
+| Delivery pipe | 10.244 in diameter | [S22, p. 7] |
+| Weight of turbine including bed and auxiliary machine | about 9 tons | [S22, p. 7] |
+| Total weight of turbine, pump and bed | about 20 tons | [S22, p. 7] |
+
+The working fluid in 14-inch turrets and above was a mixture of distilled water and Argolene oil, known to the Japanese as lathe oil, in the proportion of five tons of water to ten litres of oil. All smaller turrets and mounts used No. 2 mineral oil. Working pressure was 300 to 400 lbs/in2 in the smaller mounts, 500 in 8-inch turrets, and 1,000 in the 6-inch turret and in all 14-inch turrets and above [S22, p. 8]. O-53(N) prints every pressure for the 18-inch pump in pounds per square inch and gives no kg/cm2 equivalent [S22, p. 7].
+
+O-53(N) describes the accumulator-and-ring-main arrangement only for 8-inch and 6-inch turrets and does not describe a ring main for the 18-inch mounts [S22, p. 8].
+
+Japanese hydraulic pump motors generally were known to the Japanese as "Johnny" engines, which the report takes to be a corruption of "Williams-Janney" [S22, p. 1].
+
+The 500 hp training engines are tabulated in Enclosure (C) of O-53(N) as swash plate engines fitted on Yamato and Musashi for Type 94 training [S22, p. 12]:
+
+| Item | Value |
+|---|---|
+| Nominal horse power | 500 |
+| Water horse power | 503.1 at 250 rpm; 704.3 at 350 rpm |
+| Maximum torque, frictionless | 1,153 kg/m at 800 lb/in2; 1,441 kg/m at 1,000 lb/in2 |
+| Supply pressure | 1,000 lb/in2 |
+| Piston | diameter 100 mm, area 78.54 cm2, stroke 149.11 mm, 11 of them |
+| Diameter of cylinder circle | 500 mm |
+| Pressure pipe | 80 mm diameter, 50.27 cm2 area |
+| Area of fixed ports | 15.60 cm2 |
+| Inclination of swash plates | 17 deg 0 min 0 sec |
+| Water volume per turn | 12.882 dm3; 3,221 dm3 at 250 rpm |
+| Velocity of water | 3.13 m/sec at port; 10.68 m/sec at delivery and supply pipe |
+
+O-53(N) notes that O-45(N) gave the speed of these engines as 53 rpm when the turret was training at its maximum 2 degrees per second and said that figure could not be confirmed, whereas Enclosure (C) gives 250 rpm at 503.1 hp and 350 rpm at 704.3 hp from test bench trials. Two of the engines were sent to the United States, and O-53(N) suggests further trials might show they could produce their power at either speed with a corresponding variation in torque [S22, p. 8].
 
 ### Turret sights and rangefinder
 
@@ -448,6 +494,9 @@ No torpedo tubes are recorded in the armament lists for either ship [S28], [S4].
 - Burster weight: 23.9 kg [S5, from NPG Report No. 289] against 33.85 kg [S5, from "The Yamato Class and Subsequent Planning"], the latter being explosive plus liner.
 - Centre gun firing delay: 0.080 seconds [S11, p. 17] against 0.300 seconds in more recent works [S5].
 - Turret elevation rate: 6 deg/sec designed and 8 deg/sec obtained [S11, pp. 18, 50]; Skulski's text gives 10 deg/sec, which NavWeaps believes is an error [S5].
+- Number of hydraulic pumps. O-45(N) says three turbo hydraulic pumps supplied the ring main, one of them a standby [S11, p. 17]. O-53(N) says four per ship, one per turret and one standby [S22, p. 7].
+- Hydraulic working pressure. O-45(N) gives 1,000 to 1,100 psi [S11, p. 17]; O-53(N) gives 1,000 lbs/in2 [S22, pp. 7, 8].
+- Speed of the 500 hp training engines. O-45(N) gave 53 rpm at the maximum training speed of 2 deg/sec and said the figure could not be confirmed; O-53(N) Enclosure (C) gives 250 rpm at 503.1 hp and 350 rpm at 704.3 hp from test bench trials [S22, p. 8].
 - 25 mm mount counts. Report O-47(N)-2 gives the Yamato class 40 triples and 30 singles [S8]. Report O-45(N) Figure 7 gives 46 mounts for Yamato and 52 for Musashi [S11, p. 13]. combinedfleet gives Yamato's final outfit as 50 triples and 2 singles [S1] and Musashi's last as 35 triples and 25 singles [S2]. The NHHC essay gives 54 triples for Yamato in 1945 [S24].
 - 12.7 cm mount counts. Report O-45(N) Figure 7 tabulates two 12.7 cm anti-aircraft mounts for Yamato and six for Musashi [S11, p. 13]. That figure for Yamato cannot be reconciled with the twelve twin mounts recorded after her 1944 refit [S1], [S7]; the report is a Japanese sketch drawn from memory in 1945 and the cell is recorded here as printed.
 

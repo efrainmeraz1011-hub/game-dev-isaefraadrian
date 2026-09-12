@@ -73,7 +73,10 @@ def citations(class_dir):
     for f in list(class_dir.glob("[0-9][0-9]-*.md")) + list(class_dir.glob("ships/*.md")) + [class_dir / "README.md"]:
         if not f.exists():
             continue
-        used |= set(re.findall(r"\[(S\d+)", f.read_text(encoding="utf-8", errors="replace")))
+        text = f.read_text(encoding="utf-8", errors="replace")
+        # a bracket may carry several ids: [S10, p. 150; S13, pp. 37, 50]
+        for span in re.findall(r"\[([^\]]*)\]", text):
+            used |= set(re.findall(r"\bS\d+\b", span))
     defined = set()
     for f in list(class_dir.glob("sources*.md")):
         defined |= set(re.findall(r"^(S\d+)\.", f.read_text(encoding="utf-8", errors="replace"), flags=re.M))

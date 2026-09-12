@@ -32,6 +32,6 @@ The design was a scaled-up Dunkerque, chosen on 27 November 1935 from six propos
 | Operations and doctrine | 07-operations-and-doctrine.md | partial: gunnery and damage-control episodes; no doctrine document found |
 | Service history | 08-service-history.md | covered |
 | Ships | ships/richelieu.md, ships/jean-bart.md, ships/clemenceau.md, ships/gascogne.md | covered |
-| Images | images/CREDITS.md | 11 public-domain or CC BY-SA files |
+| Images | images/CREDITS.md | gap: no file downloaded; image records are cited by catalogue number in the facets |
 
-Sources: sources.md (48 entries). Gaps: gaps.md. Research date: 2026-09-11.
+Sources: sources.md (50 entries). Gaps: gaps.md. Research dates: 2026-09-11, facets 08 and ships 2026-09-12.

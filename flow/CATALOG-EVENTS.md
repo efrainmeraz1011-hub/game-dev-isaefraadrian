@@ -558,3 +558,70 @@ These lead into a fight assembled from Catalog A. The choice here sets which fig
 ---
 
 *Costs are shapes, not numbers. `OPEN-E1` holds the magnitudes until a hull layout exists to price them against.*
+
+---
+
+## B7. Faction missions — one per navy, offered on some runs
+
+Rules: **R11** in [RULES.md](RULES.md). One per run at most, rolled at generation,
+offered never assigned, run as a sortie off a staging node, bounded to three nodes.
+
+All four pay within the same band. They differ in which system they tax, which is
+what keeps faction parity honest under [§1.1:41]. All four are `[period]` and
+unsourced; they sit in the sourcing queue.
+
+#### MSN-01 · Hunter-killer group — American
+`navy: american` `sectors: 2-5` `taxes: sonar patience, depth charges, time`
+`engages: R6.1, R6.2, R6.3, R6.4, R9.1, R9.2, R11.3, R11.7`
+`tasking: detach from the route and join an escort carrier's group holding contact on a submarine`
+
+- **Accept and take the outer search leg** — spends: fuel, hours, depth charges, emissions
+- **Accept but work passive only** — spends: fuel, hours, speed order slow
+- **Decline the tasking** — spends: standing
+
+The contact breaks off and returns under R6.1 rather than sitting still to be killed.
+Holding it costs hours; hours cost threat and rations. Aircraft from the carrier find
+what you cannot and cannot attack what you can.
+
+#### MSN-02 · Supply run to a besieged island — British
+`navy: british` `sectors: 3-5` `taxes: AA ammunition, screening, other ships surviving`
+`engages: R2.1, R2.4, R4.1, R4.2, R11.3, R11.7`
+`tasking: screen merchantmen through sustained air attack to a garrison that is running out`
+
+- **Accept close escort, tied to convoy speed** — spends: fuel, hours, AA ammunition, readiness
+- **Accept distant cover, free to manoeuvre** — spends: fuel, hours, AA ammunition
+- **Decline the tasking** — spends: standing
+
+Convoy speed is the slowest ship under [§1.5:138], so accepting means giving up your own
+speed, and speed is evasion under R4.2. Partial success is real: some merchants arriving
+pays partially under R11.7.
+
+#### MSN-03 · Offensive minelay off an enemy coast — German
+`navy: german` `sectors: 2-5` `taxes: emissions discipline, navigation accuracy, deck space`
+`engages: R6.3, R6.4, R4.1, R4.4, R11.3, R11.5`
+`tasking: carry mines to a plotted position, lay on an accurate track, be gone before light`
+`on accept: mine rails occupy deck space; depth-charge stowage is reduced for the sortie`
+
+- **Accept and run in dark and quiet** — spends: cargo space, hours, fuel, speed order slow
+- **Accept and run in fast, accepting detection** — spends: cargo space, flank fuel, emissions
+- **Decline the tasking** — spends: standing
+
+Accuracy of the lay depends on the navigational fix, which drifts under the period
+constraint on dead reckoning. Any active sensor used to fix position announces you under
+R6.3. The deck-space cost is the interesting part: carrying mines means carrying fewer
+depth charges, so an encounter on the way home is fought without them.
+
+#### MSN-04 · Night run to a garrison island — Japanese
+`navy: japanese` `sectors: 3-5` `taxes: fuel at speed, a hard deadline, cargo that must arrive`
+`engages: R1.1, R1.3, R4.2, R9.1, R9.2, R11.3, R11.7`
+`tasking: high-speed night passage to land supplies, and be clear of the area before dawn`
+`on accept: a dawn deadline runs; the cargo is an objective entity under §1.5:140`
+
+- **Accept and unload alongside** — spends: cargo space, flank fuel, hours stopped
+- **Accept and float the drums off, faster and lossier** — spends: cargo space, flank fuel, a share of the cargo
+- **Decline the tasking** — spends: standing
+
+Flank speed costs 1.60 fuel per distance for 1.25 speed under R1.3, so the deadline is
+paid for in range. Stopping to unload forfeits evasion under R4.2. A fight on the way in
+costs the deadline, which is the whole tension: you are not there to fight.
+

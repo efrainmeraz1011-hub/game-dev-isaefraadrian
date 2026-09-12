@@ -26,12 +26,13 @@ RESOURCES = {
     "support charge", "airframe", "aircraft", "sortie", "ammunition", "emissions",
     "transmission", "stores", "range", "route layer", "layer", "nothing",
     "capacity", "position", "readiness", "skill", "stock", "speed order",
+    "cargo", "emissions discipline", "deck space", "hours stopped",
 }
 
 # Phrases that mean somebody wrote an outcome instead of letting the rules produce one.
 AUTHORED = re.compile(r"\b(closes|recover):", re.I)
 
-EVENT_RE = re.compile(r"^####\s+(EVT-\d{2})\s+·\s+(.+?)\s*$")
+EVENT_RE = re.compile(r"^####\s+((?:EVT|MSN)-\d{2})\s+·\s+(.+?)\s*$")
 OPTION_RE = re.compile(r"^-\s+\*\*(?P<label>[^*]+)\*\*\s*(?P<gate>\*\([^)]*\)\*)?\s*—\s*(?P<body>.+)$")
 RULE_REF_RE = re.compile(r"\bR\d+\.\d+\b")
 RULE_DEF_RE = re.compile(r"^###\s+(R\d+\.\d+)\s+·")

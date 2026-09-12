@@ -334,6 +334,83 @@ Cheaper stabilisation instead of full restoration, a finite repair opportunity, 
 
 ---
 
+## R11 · Faction missions
+
+One tasking per navy, offered on some runs and not others. The rules that keep it
+from breaking faction parity or the baseline route.
+
+### R11.1 · One per run at most, rolled at run generation [game]
+
+The roll happens at creation, alongside the rest of the map, not mid-run. Proposed
+rate: **one run in three**. Rolling at generation lets the validator at [§5.2:1267]
+check the route with the mission in place, so a mission can never make a run
+unwinnable. The player is not told at setup; the tasking arrives as a signal later.
+
+### R11.2 · It is offered, never assigned [§5.3:1281]
+
+Nothing the mission pays may be required to reach or beat the boss. A run that
+declines every mission must remain a complete run. The generator's feasibility
+check ignores mission rewards entirely.
+
+### R11.3 · It runs as a sortie, not as route progress [§1.5:139]
+
+The mission departs from a staging node and returns to it. It consumes time, fuel
+and risk, and resolves once. The main graph still moves forward as normal, so the
+run does not get longer, it gets more expensive. That expense is the cost of
+accepting.
+
+### R11.4 · Equal value, unequal procedure [§1.1:41]
+
+The four missions pay within the same band and demand the same order of resources.
+They differ in **which** system they tax and **which** resource they pay in. If one
+navy's mission is measurably better, that is a faction bonus by the back door and
+the design document forbids it.
+
+| Navy | The system it taxes | What it pays in |
+|---|---|---|
+| American | Sonar patience, depth-charge stock, time on contact | Intelligence and standing |
+| British | AA ammunition, screening discipline, keeping others alive | Material and standing |
+| German | Emissions discipline, navigation accuracy, deck space | Scrap and route intelligence |
+| Japanese | Fuel at high speed, a hard deadline, cargo that must arrive | Material and standing |
+
+### R11.5 · Bounded to three nodes, resolved inside its sector [§5.4:1300]
+
+A mission occupies at most three nodes of sortie and must finish in the sector it
+started in. If it cannot, it resolves through its declared alternative and is marked
+unresolved in the debrief.
+
+### R11.6 · Declining costs standing and nothing else [R8.2]
+
+Refusing a tasking changes standing with the issuing authority, which moves port
+access and service tiers under [§6.2:1372]. It applies no mechanical penalty to the
+ship, and the mission does not re-offer in that run.
+
+### R11.7 · Failure is survivable, and partial success pays partially [§1.13:417]
+
+Every mission declares victory, withdrawal, partial success and local failure, like
+any other encounter. Local failure never ends the campaign. A Tokyo Express run that
+lands half its drums delivered half of them.
+
+### R11.8 · The reward is horizontal [§2.7:740]
+
+Standing, material within the normal band, and **one unlock predicate** that makes a
+between-run alternative available. No permanent numeric bonus, because the design
+document excludes those from the default design. Completing a navy's mission is how
+that navy's extra hull or doctrine unlocks.
+
+### R11.9 · Novelty across runs [§6.5:1513]
+
+The novelty factor reads profile history. A mission completed recently is weighted
+down, so a player who runs the same navy repeatedly does not meet the same tasking
+every time it fires.
+
+### R11.10 · Period-correct or cut [R0]
+
+Each mission is a thing that navy actually did with destroyers. All four are marked
+`[period]` and unsourced. They go in the sourcing queue with the other eleven.
+
+---
+
 ## How content uses this
 
 A situation says what happened and which rules engage. It does not say what the outcome is.
@@ -361,7 +438,7 @@ The author writes nine lines. The rules do the rest, and they do it the same way
 
 ## What needs sourcing before this ships
 
-Eleven rules carry `[period]`. They are believed accurate and are not yet cited, which by this repo's standard means they are not yet facts.
+Eleven rules and four missions carry `[period]`. They are believed accurate and are not yet cited, which by this repo's standard means they are not yet facts.
 
 | Rule | Claim to verify |
 |---|---|
@@ -372,6 +449,10 @@ Eleven rules carry `[period]`. They are believed accurate and are not yet cited,
 | R5.5 | Escort orders regarding stopping for survivors, and convoy rescue ships |
 | R8.1 | The standing orders a destroyer actually operated under |
 | R8.3 | Identification procedure and the rules of engagement for neutral shipping |
+| MSN-01 | US hunter-killer group practice, and a destroyer's part in it |
+| MSN-02 | Besieged-island supply runs, the escort's orders and the air threat |
+| MSN-03 | German destroyer offensive minelaying, and what mine rails displaced |
+| MSN-04 | Night high-speed resupply runs, alongside unloading versus floating drums off |
 
 `skills/ww2-warship-research/SKILL.md` is the procedure. Each of these is a research task that ends in an `[S…]` or a demotion to `[game]`.
 

@@ -1,6 +1,6 @@
 # WW2 Naval Roguelite — Foundational Game-Logic Design
 
-**Version:** 0.8 — interactive radar, sonar tracking, and torpedo evasion  
+**Version:** 0.9 — FTL mechanics review and multiplayer exploration  
 **Date:** September 12, 2026  
 **Working project:** WW2 FTL Game; final title undecided  
 **Document purpose:** A living blueprint for gameplay, content design, prototyping, and implementation.  
@@ -1074,6 +1074,18 @@ Use the [mock-campaign report](balance_model/BALANCE_REPORT.md) for exact counts
 
 The next balance milestone is to model the mechanics above and then narrow the spread between reasonable builds while preserving their specialties. Keep affordable build transitions and a viable baseline route. A plausible overall completion average alone is insufficient.
 
+### 2.14 Design review and multiplayer exploration
+
+The [FTL mechanics review](docs/FTL_MECHANICS_REVIEW.md) records coverage of the base game and Advanced Edition, the naval adaptations, and outstanding gaps. “Covered” means specified, not implemented or validated. The review preserves the latest request for simpler structural toughness represented through hull health, while flagging the existing separate armor/penetration model for a coordinated follow-up. Its dependent formulas and weapon roles have not all been rewritten in this publication. Magazine-chain effects, actual layouts, temporary system disruption, and capture outcomes also need further specification.
+
+The [multiplayer proposal](docs/MULTIPLAYER_PROPOSALS.md) explores two players sharing a destroyer, two players commanding separate destroyers, and unpaused 1v1 skirmishes. It describes control ownership, complementary roles, contested resources, pause policies, and additional engineering and testing work. These are options under consideration, not an approved expansion of the implemented game scope.
+
+Single-player retains full pause under its existing rules. Proposed private co-op may offer an agreed shared pause; proposed competitive matches run continuously. Sensor panels, shared crew orders, and campaign saves would require explicit mode-aware behavior before multiplayer could be implemented. No earlier mock-campaign result validates those interactions or predicts multiplayer balance.
+
+The recommendation to prototype shared-ship co-op first is an exploratory development order. Engine/network architecture, matchmaking, ranked competition, larger playable ships, connection-loss rules, and guest progression remain undecided. Publishing these ideas does not silently commit to all of them.
+
+Use the [revision archive](revisions/README.md) to inspect earlier specifications. The main document remains the current entry point; linked review/proposal papers distinguish unresolved design work from established rules.
+
 ## 3. Saving
 
 ### 3.1 Player-facing save policy
@@ -1626,7 +1638,7 @@ Event definitions additionally require primary family, timing mode, arrival-effe
 
 **Additional geographic campaigns:** Define scenario-compatible forces, climate, geography, ports, mission themes, and original events. Exact historical dates remain optional. The four confirmed faction choices must already work in the core campaign structure; a later theater expansion is not a prerequisite for Japanese or German play. [OPEN EXP-03: additional geographic campaign.] Default: defer detailed map selection until the initial content workload is measured.
 
-**Other deferred systems:** Multiplayer, real-time global strategy, individual simulation of every sailor, detailed ballistic physics, free-roaming ocean navigation, and unrestricted procedural narrative are outside the initial blueprint's implementation scope. They require separate value/scope decisions rather than implicit commitments.
+**Other deferred systems:** Multiplayer is now explored in the [multiplayer proposal](docs/MULTIPLAYER_PROPOSALS.md), but remains outside committed implementation scope. Real-time global strategy, individual simulation of every sailor, detailed ballistic physics, free-roaming ocean navigation, and unrestricted procedural narrative likewise require separate value/scope decisions rather than implicit commitments.
 
 ### 6.9 Cross-system acceptance scenarios
 
@@ -1783,6 +1795,8 @@ For each revision, record the changed rule, reason, affected systems/content, sa
 | 0.7 | 2026-09-12 | Clarified progression through rarer/partial resupply, enemy equipment and tactical combinations, richer events, information, and environment; added sector challenge profiles and next-model controls | Document consistency review only; previous mock results and archive preserved as historical evidence. No new simulations run. Version 0.6 archived; future saved sector manifests must include the selected challenge profile and generated supply/enemy/event configuration. |
 
 | 0.8 | 2026-09-12 | Added interactive radar and sonar tracking, linked torpedo course/speed decisions, crew assistance, upgrade tradeoffs, and shared pause/information/collision contracts | Design consistency review; no sensor prototype or new balance simulation. Version 0.7 preserved locally. Future saves must preserve observation/association state, pending sensor work, and maneuver state. Sprites and visual styling remain deferred. |
+
+| 0.9 | 2026-09-12 | Published the FTL mechanics comparison and co-op/1v1 exploration; linked outstanding simplification/content work and preserved earlier design snapshots | Documentation/link checks only; no new gameplay, simulation, or network implementation. Main document retains single-player scope; multiplayer is exploratory and the armor/formula reconciliation remains outstanding. |
 
 **Next design artifacts to add or link:**
 

@@ -75,6 +75,93 @@ Type 91 projectiles were 6/infinity crh with a boat tail; the bourrelet was 18.0
 
 Japanese TNA bursters were shock sensitive, so Type 91 and Type 1 armour-piercing projectiles had about one third to one half of the cavity filled with a shock-absorbing liner. That reduced prematures at the cost of a thinner shell wall, and post-war US Navy tests at Dahlgren showed that hits at high obliquity would break the projectile up without penetrating [S5].
 
+#### The Type 91 as USNTMJ report O-19 describes it
+
+Report O-19, "Japanese Projectiles, General Types", of 6 February 1946, is the tier 1 account of the projectile itself [S21].
+
+The Type 91 was originally designed in 1931 and superseded the earlier Type 88, which had itself replaced the Japanese copy of Hadfield's armour-piercing projectile, the Mk 5 [S21, pp. 30, 59]. It was produced in calibres from 15.5 cm (6.1 in) to 46 cm (18.1 in); the major calibre projectiles had true armour-piercing caps and the medium calibres only a small cap-head [S21, p. 1]. The report is explicit about the designation: "The 40cm, Type 94, was so designated for security purposes. It was actually a 46cm (18.1") projectile. The Type 94 refers to the gun. The projectile was nevertheless a Type 91 design" [S21, p. 30].
+
+The whole design was built around striking below the waterline. The Japanese concentrated on the possibility of hitting the enemy ship below the waterline and therefore possibly below the armour belt, and the projectile was designed to continue an undisturbed trajectory under water by weakening the forward section so that it separated on water impact and left a flat end. The fuze delay was adjusted to give satisfactory functioning after being initiated on striking the water and then passing through the water and the ship's side, 0.4 seconds [S21, pp. 1, 30]. The mission adds a doubt of its own in parentheses: "It is debatable whether success in this attempt will give an increased number of hits below the water level at long ranges" [S21, p. 1].
+
+In the major calibres the cap was divided transversely into a small forward cap-head and the cap proper. The after face of the cap-head and the forward face of the cap were flat and assembled flush, secured to each other only by the windshield threading, which screwed onto both parts. The windshield had an internal circumferential groove at the cap and cap-head interface, weakening the connection so that the cap-head and windshield broke off on water impact. The cap was soldered and crimped to the body. All Type 91 projectiles were boat-tailed and had a base plug with an adapter [S21, p. 30].
+
+Figure 16 of the report keys the projectile as: windshield, cap-head, cap, body, aluminium anti-inertia block, cork lining, wool wrap around the filler, two copper rotating bands, base plug, fuze adapter, copper gas-check rings and copper caulking, Type 13 fuze, and trinitroanisol filler, with the windshield apex angle marked 23 degrees 30 minutes [S21, p. 31]. The aluminium anti-inertia block at the forward end of the cavity, the cork lining, the lacquered cavity and the wool wrapping of the filler were all safety features, the aluminium and cork principally to prevent premature deflagration of the filler on impact [S21, p. 32].
+
+The 18-inch projectile used fuze Type 13 Mk 5 with a 0.4 second delay; the 16, 14 and 8-inch used the same fuze with a wooden cap to fill the space left by the shorter Mk 5 in fillers preformed for the Mk 4, and the 6-inch used the Type 13 Mk 3 with a 0.08 second delay [S21, p. 32].
+
+Dimensions and weights from Table IX, the 46 cm row, which the table heads "40cm Type 94" [S21, p. 30]:
+
+| Item | Value |
+|---|---|
+| Diameter of bourrelet | 18.07 in |
+| Total length | 77.0 in |
+| Weight | 3,215 lbs |
+| Filler (TNA) | 52.6 lbs |
+| Filler as percentage of weight | 1.6 |
+| Cap and windshield weight | not found by the mission |
+| Initial velocity | 2,560 ft/sec |
+
+Table XVIII gives the same projectile as "A.P. Model 1", 18.1/45 cal [S21, p. 53]:
+
+| Item | Value |
+|---|---|
+| Burster | trinitroanisol, 52.6 lbs |
+| Composition | C 0.45 to 0.65, Si under 0.40, Mn under 0.3, P under 0.03, S under 0.03, Ni 3.4 to 4.0, Cr 0.6 to 1.0, Mo 0.4 to 0.8 |
+| Yield point | 40 to 70 kg/mm2 |
+| Tensile strength | 70 to 100 kg/mm2 |
+| Elongation | over 8 per cent |
+| Reduction of area | over 10 per cent |
+| Method of securing cap | soldering |
+| Fuze | percussion fuze Model 13, Type 5 |
+| Size of cavity | 7.4 per cent of shell |
+| Muzzle velocity | 2,560 ft/sec |
+| Diameter | 18.1 in |
+| Total length | 77 in |
+| Total weight | 3,212 lbs |
+| Maximum range | 44,700 yds |
+| Armour type for the acceptance test | Vickers Hardened |
+| Armour thickness | 22.05 in |
+| Mean impact velocity | 1,822 ft/sec |
+| Striking angle | 16.5 |
+| Use | against armour plate |
+
+General figures for the Type 91 family: a weight ratio 2M/D3 of about 1.08, a length of approximately 4.3 calibres, and in the major calibres an analysis of roughly 0.50 per cent carbon, 3.8 per cent nickel, 0.7 per cent chromium and 0.5 per cent molybdenum, with maximum nose and cap hardness exceeding 80 shore [S21, pp. 1 to 2].
+
+Painting and marking: all armour-piercing projectiles were to be white overall with an orange band at the centre of gravity. A loaded round had the end of the windshield painted green; a base-fuzed round had a red tip forward of the green; a dye-loaded round had a band of the same colour as the dye just aft of the green. The whole projectile including the bourrelet and base was painted, the two rotating bands excepted, and the characters for "9" and "1" were painted on the windshield [S21, p. 32]. O-19 names no dye colours.
+
+##### Manufacture and proof
+
+All armour-piercing projectiles for the Navy were produced at the ordnance plant in Kure Navy Arsenal, and ballistic testing was done at the Kamegakubi Proving Ground on Kurahashishima in the Inland Sea near Kure [S21, p. 32].
+
+| Step | 18-inch figure | Source |
+|---|---|---|
+| Ingot mould diameter at top | 19.9 in, shrinking about 0.2 in on cooling; one projectile per ingot | [S21, p. 33] |
+| Press stroke force | 2,200 metric tons | [S21, p. 34] |
+| Pierce stroke force | 1,300 metric tons | [S21, p. 34] |
+| Forging ratio | 2.1 | [S21, p. 34] |
+| Heating | one projectile to a furnace, where 8, 14 and 16-inch were heated in groups of four | [S21, p. 35] |
+| Quench | decremental, 90 minutes, water held at 30 degrees C | [S21, p. 35] |
+| Hardness after quench | nose 550 BHN, base 450 BHN (3,000 kg, 10 mm steel ball) | [S21, p. 35] |
+| Temper | raised from water level A to B at 60 minutes elapsed, B to C at 150, top burners cut at 120, middle at 150, lowest at 170 | [S21, p. 39] |
+| After temper | air cooled with the nose still immersed until below about 140 degrees C, the melting point of the cap-securing solder | [S21, p. 39] |
+| Seasoning | after the first hardness test, boiled in water for 24 hours | [S21, p. 41] |
+| Cap press and pierce force | 2,100 and 1,500 metric tons | [S21, p. 45] |
+| Cap preheat | to 650 degrees C in two hours | [S21, p. 45] |
+| Cap water quench | 24 minutes, from an initial water level 1.0 in from the edge of the cap to the base of the thread shoulder | [S21, p. 45] |
+| Cap skirt temper | 380 degrees C bath, 7 minutes, immersed 4.3 in from the after edge | [S21, p. 47] |
+| Cap hardness specification | zones A, B, C over 75; F 75 to 80; G 67 to 73; H 57 to 63 (shore for 16 and 18-inch) | [S21, p. 47] |
+| Cap solder | cadmium 18 per cent, zinc 32 per cent, lead 50 per cent; melting point 138 to 142 degrees C | [S21, p. 48] |
+| Cap-head heat treatment | electric resistance furnace at 300 degrees C for one hour, then molten lead at 700 degrees C for 40 minutes, then molten lead at 850 degrees C for 40 minutes, then quenched in agitated rape-seed oil for 30 minutes | [S21, pp. 48 to 49] |
+| Cap-head hardness | specification 477 to 601 BHN; average for major calibres claimed over 550 BHN | [S21, p. 49] |
+| Rotating bands | two, of 99.85 to 99.90 per cent copper, cold pressed into the band scoring | [S21, p. 50] |
+| Lot size | 14-inch and larger grouped in lots of 200 rounds | [S21, p. 50] |
+
+Ballistic proof required a complete penetration with the cavity effective, tested against a corrected DeMarre formula, which the mission calls similar to US Navy specification [S21, p. 2]. The nominal test condition for the 18-inch projectile was a 410 mm (16.12 in) VH plate at 30 degrees obliquity, striking velocity 525 m/s (1,723 f/s), with Vd 337.8 m/s (1,109 f/s) and F.M.s 1.554 [S21, p. 52].
+
+The 18-inch projectile was the only calibre that gave the Japanese acceptance trouble. Under the specification first set up, at 37 degrees obliquity and an F.M.s of about 1.38, it failed more often than it passed, either being rejected because the nose was chewed or broken, or rupturing into the cavity through the after edge of the rear band score, probably from severe base slap on the hard face. The first problem was remedied by raising the F.M.s to 1.554 and the second by reducing the obliquity from 37 to 33 and later to 30 degrees [S21, pp. 52, 55].
+
+An experimental 48 cm (19-inch) Type 91 projectile was found in a magazine at Kamegakubi: approximately 81 in long, 19 in in diameter, estimated weight 3,800 lb, made in 1941, with the same design characteristics as the other major calibre Type 91 projectiles except for a single large rotating band instead of two. No test results for it were found [S21, p. 55].
+
 NavWeaps records three competing weights for the armour-piercing shell: 3,215 lbs (1,458.3 kg) in US documents written shortly after the war, 3,219 lbs (1,460 kg) in more recent secondary sources, and 1,500 to 1,520 kg (3,307 to 3,351 lbs) claimed from original documents by the Japanese historian Yoshifuru Otsuka. NPG Report No. 289 gives 3,215 lbs (1,458 kg) complete, with burster and liner, and 3,142 lbs (1,425 kg) empty, and NavWeaps concludes Otsuka is mistaken [S5]. Burster weight is likewise disputed: NPG Report No. 289 gives 52.6 lbs (23.9 kg), while "The Yamato Class and Subsequent Planning" gives 33.85 kg (74.6 lbs), which NavWeaps identifies as explosive plus liner; NPG 289 gives liner plus explosive as 73.0 lbs (33.1 kg) [S5].
 
 Common Type 0 HE was issued with time fuzes for anti-aircraft use. USNTMJ report O-19 gives it an effective radius of 74.4 yards (81 m), which NavWeaps calls optimistic [S5].
@@ -86,6 +173,53 @@ Yamato was issued yellow splash dye for her Type 1 shells, Musashi green [S5].
 Officially 3 Shiki tsujodan. The round weighed 2,998 lbs (1,360 kg) and was filled with 900 incendiary tubes. A time fuze set the bursting distance, usually about 1,000 m (1,100 yards) from the muzzle. The projectile was designed to expel the tubes in a 20 degree cone toward the oncoming aircraft, with the shell body itself destroyed by a bursting charge to add steel splinters. The tubes ignited about half a second later and burned for five seconds at 3,000 degrees C, producing a flame about 5 m (16 feet) long [S5].
 
 Fuzes were set in the shell handling room, with fuze protectors used to prevent damage before loading. The round may have made up as much as 40 per cent of the outfit by 1944 [S5].
+
+#### The Type 3 as USNTMJ report O-19 describes it
+
+O-19 files the round under incendiary projectiles and notes that the Japanese referred to it indiscriminately as incendiary, as shrapnel, or as Common Projectile Model 3. The shells were filled with steel tubes containing an incendiary mixture with a piece of quickmatch in the centre. Burst was initiated by a time mechanical fuze; the tubes ignited about half a second later and burned for five seconds at 3,000 degrees C, giving a flame about 17 feet long [S21, p. 8].
+
+Table III, "Characteristics of Common Projectile Model 3 (Mod. 1)", 46 cm row [S21, p. 14]:
+
+| Item | Value as printed |
+|---|---|
+| Shell | 94/46 |
+| Fuze | Type 4 Mod. 0 |
+| Total length | 1,600 mm |
+| Gross weight | 1,360, in a column headed "(gm)" |
+| Incendiary tubes | 996 |
+| Stays | 504 |
+| Tubes and stays, total | 1,500 |
+| Angle of dispersion | 15 degrees |
+| Effective diameter of burst | 242 m |
+| Dimensions of tube | 25 x 90 mm |
+
+The weight column is headed "Gross Weight (gm)"; 1,360 kg is the weight both NavWeaps and the Technical Mission's gun report give for this projectile, so the unit in that column heading is an error in the report [S5], [S11, p. 16].
+
+The pyrotechnic filling is given in Table II as polysulphide synthetic rubber 9.3 per cent, natural rubber 5, stearic acid 0.2, sulphur 0.5, barium nitrate 40 and electron metal 45. Electron metal is defined as magnesium 90 per cent, aluminium 3, copper 3, zinc 1 to 2 and silicon approximately 2. Colour marking was red in all cases, where all other common projectiles were maroon [S21, pp. 7, 13].
+
+Table II also gives the shell body composition, shared with the Type 0 common: carbon 0.4 to 0.5, silicon 0.35, manganese 0.3 to 0.7, phosphorus 0.035, sulphur 0.035, nickel 1.5 to 2.0, chromium 0.2 to 0.6; yield point 55 kg/mm2; tensile strength 80 to 100 kg/mm2; elongation 10 per cent; Izod impact 10 ft-lbs; muzzle velocity 2,640 ft/sec [S21, p. 13].
+
+Common Projectile Model 4 was similar in purpose but filled with phosphorus [S21, p. 12].
+
+The mission recorded the Japanese view and its own doubt in the same passage. Gunnery officers at sea generally considered these projectiles more effective than common projectiles against approaching aircraft, because the tubes and fragments continued in an effective cone after the burst. The mission thought the officers had been misled by the impressive appearance of the bursts into overestimating the efficiency of the type, and noted that effective use would need the difference in ballistic coefficient between it and common projectiles to be allowed for, and the burst placed above the line of sight, since shrapnel drops towards the earth [S21, p. 12]. Its summary judgement: "The Japanese Navy placed great faith in the effectiveness of incendiary shrapnel as an anti-aircraft weapon. It is considered probable that they rather overestimated its value as compared to HE" [S21, p. 1].
+
+#### The Type 0 common projectile as O-19 tabulates it
+
+Table I, "HE and Common Projectiles", the 18.1/45 cal row [S21, p. 9]:
+
+| Item | Value |
+|---|---|
+| Burster | 136 lbs trinitroanisol |
+| Size of cavity | 18.7 per cent of shell |
+| Total length | 63 in |
+| Total weight | 2,992 lbs |
+| Maximum range | 35,600 yds |
+| Maximum height of trajectory | 10,940 yds |
+| Muzzle velocity of gun | 2,640 ft/sec |
+| Fuze | Time Fuze, Type 4, Mark 0, nose |
+| Effective radius | 74.4 yds |
+| Use | anti-aircraft |
+| Colour marking | maroon |
 
 Yamato fired Type 3 from her main battery at aircraft on 24 October 1944 at 1026 in the Sibuyan Sea [S1], at B-24s on 26 October 1944 alongside Nagato [S1], at the shadowing PBM Mariners at 1017 on 7 April 1945, and at the first inbound strike at 1234 that day from her two forward turrets [S24]. By the second wave she was firing them set to detonate one second from the ship, about 3,000 yards, which US aircraft simply flew through [S24]. At the Battle off Samar on 25 October 1944 only two of the six rifles in her two forward turrets were initially loaded with armour-piercing shell, the rest with Type 3 [S1]. One Type 3 reportedly exploded in the barrel aboard Musashi, disabling the gun [S5].
 
@@ -443,7 +577,7 @@ Most mountings were worked by hand. Some triples had Ward-Leonard remote power c
 
 Most mountings carried no shield. The exception was the Yamato class, whose mountings were given Ducol steel shields to protect against blast [S8].
 
-Report O-47(N)-2 tabulates the shipboard installation for the Yamato class as 40 triples and 30 singles [S8]. The Technical Mission's Figure 7 in report O-45(N) tabulates 46 25 mm mounts for Yamato and 52 for Musashi [S11, p. 13].
+Report O-47(N)-2 tabulates the shipboard installation for Yamato and Musashi as 40 triple mounts, no twins and 30 singles. The table is introduced only as "the most recent 25mm armament", with no date printed; the report itself is dated 19 February 1946. Shinano is not named in that table or anywhere else in the report's 25 mm section [S20, p. 14]. The Technical Mission's Figure 7 in report O-45(N) tabulates 46 25 mm mounts for Yamato and 52 for Musashi [S11, p. 13].
 
 The Japanese listed the deficiencies of these mountings to the mission in decreasing order of seriousness [S8]:
 
@@ -454,6 +588,88 @@ The Japanese listed the deficiencies of these mountings to the mission in decrea
 5. Muzzle blast caused problems for gun crew and equipment.
 
 The 15-round magazine forced frequent stoppages for change-outs, and all magazines had to be loaded by hand because no loading equipment was ever developed [S8].
+
+### The 25 mm as USNTMJ report O-47(N)-2 describes it
+
+Report O-47(N)-2, "Japanese Naval Guns and Mounts, Article 2: AA Machine Guns and Mounts", of 19 February 1946, is the tier 1 account [S20].
+
+Japan decided in 1935 to adopt the French 25 mm Hotchkiss to replace the 40 mm Vickers, ordering a few guns and mounts made to Japanese requirements that specified a cyclic rate of 180 to 200 shots a minute and a 250 gram projectile. Those were designated Type J. Firing trials were held at Yokosuka Naval Arsenal in 1935, and shipboard installations in quantity began in 1936 with manual-drive twin mounts of French and Japanese manufacture. Japan then devised a power drive for remote control, designed the triple mount in 1941 and the single in 1943, and designed submarine mounts in single, twin and triple form [S20, pp. 8 to 9].
+
+| Item | Value | Source |
+|---|---|---|
+| Barrel type | air cooled | [S20, p. 9] |
+| Barrel total length | 1,500 mm (59.1 in) | [S20, p. 9] |
+| Barrel total weight | 43 kg | [S20, p. 9] |
+| Bore, land to land | 25 mm (0.984 in), tolerance plus or minus 0.04 mm | [S20, p. 10] |
+| Twist | right hand, 1 in 25 calibres | [S20, p. 10] |
+| Grooves | 12, 0.25 mm (0.0098 in) deep | [S20, p. 10] |
+| Length of rifling | 1,350 mm (53.2 in) | [S20, p. 10] |
+| Muzzle velocity | 900 m/s (2,950 ft/sec) with a 250 gram (0.55 lb) projectile | [S20, p. 10] |
+| Designed bore pressure | 27 kg/mm2 (17.10 long tons/in2) | [S20, p. 10] |
+| Charge weight | 105 to 110 grams (0.23 to 0.24 lb) | [S20, p. 10] |
+| Barrel life | figures from 3,000 to 15,000 equivalent service rounds were obtained from various sources | [S20, p. 10] |
+| Maximum range | 7,500 m (8,200 yds) at approximately 50 degrees | [S20, p. 11] |
+| Maximum ordinate | 5,500 m (6,020 yds) | [S20, p. 11] |
+| Maximum effective range | 3,000 m (3,280 yds) | [S20, p. 11] |
+| Mechanism | Type 96, gas operated | [S20, p. 11] |
+| Cyclic rate | 220 shots per minute standard, 200 minimum, 260 maximum | [S20, p. 11] |
+| Practical rate | about 110 rounds per minute, because of the 15-round magazine and frequent changes | [S20, p. 13] |
+| Length of recoil | 110 mm (4.33 in) | [S20, p. 11] |
+| Mechanism weight | 72 kg (159 lb) | [S20, p. 11] |
+| Cocking | manual; single fire provided | [S20, p. 11] |
+| Recoil buffer liquid | 600 cc (0.63 qt) of equal parts water and glycerine | [S20, p. 11] |
+| Flash hider | fitted to all barrels; the original simple conical type was being replaced by the Rheinmetall design, which also acted as a muzzle brake, though its value as such was negligible at 2 or 3 mm reduction in recoil | [S20, pp. 10 to 11] |
+
+Mount weights and limits as O-47(N)-2 gives them, which differ from the NavWeaps figures for the single mount [S20, p. 12]:
+
+| Mount | Weight | Elevation | Train |
+|---|---|---|---|
+| Single | 185 kg (407 lb) | -10 to +85 degrees | none |
+| Twin | 1,100 kg (2,420 lb) | -10 to +85 degrees | 720 degrees for Model 2 |
+| Triple | 1,800 kg (3,960 lb) | -10 to +85 degrees | none |
+
+Ten mount models are listed: Model 1 (single, twin and triple, surface craft and land bases, single free-swinging, twin and triple with gearing and handwheel control); Model 2 (twin and triple, surface craft); Model 3 (single, surface craft, free swinging); Model 4 (single, twin and triple, submarines, the single lowerable by hand); Model 4 Mod 1 (single, submarines, not lowerable); Model 4 Mod 2 (single, submarines, lowerable from a remote station by mechanical drive); Model 5 (twin and triple, submarines, manual gear drive); Models 6 and 8 (single, land use on a two-wheel carriage, free swinging); Model 10 (single, torpedo boats, traverse by body inside a ring, elevation by manual gear drive) [S20, p. 12].
+
+On armour the report is specific about this class:
+
+> Armor was not usually supplied as part of the mount. An exception is a Ducol steel shield furnished on some of the multiple mounts of YAMATO class battleships, but even here the primary purpose was protection against blast. Splinter shields were provided around some gun mounts as part of the ship. [S20, p. 12]
+
+The report footnotes Ducol steel as approximately equivalent to US High Tensile Steel [S20, p. 12].
+
+No special means were provided for disposing of fired cartridge cases; when they piled up the crew had to sweep them away, and ejection was a problem at high elevation, where stoppages were frequent [S20, p. 13].
+
+The power drive was not designated separately but formed part of the Type 95 Machine Gun Fire Control Arrangement, using the Ward-Leonard system on the mount and taking signals from the Type 95 director. Control was remote only or manual only. Maximum rate of train with all guns firing was 18 degrees per second and of elevation 12 degrees per second, driven by two separate motors of the same design and rating, one for each axis, each 1 hp, 220 V, 3.6 A, rated continuous at no load, ten minutes at half load and three minutes at full load [S20, p. 13].
+
+Three sights were used: the Le Prieur mechanical lead computing sight, commonly called LPR; the open ring sight; and an optical ring sight of etched glass. The Le Prieur sight was used extensively on multiple mounts, as standby equipment where a power drive and director were fitted, and the wartime policy was to reserve most of them for manual multiple mounts aboard ship, where the need was greater. Single mounts and all land-base mounts used the single open ring sight. A few optical ring sights were in service and were considered unsatisfactory [S20, pp. 13 to 14].
+
+Production totalled about 33,000 guns and 20,000 mounts of all types [S20, p. 14].
+
+Crews as the report gives them, which match the NavWeaps figures: nine men on a manual-controlled triple (one pointer, one trainer, one sight setter and two loaders per gun); seven on a manual-controlled twin, manned the same way; three on a free-swinging single (one gun layer, one loader, one gun captain) [S20, p. 14].
+
+Four mounts of each of the three types, complete with guns, were shipped to the United States from Sasebo Naval Gun Factory as NavTechJap equipment numbers JE10-3201-0 to 3 (twin), JE10-3202-0 to 3 (triple) and JE10-3203-0 to 3 (single) [S20, p. 15].
+
+The mission's summary places the weapon: "The 25mm Hotchkiss gun was by far the most important of the six service guns described in this report… employed in single, twin, and triple assemblies on practically every type of vessel." The Japanese rated it second only to the 10 cm Type 98 for anti-aircraft defence and considered it only slightly less effective. The mission's own criticism was that the Le Prieur sight was not calibrated for sufficiently high target speeds, and that even if it had been, the power drives had insufficient capacity to follow; and that the Japanese had not been able to design a free-swinging mount carrying more than one gun, or an easily controllable mount in the 25 mm size larger than the triple [S20, pp. 1, 7].
+
+Water cooling was avoided because of the added manufacturing complication and maintenance difficulty, and a crude method of laying wet cloths on the barrel was sometimes practised. Quick barrel removal was recognised as desirable but the designs were not changed to allow it, and development of higher-capacity ammunition supply equipment appeared to be nil [S20, p. 7].
+
+The mission read the Yamato-class outfit as evidence of policy: "The installation of 40 triple and 30 single mounts of 25mm caliber on the newer battleships and aircraft carriers demonstrates that the Japanese Navy was keeping pace with the other major navies in the policy of increasing tremendously the anti-aircraft defense" [S20, p. 1].
+
+### 25 mm ammunition as O-19 tabulates it
+
+Table XIX gives the 25 mm cartridge at 900 m/s and 26 kg/mm2, cartridge weight 900 gm, total length 233 mm, case length 163.5 mm, case base diameter 42.7 mm, the design taken from Hotchkiss [S21, p. 58].
+
+| Bullet | Length | Weight | Filling | Performance as printed |
+|---|---|---|---|---|
+| Bursting | 114.15 mm | 252 gm | TNT 60, aluminium powder 40 (17.1) | penetrates 20 mm thick DS steel plate at V = 250 m/s |
+| Bursting and tracer (reformed Type 2) | --- | 246 gm | --- | colour yellow |
+| Bursting and tracing Type 3 | 110.15 mm | about 250 gm | TNT 60, aluminium powder 40 (8.7) | colour yellow, self-bursting type, distance 4,000 m |
+| Bursting and incendiary | 114.15 mm | about 250 gm | TNT 60, aluminium powder 40, phosphorus 12 | at 450 m/s striking velocity it can burn through a petroleum tank with a plate 5 m in front of the tank |
+| Armour-piercing | 97.8 mm | 282 gm | --- | at 450 m/s striking velocity it can penetrate 25 mm DS steel |
+| Tracing and signalling | 110.15 mm | 245 gm | TNT 60, aluminium powder 40, plus a fluorescent colouring charge | colour yellow; colours the sea water green, discoverable 1,000 m away |
+| Tracer | --- | 246 gm | --- | colour yellow |
+| Drill | 114.15 mm | 252 gm | --- | --- |
+
+Source for the whole table: [S21, p. 58].
 
 ### 25 mm outfit by date
 
@@ -475,7 +691,32 @@ navypedia's modernisation list gives Yamato plus 4x3 in July 1943, plus 24x3 and
 
 ## 13.2 mm machine guns
 
-Both ships carried four 13.2 mm machine guns in two twin mounts as designed [S28], and the Technical Mission's Figure 7 counts two 13 mm mounts on each ship [S11, p. 13]. Musashi's outfit on completion is given as four 13.2 mm guns in two twin mounts [S2].
+Both ships carried four 13.2 mm machine guns in two twin mounts as designed [S28], and the Technical Mission's Figure 7 counts two 13 mm mounts on each ship [S11, p. 13]. Musashi's outfit on completion is given as four 13.2 mm guns in two twin mounts [S2]. Ammunition carriers for the Type 93 13 mm twin mount beside the bridge were among the few ratings allowed to use the bridge lift in an emergency [S41].
+
+The 13.2 mm Hotchkiss was chosen to replace the obsolete 12.7 mm Vickers; production stood at 1,200 guns a month at the end of the war [S20, p. 18].
+
+| Item | Value | Source |
+|---|---|---|
+| Barrel | air cooled, 39.5 in overall, 43.7 lbs | [S20, p. 18] |
+| Twist | 1 turn in 32 calibres, left hand | [S20, p. 18] |
+| Grooves | 8, 0.006 in deep | [S20, p. 18] |
+| Chamber | tapered | [S20, p. 18] |
+| Muzzle velocity | 2,600 f/s with a 0.12 lb projectile | [S20, p. 18] |
+| Bore pressure | 19.00 long tons per square inch | [S20, p. 18] |
+| Charge | 15 grams | [S20, p. 18] |
+| Flash hider | simple cone | [S20, p. 18] |
+| Maximum range | 6,550 yds at 50 degrees | [S20, p. 18] |
+| Maximum ordinate | 4,350 yds at 65 degrees | [S20, p. 18] |
+| Maximum effective range | 1,650 yds | [S20, p. 18] |
+| Mechanism | Hotchkiss gas operated, 16 in long, 48.5 lbs | [S20, p. 19] |
+| Rate of fire | 450 shots per minute, adjustable 425 to 475 | [S20, p. 19] |
+| Mount | Japanese Type 93 | [S20, p. 19] |
+| Mount weight | single 470 lbs (No. 1) or 249 lbs (Nos. 6 and 7); twin 692 lbs; quadruple 2,565 lbs | [S20, p. 19] |
+| Elevation | +85 to -15 degrees; train unlimited | [S20, p. 19] |
+| Working circle | 79 in for single and twin, 95 in for quadruple | [S20, p. 19] |
+| Magazine | 30 rounds, similar in shape to the 25 mm magazine | [S20, p. 19] |
+
+O-19's Table XIX gives the 13 mm cartridge at 805 m/s and 35 kg/mm2, also taken from Hotchkiss. The incendiary Type I bullet weighs 49.6 gm in a 116.685 gm cartridge 136.6 mm long, with a 99.15 mm case of 20.3 mm base diameter and a phosphorus filling, and penetrates 3 mm HTS at a striking velocity of 610 m/s at zero angle of attack, sets a petroleum tank alight at 560 m/s and 11 degrees through a 1 mm plate 100 mm in front of the tank, and traces for 13 seconds. The armour-piercing bullet weighs 51.8 gm and penetrates 28 mm HTS at 300 m/s at zero angle of attack. The tracer weighs 46 gm and traces yellow for more than 3 seconds [S21, p. 58].
 
 ## Aircraft
 
@@ -497,10 +738,23 @@ No torpedo tubes are recorded in the armament lists for either ship [S28], [S4].
 - Number of hydraulic pumps. O-45(N) says three turbo hydraulic pumps supplied the ring main, one of them a standby [S11, p. 17]. O-53(N) says four per ship, one per turret and one standby [S22, p. 7].
 - Hydraulic working pressure. O-45(N) gives 1,000 to 1,100 psi [S11, p. 17]; O-53(N) gives 1,000 lbs/in2 [S22, pp. 7, 8].
 - Speed of the 500 hp training engines. O-45(N) gave 53 rpm at the maximum training speed of 2 deg/sec and said the figure could not be confirmed; O-53(N) Enclosure (C) gives 250 rpm at 503.1 hp and 350 rpm at 704.3 hp from test bench trials [S22, p. 8].
-- 25 mm mount counts. Report O-47(N)-2 gives the Yamato class 40 triples and 30 singles [S8]. Report O-45(N) Figure 7 gives 46 mounts for Yamato and 52 for Musashi [S11, p. 13]. combinedfleet gives Yamato's final outfit as 50 triples and 2 singles [S1] and Musashi's last as 35 triples and 25 singles [S2]. The NHHC essay gives 54 triples for Yamato in 1945 [S24].
+- Type 3 incendiary tube count and burst pattern. NavWeaps gives 900 incendiary tubes expelled in a 20 degree cone with a flame about 5 m (16 feet) long [S5]. USNTMJ report O-19 Table III gives 996 tubes and 504 stays, 1,500 in all, an angle of dispersion of 15 degrees and an effective diameter of burst of 242 m, with a flame about 17 feet long [S21, pp. 8, 14].
+- Type 91 projectile weight in the primary record. O-19 Table IX gives 3,215 lbs and Table XVIII gives 3,212 lbs for the same projectile [S21, pp. 30, 53].
+- Type 91 muzzle velocity. O-19 gives 2,560 ft/sec [S21, pp. 30, 53]; NavWeaps gives 2,559 fps (780 mps) [S5].
+- Type 91 maximum range. O-19 Table XVIII gives 44,700 yds [S21, p. 53]; the range table in O-45(N) and NavWeaps gives 45,960 yds at 45 degrees and 46,050 yds at 48 degrees [S11, p. 17], [S5].
+- Type 91 projectile length. O-19 gives 77.0 in [S21, p. 30]; NavWeaps gives 76.9 in for the Type 91 and 81.0 in for the Type 1 [S5].
+- Type 0 common weight. O-19 Table I gives 2,992 lbs [S21, p. 9]; NavWeaps gives 2,998 lbs [S5].
+- 25 mm single mount weight. O-47(N)-2 gives 185 kg (407 lb) [S20, p. 12]; NavWeaps gives 1,731 lbs (785 kg) [S8].
+- 25 mm barrel life. O-47(N)-2 says figures from 3,000 to 15,000 equivalent service rounds were obtained from various sources [S20, p. 10]; NavWeaps gives 12,000 rounds [S8].
+- 25 mm maximum range and ceiling. O-47(N)-2 gives 7,500 m (8,200 yds) at approximately 50 degrees, maximum ordinate 5,500 m and maximum effective range 3,000 m [S20, p. 11]; NavWeaps gives 7,439 yds at 45 degrees, 8,200 yds at 50 degrees, and an anti-aircraft ceiling at 85 degrees of 9,843 ft effective and 18,040 ft maximum [S8].
+- 25 mm production. O-47(N)-2 gives about 33,000 guns and 20,000 mounts [S20, p. 14]; NavWeaps gives about 33,000 guns and about 20,000 mountings of all types [S8], which agree.
+- Whether the Type 1 armour-piercing projectile is a distinct design. NavWeaps treats Type 91 and Type 1 as separate projectiles differing in windscreen length, driving band and dye bag, the Type 1 superseding the Type 91 in 1941 [S5]. O-19 has no Type 1: its narrative and Table IX call the projectile Type 91 while Table XVIII labels the same design "A.P. Model 1", and it draws no distinction between them [S21, pp. 30, 53].
+- 25 mm mount counts. Report O-47(N)-2 gives Yamato and Musashi 40 triples, no twins and 30 singles [S20, p. 14]. Report O-45(N) Figure 7 gives 46 mounts for Yamato and 52 for Musashi [S11, p. 13]. combinedfleet gives Yamato's final outfit as 50 triples and 2 singles [S1] and Musashi's last as 35 triples and 25 singles [S2]. The NHHC essay gives 54 triples for Yamato in 1945 [S24].
 - 12.7 cm mount counts. Report O-45(N) Figure 7 tabulates two 12.7 cm anti-aircraft mounts for Yamato and six for Musashi [S11, p. 13]. That figure for Yamato cannot be reconciled with the twelve twin mounts recorded after her 1944 refit [S1], [S7]; the report is a Japanese sketch drawn from memory in 1945 and the cell is recorded here as printed.
 
 ## Gaps
 
 - Magazine and shell room stowage counts for the 15.5 cm, 12.7 cm and 25 mm batteries as a total per ship. See `gaps.md`.
-- Type 3 sankaidan construction beyond the NavWeaps summary. See `gaps.md`.
+- Dye bag colours in the primary record. O-19 gives only the painting convention that a dye-loaded round carries a band of the dye's colour aft of the green tip, and names no colours [S21, p. 32]. The Yamato yellow and Musashi green assignment rests on NavWeaps alone [S5]. See `gaps.md`.
+- Burster sensitivity in the primary record. O-19 names trinitroanisol, picric acid and trinitrotoluene as the burster explosives but prints no sensitivity figure and does not use the term "Type 91 explosive" or name shimose [S21]. See `gaps.md`.
+- The date the O-47(N)-2 shipboard 25 mm installation table applies to. See `gaps.md`.

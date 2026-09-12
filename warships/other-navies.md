@@ -1,0 +1,57 @@
+# Other navies holding battleships, September 1939 to September 1945
+
+This file covers navies that held a battleship, battlecruiser, or coastal battleship inside the window named in the table heading below, without being one of the seven that have their own roster. Scope follows the source: navypedia files each ship below in the capital-ship section of its navy, and the type column repeats the label that section gives. Coastal battleships and coast defence ships are included on that basis and are marked as such, because leaving them out would make the Dutch and Norwegian entries look like omissions rather than a scope decision.
+
+Spain is listed for the negative result. Of the three España class ships, one was wrecked on 26 August 1923, one was mined on 30 April 1937 and one was lost to an internal explosion at Cartagena on 17 June 1937, so Spain held no battleship at any point in the window [R10].
+
+## Ships in commission or on the list, September 1939 to September 1945
+
+The combat column states only what the cited source records. "No combat recorded" means the fetched page describes no wartime action for that ship, not that none occurred. None of the sources fetched prints pennant or hull numbers for these ships; the builder is given instead, since several were built abroad.
+
+| Navy | Class | Type | Ships (builder) | Commissioned | Fate | Saw combat | Dossier | Sources |
+|---|---|---|---|---|---|---|---|---|
+| Argentina | Rivadavia class | battleship | Rivadavia (Fore River, Quincy, USA); Moreno (New York SB, Camden, USA) | Rivadavia December 1914; Moreno March 1915 [R1] | Rivadavia: disarmed 1952, sold for scrap 30 May 1957, stricken February 1957 [R1]. Moreno: accommodation ship from 1949, sold for scrap 11 January 1957, stricken October 1956 [R1]. | No combat recorded. The only wartime event the source gives is Rivadavia's collision with the cruiser Almirante Brown on 3 October 1941 [R1]. | not yet researched | R1 |
+| Brazil | Minas Gerais class | battleship | Minas Geraes (Armstrong, Newcastle, UK); São Paulo (Vickers, Barrow, UK) | Minas Geraes 5 January 1910; São Paulo 12 July 1910 [R2] | Minas Geraes: stricken September 1953, broken up 1954 [R2]. São Paulo: stricken August 1947, foundered under tow for breaking up 5 November 1951 [R2]. | No combat recorded. Both served as floating batteries in Brazilian ports during the war, São Paulo at Recife and Minas Geraes at Salvador [R2]. | not yet researched | R2 |
+| Chile | Almirante Latorre class | battleship | Almirante Latorre, ex-Canada, ex-Libertad, ex-Valparaiso (Armstrong, Newcastle, UK) | 30 September 1915 in British service, 1 August 1920 in Chilean service [R3] | Engine room fire in 1951, laid up at Talcahuano for the rest of the 1950s, stricken February 1958, towed to Japan in May 1959 and broken up in the mid-1960s [R3]. | No combat recorded [R3]. | not yet researched | R3 |
+| Turkey | Yavuz Sultan Selim | battlecruiser | Yavuz Sultan Selim, ex-Goeben, renamed Yavuz Selim 1930 and Yavuz 1936 (Blohm und Voss, Hamburg, Germany) | 2 July 1912 in German service, 16 August 1914 in Ottoman service [R4] | Did not go to sea after 1948, laid up in reserve 20 December 1950, struck from the fleet list 14 November 1954, sold for demolition in 1970 and broken up 1973 to 1976 [R4]. | No combat recorded in the Second World War. The actions the source gives are from the First World War: a shell hit off Cape Sarych on 18 November 1914 and mine damage on 26 December 1914 and 20 January 1918 [R4]. | not yet researched | R4 |
+| Greece | Kilkis class | battleship, gunnery drill hulk from 1935 | Kilkis, ex-USS Mississippi BB-23 (Cramp, Philadelphia, USA); Limnos, ex-USS Idaho BB-24 (Cramp, Philadelphia, USA) | Kilkis 1 February 1908 in US service, 30 July 1914 in Greek service; Limnos 1 April 1908 in US service, 30 July 1914 in Greek service [R5] | Both sunk by German aircraft at Salamis on 23 April 1941; the source notes that by some accounts Kilkis was sunk on 24 April 1941 [R5]. | Yes. Both were sunk under air attack at Salamis in April 1941; Kilkis had been temporarily recommissioned in 1935 for action against the mutinous cruiser Averof [R5]. | not yet researched | R5 |
+| Netherlands | De Zeven Provinciën | coast defence ship | De Zeven Provinciën, renamed Soerabaja 1936 (Rijkswerf Amsterdam) | 6 October 1910 [R6] | Sunk by Japanese aircraft at Surabaya 18 February 1942; raised by the Japanese, used as a hulk and scuttled again [R6]. | Yes. She served as a floating battery at Surabaya and was sunk there under air attack [R6]. | not yet researched | R6 |
+| Netherlands | Koningin Regentes class | coast defence ship | Hertog Hendrik, renamed Vliereede August 1939 (Rijkswerf Amsterdam) | 5 January 1904 [R7] | Captured by German troops 14 May 1940 and converted to the non-self-propelled anti-aircraft battery Ariadne; returned in 1945, converted to a barrack ship and recommissioned under her old name 21 October 1947; disbanded 27 September 1968 and stricken 28 August 1969 [R7]. | No combat recorded. She was recommissioned as a floating battery for some weeks in December 1939 and was captured in May 1940 [R7]. | not yet researched | R7 |
+| Norway | Norge class | coastal battleship | Norge (Armstrong, Elswick, UK); Eidsvold (Armstrong, Elswick, UK) | Norge February 1901; Eidsvold 1901 [R8] | Eidsvold: torpedoed at the entrance to Narvik harbour by the German destroyer Wilhelm Heidkamp on 9 April 1940, blew up and sank. Norge: torpedoed in Narvik harbour by the German destroyer Bernd von Arnim on 9 April 1940, capsized and sank [R8]. | Yes. Both were sunk in action at Narvik on 9 April 1940 [R8]. | not yet researched | R8 |
+| Norway | Harald Haarfagre class | coastal battleship | Harald Haarfagre (Armstrong, Elswick, UK); Tordenskjold (Armstrong, Elswick, UK) | Both March 1898 [R9] | Both captured by German troops at Horten on 9 April 1940 and converted to floating anti-aircraft batteries, commissioned in 1941 as Thetis, ex-Harald Haarfagre, and Nymphe, ex-Tordenskjold. Thetis was returned to Norway in May 1945 and sold for scrap; Nymphe was bombed and beached at Svolvær in May 1945 [R9]. | Yes, under German colours. Nymphe was bombed and beached at Svolvær in May 1945 [R9]. | not yet researched | R9 |
+| Spain | España class | battleship | España, lead ship (SECN, El Ferrol); Alfonso XIII, renamed España April 1931 (SECN, El Ferrol); Jaime I (SECN, El Ferrol) | Lead España 23 October 1913; Alfonso XIII 16 August 1915; Jaime I 20 December 1921 [R10] | Lead España wrecked off Cape Tres Forcas 26 August 1923. The second España, ex-Alfonso XIII, was lost off Cape Peñas on 30 April 1937 on a mine laid by the Nationalist minelayer Júpiter. Jaime I was lost at Cartagena on 17 June 1937 to an internal explosion [R10]. | Not applicable. All three were lost before September 1939 [R10]. | not yet researched | R10 |
+
+## Uncompleted and cancelled units
+
+| Navy | Class | Ships | Status | Sources |
+|---|---|---|---|---|
+| Chile | Almirante Latorre class (uncompleted as a battleship) | Almirante Cochrane, ex-Constitución, ex-Santiago | Laid down 20 February 1913 at Armstrong, Newcastle, suspended incomplete 9 September 1914 and sold to the United Kingdom, completed in September 1923 as the aircraft carrier Eagle. | R3 |
+
+No other navy in this file had a capital ship building or on order between September 1939 and September 1945 in the sources fetched [R1, R2, R4, R5, R6, R7, R8, R9, R10].
+
+## Conflicts between sources
+
+- Kilkis's loss date. navypedia gives 23 April 1941 in the ships table and notes on the same page that by some accounts she was sunk on 24 April 1941 [R5].
+- Rivadavia's end. The navypedia ships table gives "disarmed 1952, stricken 2.1957"; the naval service text on the same page gives the sale for scrap as 30 May 1957 [R1]. Moreno: the table gives "stricken 10.1956", the text gives the sale for scrap as 11 January 1957 [R1].
+- São Paulo's end. The navypedia ships table gives "stricken 8.1947"; the naval service text gives her foundering under tow on 5 November 1951 [R2].
+- Yavuz's striking. The navypedia ships table gives November 1954; the naval service text on the same page gives 14 November 1954 [R4].
+
+## Gaps
+
+- Whether Almirante Latorre, Rivadavia, Moreno, Minas Geraes, São Paulo, Yavuz, or Hertog Hendrik fired on an enemy between September 1939 and September 1945. Queries run: the navypedia class pages listed below, each read in full including its naval service section. Sources checked: navypedia Argentina, Brazil, Chile, Turkey and Netherlands capital ship indexes. Result: no source found recording combat for these ships in the window; the combat column states the absence rather than a negative fact, 2026-09-12.
+- Pennant or hull numbers for every ship in this file. Queries run: the same pages. Sources checked: navypedia. Result: no source found; none of these pages carries a pennant number column, 2026-09-12.
+- Navies not reached in this session. Queries run: the navypedia master index at `ships_index.htm` was read to enumerate national sections, and the battleship sections of Argentina, Brazil, Chile, Turkey, Greece, Netherlands, Norway and Spain were fetched. Sources checked: navypedia. Result: the coastal-battleship holdings of Sweden, Denmark, Finland, Thailand and Yugoslavia were not fetched and are not covered here, 2026-09-12.
+- National sources for these navies. Queries run: none beyond the registry, which lists no entry for Argentina, Brazil, Chile, Turkey, Greece, the Netherlands, Norway or Spain. Sources checked: `skills/ww2-warship-research/SOURCES.md`. Result: every row in this file rests on navypedia, a tier 3 source, 2026-09-12.
+
+## Sources
+
+R1. RIVADAVIA battleships (1914-1915). navypedia. https://www.navypedia.org/ships/argentina/arg_bb_rivadavia.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R2. MINAS GERAIS battleships (1910). navypedia. https://www.navypedia.org/ships/brazil/br_bb_minas_gerais.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R3. ALMIRANTE LATORRE battleships (1915/1920). navypedia. https://www.navypedia.org/ships/chile/chi_bb_almirante_latorre.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R4. YAVUZ SULTAN SELİM battlecruiser (1912/1914). navypedia. https://www.navypedia.org/ships/turkey/tu_bb_yavuz_sultan_selim.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R5. KILKIS battleships (1908/1914). navypedia. https://www.navypedia.org/ships/greece/gr_bb_kilkis.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R6. DE ZEVEN PROVINCIËN coast defence ship (1910). navypedia. https://www.navypedia.org/ships/netherlands/nl_bb_de_zeven_provincien.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R7. KONINGIN REGENTES coast defence ships (1901-1904). navypedia. https://www.navypedia.org/ships/netherlands/nl_bb_koningin_regentes.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R8. NORGE coastal battleships (1901). navypedia. https://www.navypedia.org/ships/norway/no_bb_norge.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R9. HARALD HAARFAGRE coastal battleships (1898). navypedia. https://www.navypedia.org/ships/norway/no_bb_harald_haarfagre.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.
+R10. ESPAÑA battleships (1913-1921). navypedia. https://www.navypedia.org/ships/spain/sp_bb_espana.htm. Tier 3. Accessed 2026-09-12. Ships table, Naval service.

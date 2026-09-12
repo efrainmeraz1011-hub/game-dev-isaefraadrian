@@ -11,6 +11,7 @@ The Imperial Japanese Navy's own subsistence regulations were not reached in thi
 | Yamato | at completion, 16 December 1941 | 2,500 | [S9] |
 | Yamato | final (最終時) | 3,332 | [S9] |
 | Yamato | 7 April 1945 | 3,332 aboard, 3,055 lost, 276 rescued | [S1] |
+| Yamato | 7 April 1945 | 3,056 of 3,332 went down with the ship | [S10] |
 | Yamato | April 1945, as the Technical Mission was told | about 2,400 officers and men | [S12, p. 11] |
 | Musashi | 22 October 1944, on sortie from Brunei | 2,417 embarked, of whom the crew numbered 2,399: 112 officers, 2,279 men and 8 Navy-hired civilians | [S2] |
 | Musashi | 24 October 1944 | 1,023 of 2,399 lost, 1,423 rescued | [S2] |
@@ -162,7 +163,7 @@ No JACAR record for the aircraft carrier Shinano was located by title search, an
 ## Conflicts between sources
 
 - Yamato's complement on her last sortie. The Yamato Museum and combinedfleet both give 3,332 [S9], [S1]; the Technical Mission was told about 2,400 officers and men [S12, p. 11].
-- Yamato's casualty arithmetic. combinedfleet prints both 3,055 lost of 3,332 and 276 rescued, which sum to 3,331 [S1].
+- Yamato's casualty arithmetic. combinedfleet prints both 3,055 lost of 3,332 and 276 rescued, which sum to 3,331 [S1]. The Yamato Museum's page on the 1:10 model gives 3,056 lost of 3,332 [S10].
 - Musashi's complement. 2,399 crew of 2,417 embarked [S2]; 2,500 sailors [S25].
 - Steam rice cookers in Yamato's ratings' galley. Six 6-to kettles [S39, p. 107]; two 6-to cookers [S40].
 - Yamato's refrigeration capacity. More than about two and a half times Nagato's by volume, 1.5 times per crew member [S39, p. 107]; 223,400 litres [S40].

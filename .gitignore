@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Regenerable bulk experiment outputs
+balance_model/baseline_screen/
+balance_model/experiments/
+balance_model/heldout/
+balance_model/sensitivity/
+balance_model/refit/
+balance_model/*_log.*
+
+# Local filesystem metadata
+.DS_Store

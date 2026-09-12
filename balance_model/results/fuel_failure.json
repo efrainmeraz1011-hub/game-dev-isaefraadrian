@@ -1,0 +1,75 @@
+{
+  "build": {
+    "id": "flexible/rapid/protection/cadence",
+    "hull": "flexible",
+    "layout": "rapid",
+    "deck": "RRR",
+    "package": "protection",
+    "branch": "cadence"
+  },
+  "seed": 10000,
+  "policy": "aggressive",
+  "difficulty": 1.0,
+  "config": {
+    "name": "candidate",
+    "enemy_growth": 0.16,
+    "enemy_dps_growth": 0.1,
+    "enemy_dps": 0.155,
+    "boss_hp": 260.0,
+    "boss_dps": 0.3,
+    "hull_armor_scale": 1.0,
+    "heavy_damage": 1.0,
+    "rapid_armor_pass": 0.35,
+    "air_loss": 0.11,
+    "fuel_price": 1.0,
+    "reward_scale": 0.75,
+    "upgrade_cost": 40.0,
+    "offense_step": 0.18,
+    "port_repair": 0.75,
+    "execution": 1.0,
+    "plane_price": 14.0,
+    "air_standoff": 0.82,
+    "repair_limit": 0.85,
+    "starting_cash": 30.0,
+    "threat_time_scale": 0.004,
+    "boss_refit": false,
+    "boss_refit_count": 0
+  },
+  "win": false,
+  "cause": "fuel_exhaustion",
+  "sectors": [
+    {
+      "sector": 1,
+      "hp": 72.99,
+      "fuel": 11.99,
+      "cash": 107.27,
+      "income": 77.27,
+      "essentials": 0.0,
+      "investment": 0.0,
+      "upgrades": 0,
+      "damage": 27.01,
+      "battles": 4,
+      "kills": 4,
+      "cause": "fuel_exhaustion"
+    }
+  ],
+  "final_hp": 72.98535931046499,
+  "final_stock": {
+    "fuel": 11.988624794678582,
+    "shell": 58.33333333333352,
+    "aa": 75.0,
+    "torpedo": 0.0,
+    "depth": 9.888888888888891,
+    "payload": 0.0,
+    "rations": 6.891118475554557,
+    "parts": 8.0
+  },
+  "planes": 0,
+  "counters": {
+    "nodes": 4,
+    "combat_seconds": 220.0,
+    "damage": 27.014640689535014,
+    "combat_ammo_value": 11.305555555555543,
+    "kills": 4
+  }
+}

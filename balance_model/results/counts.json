@@ -1,0 +1,10 @@
+{
+  "tested_builds": 192,
+  "broader_hull_deck_pairs": 140,
+  "broader_builds": 840,
+  "at_least_one_win": 156,
+  "zero_wins": 36,
+  "below_20": 25,
+  "between_20_80": 64,
+  "at_least_80": 67
+}

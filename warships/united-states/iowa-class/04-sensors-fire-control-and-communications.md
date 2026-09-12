@@ -4,12 +4,11 @@ Status: partial (see `gaps-04.md`)
 
 Citations [S141] to [S159] resolve to entries in `sources-04.md`, the source list for this facet. Turret optics, turret rangefinders, and the gun mounts themselves are covered in `03-armament-and-ammunition.md`; that file carries its own sources file and its citations do not resolve here. The armor of the conning tower, the fire control tower, and the director tubes is in `01-hull-and-armor.md`.
 
-Two kinds of source sit side by side in this file, and the difference matters.
+Three kinds of source sit side by side in this file, and the difference matters.
 
-- Ordnance pamphlets and Navy training manuals describe the equipment. They name the Mark 38 director, the Mark 8 rangekeeper, the Mark 37 director, and the Mark 8 radar, and they describe the main battery system as fitted in "newly constructed battleships" with nine 16-inch guns in three centerline turrets [S141, p. 443]. They do not name the Iowa class.
-- Photo indexes and class tables tie particular sets to particular hulls on particular dates. Those are tier 3.
-
-Where only the first kind exists, the text says so.
+- **Equipment manuals.** Ordnance pamphlets and Navy training manuals describe the gear. They name the Mark 38 director, the Mark 8 rangekeeper, the Mark 37 director, and the Mark 8 radar, and they describe the main battery system as fitted in "newly constructed battleships" with nine 16-inch guns in three centerline turrets [S141, p. 443]. They do not name the Iowa class.
+- **The Bureau of Ships type allowance.** Reference RE-11A-100, *Type Allowance of Electronic Material for Battleships, Division Flagships*, type BB, section III, sheets issued 1 August 1945 and 1 December 1945 [S159, sheets 175A to 175G]. This is a primary document. It lists, space by space, the electronic material a battleship was allowed to carry, and its fire control radar pages break the allowance out by hull group, including a BB 60-62 allowance and a BB 63-64 allowance [S159, sheets 175E, 175F]. Two of its radar repeater entries name the "BB 61 Class" directly [S159, sheet 175D]. An allowance is what a ship was authorized to hold, not a survey of what a named ship held on a named day, and this file says "allowed" where that is the evidence.
+- **Photo indexes and class tables.** These tie particular sets to particular hulls on particular dates. They are the registry's lowest tier, museum and enthusiast compilations, and are labelled as such wherever they are the only evidence.
 
 ## Main battery fire control
 
@@ -29,9 +28,11 @@ Naval Ordnance and Gunnery (NAVPERS 16116, May 1944) devotes chapter 18 to the m
 
 The manual calls this arrangement duplicate primary installations provided for control flexibility, with auxiliary arrangements available if a primary unit is knocked out [S141, p. 443]. The main directors sit high in the superstructure for visibility; the auxiliary director is at the main battery control station in the fire control tower, which is usually the main battery reference point [S141, p. 443].
 
+The type allowance confirms the two plotting rooms from the communications side. It lists a main battery plotting room forward and a main battery plotting room aft, each with one key-control panel, one radiophone unit, one jackbox, and one speaker-amplifier unit, and a radar repeater in each [S159, sheets 175B, 175D].
+
 ### Mark 38 directors
 
-Two per ship. NavSource's photo captions place one on Spot 1 at the foretop and one on Spot 2 abaft the after stack in Iowa [S146]. A commissioning-day photograph of Iowa on 22 February 1943 shows the after Mark 38 with Mark 8 fire control radar on top [S146].
+Two per ship. NavSource's photo captions place one on Spot 1 at the foretop and one on Spot 2 abaft the after stack in Iowa [S146]. A commissioning-day photograph of Iowa on 22 February 1943 shows the after Mark 38 with Mark 8 fire control radar on top [S146]. The type allowance gives each spot one type 23211 radiophone unit, listing Spot I and Spot II as separate stations [S159, sheet 175B].
 
 Table: Mark 38 director as described in 1944 [S141, p. 446]
 
@@ -77,6 +78,8 @@ It comprises a combined spotting glass and trainer's periscope, two periscopes a
 
 Main battery control is manned by the gunnery officer and ten men: trainer, spotter, leveller, cross-leveller, range talker, and five computer operators [S141, pp. 451 to 452].
 
+The type allowance gives the fire control tower one key-control panel, one type 23211 radiophone unit, and one jackbox, and it allows a radar repeater at the forward main battery fire control station [S159, sheets 175B, 175D].
+
 ### Fire control radar on the main battery directors
 
 Ordnance Pamphlet 658 of January 1943 describes the Mark 8 as a main battery fire control equipment for use with Mark 34 and Mark 38 directors [S142, p. 1]. A narrow beam, 6 degrees vertically and 2 degrees horizontally, is radiated from a polyrod antenna; the echo appears as a type A or type B scan and the operator reads range and bearing off the controls and passes them to plot [S142, p. 1].
@@ -96,7 +99,14 @@ Table: Mark 8 radar characteristics [S142, pp. 1 to 2]
 
 The set's units sit in and under the director. The antenna assembly is on top of the director; the power control unit, the control indicator with its 5-inch cathode ray screen, the train indicator with a 3-inch screen, the range unit with its Veeder counter and range transmitter, the scan position indicators, and the scanning switch panel are inside; the transmitter and receiver are under the director [S142, pp. 2 to 7].
 
-Dated fits on the four ships, from photo captions and a class table, are in the search radar table below. In summary: the first two ships commissioned with Mark 8 on both Mark 38 directors [S150], Mark 8 Mod 1 appears on Iowa's Spot 1 and Spot 2 in August 1945 captions [S146], Mark 8 Mod 3 appears on Iowa's Spot 1 in a July 1945 caption [S146], and Mark 13 replaced Mark 8 on Wisconsin in May 1945 and on New Jersey in June 1945 [S150]. NavSource notes a general arrangement drawing of the Mark 13 Mod 0 antenna fitted atop main battery director Mark 38 Mod 0 and Mods 1 to 5 [S146].
+The type allowance of 1 August 1945 sets the main battery fire control radar by hull group [S159, sheets 175E, 175F]:
+
+| Hull group | Main battery fire control radar allowed | Source |
+|---|---|---|
+| BB 60-62 (Alabama, Iowa, New Jersey) | 2 Mark 13, replacing Mark 8 where installed; 1 Mark 27, which in BB 62 replaces the Mark 3 | [S159, sheet 175E] |
+| BB 63-64 (Missouri, Wisconsin) | 2 Mark 8; 1 Mark 27 | [S159, sheet 175F] |
+
+Dated fits from photo captions run alongside. The first two ships commissioned with Mark 8 on both Mark 38 directors [S150]; Mark 8 Mod 1 appears on Iowa's Spot 1 and Spot 2 in August 1945 captions [S146]; Mark 8 Mod 3 appears on Iowa's Spot 1 in a July 1945 caption [S146]; and navypedia records Mark 13 replacing Mark 8 on Wisconsin in May 1945 and on New Jersey in June 1945 [S150]. NavSource notes a general arrangement drawing of the Mark 13 Mod 0 antenna fitted atop main battery director Mark 38 Mod 0 and Mods 1 to 5 [S146].
 
 ### Turret local control and turret rangefinders
 
@@ -133,7 +143,7 @@ Firing methods for salvo fire are selected level, selected cross-level, and sele
 
 ### Mark 37 directors
 
-The 1944 manual states that battleships carry four secondary battery directors in a diamond-shaped pattern around the superstructure, a quadruple installation of four Mark 37 directors, four Mark 6 stable elements, and four Mark 1 computers [S141, p. 387]. Photographs bear this out for the class: a November 1943 caption on Iowa's conning tower section names "one of the four 5in/38cal gun directors" [S146].
+The 1944 manual states that battleships carry four secondary battery directors in a diamond-shaped pattern around the superstructure, a quadruple installation of four Mark 37 directors, four Mark 6 stable elements, and four Mark 1 computers [S141, p. 387]. Photographs bear this out for the class: a November 1943 caption on Iowa's conning tower section names "one of the four 5in/38cal gun directors" [S146]. The four-director figure is consistent with the type allowance, which gives the BB 60-62 and BB 63-64 groups four Mark 12 and four Mark 22 secondary battery radars apiece [S159, sheets 175E, 175F].
 
 A complete installation is one Mark 37 director, one Mark 6 stable element, and one Mark 1 computer [S141, p. 387]. The stable elements and computers live below decks in protected plotting rooms; a stable element and a computer exchange data through mechanical shafting, so the two stand adjacent and always work as a pair [S141, p. 387].
 
@@ -156,11 +166,13 @@ Two crossovers with the main battery are documented. On ships where the 5-inch/3
 
 ### Secondary plotting rooms
 
-The manual gives battleships two arrangements and does not choose between them: one plotting room holding four computer and stable element groups, or two separate plotting rooms each holding two [S141, p. 387]. No source fetched for this facet states which arrangement the Iowa class used, or where the rooms were. See `gaps-04.md`. A 1983 photograph aboard New Jersey is captioned "the forward secondary battery plot room," which implies at least two, but it describes the ship after her 1980s modernization [S147].
+The 1944 manual gives battleships two possible arrangements and does not choose between them: one plotting room holding four computer and stable element groups, or two separate plotting rooms each holding two [S141, p. 387]. The type allowance settles the question for type BB: it lists a secondary battery plotting room forward and a secondary battery plotting room aft as separate stations, each with one radiophone unit and one speaker-amplifier unit, and allows one radar repeater in each [S159, sheets 175B, 175D]. A 1983 photograph aboard New Jersey captioned "the forward secondary battery plot room" is consistent, though it describes the ship after her 1980s modernization [S147]. No source fetched for this facet gives the deck or frame position of either room. See `gaps-04.md`.
 
 ### Secondary battery fire control radar
 
-navypedia gives the as-commissioned fit as four Mark 4 radars on Iowa and New Jersey and four Mark 12 and Mark 22 combinations on Missouri and Wisconsin [S150]. The Radar Operator's Manual treats the Mark 3 and Mark 4 together under the equipment letters FC and FD [S143, part 4]. Its accuracy table, taken from BuOrd Pamphlet 657, gives the following for the three antennas used [S143, part 4]:
+navypedia gives the as-commissioned fit as four Mark 4 radars on Iowa and New Jersey and four Mark 12 and Mark 22 combinations on Missouri and Wisconsin [S150]. The August 1945 type allowance gives BB 60-62 four Mark 12 "replacing Mark 4 where installed" and four Mark 22, and gives BB 63-64 four Mark 12 and four Mark 22 outright [S159, sheets 175E, 175F].
+
+The Radar Operator's Manual treats the Mark 3 and Mark 4 together under the equipment letters FC and FD [S143, part 4]. Its accuracy table, taken from BuOrd Pamphlet 657, gives the following for the three antennas used [S143, part 4]:
 
 | Characteristic | FC long antenna (3 ft x 12 ft) | FC short antenna (6 ft x 6 ft) | FC antenna (6 ft x 7 ft) |
 |---|---|---|---|
@@ -175,7 +187,7 @@ navypedia gives the as-commissioned fit as four Mark 4 radars on Iowa and New Je
 
 Minimum range on ship targets is 800 to 1,000 yards, and on aircraft 1,100 to 1,700 yards [S143, part 4].
 
-The Mark 12 and Mark 22 pair replaced the Mark 4 during 1945. Iowa carried Mark 4/22 on her Mark 37 directors by 8 July 1945 and still in August 1945 [S146]; navypedia records the change to four Mark 12/22 on Iowa in March 1945 and on New Jersey in June 1945 [S150]. Ordnance Pamphlet 1719 of 1949, the operating instructions for the Mark 37 system, lists separate pamphlets for radar equipments Mark 12, Mark 22, and Mark 25, and describes the system as working with Mark 12 alone against visible air targets and with Mark 12 and Mark 22 together against obscured ones [S145]. Mark 25 replaced the Mark 12/22 combination after the war, first on New Jersey's No. 1 director in the early 1950s while Nos. 2 and 3 kept the older sets [S147].
+Iowa carried Mark 4/22 on her Mark 37 directors by 8 July 1945 and still in August 1945 [S146]; navypedia records the change to four Mark 12/22 on Iowa in March 1945 and on New Jersey in June 1945 [S150]. Ordnance Pamphlet 1719 of 1949, the operating instructions for the Mark 37 system, lists separate pamphlets for radar equipments Mark 12, Mark 22, and Mark 25, and describes the system as working with Mark 12 alone against visible air targets and with Mark 12 and Mark 22 together against obscured ones [S145]. Mark 25 replaced the Mark 12/22 combination after the war, first on New Jersey's No. 1 director in the early 1950s while Nos. 2 and 3 kept the older sets [S147].
 
 ## Anti-aircraft directors
 
@@ -191,15 +203,24 @@ On the class, the covered objects in the gun tubs of Iowa shortly before her Feb
 
 New Jersey was fitted with the Mark 49 director. Photographs from the records of Puget Sound Naval Shipyard taken at the Philadelphia Navy Yard on 29 October 1943 show the director from the rear with the operator's seat and controls, and a close-up of the enclosed operator compartment with a Mark 19 radar antenna; the caption states that both Mark 11 and Mark 19 radars were used, that early units lacked the radar, and that Navy documentation in late 1943 found the optical-only units no better than the Mark 51 and far more maintenance-hungry, their only advantage being at night and in low visibility with the radar fitted [S147]. NavWeaps says the Mark 49 was not very successful and was replaced by the Mark 51 and later the Mark 57 [S152].
 
-### Mark 57
+### Mark 57 and the Mark 29 radar
 
 The Mark 57 is the Mark 51 with radar added and range fed in rather than fixed, which NavWeaps calls a blind-fire capability for the Bofors mounts, though the same essay notes the operator still had to see the target to track it [S152] [S153].
 
-Dated fits: New Jersey had Mark 57 radar directors for her 40 mm guns by the time she was inclined at Puget Sound on 24 June 1945 [S147]. An August 1945 caption on Iowa shows two Mark 57 AA directors with their Mark 37 antennas flanking the No. 1 Mark 37 secondary battery director [S146].
+The type allowance's heavy machine gun battery radar for these hulls is the Mark 29-2, and it is allowed in unequal numbers [S159, sheets 175E, 175F]:
+
+| Hull | Mark 29-2 allowed, 1 August 1945 | Source |
+|---|---|---|
+| BB 60 Alabama | 8 | [S159, sheet 175E] |
+| BB 61 Iowa | 2 | [S159, sheet 175E] |
+| BB 62 New Jersey | none | [S159, sheet 175E] |
+| BB 63 Missouri and BB 64 Wisconsin | 4 | [S159, sheet 175F] |
+
+Dated fits from photographs: New Jersey had Mark 57 radar directors for her 40 mm guns by the time she was inclined at Puget Sound on 24 June 1945 [S147]. An August 1945 caption on Iowa shows two Mark 57 AA directors flanking the No. 1 Mark 37 secondary battery director [S146]. The count of two for Iowa matches the allowance of two Mark 29-2 [S146] [S159, sheet 175E]. The New Jersey photograph and the "none allowed in BB 62" line stand against each other and are listed under conflicts.
 
 ### Mark 63
 
-No source fetched for this facet places a Mark 63 director on any ship of the class. NavWeaps describes the Mark 63, along with the Mark 56, as post-war radar-equipped systems for the 40 mm gun, raising its maximum effective range from about 1,500 yards with Mark 51 control to about 2,500 yards, and notes that quad mount modifications marked with an asterisk carried a radar antenna and were used with the Mark 63 director [S152]. The one Mark 63 named on a NavSource Iowa-class page belongs to a Fletcher class destroyer photographed alongside New Jersey, not to the battleship [S147]. See `gaps-04.md`.
+No source fetched for this facet places a Mark 63 director or its Mark 34 radar on any ship of the class. The type allowance lists Mark 34-2 radar for the heavy machine gun battery only under the BB 36, BB 38, BB 42, and BB 45-46 allowances, not under BB 60-62 or BB 63-64 [S159, sheets 175D, 175E, 175F]. NavWeaps describes the Mark 63, with the Mark 56, as a post-war radar-equipped system for the 40 mm gun, raising maximum effective range from about 1,500 yards under Mark 51 control to about 2,500 yards, and notes that quad mount modifications marked with an asterisk carried a radar antenna and were used with the Mark 63 director [S152]. The one Mark 63 named on a NavSource Iowa class page belongs to a Fletcher class destroyer photographed alongside New Jersey [S147]. See `gaps-04.md`.
 
 ### 20 mm gunsights
 
@@ -207,15 +228,33 @@ The Mark 14 sight is the 20 mm gun's director, with a gunner and a range setter 
 
 ## Search radars by date
 
-The table below reads across three kinds of evidence. The as-commissioned column and the dated changes are navypedia's class table, a tier 3 source [S150]. The photograph column is NavSource caption text, also tier 3, much of it contributed by Pieter Bakels [S146] [S147] [S148] [S149]. Where they disagree, both are shown.
+### What a battleship was allowed to carry, 1 August 1945
 
-Table: search and identification radar fits [S146] [S147] [S148] [S149] [S150]
+Table: search and IFF radar, type BB allowance [S159, sheet 175D]
+
+| Item | Quantity | Restriction printed on the sheet |
+|---|---|---|
+| Large air search radar, SK series | 1 | none |
+| Medium air search radar, SR series | 1 | allowed in BB 60, 61 |
+| Large surface search radar, SG-a or SG-1 | 2 | one only allowed in BB 60, 61 |
+| Medium surface search radar, SU | 1 | allowed in BB 60, 61 |
+| Medium fighter director radar, SP | 1 | allowed in BB 36-59, 62-64 |
+| Interrogator-responsor, BL or BM series | 2 | one must be BM-1 in BB 36-59 and 62-64 when SP is installed |
+| Interrogator-responsor, BO-1 series | 1 | in BB 36-59, 62-64, allowed when SP is installed |
+| Interrogator-responsor, BN series | 2 | only one SG and one BN allowed when SP is installed |
+| Transponsor, BK series | 3 | none |
+| Type CTZ 66 ACG or CTZ 66 AFJ antennas | 4 | none |
+| Type CCL-211018 (211014 on direct current vessels) | 2 | none |
+| Type 6V-SBM-15AH storage batteries | 8 | none |
+
+### What photographs and class tables show, by ship
+
+The as-commissioned column and the dated changes below are navypedia's class table, a tier 3 source [S150]. The photograph column is NavSource caption text, also tier 3, much of it contributed by Pieter Bakels [S146] [S147] [S148] [S149]. Where they disagree, both are shown.
 
 | Ship | Date | Fit | Source |
 |---|---|---|---|
 | Iowa (BB-61) | as commissioned, 22 February 1943 | SK, two SG, Mark 3, two Mark 8, four Mark 4 | [S150] |
 | Iowa | shortly before commissioning, early 1943 | still without the Mark 4 secondary director radars and without the SG atop the mainmast; Mark 8 already on Spot 2 | [S146] |
-| Iowa | July 1943 | eight single 20 mm removed, four quad 40 mm added (no radar change recorded) | [S150] |
 | Iowa | March 1945 refit at Hunter's Point | SG, SK, Mark 3, two Mark 8, four Mark 4 removed; SC-2, SK-2, SP, SU, two Mark 13, four Mark 12/22, Mark 27 and a TDY jamming suite added | [S150] |
 | Iowa | 8 July 1945 photograph | SK 17 ft square antenna on the foremast; SR on a new mainmast platform; SG relocated aft; SU in a radome on the after end of the foretop; DBA radio direction finder on a topmast; Mark 8 on Spot 2; Mark 8 Mod 3 on Spot 1; Mark 4/22 on the Mark 37 directors; TBS antenna on the starboard yard; ski-pole IFF antennas; two TDY jammers flanking the foretop | [S146] |
 | Iowa | 20 August 1945 photograph | Mark 27 on the fire control tower (Spot 3); Mark 4/22 on the Mark 37 directors; Mark 8 Mod 1 on Spot 1 and Spot 2; BL-5 IFF panel above the SK antenna; a third TDY jammer back-to-back below the forward air defence level; SPT-4 and AS-37 removed from the foretop | [S146] |
@@ -228,13 +267,13 @@ Table: search and identification radar fits [S146] [S147] [S148] [S149] [S150]
 | New Jersey | after final wartime overhaul, 1945 | SK-2 and SP received, new mainmast on the after stack | [S147] |
 | Missouri (BB-63) | as commissioned, 11 June 1944 | SK-2, two SG, Mark 27, two Mark 8, four Mark 12/22 | [S150] |
 | Missouri | 23 July 1944 at New York Navy Yard | small Mark 27 atop the conning tower, replacing the Mark 3 of earlier battleships | [S148] |
-| Missouri | had SK-2 from the start; SPT-4 and AS-37 wagon-wheel antennas on all four sides of the forward air defence level, still present in August 1945 | 1944 to 1945 | [S146] |
+| Missouri | 1944 to 1945 | SK-2 from the start; SPT-4 and AS-37 wagon-wheel antennas on all four sides of the forward air defence level, still present in August 1945 | [S146] |
 | Missouri | May 1945 refit | SP radar and a TDY suite added | [S150] |
 | Wisconsin (BB-64) | as commissioned, 16 April 1944 | SK, two SG, Mark 27, two Mark 8, four Mark 12/22 | [S150] |
 | Wisconsin | May 1945 refit | two Mark 8 removed; SR and two Mark 13 added, with a TDY suite | [S150] |
 | Wisconsin | until decommissioning in 1948 | SK-2 | [S149] |
 
-Three sets carry documented performance figures.
+### Performance figures
 
 Table: SG surface search radar, maximum reliable range for a 90-foot antenna height [S143, part 4]
 
@@ -250,52 +289,127 @@ Table: SG surface search radar, maximum reliable range for a 90-foot antenna hei
 
 SG range accuracy is plus or minus 150 yards and bearing accuracy plus or minus 1 degree; range resolution is about 300 yards at short range and about 500 yards at longer range, and bearing discrimination needs 5 degrees on the A scope or 9 degrees on the PPI [S143, part 4].
 
-The SK is described as an SC-2 with an antenna four times as large, the set comprising a control unit, receiver indicator unit, transmitter, preamplifier, PPI unit, and the antenna with its transmission line and duplexer [S143, part 4]. With the antenna at 130 feet the manual gives maximum reliable ranges of 51,500 yards on a battleship, carrier, large cruiser, or large auxiliary and 35,000 yards on a cruiser or medium auxiliary; against land it gives 170 miles [S143, part 4]. Two rows of that table, the destroyer row and the large-plane row, are printed in the online transcription with figures that do not fit their column and are not reproduced here. Minimum range on the A scope is 1,500 yards; PPI minimum is 2 1/2 miles on the 20-mile range and 6 miles on the 75-mile range [S143, part 4]. Resolution is 10 degrees in bearing and 500 yards in range [S143, part 4].
+The SK is described as an SC-2 with an antenna four times as large, the set comprising a control unit, receiver indicator unit, transmitter, preamplifier, PPI unit, and the antenna with its transmission line and duplexer [S143, part 4]. With the antenna at 130 feet the manual gives maximum reliable ranges of 51,500 yards on a battleship, carrier, large cruiser, or large auxiliary and 35,000 yards on a cruiser or medium auxiliary, and 170 miles against land [S143, part 4]. Two rows of that table, the destroyer row and the large-plane row, are printed in the online transcription with figures that do not fit their column and are not reproduced here. Minimum range on the A scope is 1,500 yards; PPI minimum is 2 1/2 miles on the 20-mile range and 6 miles on the 75-mile range [S143, part 4]. Resolution is 10 degrees in bearing and 500 yards in range [S143, part 4].
 
 NavSource's caption for Iowa in July 1945 gives the SK antenna as a 17-foot square array detecting aircraft to about 100 nautical miles with a height capability at that range of 10,000 feet, and describes the SR as the first entirely new air search set since CXAM, with an antenna about 15 ft by 6 ft, similar in size to the SC-2 [S146]. It describes the SU as a higher-resolution X-band surface search set with a small dish in a radome, good for about 20 nautical miles on a battleship [S146].
 
+### Radar repeaters
+
+The type allowance lists the radar repeater stations in order of priority, with the preferred model shown first in each entry [S159, sheet 175D]. Two entries name this class.
+
+| Station | Models allowed, in order of preference | Quantity | Source |
+|---|---|---|---|
+| Combat information center | VF; VG or VG-1; VK (or VJ, or VC 12-inch tube, or VD) | 1 + 1 + 3 | [S159, sheet 175D] |
+| Conning tower | VK (or VJ, or VC 12-inch tube, or VD) | 1 | [S159, sheet 175D] |
+| Open bridge | VK (or VJ, or VH, or VD) | 1 | [S159, sheet 175D] |
+| Flag plot | VK (or VJ, or VC 12-inch tube, or VD); and VK (or VF) | 1 + 1 | [S159, sheet 175D] |
+| Main battery plot forward, main battery plot aft | VK (or VJ, or VC 12-inch tube, or VD) | 1 each | [S159, sheet 175D] |
+| Secondary battery plot forward, secondary battery plot aft | VK (or VJ, or VC 12-inch tube, or VD) | 1 each | [S159, sheet 175D] |
+| Bridge or pilot house | VK (or VF). "In BB 57 and 61 Class installed in Elevated Conn" | 1 | [S159, sheet 175D] |
+| Forward main battery fire control station | VH (or VD, or VC) | 1 | [S159, sheet 175D] |
+| Flag station | VK (or VJ, or VC 12-inch tube, or VD) | 1 | [S159, sheet 175D] |
+| Auxiliary combat information center | VK (or VJ, or VC 12-inch tube, or VD) | 1 | [S159, sheet 175D] |
+| Air defense forward, air defense aft | VK (or VJ, or VH, or VD) | 1 each | [S159, sheet 175D] |
+| Secondary conn | VH (or VD, or VC) | 1 | [S159, sheet 175D] |
+| Navigating bridge | VH (or VD). "In BB 61 Class install in Conning Tower Walkway" | 1 | [S159, sheet 175D] |
+
 ## Sonar
 
-No source found; see `gaps-04.md`.
+The Bureau of Ships type allowance answers this directly for the ship type, and it is the only source fetched that does.
 
-The search covered the registry sources for the United States and the general web. Nothing fetched in this session states whether the Iowa class carried sonar, a sound room, or any underwater sound equipment in the Second World War, and nothing states that it did not. The class tables and museum specification sheets that list the ships' electronics list radar only, without a sonar line and without a statement that the line is empty [S150] [S157]. That silence is not evidence either way and is not recorded here as an absence. The queries run and the sources checked are in `gaps-04.md`.
+Sheet 175F, issued 1 August 1945, carries a block headed **SONAR MATERIAL** for type BB, battleships and division flagships. The whole block is two lines [S159, sheet 175F]:
+
+| Item | Quantity allowed | Source |
+|---|---|---|
+| Model NM series sounding equipment | 1 | [S159, sheet 175F] |
+| Model NK series (portable) sounding equipment | 1 | [S159, sheet 175F] |
+
+The Battleship Missouri Memorial's characteristics table, drawn from the ship's second decommissioning program of 31 March 1992, likewise carries no sonar line among its machinery, armor, and armament entries, though a museum summary sheet that omits a line is not a statement that the equipment was absent [S157].
+
+No echo-ranging or listening set appears anywhere in the type BB allowance. What a battleship was allowed to hold under the heading "sonar" as of 1 August 1945 was a depth sounder and a portable depth sounder [S159, sheet 175F]. That is a statement about the authorized allowance for the type, not a survey of a named hull on a named day, and the sheet is a type sheet rather than a per-ship list for these two lines. No source fetched for this facet names a sonar room, a sound room, or an underwater sound compartment in any ship of this class, and none gives a compartment number or a deck for the sounding equipment. That part of the question remains in `gaps-04.md`.
 
 ## Radio
 
-### Radio spaces
+### Spaces
 
-The Battleship New Jersey radio room restoration group states that before the 1980s modernization the BB-62 radio room was on the third deck, just aft of the No. 2 barbette, near sick bay, and that the present radio room on the main deck occupies what had been crew berthing, with the inner space now called FACCON 1 having been chief petty officer berthing and FACCON 2, now the ham shack, a passageway and part of the chaplain's office [S155]. The same museum group's member reference page lists arrangement drawings for the ship's Combat Engagement Center, Combat Information Center, Radio Central, and transmitter room, and a list of communications spaces, all describing the ship as preserved [S156].
+The type allowance is organized by space, which makes it the best evidence fetched for how a battleship's radio installation was divided. The stations it names for type BB are radio central, the radio transmitter room, the emergency radio station, a U.H.F. radio station identified on the sheet as "Radio IV or V" in a topside location, flag radio and flag plot, the combat information center, and a set of conning and control positions [S159, sheets 175A, 175B].
 
-No source fetched for this facet gives the wartime numbering of the radio rooms, the division of transmitter and receiver rooms, or the compartment numbers of radio central. See `gaps-04.md`.
+Table: radio spaces and their allowance, type BB, sheet 175A issued 1 December 1945 [S159, sheet 175A]
+
+| Space | Receivers | Transmitters | Other principal items |
+|---|---|---|---|
+| Radio central | 2 RBA, 6 RBB, 6 RBC, 1 RAK, 1 RAL, 1 RBS, 1 RBK, with 1 RBU panoramic adapter for RBB and 1 RBV for RBC | none listed | 1 LR frequency meter; 1 control unit type 23135; 11 key-control panels type 23146; receiver, transmitter, radiophone, and antenna transfer panels; 2 radiophone units; 19 jackboxes; 2 receiver coupling units; 1 hand telephone; 1 loudspeaker |
+| Radio transmitter room | 7 RBO, 1 RBA, 1 RBB, 1 RBC | 1 TBM, 1 TCK, 1 TBS transmitting and receiving equipment, 2 TCZ | 1 LR frequency meter; 1 control unit; 3 key-control panels; four transfer panels; 1 radiophone unit; 5 jackboxes; 1 hand telephone |
+| Emergency radio station | 1 RAK, 1 RAL | 1 TCK, 1 TBL | 2 key-control panels; four transfer panels; 1 radiophone unit; 4 jackboxes; 2 receiver coupling units; 1 type 50064 modulator equipment |
+| U.H.F. radio station (Radio IV or V), topside | 4 RDZ, 4 RCK | 2 SCR-608 transmitting and receiving, 2 AN/ARC-1 transmitting and receiving, 2 TDZ, 4 TDQ, 1 TBS | 2 type 66095 antenna assemblies; 1 control unit; 1 hand telephone; 4 type 211649 motor-generator sets |
+
+The conning and navigating positions get talking gear rather than sets. The ship conning station (pilot house) is allowed two control units, two key-control panels, two type 23211 radiophone units, two jackboxes, one speaker-amplifier, two loudspeakers, and two hand telephones; the navigating bridge two loudspeakers, two telephone receptacles, and two hand telephones; the primary or secondary conning station two control units, two key-control panels, two radiophone units, two jackboxes, one speaker-amplifier, three loudspeakers, one telephone receptacle, and three hand telephones [S159, sheet 175A]. A footnote against that last station reads: "This applies to 2nd Level above H. T. in BB 55, 56, and to 3rd Level above H. T. in BB 57-64" [S159, sheet 175A]. The sheet does not expand the abbreviation H. T.
+
+Twenty type 49620 series loudspeaker-amplifier units are allowed for broadcast "elsewhere" in the ship [S159, sheet 175C].
+
+One museum statement locates a radio room in a ship of the class. The Battleship New Jersey radio room restoration group states that before the 1980s modernization the BB-62 radio room was on the third deck, just aft of the No. 2 barbette, near sick bay, and that the present radio room on the main deck occupies what had been crew berthing, with the inner space now called FACCON 1 having been chief petty officer berthing and FACCON 2, now the ham shack, a passageway and part of the chaplain's office [S155]. The same museum group's member reference page lists arrangement drawings for the ship's Combat Engagement Center, Combat Information Center, Radio Central, and transmitter room, all describing the ship as preserved [S156].
 
 A wartime photograph of the radio room aboard New Jersey exists and is dated. Naval History and Heritage Command photograph 80-G-469927, from the Admiral Carney collection, is captioned "Radio room aboard USS NEW JERSEY (BB-62), December 1944, en route to Philippine Islands. Captain L. Dow is at the telephone" [S154].
 
 ### Equipment types
 
-One set is named for the class by a fetched source: the TBS. NavSource's caption on Iowa in July 1945 places a TBS antenna on the starboard yard [S146], and a caption on New Jersey in the early 1950s notes two extra TBS antennas added on the forward air defence platform [S147]. For the class in wartime, no fetched source names TBL, TBK, TCS, RAK, or RAL. Those sets are therefore described here only as the Navy's own 1946 training manual describes them, without any claim that the Iowa class carried them. See `gaps-04.md`.
+The allowance names the sets. What the Navy's own training manual for radiomen says about the ones it names [S144, ch. 22 to 23]:
 
-Table: Navy radio sets of the period as NAVPERS 10172 (1946) describes them [S144, ch. 22 to 23]
+| Set | Function | Figures | Source |
+|---|---|---|---|
+| TBS | Short-range transmitter and receiver for ship-to-ship work in task forces and convoys; voice or M.C.W.; crystal-controlled, one antenna shared through a press-to-talk relay | 50 watts; 60 to 80 mc band; receiver i.f. 5.3 mc; nominal range about the horizon | [S144, ch. 22] |
+| TBL | Two transmitters in one cabinet, an intermediate-frequency section and a high-frequency section sharing tubes through a transfer switch; C.W., M.C.W., or voice | 175 to 600 kc and 2,000 to 18,100 kc; 200 watts C.W., 100 watts M.C.W., 50 watts voice | [S144, ch. 22] |
+| TBK and TBM | Companion transmitters; the TBK is C.W. only and the TBM adds a modulator for voice and M.C.W. | 2,000 to 18,100 kc; about 500 watts at the low end falling to 300 watts at 18,100 kc | [S144, ch. 22] |
+| RAK and RAL | Companion receivers, usually installed in pairs, with a low-pass audio filter switchable between 450 to 770 and 770 to 1,300 cycles | RAK 15 to 600 kc in 6 bands; RAL 0.3 to 23 mc in 9 bands | [S144, ch. 23] |
 
-| Set | Function | Figures |
-|---|---|---|
-| TBS | Short-range transmitter and receiver for ship-to-ship work in task forces and convoys; voice or M.C.W.; crystal-controlled, one antenna shared by transmitter and receiver through a press-to-talk relay | 50 watts; 60 to 80 mc band; receiver i.f. 5.3 mc; nominal range about the horizon |
-| TBK | C.W. transmitter (the companion TBM adds a modulator for voice and M.C.W.) | 2,000 to 18,100 kc; about 500 watts at the low end falling to 300 watts at 18,100 kc |
-| TBL | Two transmitters in one cabinet, an intermediate-frequency section and a high-frequency section sharing tubes through a transfer switch; C.W., M.C.W., or voice | 175 to 600 kc and 2,000 to 18,100 kc; 200 watts C.W., 100 watts M.C.W., 50 watts voice |
-| RAK and RAL | Companion receivers, usually installed in pairs, with a low-pass audio filter switchable between 450 to 770 and 770 to 1,300 cycles | RAK 15 to 600 kc in 6 bands; RAL 0.3 to 23 mc in 9 bands |
+The type BB allowance lists the TBM, not the TBK [S159, sheet 175A]. TBL appears only in the emergency radio station, and RAK and RAL appear both in radio central and in the emergency radio station [S159, sheet 175A]. No TCS appears anywhere in the type BB sheets [S159, sheets 175A to 175G].
 
 The manual notes that the original RAK and RAL were built for direct current and that all later modifications run on 110/120 volt 60 cycle single-phase alternating current with provision for emergency direct current, and that modifications 6, 7, and 8 carry extra shielding against high-frequency radar interference [S144, ch. 23]. It recommends a separate antenna for each of the two receivers, and a loose input coupling when one antenna has to serve both [S144, ch. 23].
+
+Portable and spare communication gear allowed to the type includes 1 TBX and 2 TBY transmitting and receiving equipments, 2 OAH series code practice sets, 52 head telephone assemblies, and 8 chest microphone assemblies [S159, sheet 175G].
 
 ### Flag communications
 
 New Jersey became a fleet flagship on 4 February 1944, when Admiral Raymond A. Spruance, commanding the Fifth Fleet, broke his flag from her main at Majuro, and again on 24 August 1944, when Admiral Halsey broke his flag in her as Commander, Third Fleet [S158]. The December 1944 radio room photograph was taken while she was Halsey's flagship and shows the fleet communications officer at the telephone [S154].
 
-Two pieces of the ship were built for the flag. NavSource, drawing on Friedman, records that Iowa's conning tower had three levels and that the lowest was for the fleet commander [S146]. A pre-commissioning caption on the same page notes the antenna trunks on the flag bridge level forward of the after stack [S146].
+The type BB allowance treats the flag as a separate communications customer. Flag radio and flag plot together are allowed 2 type 24502 selector switches, 2 control units, 2 key-control panels, 2 radiophone units, 3 jackboxes, 2 speaker-amplifier units, 2 loudspeakers, and 2 hand telephone assemblies of each of two types; the flag bridge separately gets 2 loudspeakers, 2 telephone receptacles, and 2 hand telephone assemblies [S159, sheet 175B]. Flag plot is allowed two radar repeaters and the flag station one more [S159, sheet 175D].
 
-No source fetched for this facet describes the flag radio spaces, the flag plot, or the extra circuits worked when the ship carried a fleet staff. See `gaps-04.md`.
+Two pieces of the ship were built for the flag. NavSource, drawing on Friedman, records that Iowa's conning tower had three levels and that the lowest was for the fleet commander [S146]. A pre-commissioning caption on the same page notes the antenna trunks on the flag bridge level forward of the after stack [S146].
 
 ## Antennas
 
-Everything below is from dated photograph captions on the NavSource indexes and is tier 3.
+### The antenna system as allowed
+
+Table: antenna system, type BB, sheet 175C issued 1 August 1945 [S159, sheet 175C]
+
+| Item | Quantity |
+|---|---|
+| Type 66045 vertical antennas | 2 |
+| Type 66046 vertical antennas | 7 |
+| Type 66047 vertical antennas | 4 |
+| Type 10098 antenna mounting adapters | 3 |
+| Type 50163 antenna coupling units | 8 |
+| Type 61493 suspension insulators | 40 |
+| Type 61479 suspension insulators | 18 |
+| Type 61019C entrance insulators | 21 |
+| Type 61471 entrance insulators | 27 |
+| Type 61475 entrance insulators | 18 |
+| Type 61174B pedestal insulators | 50 |
+| Type 61175A pedestal insulators | 5 |
+| Type 61339 pedestal insulators | 172 |
+| Type 61335 antenna supporting insulators | 4 |
+| Type 61350 antenna supporting insulators | 7 |
+| Type 61432 antenna supporting insulator | 3 |
+| Type 61395A spacer insulators | 350 |
+| Type 61352 anti-corona caps | 12 |
+
+Quantities marked with an asterisk on the sheet are stated to vary slightly between vessels and classes; on this block the asterisked entries are the suspension, entrance, pedestal, and spacer insulators [S159, sheet 175C].
+
+Thirteen vertical antennas and the suspension, spacer, and anti-corona hardware are the two halves of the rig: whips on their pedestals, and wire antennas strung between insulators [S159, sheet 175C]. The fitting-out spares sheet carries the wire itself, at 300 ft of 7 by number 18 bronze antenna wire, 300 ft of 5/16 in diameter 6 by 19 bronze wire rope, 200 ft of 7/16 in diameter 6 by 19 bronze wire rope, 300 ft of 1/4 in outside diameter copper coaxial transmission line, and 400 ft of type RG12/U coaxial transmission line [S159, sheet 175G].
+
+### What photographs show aloft
+
+Everything below is from dated photograph captions on the NavSource indexes, a museum and enthusiast compilation rather than a document.
 
 Table: antennas identified in photographs, Iowa (BB-61) [S146]
 
@@ -316,17 +430,37 @@ Table: antennas identified in photographs, Iowa (BB-61) [S146]
 
 Later fits on the same index, recorded here because they date the retirement of the wartime arrangement: a back-to-back TDY jamming antenna forward and just below the forward air defence level, ski-pole IFF antennas on the yardarms, and the omni-directional warning antennas Derby, CAGW-66132, covering 300 to 3,000 mc/s, and Sword, CAGW-66131, covering 40 to 300 mc/s, the Sword used to sample enemy reactions to jamming [S146].
 
+### IFF antennas and the sets behind them
+
 The Mark III IFF system that the ski-pole and BK/BL designations belong to is described in the 1945 Radar Operator's Manual. It has two units. The BL, or BN, is a shipborne or land-based recognition radar mounted alongside the search radar, with an antenna, duplexer, transmitter, and receiver but no modulation generator or indicator of its own, using the search radar's timing system and indicator; its interrogator section challenges and its responsor section intercepts the answers [S143, part 2]. The transpondor that answers is the BK in shipboard installations and the ABK in aircraft, a compact unit weighing about 30 pounds, entirely automatic once switched on [S143, part 2]. A steering-wheel dipole antenna is generally used with the BK aboard ship and a single dipole with the ABK in aircraft [S143, part 2].
 
-The BK-7 on Iowa's yardarms and the BL-5 panel above her SK antenna in 1945 photographs match that pairing [S146].
+The BK-7 on Iowa's yardarms and the BL-5 panel above her SK antenna in 1945 photographs match that pairing [S146], and the type allowance's two BL or BM interrogator-responsors, two BN interrogator-responsors, and three BK transponsors put numbers to it [S159, sheet 175D].
 
 ## Combat information center
 
-No Iowa-specific source found; see `gaps-04.md`.
+The type allowance gives the CIC's electronic fit for type BB. It does not give its location, the date it was fitted in these hulls, or who manned it, and no other source fetched for this facet does either. Those remain in `gaps-04.md`.
 
-Nothing fetched for this facet states where the combat information center was in any ship of the class, when it was fitted, what it held, or who manned it. What follows is what the two service publications say about the CIC in general, and it is not offered as a description of these ships.
+Table: combat information center allowance, type BB [S159, sheets 175B, 175D]
 
-The 1944 gunnery manual defines the CIC as an agency for the collection, evaluation, and distribution of combat information, existing to assist command in planning a course of action and to assist command and fire control in executing it, and says explicitly that it is neither strange and complex nor merely another plotting room under a new name [S141, p. 501]. It divides the CIC into evaluation and control sections and lists what it can do for fire control: designate or suggest targets, coach gun control onto targets, provide an initial solution for the computing mechanisms in plot, control or warn the automatic weapons, and spot fall of shot when a gun control station asks [S141, pp. 501 to 502].
+| Item | Quantity | Source |
+|---|---|---|
+| Model RBS series receiving equipments | 2 | [S159, sheet 175B] |
+| Model RBK series receiving equipment | 1 | [S159, sheet 175B] |
+| Model RBW panoramic adapter for RBK | 1 | [S159, sheet 175B] |
+| Type 23135 control units | 2 | [S159, sheet 175B] |
+| Type 23146 key-control panels | 3 | [S159, sheet 175B] |
+| Type 23423 radiophone units | 4 | [S159, sheet 175B] |
+| Type 49029 jackboxes | 3 | [S159, sheet 175B] |
+| Type 49620 series speaker-amplifier units | 4 | [S159, sheet 175B] |
+| Type 49546 loudspeaker units | 5 | [S159, sheet 175B] |
+| Hand telephone assemblies, types 51019 and 51008 | 2 and 4 | [S159, sheet 175B] |
+| Type 24502 selector switches | 4 | [S159, sheet 175B] |
+| Type 23187 receiver transfer panel | 1 | [S159, sheet 175B] |
+| Radar repeaters: VF, VG or VG-1, and three VK (or VJ, or VC 12-inch tube, or VD) | 5 | [S159, sheet 175D] |
+
+The sheets also provide for an auxiliary combat information center, allowed one control unit, one key-control panel, one radiophone unit, one jackbox, one speaker-amplifier unit, one type 49155 loudspeaker unit, one hand telephone assembly, one selector switch, and one radar repeater [S159, sheets 175C, 175D]. A visual fighter director station at the forward air defense level is a separate entry, with one radiophone unit, one loudspeaker, and one speaker-amplifier [S159, sheet 175C].
+
+What the CIC was for is set out in two service publications. The 1944 gunnery manual defines it as an agency for the collection, evaluation, and distribution of combat information, existing to assist command in planning a course of action and to assist command and fire control in executing it, and says explicitly that it is neither strange and complex nor merely another plotting room under a new name [S141, p. 501]. It divides the CIC into evaluation and control sections and lists what it can do for fire control: designate or suggest targets, coach gun control onto targets, provide an initial solution for the computing mechanisms in plot, control or warn the automatic weapons, and spot fall of shot when a gun control station asks [S141, pp. 501 to 502].
 
 The 1945 Radar Operator's Manual repeats that definition and lists the position information that feeds the CIC and is displayed on the dead reckoning tracer, summary, and air plots: visual ranges and bearings, optical ranges and bearings, radar ranges and bearings, sound ranges and bearings, direction finder bearings, radar detection receiver bearings, fathometer depths, and SMSD indications [S143, part 5]. It adds that the CIC is broadly alike on all combatant ships but differs in size, in the number of radar sets, and in personnel allowance by ship type, and it prints typical layouts for battleships, carriers, light cruisers, and destroyers as figures [S143, part 5].
 
@@ -334,19 +468,23 @@ The 1945 Radar Operator's Manual repeats that definition and lists the position 
 
 ### Identification, friend or foe
 
-The Mark III system, with the shipborne BL or BN interrogator-responsor and the BK transpondor, is described under antennas above [S143, part 2]. Photographs identify a BK-7 on Iowa's yardarms and a BL-5 panel on top of her SK antenna in 1945, and ski-pole IFF antennas flanking her relocated SG [S146].
+The Mark III system, with the shipborne BL or BN interrogator-responsor and the BK transpondor, is described under antennas above [S143, part 2]. The type BB allowance holds two BL or BM series, one BO-1 series where SP is installed, two BN series, and three BK series transponsors, with four type CTZ 66 ACG or CTZ 66 AFJ antennas and eight type 6V-SBM-15AH storage batteries [S159, sheet 175D]. Fire control IFF is a separate line: four Mark 32 sets for BB 60-62 and four for BB 63-64 [S159, sheets 175E, 175F]. Photographs identify a BK-7 on Iowa's yardarms and a BL-5 panel on top of her SK antenna in 1945, and ski-pole IFF antennas flanking her relocated SG [S146].
 
 ### Radio direction finder
 
-A DBA radio direction finder stands on a topmast behind Iowa's SK antenna in a photograph of 8 July 1945, flanked port and starboard by two fighting lights [S146]. Postwar, DBM radar direction finders appear on the after funnel and on an enlarged mast attached to No. 2 stack [S146].
+A DBA radio direction finder stands on a topmast behind Iowa's SK antenna in a photograph of 8 July 1945, flanked port and starboard by two fighting lights [S146]. The type allowance lists one Model DBM-1 direction finding system under radar countermeasures material, alongside a TDY-1 transmitter, a high frequency transmitter, an RDO series receiver, an RDJ pulse analyzer, an RDP panoramic adapter, and an AN/SPR-2 receiver [S159, sheet 175F]. Postwar, DBM radar direction finders appear on Iowa's after funnel and on an enlarged mast attached to No. 2 stack [S146].
 
-### Gyrocompass
+### Fathometer
 
-The SG radar takes true bearing from the ship's gyrocompass system; when the gyro repeater system fails the operator throws a synchro switch to emergency and reads relative bearings only [S143, part 4]. The SC and SK sets have the same relative-true bearing switch, true putting the antenna under the ship's gyro system [S143, part 4]. The SG troubleshooting instructions tell the operator that if synchro excitation to the antenna control motor fails he should first shift the gyro-control panel from the forward gyro supply to the after gyro supply or the reverse, which establishes that a ship carrying SG had at least two gyro supplies [S143, part 4]. No source fetched for this facet names the gyrocompass model fitted in the Iowa class or says how many were carried. See `gaps-04.md`.
+The type BB sonar allowance is one Model NM series sounding equipment and one Model NK series portable sounding equipment [S159, sheet 175F]. Fathometer depths appear in the Radar Operator's Manual list of position information reaching the CIC [S143, part 5]. No source fetched for this facet gives the compartment either sounder was worked from.
 
-### Fathometer and pit log
+### Loran
 
-Fathometer depths appear in the Radar Operator's Manual list of position information reaching the CIC [S143, part 5]. No source fetched for this facet names a fathometer or a pit log in the Iowa class. See `gaps-04.md`.
+The chart house is allowed one Model DAS Loran equipment and one jackbox [S159, sheet 175B].
+
+### Gyrocompass and pit log
+
+The SG radar takes true bearing from the ship's gyrocompass system; when the gyro repeater system fails the operator throws a synchro switch to emergency and reads relative bearings only [S143, part 4]. The SC and SK sets have the same relative-true bearing switch, true putting the antenna under the ship's gyro system [S143, part 4]. The SG troubleshooting instructions tell the operator that if synchro excitation to the antenna control motor fails he should first shift the gyro-control panel from the forward gyro supply to the after gyro supply or the reverse, which establishes that a ship carrying SG had at least two gyro supplies [S143, part 4]. No source fetched for this facet names the gyrocompass model fitted in this class, says how many were carried, or names a pit log. See `gaps-04.md`.
 
 ## Optical equipment and searchlights
 
@@ -382,10 +520,12 @@ The same director controls star shell. A star-shell computer attached to the mai
 ## Conflicts between sources
 
 1. **Turret rangefinder base length.** Naval Ordnance and Gunnery (1944) gives 43 feet for the turret rangefinder in a new-construction battleship, with a scale from 4,500 to about 70,000 yards [S141, p. 456]. NavWeaps gives the Iowa class 46-foot, 25-power instruments, Mark 52 stereoscopic in turrets II and III and Mark 53 coincidence in turret I [S151]. The manual is not class-specific and the NavWeaps page is; both figures are recorded.
-2. **Number of secondary plotting rooms.** The 1944 manual offers two alternatives for battleships, one plotting room with four computer and stable element groups or two rooms with two each, and does not say which applies to any class [S141, p. 387]. A 1983 caption names a "forward secondary battery plot room" in New Jersey, which implies two, but describes the ship after her 1980s modernization [S147].
-3. **Wisconsin's main battery radar in 1945.** navypedia records two Mark 8 removed and two Mark 13 added in May 1945 [S150]. No photograph caption on the NavSource Wisconsin index confirms or contradicts the date; its 21 March 1952 caption refers only to "her Mk.38 main battery director and various radar antennas" [S149].
-4. **Iowa's air search set after the March 1945 refit.** navypedia lists both SC-2 and SK-2 added in March 1945 [S150]. NavSource states that Iowa received SK-2 postwar, noting it in a photograph of about mid-1946, and a caption on a late-1948 photograph identifies the installation as an SC-2 [S146].
+2. **SP radar in Iowa.** navypedia lists SP added to Iowa in the March 1945 refit [S150]. The type allowance of 1 August 1945 allows the SP medium fighter director radar in BB 36-59 and BB 62-64, which excludes BB 61 [S159, sheet 175D]. Both are recorded.
+3. **SR radar in Wisconsin.** navypedia lists SR added to Wisconsin in the May 1945 refit [S150]. The type allowance allows the SR medium air search radar in BB 60 and BB 61 only [S159, sheet 175D]. NavSource's July 1945 caption places an SR on Iowa, which agrees with the allowance for BB 61 [S146]. Both are recorded.
+4. **Mark 57 directors in New Jersey.** A NavSource caption on the 24 June 1945 inclining photographs states that New Jersey had been fitted with Mark 57 radar directors for her 40 mm guns [S147]. The type allowance of 1 August 1945 allows no Mark 29-2 heavy machine gun battery radar in BB 62 [S159, sheet 175E]. An allowance sheet and a photograph caption are different kinds of evidence and both are recorded.
+5. **Iowa's air search set after the March 1945 refit.** navypedia lists both SC-2 and SK-2 added in March 1945 [S150]. NavSource states that Iowa received SK-2 postwar, noting it in a photograph of about mid-1946, and a caption on a late-1948 photograph identifies the installation as an SC-2 [S146].
+6. **Wisconsin's main battery radar in 1945.** navypedia records two Mark 8 removed and two Mark 13 added in May 1945 [S150]. The type allowance of 1 August 1945 still gives BB 63-64 two Mark 8 and does not list Mark 13 for that group, while it does give Mark 13 to BB 60-62 [S159, sheets 175E, 175F]. Both are recorded.
 
 ## Gaps
 
-The following sub-facets have no source and are recorded in `gaps-04.md` with the queries run and the sources checked: sonar of any kind; the combat information center of this class, its location, date fitted, equipment, and staffing; the wartime radio room numbering and the location of radio central; which radio transmitter and receiver types other than TBS the class carried; flag radio spaces and flag plot; the Mark 63 director on this class; the number and location of the secondary battery plotting rooms; gyrocompass models and count; fathometer; pit log.
+The following sub-facets have no source and are recorded in `gaps-04.md` with the queries run and the sources checked: a sonar room, sound room, or the compartment holding the NM and NK sounding equipment; the location, date fitted, and staffing of the combat information center in this class; the wartime compartment numbers and decks of radio central, the radio transmitter room, the emergency radio station, and the U.H.F. radio station; the deck and frame position of the four plotting rooms; the Mark 63 director on this class; gyrocompass models and count; a pit log.

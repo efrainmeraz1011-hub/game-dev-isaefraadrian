@@ -22,7 +22,7 @@ S8. Japan 25 mm/60 (1") Type 96. Tony DiGiulian. NavWeaps, page updated 17 Novem
 
 S9. 数字で見る戦艦「大和」 (Battleship Yamato in numbers). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/yamato-data/. Tier 2. Accessed 2026-09-12. Data summary table (データまとめ).
 
-S10. 10分の1戦艦「大和」 (The 1:10 battleship Yamato). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/%E5%A4%A7%E5%92%8C%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/10%E5%88%86%E3%81%AE1%E6%88%A6%E8%89%A6%E3%80%8C%E5%A4%A7%E5%92%8C%E3%80%8D/. Tier 2. Accessed 2026-09-12. Opening paragraphs.
+S10. 10分の1戦艦「大和」 (The 1:10 battleship Yamato). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/%e5%a4%a7%e5%92%8c%e3%83%9f%e3%83%a5%e3%83%bc%e3%82%b8%e3%82%a2%e3%83%a0%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/10%e5%88%86%e3%81%ae1%e6%88%a6%e8%89%a6%e3%80%8c%e5%a4%a7%e5%92%8c%e3%80%8d/. Tier 2. Accessed 2026-09-12. Opening paragraphs: builder, completion and loss dates, and the crew and casualty figures.
 
 S11. Japanese 18" Guns and Mounts. US Naval Technical Mission to Japan, report index O-45(N), 1 February 1946; investigation and report by Comdr. A. J. Stewart, RN, and Lt. Comdr. Lyman. Hosted by fischer-tropsch.org. https://www.fischer-tropsch.org/primary_documents/gvt_reports/USNAVY/USNTMJ%20Reports/USNTMJ-200F-0384-0445%20Report%20O-45%20N.pdf. Tier 1. Accessed 2026-09-12. Pages 1, 5, 7, 9, 13 (Figure 7), 16 to 20 (Figures 12, 14, 15), 22, 27, 29, 31, 32, 34, 36, 37, 50.
 
@@ -44,9 +44,9 @@ S27. Best Battleship: Armor. combinedfleet.com, undated. http://www.combinedflee
 
 S28. YAMATO battleships (1941 - 1942). navypedia, copyright 2007 to 2026. https://www.navypedia.org/ships/japan/jap_bb_yamato.htm. Tier 3. Accessed 2026-09-12. Ships table, technical data, project history, ship protection, modernizations, naval service.
 
-S29. フロアガイド (Floor guide). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/floor/. Tier 2. Accessed 2026-09-12. Description of the 1:10 model.
+S29. フロアガイド (Floor guide). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/%e9%a4%a8%e5%86%85%e6%a1%88%e5%86%85/. Tier 2. Accessed 2026-09-12. Description of the 1:10 model.
 
-S31. 研究情報 (Research information). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/research/. Tier 2. Accessed 2026-09-12. Note on the 2024 to 2025 refurbishment of the 1:10 model.
+S31. 研究情報 (Research information). Yamato Museum (Kure Maritime Museum), undated. https://yamato-museum.com/%e7%a0%94%e7%a9%b6%e6%83%85%e5%a0%b1/. Tier 2. Accessed 2026-09-12. Note on the 2024 to 2025 refurbishment of the 1:10 model.
 
 S32. How Paul Allen discovered the world's largest sunken battleship, the Musashi. Kristin Romey. National Geographic; the page's structured data gives a published date of 16 October 2018 and the body carries an update note of that date, so the underlying text is the March 2015 report. https://www.nationalgeographic.com/history/article/150309-worlds-largest-battleship-musashi-world-war-underwater-archaeology-technology. Tier 3. Accessed 2026-09-12. Whole article.
 

@@ -2,7 +2,7 @@
 
 Status: partial (see gaps.md)
 
-Nothing found in this session describes daily life aboard a Littorio-class ship in particular. The messing, watch and berthing practice below is Regia Marina practice of the period, taken from the Navy's own 1938 regulation on embarkation allowances and from an Italian magazine photo-essay made aboard a warship in June 1941. It is recorded here as navy-wide practice, not as a statement about these four ships.
+Nothing found in this session describes daily life aboard a Littorio-class ship in particular. The messing, watch and berthing practice below is Regia Marina practice of the period, taken from the Navy's own regulation on embarkation allowances [S18] and from an Italian magazine photo-essay made aboard a warship in June 1941 [S24]. It is recorded here as navy-wide practice, not as a statement about these four ships.
 
 ## Complement
 

@@ -1,0 +1,20 @@
+{
+  "class": "Yamato class",
+  "type": "battleship",
+  "nation": "Japan",
+  "navy": "Imperial Japanese Navy",
+  "ships": [
+    {"name": "Yamato", "hull": "Battleship No. 1", "aliases": ["Battleship No. 1", "大和"], "file": "ships/yamato.md"},
+    {"name": "Musashi", "hull": "Warship No. 2 (hull No. 800)", "aliases": ["Warship No. 2", "武蔵"], "file": "ships/musashi.md"},
+    {"name": "Shinano", "hull": "Hull No. 110", "aliases": ["Hull No. 110", "信濃"], "file": "ships/shinano.md"},
+    {"name": "No. 111", "hull": "Hull No. 111", "aliases": ["Warship No. 111"], "file": "08-service-history.md"}
+  ],
+  "weapons": [
+    {"designation": "46 cm/45 Type 94", "role": "main battery", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-46-cm45-type-94"},
+    {"designation": "15.5 cm/60 3rd Year Type", "role": "secondary battery", "file": "03-armament-and-ammunition.md", "anchor": "secondary-battery-155-cm60-3rd-year-type"},
+    {"designation": "12.7 cm/40 Type 89", "role": "heavy anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "heavy-anti-aircraft-battery-127-cm40-type-89"},
+    {"designation": "25 mm/60 Type 96", "role": "light anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "light-anti-aircraft-battery-25-mm60-type-96"},
+    {"designation": "13.2 mm machine gun", "role": "light anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "132-mm-machine-guns"},
+    {"designation": "Mitsubishi F1M2 Pete", "role": "float reconnaissance aircraft", "file": "03-armament-and-ammunition.md", "anchor": "aircraft"}
+  ]
+}

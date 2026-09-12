@@ -1,0 +1,24 @@
+{
+  "class": "Littorio class",
+  "type": "battleship",
+  "ships": [
+    {"name": "Littorio", "hull": "", "aliases": ["Italia"], "file": "ships/littorio.md"},
+    {"name": "Vittorio Veneto", "hull": "", "aliases": [], "file": "ships/vittorio-veneto.md"},
+    {"name": "Roma", "hull": "", "aliases": [], "file": "ships/roma.md"},
+    {"name": "Impero", "hull": "", "aliases": [], "file": "ships/impero.md"}
+  ],
+  "weapons": [
+    {"designation": "381 mm/50 Ansaldo Model 1934", "role": "main battery", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-381-mm50-ansaldo-model-1934-and-model-1939"},
+    {"designation": "381 mm/50 Model 1939", "role": "main battery, Roma and Impero", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-381-mm50-ansaldo-model-1934-and-model-1939"},
+    {"designation": "152 mm/55 Ansaldo Model 1934", "role": "secondary battery, Littorio", "file": "03-armament-and-ammunition.md", "anchor": "secondary-battery-152-mm55-models-1934-and-1936-in-triple-turrets"},
+    {"designation": "152 mm/55 OTO Model 1936", "role": "secondary battery, Vittorio Veneto and Roma", "file": "03-armament-and-ammunition.md", "anchor": "secondary-battery-152-mm55-models-1934-and-1936-in-triple-turrets"},
+    {"designation": "120 mm/40 Model 1891", "role": "star shell", "file": "03-armament-and-ammunition.md", "anchor": "star-shell-guns-120-mm40-model-1891"},
+    {"designation": "90 mm/50 Model 1939", "role": "heavy anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "heavy-anti-aircraft-battery-90-mm50-model-1939-in-stabilised-single-mounts"},
+    {"designation": "37 mm/54 Breda Models 1932, 1938 and 1939", "role": "light anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "light-anti-aircraft-battery-37-mm54-breda"},
+    {"designation": "20 mm/65 Breda Model 1935", "role": "light anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "light-anti-aircraft-battery-20-mm65-breda-model-1935"},
+    {"designation": "IMAM Ro.43", "role": "reconnaissance floatplane", "file": "03-armament-and-ammunition.md", "anchor": "aircraft-and-catapult"},
+    {"designation": "Reggiane Re.2000", "role": "catapult fighter", "file": "03-armament-and-ammunition.md", "anchor": "aircraft-and-catapult"},
+    {"designation": "Pugliese underwater protection system", "role": "torpedo defense", "file": "01-hull-and-armor.md", "anchor": "pugliese-underwater-protection-system"},
+    {"designation": "EC 3 ter Gufo", "role": "search radar", "file": "04-sensors-fire-control-and-communications.md", "anchor": "radar"}
+  ]
+}

@@ -236,113 +236,24 @@ Rough eligibility across the 2,880 objective × package × complication combinat
 
 ## 7. Catalog B — seventy-two events
 
-EVT-01 through EVT-14 exist in the design document at [§1.14:469] and are restated here in the same grammar. EVT-15 onward are new.
+The catalog lives in its own file: **[CATALOG-EVENTS.md](CATALOG-EVENTS.md)**.
 
-Column key: **Shape** is one of the fifteen decision shapes. **Gate** is the requirement on the best option. **Leaves behind** is the persistent consequence, which is what stops an event being a slot machine.
+72 events across the six families, EVT-01 through EVT-72. Every option carries the
+seven-part contract from [CONSEQUENCES.md](CONSEQUENCES.md): what it spends, the future
+option it closes, and how to recover. 206 options in total, each one validated by
+`scripts/check-consequences.py`.
 
-### 7.1 Supply and salvage — weight 20
+| Family | Events | Weight |
+|---|---:|---:|
+| Supply and salvage | 16 | 20 |
+| Rescue | 10 | 10 |
+| Decision and barter | 14 | 15 |
+| Hazard and emergency | 14 | 10 |
+| Quiet water | 7 | 10 |
+| Combat hooks | 9 | 35 |
 
-| ID | Hook | Shape | Choices | Gate | Leaves behind |
-|---|---|---|---|---|---|
-| EVT-02 | Sealed ration cases adrift | Blind trade | Grab fast, inspect first, pass | — | Only usable units enter stock; a full hold forces a partial pickup |
-| EVT-03 | Ammunition on a cargo raft | Gated | Inspect, recover, leave | Compatible calibre | Unknown rounds never become free compatible ammunition |
-| EVT-06 | Abandoned supply launch | Two goods | Fuel, parts, or a limited mix | — | The source depletes once; an interrupted transfer keeps only what landed |
-| EVT-07 | Adrift weapon assembly | Capacity | Salvage the mount or strip it | Spare storage | Storing and stripping are exclusive |
-| EVT-12 | Wreck chart or dispatch pouch | Information | Spend time reading it | — | Reveals an existing node or flag, never invents a quest |
-| EVT-15 | A freighter going down with deck cargo still lashed | Take or leave | Cut it free under a sinking clock, or stand off | Sea boat halves the time | She sinks either way; what you left goes with her |
-| EVT-16 | An oil slick leading to a half-sunk tanker | Gamble | Pump fuel, take a sample first, or leave | — | Fire risk scales with how much you take; a fire starts in your own bunker |
-| EVT-17 | A drifting mine with its detonator intact | Known trade | Strip it for parts, sink it by gunfire, or avoid | Specialist team to strip | Stripping can go wrong; gunfire spends shells and makes noise |
-| EVT-18 | A landing craft beached on a sandbar, tide falling | Debt | Board now, wait for the tide, or leave | — | Waiting costs hours and threat; boarding late strands your party |
-| EVT-19 | A crated aircraft engine on a raft | Two goods | Sell it whole, or break it for parts | Workshop for parts | You cannot do both |
-| EVT-20 | A weighted codebook bag that failed to sink | Information | Recover it | Diver or grapnel | Reveals enemy routing for two sectors; the enemy learns it is missing |
-| EVT-21 | A supply cache marked on a captured chart | Commitment | Divert off the route to reach it | Chart flag from EVT-12 | The detour costs a layer of progress and may be empty |
-| EVT-22 | An enemy resupply buoy, mined | Gated | Disarm, destroy, or leave | Specialist team | Destroying it denies the enemy and raises threat |
-| EVT-23 | An abandoned depot on an islet, three lots | Capacity | Your hold fits one | — | The other two are gone for the run |
-| EVT-24 | A hospital ship's jettisoned medical stores | Standing | Take them, or report their position | — | Taking them costs standing with that faction |
-| EVT-25 | A torpedo, run out and floating, still live | Gamble | Recover it, destroy it, or leave it for someone else | Torpedo tubes to reuse it | Recovery can detonate it alongside |
-
-### 7.2 Rescue — weight 10
-
-| ID | Hook | Shape | Choices | Gate | Leaves behind |
-|---|---|---|---|---|---|
-| EVT-04 | A raft with a surviving team | Take or leave | Recruit, carry as passengers, signal, pass | An empty active slot | Identity, health and skill fix at rescue; no free healing |
-| EVT-05 | A civilian survivor raft | Standing | Recover, relay their position, pass | — | Survivors eat rations and never become a combat team |
-| EVT-11 | A distress signal of uncertain origin | Hidden branch | Observe, scout, approach, ignore | Radar or a scout aircraft to observe safely | The branch commits before it reveals; reloading cannot turn an ambush into a rescue |
-| EVT-26 | Ditched aircrew, enemy nationality | Standing | Take prisoners, interrogate, leave | Accommodation slot | Prisoners are information and a ration cost; leaving them costs nothing but is remembered |
-| EVT-27 | An overloaded lifeboat, more people than you can take | Triage | Choose who comes aboard | — | Whoever you leave is named in the debrief |
-| EVT-28 | Survivors in fuel oil, air threat inbound | Sacrifice | Stop and recover, or clear the area | — | Stopping fixes your position for the aircraft |
-| EVT-29 | A merchant crew who will not leave a ship that will sink | Pursuit | Persuade, board and force them, or go | — | Boarding detaches a team for several nodes |
-| EVT-30 | Man overboard during a high-speed turn | Sacrifice | Turn back, drop a boat, or mark and press on | Sea boat | Pressing on costs morale and sets a flag |
-| EVT-31 | A raft with one officer who knows a minefield lane | Information | Recover him | Accommodation slot | He gives a safe lane in a later sector, or dies of exposure if you wait |
-| EVT-32 | Survivors showing signs of typhus | Gamble | Take them, quarantine them, or signal their position | Medical ≥ 3 | Taking them without medical supplies infects a team three nodes later |
-| EVT-33 | Your own boat crew overdue from a previous recovery | Pursuit | Search, or write them off | — | Searching costs hours; the team returns, or does not |
-
-### 7.3 Decision and barter — weight 15
-
-| ID | Hook | Shape | Choices | Gate | Leaves behind |
-|---|---|---|---|---|---|
-| EVT-10 | A merchant offers a finite barter | Known trade | Accept or decline | — | Both sides' stock saves; the offer never regenerates |
-| EVT-13 | A friendly repair party alongside | Known trade | Accept a capped patch, swap parts, or decline | — | Real capacity; no free hull on a second visit |
-| EVT-34 | A neutral trawler wants fuel for fish and fresh water | Known trade | Trade, refuse, or take by force | — | Force costs standing and the trawler reports you |
-| EVT-35 | A friendly submarine asks you to stop pinging so it can withdraw | Two goods | Stop searching, or keep the contact | — | Stopping lets your own contact escape; refusing sets a flag with that flotilla |
-| EVT-36 | The convoy commodore orders you to a station you think is wrong | Standing | Obey, argue, or ignore | — | Obeying may cost the convoy; arguing costs standing and time |
-| EVT-37 | An allied ship asks for your last spare parts | Sacrifice | Give, split, or refuse | — | Giving buys a favour flag redeemable at a later port |
-| EVT-38 | A port official offers to move you up the repair queue | Standing | Pay, refuse, or report him | Scrap | Paying works; reporting him closes that port's premium stock |
-| EVT-39 | A merchant captain offers his chart library for medical supplies | Known trade | Trade or decline | Medical ≥ 2 | Charts reveal two hazards in the next sector |
-| EVT-40 | A coastwatcher offers a warning network for a radio set | Commitment | Give up a radio, or decline | Spare radio module | Reduces surprise encounters for the rest of the sector |
-| EVT-41 | An abandoned enemy vessel worth taking as a prize | Sacrifice | Put a prize crew aboard, sink her, or leave | A spare team | The prize crew is gone from your roster until it returns, if it returns |
-| EVT-42 | An officer asks to be transferred off after a bad action | Standing | Release him, refuse, or promote someone else | — | Refusing costs morale; releasing costs a team |
-| EVT-43 | A downed pilot's squadron offers air support for his return | Known trade | Return him for a support charge, or keep him | Rescued aircrew flag | The charge is finite and spends like any other |
-| EVT-44 | A neutral port will sell fuel but only if you leave your guns covered | Gated | Accept the condition, refuse, or look elsewhere | — | Accepting means a delay before you can fight on departure |
-| EVT-45 | Intelligence offers a route reveal for one of your teams | Two goods | Trade a team for the map, or keep the crew | Seven active teams | You cannot go below one active team |
-
-### 7.4 Hazard and emergency — weight 10
-
-| ID | Hook | Shape | Choices | Gate | Leaves behind |
-|---|---|---|---|---|---|
-| EVT-01 | An unseen mine, already detonated | Sacrifice | Assign teams, choose fire or flooding first | — | One spent mine; the field is navigable, not another arrival hit |
-| EVT-08 | Fouled propeller | Known trade | Detach a team, or limp on | Diver halves the time | The fault persists; the map does not reset it |
-| EVT-09 | Storm cargo shift | Triage | Secure the stores, reroute, or press on | — | Loss draws from actual stock; empty magazines cannot go negative |
-| EVT-46 | A boiler tube lets go | Known trade | Repair now, or run on reduced power | Parts ≥ 3 | Reduced speed raises fuel cost per leg until fixed |
-| EVT-47 | The condenser salts up after a near miss | Debt | Shut down and clean, or ration fresh water | — | Rationing water compounds into morale over the following nodes |
-| EVT-48 | Steering jams mid-turn | Gamble | Hand steering from aft, or stop engines | — | Hand steering is slower to answer for the rest of the sector |
-| EVT-49 | A shell in the magazine that did not go off | Sacrifice | Send a team to remove it, or flood the magazine | — | Flooding costs the ammunition; removing it can cost the team |
-| EVT-50 | Fog closes in with a submarine known to be near | Gamble | Press on slow, stop and listen, or turn back | Sonar tier 2 | Stopping is quiet and burns hours you may need |
-| EVT-51 | Ice building on the upperworks | Triage | Send teams to clear it, or accept the stability loss | — | Ice keeps accruing until cleared; it eats stability reserve |
-| EVT-52 | Fire in the aviation fuel stowage | Sacrifice | Fight it, or jettison the fuel | Aviation fit | Jettisoning ends aircraft operations for the sector |
-| EVT-53 | Depth charges armed by a hit, fire spreading aft | Sacrifice | Jettison the charges, or fight the fire | — | Jettisoning loses the stock and may damage your own stern |
-| EVT-54 | Aground on an uncharted shoal, tide falling | Debt | Kedge off now, lighten ship, or wait for the tide | — | Waiting is hours and exposure; lightening means throwing stores over |
-| EVT-55 | Contaminated fuel from the last replenishment | Debt | Purge the tanks, or keep burning it | Workshop | Burning it compounds engine faults over the next three legs |
-| EVT-56 | Gyro compass failure | Information | Navigate by magnetic and star sights, or stop to repair | — | Route costs run higher until fixed; arrival points drift |
-| EVT-57 | A near miss opens a seam below the waterline, slowly | Debt | Patch it now, or watch it | Parts ≥ 2 | Watching it means it opens fully during the next fight |
-
-### 7.5 Quiet water — weight 10
-
-| ID | Hook | Shape | Choices | Gate | Leaves behind |
-|---|---|---|---|---|---|
-| EVT-14 | Quiet water, no contacts | Two goods | Rest, or press on | — | Rest costs time and rations; reading the scene grants nothing |
-| EVT-58 | Flat calm, nothing on any sensor | Two goods | Rest the crew, run drills, or do maintenance | — | Drills improve one team's task rate; maintenance raises one system's ceiling |
-| EVT-59 | A burial at sea for the men lost in the last action | Standing | Hold the service, or press on | Lost a team recently | Holding it recovers morale and costs an hour |
-| EVT-60 | Mail reaches you at a rendezvous | Take or leave | Distribute it now, or hold it until the next quiet water | — | Holding it gives a larger morale gain later, if a later quiet node comes |
-| EVT-61 | The sonar team reports a contact that turns out to be dolphins | Information | Investigate, or carry on | — | Investigating costs time; ignoring it trains the team to ignore the next one |
-| EVT-62 | A friendly aircraft identifies you correctly for once | Take or leave | Signal back, or stay silent | — | Signalling confirms a friendly position and adds a little exposure |
-| EVT-63 | An exhausted section asks to swap watches | Two goods | Swap them, or hold the bill as it is | — | Swapping rests one team and leaves a station thin for a while |
-
-### 7.6 Combat hooks — weight 35
-
-These are not fights. They are the decision that leads into one, and the objective and package come from Catalog A.
-
-| ID | Hook | Shape | Choices | Gate | Leaves behind |
-|---|---|---|---|---|---|
-| EVT-64 | A lone raider that turns away | Pursuit | Chase, shadow, or hold station | Radar tier 2 to shadow | Chasing costs fuel and pulls you off route |
-| EVT-65 | A submarine caught on the surface charging batteries | Pursuit | Close and gun her, attack submerged, or report | — | She dives in seconds; closing is the only fast answer |
-| EVT-66 | An enemy destroyer escorting a damaged merchant | Two goods | Kill the escort, kill the cargo, or shadow | — | Whichever you leave reaches port and is remembered |
-| EVT-67 | A convoy under attack over the horizon | Commitment | Join, skirt, or report and continue | — | Joining is a fight you did not choose, with a reward and a bill |
-| EVT-68 | An armed trawler that will not heave to | Standing | Fire on her, board her, or let her go | Boarding party | She may be a neutral; the wrong answer costs standing |
-| EVT-69 | A minelayer working a fresh field | Commitment | Attack now, wait and survey, or avoid | — | Attacking now stops the field; waiting maps it |
-| EVT-70 | A shore battery covering the only short route | Two goods | Suppress it, go the long way, or run past at speed | Smoke gear | Running past at speed is fuel and a gamble |
-| EVT-71 | Torpedo boats at night, many small contacts | Gated | Fight with radar, fight with starshell, or withdraw | Radar tier 2 | Starshell spends flares and shows everyone where you are |
-| EVT-72 | An aircraft shadowing at the edge of range | Hidden branch | Ignore it, fire at extreme range, or alter course | AA tier 2 | Ignoring it calls a strike two nodes later |
+Costs are shapes rather than numbers. Magnitudes wait on a hull layout to price
+against, which is `OPEN-E1` in section 10.
 
 ---
 

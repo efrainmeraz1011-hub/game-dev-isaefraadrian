@@ -334,6 +334,145 @@ Cheaper stabilisation instead of full restoration, a finite repair opportunity, 
 
 ---
 
+## R12 · Hunting a submarine
+
+The design document specifies depth states, finite torpedoes and battery, and that
+depth charges are not guided [§1.12:358]. What follows is the procedure that makes a
+hunt a problem rather than a dice roll. Nearly all of it is `[period]` and unsourced.
+
+### R12.1 · Sonar is a searchlight, not a floodlight [period]
+
+The set trains a narrow beam and listens for its own echo. The operator sweeps it
+across an arc, and the ship hears only where the beam is pointing. Coverage is a
+choice, and a wide sweep updates any one bearing slowly. This is the same broad
+versus focused decision the design document already gives radar at [§1.18:584].
+
+### R12.2 · Speed is the price of hearing [§1.12:361]
+
+Own-ship noise and flow over the dome degrade the set as speed rises. Above a stated
+speed the search is worthless. Getting there fast and hearing anything are opposed,
+and the player has to keep choosing between them.
+
+### R12.3 · Passive first; going active tells the boat exactly where you are [S21, S17, §1.15:505]
+
+Passive listening is free and vague. The one sourced case in the repo: Prinz Eugen's
+hydrophone arrays picked up propeller noise from two ships before any radar echo, at
+about 0530 on 24 May 1941 [S21], and later reported torpedo noise that caused both
+German ships to turn away [S17]. Passive gives a bearing and a classification, not a
+range.
+
+Active gives range and bearing, and announces the hunter. A submarine that hears
+pinging knows it has been found, how close you are, and when to turn.
+
+### R12.4 · The layer [period]
+
+A temperature gradient bends sound and puts a shadow below it. A boat that gets under
+the layer is much harder to hold. Whether a layer is present is a property of the
+water, not of the submarine, and a ship fitted to measure it knows before the hunt
+starts instead of guessing afterwards.
+
+**Therefore:** depth is a hiding place, not only a damage-avoidance number. A hunt in
+layered water is a different problem from a hunt in mixed water, using identical
+equipment on both sides.
+
+### R12.5 · Dead time, the problem the whole hunt turns on [period]
+
+Depth charges roll off the stern and fire from throwers abeam. The ship must pass over
+the target to deliver them. As it closes, the submarine passes into the sonar's blind
+cone beneath the ship and contact is lost before the charges go.
+
+So the attack is aimed at an **extrapolated** position, not an observed one. The gap
+between the last good bearing and the drop is exactly when a competent submarine
+turns, changes depth, and is no longer where the plot says.
+
+This is the mechanic. Everything else in R12 is context for it.
+
+### R12.6 · Ahead-throwing weapons trade certainty for forgiveness [period]
+
+A forward-throwing mortar fires while contact is still held, which removes dead time.
+The charges are contact-fused: they explode only on a hit. A miss produces nothing at
+all, no damage and no disturbance.
+
+| | Stern depth charges | Ahead-throwing pattern |
+|---|---|---|
+| Contact at the moment of release | Lost | Held |
+| A near miss | Still damages | Does nothing |
+| After a miss | Water churned, sonar degraded (R12.9) | Water quiet, contact retained |
+| Feels like | A heavy swing in the dark | A precise shot that usually misses |
+
+Neither is strictly better, which is why both belong in the game and why an equipment
+choice between them is a real build decision rather than a tier upgrade.
+
+### R12.7 · Depth is a guess [period]
+
+The charges are set to a depth before release. Early sets gave range and bearing and
+no depth at all. Set them shallow against a deep boat and the pattern goes off above
+it harmlessly. The player is choosing a volume to attack, with incomplete information
+about one of its three dimensions.
+
+### R12.8 · A pattern covers a volume [period]
+
+Charges dropped from the stern and thrown from both beams make a three-dimensional
+box. A wider pattern covers more water with less lethality per point. Stock is finite
+and the choice of pattern spends it faster.
+
+### R12.9 · Your own explosions blind you [period]
+
+Detonations churn the water and leave a mass of disturbed water that the set returns
+echoes from. After an attack the hunter's own sonar is degraded for a period, which is
+precisely when the submarine is moving. A miss is not neutral. It costs you the
+contact you had.
+
+### R12.10 · The boat has counters, and they are not magic [period]
+
+A hard turn leaves a knuckle of disturbed water that returns a sonar echo resembling a
+contact. Bubble decoys were carried by German boats to produce the same effect
+deliberately. Both are false contacts the player has to resolve by observation over
+time, which is the association decision the design document already describes for
+radar at [§1.18:586].
+
+### R12.11 · Hold-down is a way to win without hitting anything [§1.12:358]
+
+A submerged boat runs on battery and breathes what it has. Staying submerged and
+manoeuvring drains both. A hunter who simply refuses to leave can force the boat to
+surface or to accept damage, and this costs the hunter hours, fuel, and everything
+those hours cost under R9.2.
+
+This is the alternative victory condition, and it should be a real one, because it is
+what actually happened.
+
+### R12.12 · Two ships are worth far more than twice one [period]
+
+One ship holds contact and directs while the other attacks, so the attacker's dead
+time is covered by the observer. A lone destroyer attacking alone is fighting the
+problem in R12.5 with nothing to fix it.
+
+**Therefore:** an escort is worth more against a submarine than its guns suggest, and
+detaching your escort for something else has a cost that shows up here.
+
+### R12.13 · You usually do not know whether you killed it [period]
+
+Oil on the surface, debris, and air can mean a kill, a damaged boat running, or a
+deliberate discharge to look like one. Wartime claims were frequently wrong.
+
+**Therefore:** the encounter should often resolve as "contact lost, evidence
+ambiguous" rather than a confirmed kill, and the debrief can say so honestly. A
+submarine that got away is a pursuit flag under [§1.12:365], not a rematch spawner.
+
+### R12.14 · No ASW capability is never a dead end [§1.12:364]
+
+A ship without depth charges can evade, screen what it is protecting, request eligible
+support, or satisfy a survival objective. Mandatory progression never requires sinking
+a deep submarine with no reachable counter.
+
+### R12.15 · The submarine decides too [§1.13:420]
+
+It uses its own observations and doctrine, not your hidden state. It attacks when it
+has a solution, goes deep when it is found, breaks off when its threshold is reached,
+and leaves. It has finite torpedoes, and spending them is a decision it can regret.
+
+---
+
 ## R11 · Faction missions
 
 One tasking per navy, offered on some runs and not others. The rules that keep it
@@ -438,7 +577,7 @@ The author writes nine lines. The rules do the rest, and they do it the same way
 
 ## What needs sourcing before this ships
 
-Eleven rules and four missions carry `[period]`. They are believed accurate and are not yet cited, which by this repo's standard means they are not yet facts.
+Eleven rules, four missions and most of R12 carry `[period]`. They are believed accurate and are not yet cited, which by this repo's standard means they are not yet facts.
 
 | Rule | Claim to verify |
 |---|---|
@@ -453,6 +592,14 @@ Eleven rules and four missions carry `[period]`. They are believed accurate and 
 | MSN-02 | Besieged-island supply runs, the escort's orders and the air threat |
 | MSN-03 | German destroyer offensive minelaying, and what mine rails displaced |
 | MSN-04 | Night high-speed resupply runs, alongside unloading versus floating drums off |
+| R12.1, R12.2 | Sonar beam width, sweep rate, and the speed at which a set stops working |
+| R12.4 | Thermal layers, shadow zones, and what was fitted to detect them |
+| R12.5 | Dead time: the blind cone, and how long contact was actually lost on a run-in |
+| R12.6, R12.7 | Ahead-throwing weapons, contact fusing, and depth setting practice |
+| R12.8, R12.9 | Pattern shapes, and how long own detonations degraded own sonar |
+| R12.10 | Knuckles and bubble decoys, and how they read on a set |
+| R12.12 | Two-ship attack procedure, one holding contact while the other runs in |
+| R12.13 | What counted as evidence of a kill, and how often claims were wrong |
 
 `skills/ww2-warship-research/SKILL.md` is the procedure. Each of these is a research task that ends in an `[S…]` or a demotion to `[game]`.
 

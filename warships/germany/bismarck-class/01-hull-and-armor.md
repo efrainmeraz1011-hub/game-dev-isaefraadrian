@@ -2,7 +2,7 @@
 
 Status: partial (see gaps.md)
 
-Bismarck is the documented ship. Tirpitz figures are given where a source states them. KBismarck.com does not date its tables; those numbers are marked (source undated). The 1941 interrogation report records what prisoners said and what the Admiralty estimated from a Blohm & Voss sketch book; those are marked (prisoner statements, 1941).
+Bismarck is the documented ship. Tirpitz figures are given where a source states them. KBismarck.com does not date its tables; those numbers are marked (source undated). The interrogation report records what prisoners said, and what the Admiralty calculated from an official sketch book published by Blohm & Voss and obtained from one prisoner [S15, §VII(21)]; those figures are marked (prisoner statements, 1941).
 
 ## Hull form and dimensions
 
@@ -170,7 +170,7 @@ Armour of 19,082 mt was about 40% of the 47,870 mt designed combat weight [S3, i
 
 ## What the wreck shows
 
-The survey cited by KBismarck.com found only two complete penetrations of the lower 320 mm belt, both on the starboard side, credited to Rodney's 40.6 cm guns because King George V stayed on the port side [S22, footnote 3]. The July 2001 Channel 4 survey saw many shell impacts, many penetrations of lightly armoured areas, few penetrations of the armoured belts, and several large openings beneath the belts on both sides identified as British torpedo hits widened during the slide down the seamount; the stern was shorn off and the starboard rudder was the only one remaining [S28, wreck observations]. Prisoners, all but one junior officer, stated that no shells penetrated the belt; the majority denied that the armour deck was pierced, one officer alleging penetration near the W/T room [S15, §V(3), §VI].
+The survey cited by KBismarck.com found only two complete penetrations of the lower 320 mm belt, both on the starboard side, credited to Rodney's 40.6 cm guns because King George V stayed on the port side [S22, footnote 3]. The July 2001 Channel 4 survey saw many shell impacts, many penetrations of lightly armoured areas, few penetrations of the armoured belts, and several large openings beneath the belts on both sides identified as British torpedo hits widened during the slide down the seamount; the stern was shorn off and the starboard rudder was the only one remaining [S28, wreck observations]. Prisoners, all but one junior officer, stated that no shells penetrated the belt; the majority denied that the armour deck was pierced, one officer alleging penetration near the W/T room [S15, §V(3), §VI]. The survivor interrogation file carries the same dispute unresolved: prisoners told N.I.D. on 9 June 1941 that the first shells went through the armour deck and that the third or fourth hit reached the W/T room below it, while a prisoner interviewed on 1 July 1941 said that as far as he knew no shell penetrated the armour; the Director of Naval Construction minuted on 21 June 1941 that the accounts were too obscure to say which deck was pierced or how thick the armour there was [S26, pp. 6 to 8].
 
 ## Conflicts between sources
 

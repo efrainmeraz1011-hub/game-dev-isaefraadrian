@@ -7,12 +7,12 @@ Status: covered, with gaps listed at the end
 | Date and ship | Main | Secondary | Heavy AA | Light AA | Source |
 |---|---|---|---|---|---|
 | As designed, 1935 | 8 x 380 mm in 2 quadruple turrets | 15 x 152 mm in 5 triple DP turrets (3 aft, 2 amidships) | none separate | 37 mm Model 1935 automatic twins (not ready), 13.2 mm quads | [S10, pp. 99, 106-107, 109-111] |
-| Richelieu, as completed 1940 | 8 x 380 mm | 9 x 152 mm in 3 triple turrets aft | 12 x 100 mm in 6 twin mounts | 8 x 37 mm Model 1925 semi-automatic in 4 twins; 24 x 13.2 mm in 6 quads | [S10, pp. 99, 109-111; S11, p. 260] |
-| Richelieu, 1940 (another count) | 8 x 380 mm | 9 x 152 mm | 12 x 100 mm | 8 x 37 mm in twins; 20 x 13.2 mm in 4 quads and 2 twins | [S10, p. 99; S11, p. 260] |
-| Richelieu, June 1940 fit | 8 x 380 mm | 9 x 152 mm | 6 twin 100 mm CAD Model 1931 (4 from Lorraine, 2 from the Niolon battery) fitted half in mid April and half at the end of May 1940 | 4 unshielded twin 37 mm CAD Model 1933 by the aft tower; 4 quad 13.2 mm atop the fore tower and 4 twin 13.2 mm atop the aft tower | [S10, pp. 101-109; S12, pp. 12, 36] |
+| Richelieu, as completed 1940 | 8 x 380 mm | 9 x 152 mm in 3 triple turrets aft | 12 x 100 mm in 6 twin mounts | 8 x 37 mm Model 1925 semi-automatic in 4 twins; 24 x 13.2 mm in 6 quads | [S10, pp. 99, 109-111] [S11, p. 260] |
+| Richelieu, 1940 (another count) | 8 x 380 mm | 9 x 152 mm | 12 x 100 mm | 8 x 37 mm in twins; 20 x 13.2 mm in 4 quads and 2 twins | [S10, p. 99] [S11, p. 260] |
+| Richelieu, June 1940 fit | 8 x 380 mm | 9 x 152 mm | 6 twin 100 mm CAD Model 1931 (4 from Lorraine, 2 from the Niolon battery) fitted half in mid April and half at the end of May 1940 | 4 unshielded twin 37 mm CAD Model 1933 by the aft tower; 4 quad 13.2 mm atop the fore tower and 4 twin 13.2 mm atop the aft tower | [S10, pp. 101-109] [S12, pp. 12, 36] |
 | Richelieu, Dakar additions 1940 to 1941 | | | | +2 twin 37 mm (1940); +1 quad and 1 single 13.2 mm (February 1941); +2 single 13.2 mm (June 1941); +2 twin 37 mm (July 1941) | [S35] |
 | Richelieu, 1943 refit | 8 x 380 mm | 9 x 152 mm | 12 x 100 mm retained | 56 x 40 mm Bofors in 14 quads with Mk 51 directors; 50 x 20 mm Oerlikon in single and twin mounts | [S10, pp. 186-188] |
-| Richelieu, 1943 refit (other counts) | | | | 14 quad 40 mm and 48 single 20 mm [S36; S37]; 14 x 4 40 mm and 50 x 1 20 mm [S35] | |
+| Richelieu, 1943 refit (other counts) | | | | 14 quad 40 mm and 48 single 20 mm [S36] [S37]; 14 x 4 40 mm and 50 x 1 20 mm [S35] | |
 | Richelieu, August 1945 (Durban) | | | | 13 x 20 mm removed, 4 x 40 mm single added [S10, pp. 199-200]; 9 x 20 mm removed and 11 single 40 mm added [S35] | |
 | Jean Bart, June 1940 escape | turret I only (guns and armour), no hoists | none fitted | 2 twin 90 mm Model 1930 from the net layer Gladiateur, no ammunition or directors | 3 x 37 mm and 6 x 13.2 mm mounts, the only usable weapons | [S10, pp. 152-154] |
 | Jean Bart, November 1942 | turret I operational | none | 5 twin 90 mm | 5 x 37 mm (2 twins, 1 single); 18 x 13.2 mm (2 twins, 14 singles); 1 x 8 mm | [S10, pp. 155-156] |
@@ -60,7 +60,7 @@ Source for the table: [S1] unless marked.
 | Individual sleeving | each gun sleeved separately, but relative motion within a pair limited |
 | Designer | Saint Chamond, developed from the Dunkerque turret [S10, pp. 99, 101-102, 106] |
 
-The quadruple mounting saved turret and belt weight under the treaty limit, at the price that one hit could disable half the main armament; the two-half arrangement and the armoured bulkhead were the answer to that risk [S1; S10, pp. 99, 101-102, 106]. The choice of two quadruple turrets forward was settled at the end of October 1934 after three-turret alternatives all came out heavier, needing power cut to 100,000 ch and 2.5 knots less speed [S12, pp. 8-9, 11].
+The quadruple mounting saved turret and belt weight under the treaty limit, at the price that one hit could disable half the main armament; the two-half arrangement and the armoured bulkhead were the answer to that risk [S1] [S10, pp. 99, 101-102, 106]. The choice of two quadruple turrets forward was settled at the end of October 1934 after three-turret alternatives all came out heavier, needing power cut to 100,000 ch and 2.5 knots less speed [S12, pp. 8-9, 11].
 
 ### Rate of fire
 
@@ -110,7 +110,7 @@ Source for the table: [S1].
 | Postwar full charge | 2,625 fps (800 mps) | |
 | Reduced charge for HE Model 1949 | 2,073 fps (632 mps) | |
 
-Richelieu sailed from Brest in June 1940 with 296 APC rounds but only 198 quarter charges and barely working handling gear [S1]; the 198 quarter charges were enough for 49 shots [S10, pp. 124-125]. At Dakar, 330 mm charges stockpiled for Strasbourg were remade into 150 complete 380 mm charges [S10, pp. 125-126; S10, pp. 138-139]. The dispersion of salvos fired with the Strasbourg-derived charges was lower in 1945 tests [S10, pp. 199-200].
+Richelieu sailed from Brest in June 1940 with 296 APC rounds but only 198 quarter charges and barely working handling gear [S1]; the 198 quarter charges were enough for 49 shots [S10, pp. 124-125]. At Dakar, 330 mm charges stockpiled for Strasbourg were remade into 150 complete 380 mm charges [S10, pp. 125-126] [S10, pp. 138-139]. The dispersion of salvos fired with the Strasbourg-derived charges was lower in 1945 tests [S10, pp. 199-200].
 
 ### Range and penetration
 
@@ -138,7 +138,7 @@ Penetration with the 884 kg APC (USN empirical formula, as combined by NavWeaps 
 
 ### Stowage
 
-104 rounds per gun [S1]; 832 APC in all [S10, pp. 99, 101-102, 106; S10, pp. 101-109]. Jean Bart as completed in 1950 carried 368 APC and 386 HE; by 1957, 328 APC, 406 HE and 3,000 quarter charges [S1].
+104 rounds per gun [S1]; 832 APC in all [S10, pp. 99, 101-102, 106] [S10, pp. 101-109]. Jean Bart as completed in 1950 carried 368 APC and 386 HE; by 1957, 328 APC, 406 HE and 3,000 quarter charges [S1].
 
 ### Dispersion and the firing delay
 
@@ -196,7 +196,7 @@ Postwar, Richelieu's turret VII received three Canadian-built monobloc guns and 
 
 ## Heavy anti-aircraft battery: 100 mm/45 Model 1930 in twin mounts Model 1931
 
-The Model 1930 guns came off the old battleship Lorraine in 1939 and replaced the unsuccessful 152 mm DP mounts amidships on Richelieu [S3]. Four of the six twin mounts came from Lorraine and two from the Niolon battery near Marseille [S3; S12, p. 12]; they were fitted half in mid April and half at the end of May 1940, two on a platform on each side where the 152 mm barbettes had been and one a little higher on the side [S12, p. 12]. The decision to remove turrets III and IV, fit 100 mm guns instead and store the 152 mm turrets for Gascogne was taken in November 1939 [S12, p. 12].
+The Model 1930 guns came off the old battleship Lorraine in 1939 and replaced the unsuccessful 152 mm DP mounts amidships on Richelieu [S3]. Four of the six twin mounts came from Lorraine and two from the Niolon battery near Marseille [S3] [S12, p. 12]; they were fitted half in mid April and half at the end of May 1940, two on a platform on each side where the 152 mm barbettes had been and one a little higher on the side [S12, p. 12]. The decision to remove turrets III and IV, fit 100 mm guns instead and store the 152 mm turrets for Gascogne was taken in November 1939 [S12, p. 12].
 
 Source for the table: [S3].
 
@@ -211,11 +211,11 @@ Source for the table: [S3].
 | Stowage, Richelieu | 400 rounds per gun, of which no more than 10 SAP per gun |
 | Mount | Model 1931 twin, open-backed, guns in one cradle 60 cm apart; 13.3 tons (13.5 mt); -10 to +80 degrees; train about -80 to +80 degrees; recoil 17.7 in (45 cm) |
 
-Jordan and Dumas give the same figures: 15,800 m with the 15 kg OPf at 765 m/s, ten rounds of it per gun, the 13.5 kg OEA at 780 m/s with a 10,000 m ceiling, and 10 rounds per minute [S10, pp. 101-109]. The guns were fitted mainly with time-fused shells for anti-aircraft fire, the 152 mm battery being expected to cover the close anti-ship role [S10, pp. 99, 109-111]. Clemenceau and Gascogne were to carry the enclosed Model 1937 twin mount with Model 1933 guns, which never entered service [S3; S10, pp. 166-170].
+Jordan and Dumas give the same figures: 15,800 m with the 15 kg OPf at 765 m/s, ten rounds of it per gun, the 13.5 kg OEA at 780 m/s with a 10,000 m ceiling, and 10 rounds per minute [S10, pp. 101-109]. The guns were fitted mainly with time-fused shells for anti-aircraft fire, the 152 mm battery being expected to cover the close anti-ship role [S10, pp. 99, 109-111]. Clemenceau and Gascogne were to carry the enclosed Model 1937 twin mount with Model 1933 guns, which never entered service [S3] [S10, pp. 166-170].
 
 ## Light anti-aircraft battery as completed: 37 mm and 13.2 mm
 
-Twelve 37 mm ACAD Model 1935 automatic guns in twin mounts were planned [S12, p. 12; S10, pp. 109-111]. The Model 1935 was a 70-calibre gun designed by the Artillerie Navale at Ruelle, with a pusher hoist for six-round magazines, a director with a 2 m rangefinder and Sautter-Harlé servos giving remote control in train only; for Richelieu each director was to control two twin mounts. It fired 165 to 172 rounds per minute cyclic and a 0.816 kg HE shell at 825 mps, but barrel life was only 600 rounds and development was unfinished at the surrender; the twin prototype ACAD Model 1936 weighed 17,800 lbs (8,070 kg) and elevated -10 to +85 degrees [S5]. Barrel wear from the high muzzle velocity delayed the gun for the Richelieus; the only example served on the aviso Amiens [S10, pp. 166-170].
+Twelve 37 mm ACAD Model 1935 automatic guns in twin mounts were planned [S12, p. 12] [S10, pp. 109-111]. The Model 1935 was a 70-calibre gun designed by the Artillerie Navale at Ruelle, with a pusher hoist for six-round magazines, a director with a 2 m rangefinder and Sautter-Harlé servos giving remote control in train only; for Richelieu each director was to control two twin mounts. It fired 165 to 172 rounds per minute cyclic and a 0.816 kg HE shell at 825 mps, but barrel life was only 600 rounds and development was unfinished at the surrender; the twin prototype ACAD Model 1936 weighed 17,800 lbs (8,070 kg) and elevated -10 to +85 degrees [S5]. Barrel wear from the high muzzle velocity delayed the gun for the Richelieus; the only example served on the aviso Amiens [S10, pp. 166-170].
 
 In its place Richelieu received the semi-automatic 37 mm CAIL Model 1933 in twin mounts CAD Model 1933: a 300 kg gun 2.007 m long, 30 to 42 rounds per minute theoretical and 15 to 21 practical per barrel, fixed 37 x 278 mm rounds of 2.8 kg with a 0.725 kg HE Model 1925 or incendiary Model 1924 shell at 810 mps, range 7,175 m at 45 degrees and effective range 5,000 m, mount elevation -15 to +80 degrees [S4]. NavWeaps describes them as slow-firing, manually controlled and "not considered to be very potent" [S4]. The four unshielded twin mounts stood by the aft tower in June 1940 [S12, p. 12].
 
@@ -247,19 +247,19 @@ No torpedo tubes appear in any source consulted; the design studies of 1927 to 1
 
 ## Aircraft and catapults
 
-Two catapults offset en echelon, the starboard one further forward, and a 37.5 m hangar aft for two Loire 130 seaplanes with wings folded, a third on the hangar roof and two more ready on the catapults; a large folding crane recovered the aircraft [S10, pp. 99-101, 120-121]. Dumas gives four aircraft, two in the hangar and one on each catapult [S12, p. 13]. Roberts gives four Loire 130 and a steam catapult [S11, p. 260]. The French article gives compressed-air catapults 22 m long throwing a 3,500 kg aircraft at 103 km/h, a crane lifting 4.5 t, and the Loire 130 as a single-engined 720 ch flying boat of 3,500 kg, 210 km/h, three crew, two 7.5 mm guns and two 75 kg bombs [S10, pp. 34-35]. Turret VII stands at frame 68.85 instead of 44.30 on Dunkerque, which moved the hangar forward and lengthened the quarterdeck from 30 to 37 m for the second catapult [S14, p. 23; S12, p. 27]. Richelieu's three Loire 130 reached Dakar in July 1941 as HDR 1, 2 and 3, based at Bel-Air in the baie de Hann; the first catapult launch was on 7 October 1941 [S10, p. 149]. The aircraft installation was removed at Dakar in January 1943 before the New York refit [S10, p. 150; S35]. Gascogne was to have an internal hangar with a single catapult and three SNCAC NC.420 floatplanes [S10, p. 172].
+Two catapults offset en echelon, the starboard one further forward, and a 37.5 m hangar aft for two Loire 130 seaplanes with wings folded, a third on the hangar roof and two more ready on the catapults; a large folding crane recovered the aircraft [S10, pp. 99-101, 120-121]. Dumas gives four aircraft, two in the hangar and one on each catapult [S12, p. 13]. Roberts gives four Loire 130 and a steam catapult [S11, p. 260]. The French article gives compressed-air catapults 22 m long throwing a 3,500 kg aircraft at 103 km/h, a crane lifting 4.5 t, and the Loire 130 as a single-engined 720 ch flying boat of 3,500 kg, 210 km/h, three crew, two 7.5 mm guns and two 75 kg bombs [S10, pp. 34-35]. Turret VII stands at frame 68.85 instead of 44.30 on Dunkerque, which moved the hangar forward and lengthened the quarterdeck from 30 to 37 m for the second catapult [S14, p. 23] [S12, p. 27]. Richelieu's three Loire 130 reached Dakar in July 1941 as HDR 1, 2 and 3, based at Bel-Air in the baie de Hann; the first catapult launch was on 7 October 1941 [S10, p. 149]. The aircraft installation was removed at Dakar in January 1943 before the New York refit [S10, p. 150] [S35]. Gascogne was to have an internal hangar with a single catapult and three SNCAC NC.420 floatplanes [S10, p. 172].
 
 ## Conflicts between sources
 
-- 20 mm count after the 1943 refit: 50 [S10, pp. 186-188; S35] against 48 [S36; S37].
+- 20 mm count after the 1943 refit: 50 [S10, pp. 186-188] [S35] against 48 [S36] [S37].
 - August 1945 changes: 13 x 20 mm out, 4 single 40 mm in [S10, pp. 199-200] against 9 out and 11 in [S35].
-- 13.2 mm count in 1940: 24 in six quads [S10, pp. 99, 109-111] against 20 in four quads and two twins [S10, p. 99; S11, p. 260] and 32 in eight quads planned [S12, p. 12].
+- 13.2 mm count in 1940: 24 in six quads [S10, pp. 99, 109-111] against 20 in four quads and two twins [S10, p. 99] [S11, p. 260] and 32 in eight quads planned [S12, p. 12].
 - OPfK Mle 1936 weight: 884 kg or 890 kg, both in Jordan and Dumas [S1].
 - Quarter-charge weight: four charges 228 kg total [S10, pp. 101-109] against 288 kg SD21 [S1].
 - Maximum range: 41,700 m [S1] against 41,500 m theoretical and 37,800 m practical [S10, pp. 101-109].
 - 152 mm turret weight: 224 tons (228 mt) [S2] against 227 t [S10, pp. 101-109]; surface range 26,474 m [S2], 26,500 m [S10, pp. 99, 106-107], 24,500 m [S10, pp. 101-109].
 - Delay coils: on the outer guns [S10, pp. 201-204] against the centre guns [S1].
-- Aircraft: three plus two on catapults [S10, pp. 99-101, 120-121] against four [S12, p. 13; S11, p. 260]; compressed-air catapults [S10, pp. 34-35] against steam [S11, p. 260].
+- Aircraft: three plus two on catapults [S10, pp. 99-101, 120-121] against four [S12, p. 13] [S11, p. 260]; compressed-air catapults [S10, pp. 34-35] against steam [S11, p. 260].
 - Jean Bart dye colour: orange assigned [S1], but "does not appear to have ever been implemented" [S2]; a yellow near-miss splash drenched Augusta's bridge on 10 November 1942 [S22].
 
 ## Gaps

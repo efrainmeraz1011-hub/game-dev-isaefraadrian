@@ -24,7 +24,7 @@ Reduction gears: no source found beyond the words "geared turbines"; see gaps.md
 | Full-power trial | 179,000 shp for 32.63 knots, briefly | 13 June 1940 | [S10, pp. 123-124] |
 | Post-refit top speed | 31.5 knots held for 30 minutes | 25 September 1943 | [S10, pp. 186, 188] |
 | Post-refit endurance runs | 26.5 knots for 6 h, 28.9 knots for 2 h, 30.2 knots for 50 min | 26 September 1943 | [S10, pp. 186, 188] |
-| Machinery weight to power | 2,865 t for 155,000 ch, 18.5 kg/ch; Dunkerque 19.7 kg/ch | as designed | [S12, p. 10; S14, p. 21] |
+| Machinery weight to power | 2,865 t for 155,000 ch, 18.5 kg/ch; Dunkerque 19.7 kg/ch | as designed | [S12, p. 10] [S14, p. 21] |
 | Power and speed, undated | 150,000 hp, 30 knots (Richelieu); 162,000 hp, 32 knots (Jean Bart) | undated | [S35] |
 | Power and speed, undated | 155,000 cv normal, 179,000 cv forced, 32.63 knots | undated | [S36] |
 | Power and speed, undated | 150,000 cv, 30 knots | undated | [S37] |
@@ -37,7 +37,7 @@ Jean Bart, still incomplete and with a fouled, deformed hull, reached 22.5 knots
 |---|---|---|---|
 | Fuel oil, normal | 5,773 long tons (5,866 t) | as designed | [S10, pp. 99-101, 118-119] |
 | Fuel oil, wartime practice | 4,400 long tons (4,500 t), to keep the belt out of the water | wartime | [S10, pp. 99-101, 118-119] |
-| Fuel in the weight statement | 2,905 t | design statement | [S12, p. 10; S14, p. 21] |
+| Fuel in the weight statement | 2,905 t | design statement | [S12, p. 10] [S14, p. 21] |
 | Endurance | 9,500 nmi at 15 knots; 3,450 nmi at 30 knots | full fuel | [S10, pp. 99-101, 118-119] |
 | Fuel and endurance, undated | 6,796 t oil; 10,000 nmi at 12 knots (Richelieu); 6,476 t, 5,850 nmi at 18 knots (Jean Bart) | undated | [S35] |
 | Endurance, undated | 10,620 nmi at 12 knots; 3,023 nmi at 32 knots | undated | [S36] |
@@ -70,10 +70,10 @@ Richelieu's engines were unused from July 1940 until trials on 25 to 29 January 
 
 ## Conflicts between sources
 
-- Rated power and speed: 155,000 shp and 32 knots [S10, pp. 99-101, 118-119] against 150,000 hp and 30 knots [S35; S37].
+- Rated power and speed: 155,000 shp and 32 knots [S10, pp. 99-101, 118-119] against 150,000 hp and 30 knots [S35] [S37].
 - Fuel: 5,773 long tons normal [S10] against 6,796 t [S35] and 2,905 t in the design weight statement [S12, p. 10].
 - Endurance at economical speed: 9,500 nmi at 15 knots [S10] against 10,000 nmi at 12 knots [S35] and 10,620 nmi at 12 knots [S36].
-- Propeller diameter: 4.88 m [S10, pp. 99-101, 117-118] against 4.87 m [S10, pp. 117-120; S36].
+- Propeller diameter: 4.88 m [S10, pp. 99-101, 117-118] against 4.87 m [S10, pp. 117-120] [S36].
 
 ## Gaps
 

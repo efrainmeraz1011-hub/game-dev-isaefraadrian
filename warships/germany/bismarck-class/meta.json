@@ -1,0 +1,72 @@
+{
+  "class": "Bismarck class",
+  "type": "battleship",
+  "nation": "Germany",
+  "navy": "Kriegsmarine",
+  "ships": [
+    {
+      "name": "Bismarck",
+      "hull": "",
+      "builder": "Blohm & Voss, Hamburg (construction number BV 509)",
+      "aliases": [],
+      "file": "ships/bismarck.md"
+    },
+    {
+      "name": "Tirpitz",
+      "hull": "",
+      "builder": "Kriegsmarinewerft Wilhelmshaven (construction number S 128)",
+      "aliases": [],
+      "file": "ships/tirpitz.md"
+    }
+  ],
+  "weapons": [
+    {
+      "designation": "38 cm SK C/34",
+      "role": "main battery",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "main-battery-38-cm-sk-c34"
+    },
+    {
+      "designation": "Drh LC/34",
+      "role": "main battery twin turret",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "turrets-drh-lc34"
+    },
+    {
+      "designation": "15 cm SK C/28",
+      "role": "secondary battery",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "secondary-battery-15-cm-sk-c28"
+    },
+    {
+      "designation": "10.5 cm SK C/33",
+      "role": "heavy anti-aircraft battery",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "heavy-anti-aircraft-battery-105-cm-sk-c33"
+    },
+    {
+      "designation": "3.7 cm SK C/30",
+      "role": "medium anti-aircraft battery",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "medium-anti-aircraft-battery-37-cm-sk-c30"
+    },
+    {
+      "designation": "2 cm C/30 and C/38",
+      "role": "light anti-aircraft battery",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "light-anti-aircraft-battery-2-cm-c30-and-c38"
+    },
+    {
+      "designation": "53.3 cm torpedo tubes, two quadruple mounts (Tirpitz only)",
+      "role": "torpedoes",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "torpedoes-and-depth-charges"
+    },
+    {
+      "designation": "Arado Ar 196",
+      "role": "shipboard aircraft",
+      "file": "03-armament-and-ammunition.md",
+      "anchor": "aircraft"
+    }
+  ]
+}

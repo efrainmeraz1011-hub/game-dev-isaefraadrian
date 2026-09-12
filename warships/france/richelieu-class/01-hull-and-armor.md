@@ -4,9 +4,9 @@ Status: partial (see gaps.md)
 
 ## Hull form and dimensions
 
-The hull has a long forecastle deck that steps down to main deck level toward the stern, which kept the bow dry and left room aft for the aviation installation [S10, pp. 98-101, 120; S11, p. 260]. Richelieu's hull was too long for the No. 4 dock at Brest, so a 197 m main section was built in the dock and a 43 m bow section and an 8 m stern section were built elsewhere and joined after the launch on 17 January 1939 [S10, pp. 122-123].
+The hull has a long forecastle deck that steps down to main deck level toward the stern, which kept the bow dry and left room aft for the aviation installation [S10, pp. 98-101, 120] [S11, p. 260]. Richelieu's hull was too long for the No. 4 dock at Brest, so a 197 m main section was built in the dock and a 43 m bow section and an 8 m stern section were built elsewhere and joined after the launch on 17 January 1939 [S10, pp. 122-123].
 
-Source for the table: [S10, pp. 98-101, 120; S11, p. 260] unless marked.
+Source for the table: [S10, pp. 98-101, 120] [S11, p. 260] unless marked.
 
 | Dimension | Value (as completed, 1940) | Note |
 |---|---|---|
@@ -23,8 +23,8 @@ Jean Bart, completed postwar with bulges, had a beam of 35.4 m and a draft of 9.
 | Condition | Value | Source |
 |---|---|---|
 | Standard, as designed (treaty figure) | 35,000 long tons | [S10, pp. 97-98] |
-| Standard, as completed 1940 | 37,250 long tons (37,850 t) | [S10, pp. 98-101, 120; S11, p. 260] |
-| Full load, as completed 1940 | 43,992 long tons (44,698 t) | [S10, pp. 98-101, 120; S11, p. 260] |
+| Standard, as completed 1940 | 37,250 long tons (37,850 t) | [S10, pp. 98-101, 120] [S11, p. 260] |
+| Full load, as completed 1940 | 43,992 long tons (44,698 t) | [S10, pp. 98-101, 120] [S11, p. 260] |
 | Normal, 1943 trials after the New York refit | 43,600 t (42,900 long tons) | [S10, pp. 186, 188] |
 | Normal, as completed 1943 refit | 43,957 t (43,263 long tons), draft 9.22 m | [S10, p. 189] |
 | Full load, as completed 1943 refit | 47,728 t (46,974 long tons), draft 10.68 m | [S10, p. 189] |
@@ -41,7 +41,7 @@ The 1943 growth pushed the lowest row of portholes toward the waterline, so they
 
 ## Weight breakdown
 
-Design weight statement (devis de poids) for Richelieu, in metric tonnes, alongside Dunkerque for scale [S12, p. 10; S14, p. 21]:
+Design weight statement (devis de poids) for Richelieu, in metric tonnes, alongside Dunkerque for scale [S12, p. 10] [S14, p. 21]:
 
 | Group | Richelieu | Dunkerque |
 |---|---|---|
@@ -80,13 +80,13 @@ Source for the table: [S10, pp. 111-112, 115] unless marked. All figures as desi
 
 Each 380 mm turret weighed 2,476 t, plus 620 t for its barbette, 3,096 t in all [S20, p. 189]. The two halves of each turret are separated by an armoured bulkhead of 25 to 45 mm [S12, p. 22]; NavWeaps gives 4.5 cm [S1].
 
-Clemenceau and Gascogne were to have a 320 mm belt [S10, pp. 166-167; S10, pp. 173-175].
+Clemenceau and Gascogne were to have a 320 mm belt [S10, pp. 166-167] [S10, pp. 173-175].
 
 ## Torpedo defense system
 
 The system followed Dunkerque's. The void between the belt and the outer plating was filled with a rubber-based compound, ébonite mousse, to absorb the blast and limit flooding. Inboard came an 18 mm bulkhead, then a compartment used for fuel oil in peacetime and kept empty in combat, then a 30 mm torpedo bulkhead, increased to 40 to 50 mm abreast the secondary magazines and the forward main turret where the hull narrows. More ébonite mousse sat between the torpedo bulkhead and the fuel tanks, and in compartments at either end of the transverse bulkheads [S10, p. 116].
 
-Layer by layer from outboard, per Dumas via Breyer and Le Masson: an outer compartment up to 1.5 m deep filled with ébonite mousse; a 16 mm bulkhead; a 0.9 m void; a 3.40 m fuel tank; a 10 mm bulkhead; a 0.70 m void; then the 30 mm special-steel torpedo bulkhead, 50 mm abreast the magazines, where the compartment between it and the fuel tank is also filled with ébonite mousse. Total width 7 m [S20, p. 436; S19, p. 75]. The depth was 7.5 m on Dunkerque; the reduction let three boilers stand abreast [S10, pp. 116-117]. Navypedia gives the same 7 m depth and calls it the deepest in the world at the time of building [S35].
+Layer by layer from outboard, per Dumas via Breyer and Le Masson: an outer compartment up to 1.5 m deep filled with ébonite mousse; a 16 mm bulkhead; a 0.9 m void; a 3.40 m fuel tank; a 10 mm bulkhead; a 0.70 m void; then the 30 mm special-steel torpedo bulkhead, 50 mm abreast the magazines, where the compartment between it and the fuel tank is also filled with ébonite mousse. Total width 7 m [S20, p. 436] [S19, p. 75]. The depth was 7.5 m on Dunkerque; the reduction let three boilers stand abreast [S10, pp. 116-117]. Navypedia gives the same 7 m depth and calls it the deepest in the world at the time of building [S35].
 
 The 8 July 1940 torpedo hit fell outside this system, aft between the propeller shafts, and opened a hole 9.3 by 8.5 m [S10, p. 127].
 
@@ -96,7 +96,7 @@ No source found; see gaps.md.
 
 ## Conflicts between sources
 
-- Belt thickness: 327 mm [S10, pp. 111-112] against 330 mm [S10, p. 99; S12, p. 11; S35].
+- Belt thickness: 327 mm [S10, pp. 111-112] against 330 mm [S10, p. 99] [S12, p. 11] [S35].
 - Belt height: 6.25 m with 3.75 m above the waterline [S10, pp. 111-112]; 3.38 m above and 2.38 m below [S12, p. 11]; 5.96 m [S35].
 - Belt lower edge: 177 mm [S10, pp. 111-112] against 170 mm [S35].
 - Equivalent vertical belt: 400 or 436 mm [S12, p. 11] against 478 mm [S35].

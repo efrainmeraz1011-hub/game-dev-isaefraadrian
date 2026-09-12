@@ -8,7 +8,7 @@ Source for the table: laid-down and launch dates and builders [S10, pp. 122-123,
 
 | Ship | Builder | Laid down | Launched | Completed | Fate |
 |---|---|---|---|---|---|
-| Richelieu | Arsenal de Brest | 22 October 1935 | 17 January 1939 | 15 July 1940 [S35]; work completed 15 June 1940 [S10, pp. 123-124] | Struck 30 September 1967, scrapped La Spezia 1968-1969 [S10, pp. 206-208; S12, p. 60] |
+| Richelieu | Arsenal de Brest | 22 October 1935 | 17 January 1939 | 15 July 1940 [S35]; work completed 15 June 1940 [S10, pp. 123-124] | Struck 30 September 1967, scrapped La Spezia 1968-1969 [S10, pp. 206-208] [S12, p. 60] |
 | Jean Bart | Chantiers de Penhoët / A. C. de la Loire, Saint-Nazaire | 12 December 1936 | 6 March 1940 | 1 May 1955 [S10, pp. 213, 216-217] | Barracks ship 1957, sold for scrap January 1970 [S35] |
 | Clemenceau | Arsenal de Brest | 17 January 1939 | never | never | Hull sunk by Allied bombers at Brest 27 August 1944 [S10, p. 171] |
 | Gascogne | Chantiers de Penhoët, Saint-Nazaire | never | never | never | Cancelled by the events of June 1940 [S10, p. 176] |

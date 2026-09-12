@@ -7,6 +7,8 @@ The repo holds two halves. The **design** half specifies the game. The **researc
 ## Design: start here
 
 - [Foundational game-logic design — v0.8](WW2_Naval_Roguelite_Game_Logic.md)
+- [Flow and possibility tree](flow/FLOW.md) — every state, branch, and ending, each citing the design line that defines it
+- [Event system and content catalog](flow/EVENTS.md) — the encounter grammar, 72 events, 14 chains
 - [Initial mock-campaign balance report](balance_model/BALANCE_REPORT.md)
 - [Model assumptions and reproduction steps](balance_model/MODEL.md)
 

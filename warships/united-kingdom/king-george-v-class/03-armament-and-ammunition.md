@@ -10,7 +10,7 @@ The class was designed to the 14-inch gun limit Britain was then pressing for in
 
 The decision left an odd battery: the twin "B" mounting sits superfiring over the quadruple "A" mounting forward, with the second quadruple aft [S18]. NavWeaps labels the after quadruple "X" in its train-limit table [S6]; the ADM 234/271 essay and the ADM 234/509 gunnery report both call it "Y" [S7], [S14]. This file uses "Y", the usage of the two Admiralty-derived sources.
 
-## Main battery: 14-inch/45 Mark VII
+## Main battery: 14-inch/45 Mark VII in quadruple Mark III and twin Mark II mountings
 
 Despite the mark number this was the first 14-inch gun designed for and accepted by the Royal Navy alone; earlier British 14-inch guns came from ships and guns building for other nations or were bought from the United States [S6]. The design reverted to the lower muzzle velocities of the First World War period because of the trouble experienced with the 16-inch/45 Mark I of the Nelson class [S6]. Construction was no-wire radial expansion: tapered inner A tube, A tube, jacket, rectangular breech ring, breech bush in the A tube, and a shrunk collar, with a Welin breech block and a hydraulic Asbury mechanism [S6]. These were the first heavy British guns to recoil in a cast steel cylindrical cradle rather than on a separate slide [S6]. Including two trial guns, 78 were made: 24 by the Royal Gun Factory, 39 by Vickers-Armstrong at Elswick, and 15 by Beardmore [S6].
 
@@ -79,7 +79,7 @@ For treaty purposes the ships were declared as carrying 80 rounds per gun, but t
 
 The eight magazines around 'A' handing room hold, in cases: 'A' Forward 171, 'A' Port 167, 'A' Starboard 177, 'A' Main 134, 'A' Port Wing 33, 'A' Starboard Wing 20, 'A' Port After 66, 'A' Starboard After 53 [S7]. The shell rooms around 'A' shell handling room hold: 'A' Forward 98 APC and 4 practice, 'A' Port 108 APC, 'A' Starboard 108 APC, 'A' After 78 APC, and 'A' Outer After 36 practice [S7].
 
-## Quadruple Mark III and twin Mark II mountings
+## Mounting data: quadruple Mark III and twin Mark II
 
 | Item | Quadruple Mark III | Twin Mark II | Source |
 |---|---|---|---|
@@ -217,8 +217,8 @@ The gun is of all-steel construction, a loose barrel with jacket, removable bree
 
 Ammunition supply in the battleship Mark I was a short-trunk arrangement, with shells and cartridges delivered to a handing room just below the mounting [S8]. The two supply schemes differ between end and middle mountings [S8]:
 
-- P1, P4, S1 and S4 had three fixed electric endless-chain hoists, for LA shell, HA shell and cartridges, running from the shell room and magazines to the handing room below the mounting. There, shells and cartridges fed into chutes leading to circular rings around the mounting at working-chamber level. Cartridges went to hand-ups to the gunhouse; HA and LA shells were raised by hydraulic pusher hoists, one per gun.
-- P2, P3, S2 and S3 had two sets of fixed lower hoists with a break and transfer through chutes on the lower deck, the lower shell hoists being dredger type carrying the shells horizontally rather than the endless-chain type. Above the break the supply was the same as for the end mountings.
+- P1, P4, S1 and S4 had three fixed electric endless-chain hoists, for LA shell, HA shell and cartridges, running from the shell room and magazines to the handing room below the mounting. There, shells and cartridges fed into chutes leading to circular rings around the mounting at working-chamber level. Cartridges went to hand-ups to the gunhouse; HA and LA shells were raised by hydraulic pusher hoists, one per gun [S8].
+- P2, P3, S2 and S3 had two sets of fixed lower hoists with a break and transfer through chutes on the lower deck, the lower shell hoists being dredger type carrying the shells horizontally rather than the endless-chain type. Above the break the supply was the same as for the end mountings [S8].
 
 In the gunhouse the HA hoist raises the shell horizontally to a hand-controlled extension hoist near the inner trunnions; the shell rolls into the fuze setting tray and is then moved by hand to the loading tray. The LA hoist comes up behind the HA hoist with the shell vertical and it is also moved by hand to the loading tray. The loading tray is worked by hand and ramming is hydraulic [S8]. Twelve men worked in the gunhouse: three at the fuze setters and the turret captain, two gunlayers, a turret trainer, two breech workers, two projectile loaders and two cartridge loaders [S8]. An IWM photograph of a King George V Mark I gunhouse in 1943 shows the fuze setters, the ready rounds above them, and the LA shell hoists in the foreground [S41].
 
@@ -228,7 +228,7 @@ After the Bismarck battles the 5.25-inch mountings in King George V and Prince o
 
 Outfit was SAP, HE and illuminating rounds; SAP "K" shells with splash dye came in after about 1942, without the separate fuze and burster used in larger calibres; anti-radar rounds filled with aluminium foil were issued late in the war to ships in the Indian and Pacific Oceans at about 200 rounds a ship; and VT-fuzed HE was introduced in 1944, equipping 25 to 50 per cent of HE rounds by 1945 depending on supply [S8]. Royal Marines worked part of the secondary battery; an IWM photograph shows Royal Marines at the secondary armament in Howe in August 1942 [S50].
 
-## Close-range anti-aircraft: 2-pdr QF Mark VIII pom-pom
+## Close-range anti-aircraft: 2-pdr QF Mark VIII pom-pom in octuple Mark VI and quadruple Mark VII mountings
 
 The eight-barrelled Mark VI and Mark VIA octuple mountings were the class's primary close-range weapon from completion [S69], [S9]. The gun is a redesign of the 2-pdr Mark II for an eight-gun mounting, using the same barrel with an improved automatic mechanism and steel-link belts in place of fabric [S9].
 

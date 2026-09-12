@@ -2,7 +2,7 @@
 
 Status: partial (see gaps.md)
 
-Much of what follows is Royal Navy general practice, taken from the Admiralty's own 1945 Gunnery Pocket Book, rather than anything specific to these five ships. Where that is so it is said. The ship-specific evidence is thinner and comes mostly from official photographs taken aboard the class in 1940 to 1943, each of which is cited to its Wikimedia Commons file page carrying the Imperial War Museums caption.
+Much of what follows is Royal Navy general practice, taken from the Admiralty's own Gunnery Pocket Book of 1945 [S68], rather than anything specific to these five ships. Where that is so it is said. The ship-specific evidence is thinner and comes mostly from official photographs taken aboard the class in 1940 to 1943, each of which is cited to its Wikimedia Commons file page carrying the Imperial War Museums caption.
 
 ## Complement
 

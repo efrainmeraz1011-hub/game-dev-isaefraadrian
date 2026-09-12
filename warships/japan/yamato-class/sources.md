@@ -36,7 +36,7 @@ S23. Japanese Damage Control. US Naval Technical Mission to Japan, report index 
 
 S24. H-044-3: "Operation Heaven Number One" (Ten-ichi-go), the Death of Yamato, 7 April 1945. Samuel J. Cox, Director, Naval History and Heritage Command. NHHC H-Gram 044, April 2020. https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html. Tier 1. Accessed 2026-09-12. Whole essay.
 
-S25. Japanese battleship Musashi. National Museum of the US Navy, Naval History and Heritage Command, undated. https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-japan/ships-japanese/musashi.html. Tier 1. Accessed 2026-09-12. Ship summary text.
+S25. Japanese battleship Musashi. National Museum of the US Navy, Naval History and Heritage Command, undated. https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-japan/ships/musashi-battleship.html. Tier 1. Accessed 2026-09-12. Ship summary text.
 
 S26. Japanese Radar Equipment in WWII. Compiled by Martin Favorite, hosted on combinedfleet.com, undated. http://www.combinedfleet.com/radar.htm. Tier 3. Accessed 2026-09-12. Entries for Type 13, Type 21 and Type 22.
 

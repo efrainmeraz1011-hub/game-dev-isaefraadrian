@@ -1,0 +1,21 @@
+{
+  "total_formal_runs": 354816,
+  "balanced_win": 0.5078125,
+  "balanced_interval": "48.5%\u201353.0%",
+  "ordinary_survivors": 42518,
+  "boss_lost": 17558,
+  "refit_off": 0.0,
+  "refit_on": 0.084765625,
+  "refit_two": 0.43528645833333335,
+  "counts": {
+    "tested_builds": 192,
+    "broader_hull_deck_pairs": 140,
+    "broader_builds": 840,
+    "at_least_one_win": 156,
+    "zero_wins": 36,
+    "below_20": 25,
+    "between_20_80": 64,
+    "at_least_80": 67
+  },
+  "source_hash": "407c7de849a9d1ce699269c7deb8df6637858ded4ef8744ccdbda6813adf13da"
+}

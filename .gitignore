@@ -1,3 +1,19 @@
-.DS_Store
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Regenerable bulk experiment outputs
+balance_model/baseline_screen/
+balance_model/experiments/
+balance_model/heldout/
+balance_model/sensitivity/
+balance_model/refit/
+balance_model/*_log.*
+
+# Research working files: source PDFs and plan scans are fetched on demand,
+# never committed. Images that ship live in warships/*/*/images/ with credits.
 *.pdf
 scratch/
+
+# Local filesystem metadata
+.DS_Store

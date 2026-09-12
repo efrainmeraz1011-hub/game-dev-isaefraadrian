@@ -1,6 +1,6 @@
 # game-dev-isaefraadrian
 
-Shared game-development research repo for Isai, Efrain, and Adrian. The first body of work is a source-cited reference on WWII warships, built for game design: the physical ship, its machinery, its procedures, and its crew's daily life, rather than battle narrative.
+Shared repo for Isai, Efrain, and Adrian holding a WWII destroyer roguelite. Two halves: the game design (`WW2_Naval_Roguelite_Game_Logic.md` and `balance_model/`) and a source-cited reference on real WWII warships that the design draws on. The research covers the physical ship, its machinery, its procedures, and its crew's daily life, rather than battle narrative.
 
 ## Layout
 

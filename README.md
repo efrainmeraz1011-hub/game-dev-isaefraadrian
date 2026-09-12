@@ -6,16 +6,19 @@ The repo holds two halves. The **design** half specifies the game. The **researc
 
 ## Design: start here
 
-- [Foundational game-logic design — v0.8](WW2_Naval_Roguelite_Game_Logic.md)
+- [Foundational game-logic design — v0.9](WW2_Naval_Roguelite_Game_Logic.md)
 - **[Build plan](flow/BUILD.md)** — start here to write game code: stack, layout, build order, placeholder hull
 - [Flow and possibility tree](flow/FLOW.md) — every state, branch, and ending, each citing the design line that defines it
 - [Event system and content catalog](flow/EVENTS.md) — the encounter grammar, weighting, repetition control
 - [Rules](flow/RULES.md) — 86 rules the engine implements, covering readiness and closure, damage, ASW, air attack and carriers, each marked sourced, unverified, or a stated abstraction
-- [Event situations](flow/CATALOG-EVENTS.md) — 72 situations the rules resolve
+- [Event situations](flow/CATALOG-EVENTS.md) — 76 situations and four faction missions the rules resolve
 - [Initial mock-campaign balance report](balance_model/BALANCE_REPORT.md)
 - [Model assumptions and reproduction steps](balance_model/MODEL.md)
+- [FTL mechanics comparison and remaining gaps](docs/FTL_MECHANICS_REVIEW.md)
+- [Co-op and 1v1 multiplayer proposals](docs/MULTIPLAYER_PROPOSALS.md)
+- [Earlier design snapshots](revisions/README.md)
 
-The design document is the primary specification. It covers basic logic, progression, saving, end game, replayability, and factors/variances/variables. Its direction emphasizes harder combinations of mechanics, rarer or partial resupply, different enemy loadouts, consequential events, and uncertain information, through successive sectors. Version 0.8 adds interactive radar/sonar tracking and linked torpedo-evasion decisions; sprites and visual styling remain deferred.
+The design document is the primary specification. It covers basic logic, progression, saving, end game, replayability, and factors/variances/variables. Its direction emphasizes harder combinations of mechanics, rarer or partial resupply, different enemy loadouts, consequential events, and uncertain information, through successive sectors. Interactive radar/sonar tracking and linked torpedo-evasion decisions are specified. Version 0.9 also publishes the FTL coverage review and multiplayer brainstorming; multiplayer remains exploratory, and the review flags outstanding armor simplification and magazine/weapon-utility work. Sprites and visual styling remain deferred.
 
 ## Research: start here
 

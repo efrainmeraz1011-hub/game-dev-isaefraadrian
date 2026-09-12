@@ -82,7 +82,7 @@ Every fuel consumer draws from a single inventory: propulsion, generators, aircr
 
 **Therefore:** fuel spent on anything is fuel unavailable for everything. The engine never needs to be told that turning the ship around costs you a sortie. It computes that when the sortie is requested and there is not enough.
 
-### R1.2 · Damage raises consumption [S… partial, §6.5:1434]
+### R1.2 · Damage raises consumption [S… partial, §6.5:1446]
 
 `vessel_travel_fuel = distance × fuel_per_distance × speed_multiplier × weather_multiplier × damage_multiplier`
 
@@ -96,7 +96,7 @@ Economy 0.80 speed for 0.85 fuel. Cruise 1.00 for 1.00. Flank 1.25 speed for 1.6
 
 **Stocks** deplete: fuel, ammunition by class, torpedoes, depth charges, parts, medical, rations, flares, smoke. **Capacities** constrain: generator output, hangar room, cargo space, passenger slots, room occupancy. **Conditions** change: hull, system condition, team health, morale, stability. A rule that moves one never silently moves another.
 
-### R1.5 · Nothing refills on a boundary [§1.10:327, §6.6:1536]
+### R1.5 · Nothing refills on a boundary [§1.10:327, §6.6:1548]
 
 Crossing a sector, saving, loading, or leaving a screen restores nothing.
 
@@ -131,7 +131,7 @@ War Instructions lists provision for adequate rest among its basic consideration
 
 Ordnance Pamphlet 1719 describes a stand-by condition in which targets are expected momentarily but no specific target is known, and requires the fire-control system to be ready both fully manned and in a reduced condition with fewer personnel [S293, ch. 2]. The Mark 37 director's full complement is six men; with Radar Equipment Mark 25 Mod 2 fitted it can stand by with one operator, the trainer [S293, ch. 2].
 
-**Therefore:** a station at reduced manning produces reduced output, not zero. This is the `staffing_factor` at [§6.5:1456], and the research gives it a real shape: some equipment has a declared one-man mode, and the rest does not.
+**Therefore:** a station at reduced manning produces reduced output, not zero. This is the `staffing_factor` at [§6.5:1468], and the research gives it a real shape: some equipment has a declared one-man mode, and the rest does not.
 
 ---
 
@@ -168,7 +168,7 @@ Closing intact watertight boundaries contains flow. It does not remove water and
 
 Heading, actual speed, ordered speed, and turn rate are separate values. Changing heading takes time, may expose a broadside, and may spoil a firing solution. Ships never teleport between range bands.
 
-### R4.2 · Speed buys evasion, stopping forfeits it [game, §6.5:1473]
+### R4.2 · Speed buys evasion, stopping forfeits it [game, §6.5:1485]
 
 The target-manoeuvre term in the hit probability falls toward zero as own speed falls. A stopped ship is hit at the attacker's unmodified accuracy. This is why the rescue question is dangerous and not sentimental.
 
@@ -178,7 +178,7 @@ To come back to a position astern, the ship puts the wheel hard over, holds unti
 
 *Unsourced. Verify against a period seamanship manual before shipping, or demote to [game].*
 
-### R4.4 · Sea state governs what the ship can do [game, §6.4:1413]
+### R4.4 · Sea state governs what the ship can do [game, §6.4:1425]
 
 Sea state enters gunnery, torpedo accuracy, sonar performance, and boat work. Above a stated sea state, boat work is impossible regardless of anything else.
 
@@ -242,7 +242,7 @@ Going fast to get somewhere means hearing less on the way.
 
 ### R7.1 · Damage runs in four independent layers [§1.9:254]
 
-Structural hull, local compartment and system condition, hazards (fire, breach, water, smoke), and stability and buoyancy. A ship with hull remaining can still founder at 80% flooding [§1.9:269] or capsize below 10 stability [§6.3:1389].
+Structural hull, local compartment and system condition, hazards (fire, breach, water, smoke), and stability and buoyancy. A ship with hull remaining can still founder at 80% flooding [§1.9:269] or capsize below 10 stability [§6.3:1401].
 
 ### R7.2 · Work is done by teams in rooms, and rooms are small [§1.8:220]
 
@@ -252,7 +252,7 @@ Three team tokens per room, producing 1.0, 1.6 then 2.0 units of work. Anyone ca
 
 Fire, smoke and rising water damage a team's shared health while it works. Auto-pause at 25%, optional withdrawal at 20%, lost at zero, permanently for the run.
 
-### R7.4 · Material repair needs material [§6.5:1505]
+### R7.4 · Material repair needs material [§6.5:1517]
 
 Parts cap what can be repaired. Containment without parts is possible; restoration is not.
 
@@ -266,7 +266,7 @@ A destroyer is not a free agent. It has a station, a screen position, a convoy s
 
 ### R8.2 · Breaking an order is a decision with the command, not a fine [game]
 
-Disobedience changes standing with the issuing authority, which changes port access, service tiers and offers under [§6.2:1372]. It never applies an invented mechanical penalty to the ship.
+Disobedience changes standing with the issuing authority, which changes port access, service tiers and offers under [§6.2:1384]. It never applies an invented mechanical penalty to the ship.
 
 ### R8.3 · Identification is a real problem [period]
 
@@ -280,7 +280,7 @@ Neutral shipping existed, and mistakes were made in both directions. A rule that
 
 Reading the map, planning, and opening a menu cost nothing. Committing travel, a repair, a service, or an event action advances the stated hours.
 
-### R9.2 · Hours feed threat and burn rations [§6.5:1443, §1.10:321]
+### R9.2 · Hours feed threat and burn rations [§6.5:1455, §1.10:321]
 
 Threat rises 2 points an hour. Rations burn one unit per active team per campaign day, plus whatever rescued groups declare.
 
@@ -288,7 +288,7 @@ Threat rises 2 points an hour. Rations burn one unit per active team per campaig
 
 A ship-wide shortage duration builds and applies a capped morale and recovery penalty. Reloading, changing sectors, or toggling the ration policy does not clear it.
 
-### R9.4 · Morale multiplies everything [§6.5:1463]
+### R9.4 · Morale multiplies everything [§6.5:1475]
 
 One ship-wide value, bounded 0.85 to 1.10, applied to every system's output. There are no individual morale, fatigue or meal meters [§1.8:246].
 
@@ -320,7 +320,7 @@ At every point where the player could act, the engine evaluates each available a
 
 Before committing: the cost, the known risk, and what the stock will be afterward. Not the full downstream chain, which is unreadable. The resource and the number.
 
-### R10.4 · The debrief reconstructs the chain [§4.6:1238]
+### R10.4 · The debrief reconstructs the chain [§4.6:1250]
 
 The cause-and-effect timeline is generated by walking the log, not by reading authored strings. The design document's own example: heavy volley, generator lost, pump output fell, teams left the guns to patch flooding, ammunition remained but offensive uptime collapsed.
 
@@ -576,7 +576,7 @@ an aircraft whose weapon is itself, damaging it is not enough. Only destruction 
 and a burning aircraft still arrives. If the late-war period is in scope this is a
 separate rule, not a damage multiplier.
 
-### R13.11 · Manoeuvre is a defence and it costs fuel [§6.5:1473, R1.3]
+### R13.11 · Manoeuvre is a defence and it costs fuel [§6.5:1485, R1.3]
 
 Speed and turning enter the hit calculation directly through the target-manoeuvre term.
 Evading air attack is done at high speed, which burns 1.60 fuel per distance under R1.3.
@@ -642,11 +642,11 @@ from breaking faction parity or the baseline route.
 ### R11.1 · One per run at most, rolled at run generation [game]
 
 The roll happens at creation, alongside the rest of the map, not mid-run. Proposed
-rate: **one run in three**. Rolling at generation lets the validator at [§5.2:1267]
+rate: **one run in three**. Rolling at generation lets the validator at [§5.2:1279]
 check the route with the mission in place, so a mission can never make a run
 unwinnable. The player is not told at setup; the tasking arrives as a signal later.
 
-### R11.2 · It is offered, never assigned [§5.3:1281]
+### R11.2 · It is offered, never assigned [§5.3:1293]
 
 Nothing the mission pays may be required to reach or beat the boss. A run that
 declines every mission must remain a complete run. The generator's feasibility
@@ -673,7 +673,7 @@ the design document forbids it.
 | German | Emissions discipline, navigation accuracy, deck space | Scrap and route intelligence |
 | Japanese | Fuel at high speed, a hard deadline, cargo that must arrive | Material and standing |
 
-### R11.5 · Bounded to three nodes, resolved inside its sector [§5.4:1300]
+### R11.5 · Bounded to three nodes, resolved inside its sector [§5.4:1312]
 
 A mission occupies at most three nodes of sortie and must finish in the sector it
 started in. If it cannot, it resolves through its declared alternative and is marked
@@ -682,7 +682,7 @@ unresolved in the debrief.
 ### R11.6 · Declining costs standing and nothing else [R8.2]
 
 Refusing a tasking changes standing with the issuing authority, which moves port
-access and service tiers under [§6.2:1372]. It applies no mechanical penalty to the
+access and service tiers under [§6.2:1384]. It applies no mechanical penalty to the
 ship, and the mission does not re-offer in that run.
 
 ### R11.7 · Failure is survivable, and partial success pays partially [§1.13:417]
@@ -698,7 +698,7 @@ between-run alternative available. No permanent numeric bonus, because the desig
 document excludes those from the default design. Completing a navy's mission is how
 that navy's extra hull or doctrine unlocks.
 
-### R11.9 · Novelty across runs [§6.5:1513]
+### R11.9 · Novelty across runs [§6.5:1525]
 
 The novelty factor reads profile history. A mission completed recently is weighted
 down, so a player who runs the same navy repeatedly does not meet the same tasking

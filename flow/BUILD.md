@@ -50,7 +50,7 @@ game/
     state.ts           the run state from FLOW.md §3.2
     rng.ts             separate streams: map, events, combat, rewards
     campaign.ts        sector graph, travel, node resolution
-    encounter.ts       the 0.1s tick from RULES R10 and §6.6:1525
+    encounter.ts       the 0.1s tick from RULES R10 and §6.6:1537
     ship.ts            compartments, teams, systems, damage
     economy.ts         stocks, capacities, conditions (R1.4)
     rules/             one file per rule group, named to match RULES.md
@@ -106,7 +106,7 @@ Done when: you never need the console to play.
 ### Step 3 · The tactical screen
 
 The 0.1s tick, pause at 0x/1x/2x, two ships on a sea chart, ranges, bearings, gunnery,
-reloads, hits, sinking. The step order from [§6.6:1525](../WW2_Naval_Roguelite_Game_Logic.md).
+reloads, hits, sinking. The step order from [§6.6:1537](../WW2_Naval_Roguelite_Game_Logic.md).
 
 Done when: you can fight a surface action, pause it, change orders, and win or run.
 
@@ -175,7 +175,7 @@ ceiling 70%, team work 1.0 / 1.6 / 2.0 at a room capacity of three.
 
 ## 7. Determinism
 
-Four separate random streams: map, events, combat, rewards [§3.4:1127]. Save the stream
+Four separate random streams: map, events, combat, rewards [§3.4:1139]. Save the stream
 states, not only the seed. Cosmetic effects never draw from a gameplay stream.
 
 `headless.ts` takes a seed and replays a run exactly. Every bug report is a seed.

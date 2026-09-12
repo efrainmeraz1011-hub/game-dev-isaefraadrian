@@ -23,7 +23,7 @@ The design document defines the event machinery completely and gives it fourteen
 
 ## 1. Where replay depth actually comes from
 
-A run visits about 30 locations: six sectors, four to six layers each, one node per layer [§1.5:128]. Using the family weights at [§5.4:1294], roughly 11 of those are fights and 19 are everything else.
+A run visits about 30 locations: six sectors, four to six layers each, one node per layer [§1.5:128]. Using the family weights at [§5.4:1306], roughly 11 of those are fights and 19 are everything else.
 
 That single number governs the whole problem. **Catalog size divided by 30 is roughly how many runs a player gets before the repetition shows.** A 60-event catalog is stale by run three. A 200-event catalog is stale by run seven. Authoring your way out of this does not work, because content grows linearly and player hours do not.
 
@@ -135,7 +135,7 @@ A gate is a condition on one option. The option is visible but disabled with its
 | Condition | hull above 70%, no active fire, speed unimpaired | Situational |
 | Sector | only from sector 3 onward | Deterministic |
 
-**Rule:** every event carries at least one ungated option that a baseline starter can afford. The design document requires this at [§5.3:1285]. A gate adds a better answer; it never removes the only answer.
+**Rule:** every event carries at least one ungated option that a baseline starter can afford. The design document requires this at [§5.3:1297]. A gate adds a better answer; it never removes the only answer.
 
 **Rule:** a disabled option names its requirement. "Send a boat party (needs a sea boat)" teaches the player what to buy. A hidden option teaches nothing, so hide one only when the event's surprise depends on it.
 
@@ -143,12 +143,12 @@ A gate is a condition on one option. The option is visible but disabled with its
 
 ## 5. Repetition control
 
-Held in run state, saved, and checked before selection [§5.4:1296].
+Held in run state, saved, and checked before selection [§5.4:1308].
 
 - **No template repeats inside a run** unless it is a declared chain link.
 - **Family quotas.** No more than three consecutive combat nodes. No more than two consecutive nodes that produce nothing.
 - **Arrival-damage cooldown:** three visited locations after an unchosen damage event [§1.14:459].
-- **Novelty factor** in the weighting at [§6.5:1513] biases toward templates the profile has seen least, across runs, not only within one.
+- **Novelty factor** in the weighting at [§6.5:1525] biases toward templates the profile has seen least, across runs, not only within one.
 - **Sector eligibility** keeps sector one gentle and sector five loaded. Each event declares its sector range, so the pools differ by stage without any separate per-sector list.
 - **Slot memory.** A run that already showed a burning tanker prefers a different `vessel` and `condition` for the next salvage event.
 
@@ -232,7 +232,7 @@ Applied on top, never creating a new scenario, only re-colouring one: `sea` (cal
 1. The sector's challenge profile [§2.13:1019] supplies an eligible package list and a threat budget.
 2. Pick an objective whose success condition the package can actually threaten. Not every pair is legal: P19 shore battery cannot appear with O2 escort at sea.
 3. Pick one complication. **Never two.** Two complications on one budget is where unfair encounters come from, and the design document says so at [§2.13:1047].
-4. Validate counterplay before presenting: at least one feasible response must exist given the player's actual loadout [§5.3:1280].
+4. Validate counterplay before presenting: at least one feasible response must exist given the player's actual loadout [§5.3:1292].
 5. Apply condition modifiers from the sector's weather state.
 
 Rough eligibility across the 3,600 objective × package × complication combinations lands near **35% legal**, or about **1,260 distinct scenarios**, before conditions.
@@ -263,7 +263,7 @@ against, which is `OPEN-E1` in section 10.
 
 ## 8. Catalog C — chains
 
-A chain is a consequence that lands later. This is the cheapest way to make a run feel like a story rather than a list, and the design document already asks for it at [§2.13:1051] and bounds it at [§5.4:1300].
+A chain is a consequence that lands later. This is the cheapest way to make a run feel like a story rather than a list, and the design document already asks for it at [§2.13:1051] and bounds it at [§5.4:1312].
 
 **Rules.** A chain is at most three links. Every link must be reachable inside the remaining graph. If it cannot land, it resolves through a declared alternative or is marked unresolved in the debrief.
 
@@ -307,7 +307,7 @@ A chain is a consequence that lands later. This is the cheapest way to make a ru
 | OPEN-E3 | Sector eligibility ranges per template. | Sector one must be gentler than sector five |
 | OPEN-E4 | Whether gated options show disabled with their requirement named, or hide. Per-event, and it changes how much the game teaches. | Interface and teaching |
 | OPEN-E5 | How the novelty factor reads profile history across runs without making the pool feel scripted. | Repetition control |
-| OPEN-E6 | Whether standing and reputation are one number per faction, as [§6.2:1372] says, or per port. | Nine events reference it |
+| OPEN-E6 | Whether standing and reputation are one number per faction, as [§6.2:1384] says, or per port. | Nine events reference it |
 
 ---
 

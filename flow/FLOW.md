@@ -108,13 +108,13 @@ stateDiagram-v2
     S17 --> S01: archived
 ```
 
-**Run lifecycle, running underneath all of it** [§3.5:1138]:
+**Run lifecycle, running underneath all of it** [§3.5:1150]:
 
 ```
 ACTIVE → TERMINAL_PENDING → ARCHIVED
 ```
 
-Monotonic. A run never returns to `ACTIVE`. `TERMINAL_PENDING` exists so a crash between "the run ended" and "the profile recorded it" resolves once on reopen, granting nothing twice and reviving nothing [§3.5:1143].
+Monotonic. A run never returns to `ACTIVE`. `TERMINAL_PENDING` exists so a crash between "the run ended" and "the profile recorded it" resolves once on reopen, granting nothing twice and reviving nothing [§3.5:1155].
 
 **Terminal checks** run after each completed atomic campaign action and each completed tactical step capable of changing survival or objectives [§1.4:124]. Never mid-step. Resolve the step's damage and objective facts together, then apply the precedence rules at [§4.5].
 
@@ -124,7 +124,7 @@ Monotonic. A run never returns to `ACTIVE`. `TERMINAL_PENDING` exists so a crash
 
 The only state that survives between runs.
 
-**Holds** [§3.2:1091]: profile ID, settings, accessibility preferences, discovered codex entries, unlocked starting options, challenge progress, run history, processed reward and terminal transaction IDs.
+**Holds** [§3.2:1103]: profile ID, settings, accessibility preferences, discovered codex entries, unlocked starting options, challenge progress, run history, processed reward and terminal transaction IDs.
 
 **Choices**
 
@@ -132,16 +132,16 @@ The only state that survives between runs.
 |---|---|---|
 | P-1 | Start a new run | S02 |
 | P-2 | Read an archived debrief | S17 (read-only, no resume) |
-| P-3 | Change settings or accessibility | S01. Changes no gameplay randomness [§3.7:1167]. |
+| P-3 | Change settings or accessibility | S01. Changes no gameplay randomness [§3.7:1179]. |
 
 **Rules that bind this state**
 
-- Current-run fuel, crew, equipment, Scrap, and mission cargo never become profile inventory [§3.2:1101].
+- Current-run fuel, crew, equipment, Scrap, and mission cargo never become profile inventory [§3.2:1113].
 - Unlocks are horizontal. They add alternatives: extra destroyer layouts, doctrines, equipment packages, campaigns, challenge rules, codex entries. Persistent numeric hull, damage, or resource bonuses are excluded [§2.7:740].
 - All four factions have a baseline starting option from the first run. No faction is gated behind another faction's completion [§2.7:740].
-- A completed or lost run cannot be resumed as an active campaign [§3.1:1083].
+- A completed or lost run cannot be resumed as an active campaign [§3.1:1095].
 
-`OPEN-01`: the exact unlock predicates. The document says "explicit achievement predicates" and gives three examples [§2.7:742], and registers the decision as META-01 [§6.11:1758].
+`OPEN-01`: the exact unlock predicates. The document says "explicit achievement predicates" and gives three examples [§2.7:742], and registers the decision as META-01 [§6.11:1770].
 
 ---
 
@@ -160,11 +160,11 @@ The only state that survives between runs.
 
 **Shown before commit** [§2.1:663]: the final boss objective, the ship's actual strengths and weaknesses, starting supply endurance.
 
-**Committed at creation** [§3.2:1092]: run ID, profile ID, side, faction, ship layout, campaign ruleset, **preselected boss archetype**, initial seed, generation/save/content versions, immutable balance configuration hash, difficulty, starting choices, eligible content manifest.
+**Committed at creation** [§3.2:1104]: run ID, profile ID, side, faction, ship layout, campaign ruleset, **preselected boss archetype**, initial seed, generation/save/content versions, immutable balance configuration hash, difficulty, starting choices, eligible content manifest.
 
-The boss archetype is chosen here, not at sector 6. Later player upgrades cannot cause the game to substitute a harder counter [§4.1:1182].
+The boss archetype is chosen here, not at sector 6. Later player upgrades cannot cause the game to substitute a harder counter [§4.1:1194].
 
-**Generation runs now, in this order** [§5.2:1260]:
+**Generation runs now, in this order** [§5.2:1272]:
 
 1. Fix faction, layout, force pools, boss objective and archetype, ruleset, difficulty, seed, eligible starting content.
 2. Generate the sector structure and forward route graph.
@@ -180,9 +180,9 @@ The boss archetype is chosen here, not at sector 6. Later player upgrades cannot
 
 **Exits:** S03 only.
 
-`OPEN-02`: difficulty levels are referenced repeatedly but never enumerated. The document says difficulty may alter starting reserves, threat growth, enemy coordination, warning lead time, and reward abundance [§5.6:1318], without naming the settings.
-`OPEN-03`: how many hulls per faction. Registered as SCOPE-01 [§6.11:1744].
-`OPEN-04`: no ship layout exists. No compartment graph, no deck positions, no station list, for any hull. Listed as the first TBD at [§6.12:1789] and named as the next design step at [§6.12:1804].
+`OPEN-02`: difficulty levels are referenced repeatedly but never enumerated. The document says difficulty may alter starting reserves, threat growth, enemy coordination, warning lead time, and reward abundance [§5.6:1330], without naming the settings.
+`OPEN-03`: how many hulls per faction. Registered as SCOPE-01 [§6.11:1756].
+`OPEN-04`: no ship layout exists. No compartment graph, no deck positions, no station list, for any hull. Listed as the first TBD at [§6.12:1801] and named as the next design step at [§6.12:1816].
 
 ---
 
@@ -230,7 +230,7 @@ Geography and event identity are separate. An island approach can hold a patrol,
 **Threat display** [§1.6:151]: `sector_threat` runs 0 to 100 with thresholds at 30, 60, 85. The route preview explains the current consequences. Crossing a threshold applies its effects after the action that crossed it, visible before the next commitment [§1.6:157].
 
 `OPEN-05`: what concretely changes at threat 30, 60, and 85. The document says patrol composition, interception probability, and port service costs change [§1.6:151], without giving the deltas.
-`OPEN-06`: no sector graph has ever been authored. Listed as TBD at [§6.12:1793].
+`OPEN-06`: no sector graph has ever been authored. Listed as TBD at [§6.12:1805].
 
 ---
 
@@ -242,13 +242,13 @@ One atomic transaction [§1.5:135].
 
 1. **Check** prerequisites and affordability.
 2. **Commit** normal fuel and time together. Any event surcharge is a separate disclosed consequence with a stated outcome if unaffordable [§1.5:135].
-3. **Save** a durable generation before revealing anything [§3.3:1109].
-4. **Roll** threat update [§6.5:1443]:
+3. **Save** a durable generation before revealing anything [§3.3:1121].
+4. **Roll** threat update [§6.5:1455]:
    `threat_after = clamp(threat_before + 2 × elapsed_hours + action_signature_points − committed_intelligence_reduction, 0, 100)`
    Signature impulses are applied once per committed action ID. Prototype: 3 points for a conspicuous departure, 4 for a loud engagement.
 5. **Check** interception.
 
-**Travel cost** [§6.5:1432]
+**Travel cost** [§6.5:1444]
 
 ```
 travel_hours       = edge_distance / effective_transit_speed
@@ -256,7 +256,7 @@ vessel_travel_fuel = edge_distance × fuel_per_distance × speed_multiplier
                      × weather_multiplier × damage_multiplier
 ```
 
-`effective_transit_speed` is the destroyer's own eligible speed, or the slowest required accompanying vessel when traveling as a force [§6.5:1438].
+`effective_transit_speed` is the destroyer's own eligible speed, or the slowest required accompanying vessel when traveling as a force [§6.5:1450].
 
 **Branches**
 
@@ -283,7 +283,7 @@ The node picks exactly one primary event instance and its permitted follow-ups [
 1. Commit arrival: resolve travel once, select the eligible event and its initial random values, save the arrival record.
 2. Branch on what that event is.
 
-**Event family selection** [§5.4:1294]
+**Event family selection** [§5.4:1306]
 
 First select an eligible primary family, then a template within it. Prototype relative weights, before eligibility filters:
 
@@ -296,9 +296,9 @@ First select an eligible primary family, then a template within it. Prototype re
 | Hazard / emergency | 10 | S06 |
 | Quiet passage | 10 | S07 |
 
-They total 100 **before** exclusions. They are relative weights, not promised percentages [§5.4:1294]. Fixed tutorial, service, and boss nodes use declared content instead. A family with no eligible templates contributes zero weight; normalize the rest or use a known-valid quiet fallback [§5.4:1296].
+They total 100 **before** exclusions. They are relative weights, not promised percentages [§5.4:1306]. Fixed tutorial, service, and boss nodes use declared content instead. A family with no eligible templates contributes zero weight; normalize the rest or use a known-valid quiet fallback [§5.4:1308].
 
-**Weighting formula** [§6.5:1513]
+**Weighting formula** [§6.5:1525]
 
 ```
 weight(event) = base_weight × sector_fit × context_fit × novelty_factor
@@ -307,7 +307,7 @@ p(event)      = weight(event) / sum(weight of all eligible events)
 
 Ineligible events weigh zero. An empty pool selects a known-valid fallback and never divides by zero.
 
-**Repetition control** [§5.4:1296]: per-run cooldowns, unique-event flags, category quotas, configurable limits on consecutive forced combat and repeated unrewarding events. Selection commits on arrival, so cycling pause, shop tabs, or a reload cannot reroll the category, the find, or the team.
+**Repetition control** [§5.4:1308]: per-run cooldowns, unique-event flags, category quotas, configurable limits on consecutive forced combat and repeated unrewarding events. Selection commits on arrival, so cycling pause, shop tabs, or a reload cannot reroll the category, the find, or the team.
 
 **Branches**
 
@@ -347,7 +347,7 @@ The state that exists because the player asked for the first problem to have alr
 | A-2 | Survived, no hazard remains | S07 |
 | A-3 | Terminal | S16 |
 
-**Resume rule** [§3.3:1121]: an arrival commitment may hold an unapplied mandatory effect. On resume, complete it before returning control. Persist the damage, the breach, the mine's spent state, and the applied-effect ID together. A later resume neither skips the explosion nor applies it twice.
+**Resume rule** [§3.3:1133]: an arrival commitment may hold an unapplied mandatory effect. On resume, complete it before returning control. Persist the damage, the breach, the mine's spent state, and the applied-effect ID together. A later resume neither skips the explosion nor applies it twice.
 
 ---
 
@@ -400,7 +400,7 @@ Every one of these is a one-line table row in the design document. None has cost
 | R-2 | Node was the sector exit | S14 |
 | R-3 | Terminal | S16 |
 
-**Anti-softlock guarantee** [§5.3:1285]: at least one eligible option or explicit terminal decision exists in every event state. Missing crew, destroyed equipment, or full storage cannot trap the interface. No random event may offer only a disabled button.
+**Anti-softlock guarantee** [§5.3:1297]: at least one eligible option or explicit terminal decision exists in every event state. Missing crew, destroyed equipment, or full storage cannot trap the interface. No random event may offer only a disabled button.
 
 ---
 
@@ -445,7 +445,7 @@ Every one of these is a one-line table row in the design document. None has cost
 
 **Worked checkout, the only priced example in the repo** [§2.11:872]: 80 Scrap + 20 old-gun credit − 60 new-gun price − 10 installation = **30 Scrap remaining**.
 
-`OPEN-08`: no port inventory, no price table, no service capacity numbers exist. Listed as TBD at [§6.12:1792] and [§6.12:1800], registered as ECON-03 [§6.11:1751].
+`OPEN-08`: no port inventory, no price table, no service capacity numbers exist. Listed as TBD at [§6.12:1804] and [§6.12:1812], registered as ECON-03 [§6.11:1763].
 
 ---
 
@@ -496,7 +496,7 @@ stateDiagram-v2
     Check --> [*]: encounter ends
 ```
 
-**Step order, run every tick** [§6.6:1525]
+**Step order, run every tick** [§6.6:1537]
 
 1. Read queued player orders and scheduled AI decisions from the completed prior state. Validate prerequisites.
 2. Allocate power and tasks. Advance crew setup, movement, ship maneuver. Meter fuel, ration demand, partial-transfer work.
@@ -505,7 +505,7 @@ stateDiagram-v2
 5. Apply damage, hazard creation, shared repair and suppression work, water flows, team health and loss.
 6. Update local objectives, boss phase facts, campaign time, rations, morale, threat, statistics.
 7. Check irrecoverable failure, then mandatory survival, then victory. **Commit at most one terminal result.**
-8. Publish state. Save a snapshot if due, approximately every 15 simulated seconds at a completed tick boundary [§3.3:1107].
+8. Publish state. Save a snapshot if due, approximately every 15 simulated seconds at a completed tick boundary [§3.3:1119].
 
 ### 10.3 Contact states
 
@@ -526,16 +526,16 @@ Quality decays when observations stop. A last-known marker is distinct from a cu
 5. Resolve hit and damage. Apply local effects, update contact information.
 6. Reload per mount, crew, damage, and ammunition conditions.
 
-**Hit probability** [§6.5:1472]
+**Hit probability** [§6.5:1484]
 
 ```
 p_hit = clamp(base_accuracy × track_factor × range_factor × weather_factor
               × fire_control_factor × target_maneuver_factor, 0.05, 0.95)
 ```
 
-The 5% floor and 95% ceiling apply **only** to eligible probabilistic surface gunnery. They never give an out-of-range or submerged target a chance. Torpedoes and depth charges use their own travel and intersection model [§6.5:1476].
+The 5% floor and 95% ceiling apply **only** to eligible probabilistic surface gunnery. They never give an out-of-range or submerged target a chance. Torpedoes and depth charges use their own travel and intersection model [§6.5:1488].
 
-**Armor** [§6.5:1481]
+**Armor** [§6.5:1493]
 
 ```
 penetration_margin = attack_penetration − effective_armor_at_impact
@@ -556,7 +556,7 @@ Prototype bands: nonpenetrating, partial, penetrating.
 
 **Fire** [§1.9:263]: intensity 0 to 100 per compartment. Damages local systems and exposed teams, may damage hull, spreads through eligible adjacent connections. Suppression lowers intensity, isolation lowers spread. Heat, smoke, and reduced air are one exposure rule, not an oxygen simulation.
 
-**Flooding** [§6.5:1491]
+**Flooding** [§6.5:1503]
 
 ```
 water_next      = clamp(water_current + (ingress + adjacent_inflow
@@ -571,7 +571,7 @@ stability_reserve = clamp(100 − 60 × flood_fraction − 60 × list_fraction, 
 | Countdown | Trigger | Duration | Reset |
 |---|---|---|---|
 | Foundering | `flood_fraction` reaches 0.80 [§1.9:269] | 20 seconds | Falls below 0.70 |
-| Capsize | `stability_reserve` below 10 [§6.3:1389] | 20 seconds | Rises above 15 [§6.3:1398] |
+| Capsize | `stability_reserve` below 10 [§6.3:1401] | 20 seconds | Rises above 15 [§6.3:1410] |
 
 The hysteresis gap exists so oscillation around the threshold cannot farm fresh grace periods. Warn at 65% flooding [§1.9:269]. Balanced flooding can founder a ship that never lists.
 
@@ -586,7 +586,7 @@ Six selectable teams at start, normal cap seven [§1.2:78]. A team is one indivi
 3. In a hazardous room the default priority is: preserve life, fight fire, patch an active breach, repair the system. One-click override between fire and flooding when both exist.
 4. Return to stations restores saved assignments. Travel still takes time.
 
-**Cooperative work** [§1.8:220]: room capacity is **three team tokens**. One ordinary team supplies 1.0 units of damage-control work, two supply 1.6, three supply 2.0. Contributions weight 1.0 / 0.6 / 0.4, sorted by effectiveness with a stable team-ID tie break [§6.5:1465]. Teams beyond capacity wait in a safe reachable place and produce nothing.
+**Cooperative work** [§1.8:220]: room capacity is **three team tokens**. One ordinary team supplies 1.0 units of damage-control work, two supply 1.6, three supply 2.0. Contributions weight 1.0 / 0.6 / 0.4, sorted by effectiveness with a stable team-ID tie break [§6.5:1477]. Teams beyond capacity wait in a safe reachable place and produce nothing.
 
 Multiple teams never multiply gun, radar, engine, or launcher output unless that equipment has an explicit assistant station [§1.8:222].
 
@@ -600,7 +600,7 @@ Multiple teams never multiply gun, radar, engine, or launcher output unless that
 
 Losing **all** teams ends the run once the current step resolves [§1.8:233]. The captain is the player's role, not a token with its own loss condition.
 
-**System output** [§6.5:1452]
+**System output** [§6.5:1464]
 
 ```
 if any mandatory prerequisite is missing: output = 0
@@ -609,7 +609,7 @@ else: output = base_output × condition_factor × power_factor × staffing_facto
                × hazard_multiplier
 ```
 
-All multipliers bounded and nonnegative. Ship morale is a single modifier, provisionally 0.85 to 1.10, and never shuts a working ship down by itself [§6.5:1463].
+All multipliers bounded and nonnegative. Ship morale is a single modifier, provisionally 0.85 to 1.10, and never shuts a working ship down by itself [§6.5:1475].
 
 ### 10.7 Sensors and torpedo evasion
 
@@ -642,9 +642,9 @@ A submarine track and a torpedo track are separate records. Tracking the submari
 
 Disengaged submarines can affect later authored nodes only through a saved pursuit flag, never by spawning infinite rematches [§1.12:365].
 
-`OPEN-09`: no enemy roster, no enemy loadouts, no AI doctrine rules. Listed as TBD at [§6.12:1794].
-`OPEN-10`: no equipment catalog with targets, costs, ranges, arcs, or rates. TBD at [§6.12:1790].
-`OPEN-11`: the nine objective templates have no manifests. TBD at [§6.12:1794].
+`OPEN-09`: no enemy roster, no enemy loadouts, no AI doctrine rules. Listed as TBD at [§6.12:1806].
+`OPEN-10`: no equipment catalog with targets, costs, ranges, arcs, or rates. TBD at [§6.12:1802].
+`OPEN-11`: the nine objective templates have no manifests. TBD at [§6.12:1806].
 
 ---
 
@@ -671,7 +671,7 @@ These appear as one status with reasons. Remaining contained water and damaged e
 | ST-2 | Stable, this node was the sector exit | S14 |
 | ST-3 | Rewards pending | S13 |
 | ST-4 | Event follow-up triggered | S07 |
-| ST-5 | Terminal loss during stabilization | S16, **bypassing all uncommitted salvage and reward choices** [§3.5:1145] |
+| ST-5 | Terminal loss during stabilization | S16, **bypassing all uncommitted salvage and reward choices** [§3.5:1157] |
 | ST-6 | Stabilization impossible | Player may call for rescue or abandon ship [§1.9:285] |
 
 ---
@@ -695,13 +695,13 @@ These appear as one status with reasons. Remaining contained water and damaged e
 
 ## 13. S14 SECTOR_TRANSITION
 
-**Threat carryover** [§6.5:1445]
+**Threat carryover** [§6.5:1457]
 
 ```
 next_sector_start = clamp(next_sector_base_threat + 0.25 × threat_at_exit, 0, 100)
 ```
 
-**Sector transitions refill no stocks** [§6.6:1536]. Reloading or crossing a boundary never automatically restores ammunition, fuel, or rations [§1.10:327].
+**Sector transitions refill no stocks** [§6.6:1548]. Reloading or crossing a boundary never automatically restores ammunition, fuel, or rations [§1.10:327].
 
 **The sector arc** [§2.2:673], described as level themes, not a required itinerary:
 
@@ -731,9 +731,9 @@ next_sector_start = clamp(next_sector_base_threat + 0.25 × threat_at_exit, 0, 1
 
 ## 14. S15 FINAL_OPERATION
 
-**Preparation first** [§4.2:1188]. Before commitment, show the known boss profile, primary threats, victory and retreat rules, remaining fuel and ammunition, airframe and payload availability, ship condition, and any obvious lack of a usable offensive system. The preparation service offers the basic refit and resupply used by campaign viability validation, with finite stock and normal costs. It does not erase earlier losses.
+**Preparation first** [§4.2:1200]. Before commitment, show the known boss profile, primary threats, victory and retreat rules, remaining fuel and ammunition, airframe and payload availability, ship condition, and any obvious lack of a usable offensive system. The preparation service offers the basic refit and resupply used by campaign viability validation, with finite stock and normal costs. It does not erase earlier losses.
 
-**Structure** [§4.3:1196]: one continuous fight, one persistent boss hull, persistent subsystem damage, phase triggers near **70%** and **35%** hull.
+**Structure** [§4.3:1208]: one continuous fight, one persistent boss hull, persistent subsystem damage, phase triggers near **70%** and **35%** hull.
 
 | Phase | Pressure | Player responses | Hard limit |
 |---|---|---|---|
@@ -741,21 +741,21 @@ next_sector_start = clamp(next_sector_base_threat + 0.25 × threat_at_exit, 0, 1
 | Escalation | A declared torpedo battery or finite aircraft reserve joins | Prioritize AA and aircraft, disable mounts, use spread timing or screen | The extra threat shares the boss budget. No counter-spawn based on player build. |
 | Damaged last stand | Surviving weapons attack more aggressively, damaged systems stay damaged | Exploit weakened systems, conserve a finishing weapon, reinforce damage control | Finite stores stay finite. Lost weapons stay lost unless an ordinary visible repair rule restores them. |
 
-**Phase changes are not repairs** [§4.3:1208]. Crossing a threshold never refills hull or resurrects destroyed systems. A volley crossing several thresholds at once, or sinking the boss outright, resolves its full damage. No hidden health gate nullifies it [§4.3:1196]. Disabled launchers cannot produce a new wave merely because a phase fired.
+**Phase changes are not repairs** [§4.3:1220]. Crossing a threshold never refills hull or resurrects destroyed systems. A volley crossing several thresholds at once, or sinking the boss outright, resolves its full damage. No hidden health gate nullifies it [§4.3:1208]. Disabled launchers cannot produce a new wave merely because a phase fired.
 
-Damage to the boss's radar, fire control, propulsion, launchers, or AA causes the same kind of loss of function as on the player ship [§4.3:1204].
+Damage to the boss's radar, fire control, propulsion, launchers, or AA causes the same kind of loss of function as on the player ship [§4.3:1216].
 
-**Every supported build must have a path** [§4.3:1206]: sustained guns dismantle systems, penetrating guns pressure protected areas, torpedoes reward positioning, aircraft stagger or coordinate after weakening AA. No boss is immune to a main supported build for the whole fight. A temporary counter must have a visible window, a vulnerable supporting system, or an alternate response.
+**Every supported build must have a path** [§4.3:1218]: sustained guns dismantle systems, penetrating guns pressure protected areas, torpedoes reward positioning, aircraft stagger or coordinate after weakening AA. No boss is immune to a main supported build for the whole fight. A temporary counter must have a visible window, a vulnerable supporting system, or an alternate response.
 
-`OPEN-13`: no boss manifest exists. No weapons, no stores, no phase timings, no attack windows. TBD at [§6.12:1795], registered as BOSS-01 [§6.11:1749].
+`OPEN-13`: no boss manifest exists. No weapons, no stores, no phase timings, no attack windows. TBD at [§6.12:1807], registered as BOSS-01 [§6.11:1761].
 
 ---
 
 ## 15. S16 RUN_RESOLUTION and S17 DEBRIEF
 
-Evaluate every attack, hazard, team loss, and objective fact belonging to the completed step, then **commit exactly one result** [§4.4:1212].
+Evaluate every attack, hazard, team loss, and objective fact belonging to the completed step, then **commit exactly one result** [§4.4:1224].
 
-**The terminal table** [§4.4:1214]
+**The terminal table** [§4.4:1226]
 
 | Outcome | Condition | Credit |
 |---|---|---|
@@ -765,21 +765,21 @@ Evaluate every attack, hazard, team loss, and objective fact belonging to the co
 | Ordinary tactical retreat | Valid disengagement from a non-boss encounter | Run continues with that encounter's stated consequences |
 | Boss retreat | Physically valid disengagement from the boss | Run ends as **withdrawal**, no victory credit. Stated before commitment. No reentry or shop-reset loop. |
 | Menu abandonment | Explicit discard command | Ends the run. Closing or suspending the application never counts. |
-| Fuel exhaustion with no tow or aid | No viable recovery | A clear run-ending or rescue decision exists. No endless empty map [§6.9:1643]. |
+| Fuel exhaustion with no tow or aid | No viable recovery | A clear run-ending or rescue decision exists. No endless empty map [§6.9:1655]. |
 
-**Nonterminal hazards after the winning step** [§4.4:1217]: a surviving player may still have a fire or a repairable breach. Standard victory requires no further stabilization or extraction. Archive the final state. Later queued simulation cannot reverse a committed result.
+**Nonterminal hazards after the winning step** [§4.4:1229]: a surviving player may still have a fire or a repairable breach. Standard victory requires no further stabilization or extraction. Archive the final state. Later queued simulation cannot reverse a committed result.
 
-**Zero ammunition or fuel alone never kills the ship** [§4.4:1222]. In the boss fight an exhausted force can attempt a valid retreat or choose surrender or abandon ship. It must not be trapped in a meaningless live simulation.
+**Zero ammunition or fuel alone never kills the ship** [§4.4:1234]. In the boss fight an exhausted force can attempt a valid retreat or choose surrender or abandon ship. It must not be trapped in a meaningless live simulation.
 
-**The player never transfers control to a surviving escort** after losing the command ship [§4.4:1224].
+**The player never transfers control to a surviving escort** after losing the command ship [§4.4:1236].
 
-**Terminal transaction** [§3.5:1141]: record outcome, objective results, surviving entities, statistics, and earned unlock predicates in one durable transaction. Apply to the profile exactly once by unique ID. Profile grants and their processed IDs commit in the same atomic update. Archive only after the profile acknowledges.
+**Terminal transaction** [§3.5:1153]: record outcome, objective results, surviving entities, statistics, and earned unlock predicates in one durable transaction. Apply to the profile exactly once by unique ID. Profile grants and their processed IDs commit in the same atomic update. Archive only after the profile acknowledges.
 
-**Debrief contents** [§4.6:1236]: campaign outcome, sectors reached, boss archetype and phase reached, whether the boss was destroyed, ship layout and final build, team losses, optional mission results, supplies spent, newly earned unlocks. Plus the seed, the rules and content versions, and a short cause-and-effect timeline.
+**Debrief contents** [§4.6:1248]: campaign outcome, sectors reached, boss archetype and phase reached, whether the boss was destroyed, ship layout and final build, team losses, optional mission results, supplies spent, newly earned unlocks. Plus the seed, the rules and content versions, and a short cause-and-effect timeline.
 
-The document's own example of a good timeline [§4.6:1238]: heavy volley → generator lost → pump output fell → teams left guns to patch flooding → ammunition remained but offensive uptime collapsed.
+The document's own example of a good timeline [§4.6:1250]: heavy volley → generator lost → pump output fell → teams left guns to patch flooding → ammunition remained but offensive uptime collapsed.
 
-**Exits:** S17 → S01. Victory ends the run. There is no post-victory cleanup farming [§4.6:1240].
+**Exits:** S17 → S01. Victory ends the run. There is no post-victory cleanup farming [§4.6:1252].
 
 ---
 
@@ -789,22 +789,22 @@ Everything the tree needed and the repo does not define. This is the build list.
 
 | ID | Branch with no content behind it | Registered as | Blocks |
 |---|---|---|---|
-| OPEN-01 | Unlock predicates | META-01 [§6.11:1758] | S01, between-run loop |
+| OPEN-01 | Unlock predicates | META-01 [§6.11:1770] | S01, between-run loop |
 | OPEN-02 | Difficulty levels, never enumerated | — | S02, every budget |
-| OPEN-03 | How many hulls per faction | SCOPE-01 [§6.11:1744] | S02 |
-| OPEN-04 | **No ship layout exists.** No compartment graph, deck positions, stations, or corridor routes for any hull | BUILD-01 [§6.11:1747] | S10 entirely. The crew layer cannot be built without it. |
-| OPEN-05 | What threat 30 / 60 / 85 concretely change | BAL-01 [§6.11:1761] | S03, S04 |
-| OPEN-06 | No sector graph ever authored | — [§6.12:1793] | S03 |
-| OPEN-07 | All fourteen event manifests: costs, odds, reward amounts, eligibility | EVENT-01 [§6.11:1752] | S07 |
-| OPEN-08 | Port inventories, prices, service capacities | ECON-03 [§6.11:1751] | S09 |
-| OPEN-09 | Enemy roster, loadouts, AI doctrine | — [§6.12:1794] | S10, S15 |
+| OPEN-03 | How many hulls per faction | SCOPE-01 [§6.11:1756] | S02 |
+| OPEN-04 | **No ship layout exists.** No compartment graph, deck positions, stations, or corridor routes for any hull | BUILD-01 [§6.11:1759] | S10 entirely. The crew layer cannot be built without it. |
+| OPEN-05 | What threat 30 / 60 / 85 concretely change | BAL-01 [§6.11:1773] | S03, S04 |
+| OPEN-06 | No sector graph ever authored | — [§6.12:1805] | S03 |
+| OPEN-07 | All fourteen event manifests: costs, odds, reward amounts, eligibility | EVENT-01 [§6.11:1764] | S07 |
+| OPEN-08 | Port inventories, prices, service capacities | ECON-03 [§6.11:1763] | S09 |
+| OPEN-09 | Enemy roster, loadouts, AI doctrine | — [§6.12:1806] | S10, S15 |
 | OPEN-10 | Equipment catalog with targets, costs, ranges, arcs, rates | BUILD-01 | S09, S10 |
-| OPEN-11 | The nine encounter objective templates have no manifests | — [§6.12:1794] | S10 |
+| OPEN-11 | The nine encounter objective templates have no manifests | — [§6.12:1806] | S10 |
 | OPEN-12 | Sector-boundary choice between two upcoming sectors is undefined | — | S14 |
-| OPEN-13 | No boss manifest: weapons, stores, phase timings, attack windows | BOSS-01 [§6.11:1749] | S15 |
-| OPEN-14 | Weather model is "bounded" but unspecified [§6.4:1423] | — | S03, S10 |
+| OPEN-13 | No boss manifest: weapons, stores, phase timings, attack windows | BOSS-01 [§6.11:1761] | S15 |
+| OPEN-14 | Weather model is "bounded" but unspecified [§6.4:1435] | — | S03, S10 |
 | OPEN-15 | Escort stances are referenced but never listed [§1.2:70] | — | S10 |
-| OPEN-16 | Crew team home stations, task rates, hazard rates, recovery curves | CREW-02 [§6.11:1746] | S10 |
+| OPEN-16 | Crew team home stations, task rates, hazard rates, recovery curves | CREW-02 [§6.11:1758] | S10 |
 
 Sixteen holes. Four of them (04, 07, 09, 13) block anything playable. The other twelve can be stubbed.
 
@@ -812,7 +812,7 @@ Sixteen holes. Four of them (04, 07, 09, 13) block anything playable. The other 
 
 ## 17. Where the repo contradicts itself
 
-Found while building the tree. Each needs a decision, not a guess.
+Found while building the tree, and while merging v0.9. Each needs a decision, not a guess.
 
 **A. Fixed six-sector arc versus branching sector choice.** [§2.2:673] gives six sectors with fixed themes and named objectives, in order. [§1.5:128] says sector boundaries offer a choice between two upcoming sea sectors when the mission allows. Both cannot be literally true. Either the themes are a fixed spine and the choice is cosmetic, or the arc is a pool and the themes are examples.
 
@@ -820,7 +820,14 @@ Found while building the tree. Each needs a decision, not a guess.
 
 **C. The balance model has no crew.** Six teams, compartments, fire, flooding, and damage control are the document's central loop, and `simulate.py:118` reduces the whole thing to one scalar, `diverted = min(.42, hazard*.015/pump)`. Any balance number that came out of that model is silent about the layer the game is actually about. [§2.13:1065] says this outright.
 
-**D. Rapid guns.** The model reports 0.0% completion across 7,680 campaigns for the all-rapid pattern, and 43.5% once a paid two-gun refit is allowed [BALANCE_REPORT.md:132]. The document's design intent at [§2.10:823] is that rapid guns beat light targets and lose to armor, which is a tradeoff, not a dead build. The model's boss is always armored, so the tradeoff never pays. Either the boss needs an unarmored vulnerability, or the sector must guarantee a refit path.
+**D. v0.9 proposes collapsing armour into hull health.** Section 2.14, added in v0.9, records
+a request for simpler structural toughness represented through hull health, while flagging the
+existing armour and penetration model at [§6.5:1493](../WW2_Naval_Roguelite_Game_Logic.md) for a
+coordinated follow-up. These cannot both stand. The penetration bands are what make a rapid gun
+and a heavy gun different weapons, and the balance report's clearest finding depends on them.
+Collapsing them makes every gun a damage number.
+
+**E. Rapid guns.** The model reports 0.0% completion across 7,680 campaigns for the all-rapid pattern, and 43.5% once a paid two-gun refit is allowed [BALANCE_REPORT.md:132]. The document's design intent at [§2.10:823] is that rapid guns beat light targets and lose to armor, which is a tradeoff, not a dead build. The model's boss is always armored, so the tradeoff never pays. Either the boss needs an unarmored vulnerability, or the sector must guarantee a refit path.
 
 ---
 

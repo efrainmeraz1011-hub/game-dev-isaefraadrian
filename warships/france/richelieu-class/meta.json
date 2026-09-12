@@ -1,0 +1,22 @@
+{
+  "class": "Richelieu class",
+  "type": "battleship",
+  "ships": [
+    {"name": "Richelieu", "hull": "", "aliases": ["Q432"], "file": "ships/richelieu.md"},
+    {"name": "Jean Bart", "hull": "", "aliases": [], "file": "ships/jean-bart.md"},
+    {"name": "Clemenceau", "hull": "", "aliases": ["Schlachtschiff R"], "file": "ships/clemenceau.md"},
+    {"name": "Gascogne", "hull": "", "aliases": [], "file": "ships/gascogne.md"}
+  ],
+  "weapons": [
+    {"designation": "380 mm/45 Model 1935", "role": "main battery", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-380-mm45-model-1935-in-quadruple-turrets-model-1935"},
+    {"designation": "152 mm/55 Model 1930", "role": "secondary battery, dual purpose", "file": "03-armament-and-ammunition.md", "anchor": "secondary-battery-152-mm55-model-1930-in-triple-dual-purpose-turrets-model-1936"},
+    {"designation": "100 mm/45 Model 1930", "role": "heavy anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "heavy-anti-aircraft-battery-100-mm45-model-1930-in-twin-mounts-model-1931"},
+    {"designation": "37 mm/50 CAIL Model 1933", "role": "light anti-aircraft, 1940 to 1943", "file": "03-armament-and-ammunition.md", "anchor": "light-anti-aircraft-battery-as-completed-37-mm-and-132-mm"},
+    {"designation": "37 mm/70 Model 1935 ACAD", "role": "planned light anti-aircraft, never fitted", "file": "03-armament-and-ammunition.md", "anchor": "light-anti-aircraft-battery-as-completed-37-mm-and-132-mm"},
+    {"designation": "13.2 mm/76 Model 1929 Hotchkiss", "role": "anti-aircraft machine gun, 1940 to 1943", "file": "03-armament-and-ammunition.md", "anchor": "light-anti-aircraft-battery-as-completed-37-mm-and-132-mm"},
+    {"designation": "90 mm/50 Model 1926", "role": "emergency anti-aircraft, Jean Bart 1940 to 1942", "file": "03-armament-and-ammunition.md", "anchor": "jean-barts-emergency-battery-at-casablanca-90-mm-model-1926"},
+    {"designation": "40 mm/56 Bofors Mark 1 and Mark 2 (quadruple)", "role": "light anti-aircraft, Richelieu 1943 refit", "file": "03-armament-and-ammunition.md", "anchor": "anti-aircraft-battery-after-the-1943-refit-40-mm-bofors-and-20-mm-oerlikon"},
+    {"designation": "20 mm/70 Oerlikon Mark 4", "role": "light anti-aircraft, Richelieu 1943 refit", "file": "03-armament-and-ammunition.md", "anchor": "anti-aircraft-battery-after-the-1943-refit-40-mm-bofors-and-20-mm-oerlikon"},
+    {"designation": "Loire 130 seaplane", "role": "aircraft", "file": "03-armament-and-ammunition.md", "anchor": "aircraft-and-catapults"}
+  ]
+}

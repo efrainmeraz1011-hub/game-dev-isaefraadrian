@@ -1,0 +1,20 @@
+{
+  "class": "King George V class",
+  "type": "battleship",
+  "ships": [
+    {"name": "King George V", "hull": "41", "aliases": [], "file": "ships/king-george-v.md"},
+    {"name": "Prince of Wales", "hull": "53", "aliases": [], "file": "ships/prince-of-wales.md"},
+    {"name": "Duke of York", "hull": "17", "aliases": ["Anson (name at order, changed before launch)"], "file": "ships/duke-of-york.md"},
+    {"name": "Anson", "hull": "79", "aliases": ["Jellicoe (name at order, changed before launch)"], "file": "ships/anson.md"},
+    {"name": "Howe", "hull": "32", "aliases": ["Beatty (name at order, changed 21 February 1940)"], "file": "ships/howe.md"}
+  ],
+  "weapons": [
+    {"designation": "14-inch/45 Mark VII in quadruple Mark III and twin Mark II mountings", "role": "main battery", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-14-inch45-mark-vii-in-quadruple-mark-iii-and-twin-mark-ii-mountings"},
+    {"designation": "5.25-inch/50 QF Mark I in twin HA/LA Mark I mountings", "role": "secondary battery, dual purpose", "file": "03-armament-and-ammunition.md", "anchor": "secondary-battery-525-inch50-qf-mark-i-in-twin-hala-mark-i-mountings"},
+    {"designation": "2-pdr QF Mark VIII pom-pom in octuple Mark VI and quadruple Mark VII mountings", "role": "close-range anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "close-range-anti-aircraft-2-pdr-qf-mark-viii-pom-pom-in-octuple-mark-vi-and-quadruple-mark-vii-mountings"},
+    {"designation": "40 mm Bofors", "role": "close-range anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "close-range-anti-aircraft-40-mm-bofors"},
+    {"designation": "20 mm Oerlikon", "role": "close-range anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "close-range-anti-aircraft-20-mm-oerlikon"},
+    {"designation": "Unrotated Projectile (UP) rocket mountings", "role": "close-range anti-aircraft, 1940 to 1941", "file": "03-armament-and-ammunition.md", "anchor": "unrotated-projectile-up-rocket-mountings"},
+    {"designation": "Supermarine Walrus and catapult", "role": "aircraft", "file": "03-armament-and-ammunition.md", "anchor": "aircraft-supermarine-walrus-and-catapult"}
+  ]
+}

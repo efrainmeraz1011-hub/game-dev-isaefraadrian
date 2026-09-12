@@ -36,13 +36,7 @@ These bind every step. The user's standing instruction: nothing invented, nothin
 
 5. **Write the dossier** from the notes, following `DOSSIER-TEMPLATE.md` file by file. Prose rules: the `unslop` rules at `~/.claude/skills/unslop/SKILL.md` apply. Short declarative sentences. Tables for numbers. Done when every template file exists in the target folder.
 
-6. **Verify.** Run, from the dossier folder:
-
-   ```bash
-   grep -nE '[0-9]' [0-9][0-9]-*.md | grep -vE '\[S[0-9]+' | grep -vE '^[^:]+:[0-9]+:(#|\||---|$)'
-   ```
-
-   Every line printed is a numbered claim with no citation. Fix each by adding the citation from the notes or by moving the claim to `gaps.md`. Then confirm every `[Sn]` used resolves to an entry in `sources.md`, and every entry in `sources.md` is used at least once. Done when the grep prints nothing and both checks pass.
+6. **Verify.** Run `python3 scripts/verify.py <nation>/<class-slug>` from the repo root. It reports, per class: lines carrying a number with no `[Sn]`, citations with no source entry, source entries nothing cites, a missing or malformed `meta.json`, and images with no credit row. Fix each by adding the citation from your notes, by moving the claim to `gaps.md`, or by removing the source entry you did not use. Done when the script prints `ok` for the class.
 
 7. **Index.** Write `meta.json` in the dossier folder (schema in `DOSSIER-TEMPLATE.md`), add or update the class row in `warships/<nation>/README.md` and the coverage row in `warships/README.md`, then run `python3 scripts/build-index.py` from the repo root to regenerate `warships/INDEX.md` and `warships/index.json`. Done when the script reports the class and every ship and weapon in `meta.json`, and both README rows show the dossier.
 

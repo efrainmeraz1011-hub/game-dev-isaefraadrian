@@ -239,9 +239,8 @@ Rough eligibility across the 2,880 objective × package × complication combinat
 The catalog lives in its own file: **[CATALOG-EVENTS.md](CATALOG-EVENTS.md)**.
 
 72 events across the six families, EVT-01 through EVT-72. Every option carries the
-seven-part contract from [CONSEQUENCES.md](CONSEQUENCES.md): what it spends, the future
-option it closes, and how to recover. 206 options in total, each one validated by
-`scripts/check-consequences.py`.
+rules in [RULES.md](RULES.md). An option declares only what it spends; the engine computes
+what that closes (R10). 207 options in total, validated by `scripts/check-events.py`.
 
 | Family | Events | Weight |
 |---|---:|---:|

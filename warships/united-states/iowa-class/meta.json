@@ -1,0 +1,23 @@
+{
+  "class": "Iowa class",
+  "type": "battleship",
+  "nation": "United States",
+  "ships": [
+    {"name": "Iowa", "hull": "BB-61", "aliases": [], "file": "ships/iowa-bb-61.md", "builder": "New York Navy Yard"},
+    {"name": "New Jersey", "hull": "BB-62", "aliases": [], "file": "ships/new-jersey-bb-62.md", "builder": "Philadelphia Navy Yard"},
+    {"name": "Missouri", "hull": "BB-63", "aliases": [], "file": "ships/missouri-bb-63.md", "builder": "New York Navy Yard"},
+    {"name": "Wisconsin", "hull": "BB-64", "aliases": [], "file": "ships/wisconsin-bb-64.md", "builder": "Philadelphia Navy Yard"},
+    {"name": "Illinois", "hull": "BB-65", "aliases": [], "file": "ships/illinois-bb-65.md", "builder": "Philadelphia Navy Yard", "note": "uncompleted"},
+    {"name": "Kentucky", "hull": "BB-66", "aliases": [], "file": "ships/kentucky-bb-66.md", "builder": "Norfolk Navy Yard", "note": "uncompleted"}
+  ],
+  "weapons": [
+    {"designation": "16-inch/50 Mark 7", "role": "main battery", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-16-inch50-mark-7-gun"},
+    {"designation": "Turret Mark 7, three-gun", "role": "main battery turret", "file": "03-armament-and-ammunition.md", "anchor": "the-three-gun-turret-mark-7-mounts"},
+    {"designation": "5-inch/38 Mark 12 in Mark 28 twin mount", "role": "secondary battery", "file": "03-armament-and-ammunition.md", "anchor": "secondary-battery-5-inch38-mark-12-gun-in-mark-28-twin-mounts"},
+    {"designation": "40 mm Bofors, quad mount Mark 2", "role": "medium anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "40-mm-bofors-quad-mount-mark-2"},
+    {"designation": "20 mm Oerlikon, single and twin mounts", "role": "light anti-aircraft", "file": "03-armament-and-ammunition.md", "anchor": "20-mm-oerlikon-single-and-twin-mounts"},
+    {"designation": "Mark 38 director", "role": "main battery fire control", "file": "04-sensors-fire-control-and-communications.md", "anchor": "main-battery-fire-control"},
+    {"designation": "Mark 37 director", "role": "secondary battery fire control", "file": "04-sensors-fire-control-and-communications.md", "anchor": "secondary-battery-fire-control"},
+    {"designation": "Shipboard floatplane and catapults", "role": "aviation", "file": "03-armament-and-ammunition.md", "anchor": "aircraft-and-catapults"}
+  ]
+}

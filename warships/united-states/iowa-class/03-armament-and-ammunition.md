@@ -523,3 +523,5 @@ This list combines the turret data of OP 769 with the dated photograph captions 
 ## Gaps
 
 See gaps-03.md for: capacity of each 16-inch powder magazine; magazine flooding arrangements; position of each 5-inch mount and its magazines by frame; 40 mm and 20 mm mount positions by frame and ready-service locker locations; catapult and crane types; aviation gasoline stowage and handling; and a museum curator article on turret operation for tier 3 corroboration.
+
+Two entries in `sources-03.md` record what a source is rather than supporting a fact. The OP 769 index page gives the pamphlet's chapter list and edition statement, which is how the 1968 New Jersey reactivation edition was identified as the one published online [S83]. The 1946 revision of the gunnery manual is cited only for its table of contents, because every chapter page linked from it returned HTTP 404 when fetched; the 1944 edition supplies the text used here [S90].

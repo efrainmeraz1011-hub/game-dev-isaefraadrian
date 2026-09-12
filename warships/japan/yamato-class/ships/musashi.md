@@ -78,6 +78,23 @@ Her voids had steam eductors rated at 200 tons an hour, but no attempt was made 
 
 combinedfleet records that she capsized to port and sank by the bow at 1936 in 4,430 feet of water at 13-07N, 122-32E as given by her own damage action report, that as the stern upended the after turret fell off and two explosions were heard, and that Kiyoshimo and Hamakaze rescued 1,423 survivors while 1,023 of her 2,399-man crew were lost [S2]. Those two accounts of the final moments disagree; see `08-service-history.md`.
 
-## Wreck
+## Wreck, located 2015
 
-Paul Allen's expedition team found Musashi in March 2015 under the Sibuyan Sea [S25].
+Paul Allen's expedition team found Musashi in March 2015 under the Sibuyan Sea [S25]. National Geographic gives the date the wreck was located as 2 March 2015 and the depth as approximately 3,280 feet (one kilometre) in Philippine waters [S32]. The Associated Press report of 4 March 2015 gives the find as made on 1 March [S35]; Allen's own press release of 11 March 2015 gives 2 March [S34].
+
+The search area was 360 square nautical miles (477 square miles, or 1,236 square kilometres), derived from an analysis of primary sources listing four different sinking positions in the Sibuyan Sea: the official Japanese and US Navy positions, one recorded in the log of a Japanese destroyer standing by to rescue Musashi's crew, and a drawing by a Japanese survivor showing where the ship sank in relation to Sibuyan Island. David Mearns of Bluewater Recoveries assisted with the research and with determining the final search area, work that had begun more than eleven years earlier [S32].
+
+Method and equipment [S32]:
+
+1. Towed side-scan sonar was tried first; an early attempt was hampered by long fishing lines entangling the sensor.
+2. The team switched to a multibeam echosounder. A large volcanic ridge in the search area made depths vary between approximately 500 feet (150 m) and 6,560 feet (2,000 m) or more within a very small distance, which made both the echosounder and towed side-scan impractical.
+3. The team turned to an autonomous underwater vehicle, a Bluefin 12D built to the search team's specifications by Bluefin Robotics. Each dive lasted 24 hours on average and covered a maximum of 150 square miles (388 square kilometres).
+4. Three AUV dives located the target, which the Octo ROV, operated from the motor yacht Octopus with a high-definition camera, then confirmed as Musashi.
+
+Parts identified on the seabed: the main rudder, 36 by 20 feet (11 by 6 m) [S32]; the bow, warped by torpedo damage, with the mount for the Imperial Japanese Navy chrysanthemum crest, the crest itself having been teak and rotted away [S33]; a valve wheel carrying Japanese characters reading "main valve handle" from a lower engineering area, which was the first confirmation of Japanese origin [S35], [S33]; a catapult; a large gun turret; and one of the ship's 15-ton anchors [S35]. The press release also names the bow and stern sections and the bridge among the features shown [S34]. The expedition leader Robert Kraft identified belled-outward hull metal as torpedoes that punctured the hull and exploded inside, and a large dent pushing inward as the concussive force of a torpedo that exploded just outside the hull [S33].
+
+The Japanese naval historian Kazushige Todaka confirmed the identification [S32]. The Associated Press describes him as the head of a private museum specialising in the sister ship Yamato and quotes him saying "Judging from the location, it must be the Musashi" [S35].
+
+No fetched source publishes a latitude and longitude for the wreck, and none states how it lies. The only statement on its disposition is that the wreck landed in pieces on the sea floor [S33]. The depth figures are not consistent: approximately 3,280 feet (one kilometre) [S32] against "nearly 4,000 feet" for the 13 March live tour [S33].
+
+The Yamato Museum in Kure records that the results of the Paul Allen foundation's continuing sunken-warship surveys were provided to the museum, and that video of Musashi's present condition was among the material displayed in its 27th special exhibition, "Warships Sleeping on the Seabed: Yamato and Musashi", which opened on 24 April 2019 [S36].

@@ -27,7 +27,6 @@ To add or extend a dossier, follow `../skills/ww2-warship-research/SKILL.md`.
 - [Germany](germany/README.md)
 - [Italy](italy/README.md)
 - [France](france/README.md)
-- [Soviet Union](soviet-union/README.md)
 - [Other navies holding battleships](other-navies.md)
 
 ## Coverage
@@ -40,6 +39,5 @@ To add or extend a dossier, follow `../skills/ww2-warship-research/SKILL.md`.
 | United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | King George V, Prince of Wales, Duke of York, Anson, Howe | in progress | | 2026-09-11 |
 | Italy | [Littorio class](italy/littorio-class/README.md) | Littorio (Italia), Vittorio Veneto, Roma (Impero uncompleted) | in progress | | 2026-09-11 |
 | France | [Richelieu class](france/richelieu-class/README.md) | Richelieu, Jean Bart (Clemenceau, Gascogne uncompleted) | in progress | | 2026-09-11 |
-| Soviet Union | [Gangut class](soviet-union/gangut-class/README.md) | Marat, Oktyabrskaya Revolutsiya, Sevastopol | in progress | | 2026-09-11 |
 
 Classes listed in a nation README without a dossier link are not yet researched. Ask for one by name and the skill builds it.

@@ -73,3 +73,9 @@ Speed fell to not more than 10 knots with only the starboard inboard engine room
 The mission recorded a disagreement among survivors about the explosion. The assistant gunnery officer and the chief of staff attributed it to the fire aft reaching the after 15.5 cm magazines through the hoists. The executive officer argued that 46 cm high-capacity and incendiary projectiles racked vertically fell out nose first at 100 to 120 degrees of roll and detonated; all had fuzes installed, set on safe. A US Navy bomb disposal study of the fuze concluded that initiation that way was virtually impossible, and the mission judged the fire aft the more reasonable cause [S12, p. 15].
 
 Casualty figures differ between sources; see the conflicts section of `08-service-history.md`.
+
+## Wreck
+
+On 1 August 1985 a Japanese team in the deep research submersible Pisces II located Yamato 1,410 feet deep in the East China Sea. The wreck is in two pieces: the forward section lies on its starboard side and the after section is bottom up. In the 1985 and 1999 surveys a bugle, eating utensils and other artefacts were salvaged, but no ship parts [S1].
+
+The Yamato Museum in Kure displayed its own salvaged items recovered from Yamato in its 27th special exhibition, "Warships Sleeping on the Seabed: Yamato and Musashi", which opened on 24 April 2019. The museum director records, as an aside in his account of that exhibition, that a 25 mm twin machine gun was found during the Yamato seabed survey, which contradicted the plastic model kits then on sale [S36].

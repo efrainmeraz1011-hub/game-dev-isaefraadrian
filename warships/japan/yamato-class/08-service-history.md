@@ -83,12 +83,34 @@ Shinano was laid down as the third Yamato-class hull and completed as an aircraf
 
 The Technical Mission gives her complement as about 1,900, of whom roughly 75 per cent had sea experience, and notes that air tests and the sealing of holes cut for cables, pipes and ventilation were incomplete when she sailed [S12, pp. 25 to 26].
 
+## The Japanese loss records
+
+US Naval Technical Mission report S-06-3, dated 6 January 1946, collects the Japanese records of major warship losses. Its compilers warn that the Navy Ministry kept the most meagre and inaccurate records of any major navy department in the world, and that most of what was compiled during the war was burned either when the Naval Ministry was destroyed by fire in the spring of 1945 or by order between 15 and 17 August 1945 [S13, pp. 1, 5]. Its Enclosure (A), a report of 15 December 1945 from the Historical Survey Section of the Second Repatriation Department, is described by the mission as inaccurate in many cases and woefully incomplete [S13, pp. 4, 14].
+
+The report's own entries [S13, pp. 7 to 9]:
+
+- Yamato, entry 11: sunk 7 April 1945 south-west of Kyushu. Four bombs hit, doing topside damage. At least nine aircraft torpedoes struck her, seven to port and two to starboard. She capsized to port 20 to 30 minutes after the last three torpedoes hit, her magazines exploding as she rolled under. Three further possible but improbable torpedo hits were reported by the Japanese.
+- Musashi, entry 12: sunk 24 October 1944 in the Sulu Sea, Central Philippines. Ten certain and four possible aircraft torpedo hits out of 21 reported by the Japanese, including two duds. The certain hits were equally divided on each side. Sixteen bomb hits damaged her extensively but not vitally. She sank four hours after the last attack, sliding under bow first and then capsizing to port.
+- Shinano, aircraft carrier entry 11: sunk 29 November 1944 on her maiden voyage. Hit on the starboard side by four submarine torpedoes. Progressive flooding was never controlled. Seven hours later she capsized, rolling to starboard.
+
+Enclosure (A) gives a different account of Yamato: attacked at 1210 by more than 300 carrier aircraft, the attack continuing until 1420, struck by approximately eleven torpedoes, nine to port and two to starboard, and by seven large bombs and several small ones; at 1420 she listed heavily to port and as she rolled over her magazines exploded [S13, p. 15].
+
+For Musashi, Enclosure (A) is a minute-by-minute account with every hit located by frame; the final entries are a 12 degree port list at 1915, 30 degrees and increasing rapidly at 1930 with two explosions as she rolled, and capsizing and sinking at 1935 at 13-07N, 122-32E [S13, pp. 16 to 18]. Its opening line dates the sinking 24 October 1944 at 1935 [S13, p. 16].
+
+For Shinano, Enclosure (A) dates the sinking 28 November 1944, records four torpedoes striking the starboard side at 0515 spaced 30 to 50 metres (100 to 160 feet) apart, and the capsize to starboard and sinking by the stern at 0530 [S13, p. 21].
+
+S-06-3 prints no casualty figure, survivor figure, complement or displacement for any ship in the report [S13].
+
 ## Conflicts between sources
 
 - Time of Yamato's magazine explosion. combinedfleet gives 1423 [S1]; the NHHC essay gives capsizing complete by 1420 and the No. 1 magazine detonating at 1430 [S24]; S-06-2 gives the capsize at about 1420 and the explosion at about 120 degrees of roll without a clock time [S12, p. 14].
 - Yamato's survivors. combinedfleet gives 276 rescued and 3,055 of 3,332 lost [S1]; the NHHC essay gives 3,055 of 3,332 lost and cites Morison for 23 officers and 246 enlisted surviving [S24]; S-06-2 says about 280 survived, including 23 officers and warrant officers, all from topside [S12, p. 14].
 - Musashi's torpedo and bomb hits. Her chief of staff reported 18 torpedoes and 40 bombs; the action report lists 21 torpedo hits; the Technical Mission identified ten certain and four possible torpedo hits [S12, pp. 1, 17]. The National Museum of the US Navy page says approximately 19 torpedoes and 17 bombs [S25].
 - Musashi's complement. combinedfleet gives a 2,399-man crew [S2]; the National Museum of the US Navy page says 2,500 sailors [S25].
+- Shinano's date of loss. The body of S-06-3 gives 29 November 1944; its own Enclosure (A) gives 28 November 1944 [S13, pp. 9, 21]. combinedfleet gives the sinking at 1057 on 29 November [S3].
+- Shinano's time from hit to capsize. The body of S-06-3 says she capsized seven hours after the torpedoes; Enclosure (A) puts the hits at 0515 and the capsize at 0530 [S13, pp. 9, 21]. S-06-2 says she capsized in about seven hours [S12, p. 2], and combinedfleet gives the hits at 0309 and the sinking at 1057 [S3].
+- Musashi's torpedo hits by count. S-06-3's body gives ten certain and four possible out of 21 reported, and sixteen bomb hits [S13, pp. 7 to 8]. Its Enclosure (A) lists eleven torpedo hits in the sixth attack alone [S13, p. 17].
+- Yamato's torpedo hits. S-06-3's body gives at least nine, seven port and two starboard, plus three possible [S13, p. 7]; its Enclosure (A) gives approximately eleven, nine port and two starboard [S13, p. 15]; S-06-2 gives seven certain to port, two to starboard, one probable and two possible [S12, p. 15]; the NHHC essay counts at least nine torpedo hits by 1417 [S24].
 - Yamato's secondary ammunition load for Ten-ichi-go. combinedfleet gives 1,620 rounds [S1]; the NHHC essay gives 1,629 [S24].
 
 ## Gaps

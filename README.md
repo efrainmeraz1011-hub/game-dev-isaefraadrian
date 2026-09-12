@@ -7,9 +7,10 @@ The repo holds two halves. The **design** half specifies the game. The **researc
 ## Design: start here
 
 - [Foundational game-logic design — v0.8](WW2_Naval_Roguelite_Game_Logic.md)
+- **[Build plan](flow/BUILD.md)** — start here to write game code: stack, layout, build order, placeholder hull
 - [Flow and possibility tree](flow/FLOW.md) — every state, branch, and ending, each citing the design line that defines it
 - [Event system and content catalog](flow/EVENTS.md) — the encounter grammar, weighting, repetition control
-- [Rules](flow/RULES.md) — period constraints, readiness and closure, the resource graph, and why consequences are computed rather than written
+- [Rules](flow/RULES.md) — 86 rules the engine implements, covering readiness and closure, damage, ASW, air attack and carriers, each marked sourced, unverified, or a stated abstraction
 - [Event situations](flow/CATALOG-EVENTS.md) — 72 situations the rules resolve
 - [Initial mock-campaign balance report](balance_model/BALANCE_REPORT.md)
 - [Model assumptions and reproduction steps](balance_model/MODEL.md)

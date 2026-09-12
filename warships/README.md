@@ -31,13 +31,15 @@ To add or extend a dossier, follow `../skills/ww2-warship-research/SKILL.md`.
 
 ## Coverage
 
-| Nation | Class | Ships | Facets covered | Facets with gaps | Last updated |
-|---|---|---|---|---|---|
-| United States | [Iowa class](united-states/iowa-class/README.md) | Iowa, New Jersey, Missouri, Wisconsin (Illinois, Kentucky uncompleted) | in progress | | 2026-09-11 |
-| Japan | [Yamato class](japan/yamato-class/README.md) | Yamato, Musashi (Shinano converted) | in progress | | 2026-09-11 |
-| Germany | [Bismarck class](germany/bismarck-class/README.md) | Bismarck, Tirpitz | in progress | | 2026-09-11 |
-| United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | King George V, Prince of Wales, Duke of York, Anson, Howe | in progress | | 2026-09-11 |
-| Italy | [Littorio class](italy/littorio-class/README.md) | Littorio (Italia), Vittorio Veneto, Roma (Impero uncompleted) | in progress | | 2026-09-11 |
-| France | [Richelieu class](france/richelieu-class/README.md) | Richelieu, Jean Bart (Clemenceau, Gascogne uncompleted) | in progress | | 2026-09-11 |
+Every dossier below passes `python3 scripts/verify.py`: each numbered claim carries a citation, every citation resolves, and every unsourced sub-facet sits in that class's `gaps.md`.
+
+| Nation | Class | Ships | Facets | Gaps | Sources | Images | Updated |
+|---|---|---|---|---|---|---|---|
+| France | [Richelieu class](france/richelieu-class/README.md) | Richelieu, Jean Bart, Clemenceau, Gascogne | 8/8 | [10 recorded](france/richelieu-class/gaps.md) | 50 | 0 | 2026-09-12 |
+| Germany | [Bismarck class](germany/bismarck-class/README.md) | Bismarck, Tirpitz | 8/8 | [33 recorded](germany/bismarck-class/gaps.md) | 38 | 0 | 2026-09-12 |
+| Italy | [Littorio class](italy/littorio-class/README.md) | Littorio, Vittorio Veneto, Roma, Impero | 8/8 | [14 recorded](italy/littorio-class/gaps.md) | 34 | 7 | 2026-09-12 |
+| Japan | [Yamato class](japan/yamato-class/README.md) | Yamato, Musashi, Shinano, No. 111 | 8/8 | [30 recorded](japan/yamato-class/gaps.md) | 37 | 14 | 2026-09-12 |
+| United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | King George V, Prince of Wales, Duke of York, Anson, Howe | 8/8 | [10 recorded](united-kingdom/king-george-v-class/gaps.md) | 63 | 0 | 2026-09-12 |
+| United States | [Iowa class](united-states/iowa-class/README.md) | Iowa, New Jersey, Missouri, Wisconsin, Illinois, Kentucky | 8/8 | [61 recorded](united-states/iowa-class/gaps.md) | 193 | 16 | 2026-09-12 |
 
 Classes listed in a nation README without a dossier link are not yet researched. Ask for one by name and the skill builds it.

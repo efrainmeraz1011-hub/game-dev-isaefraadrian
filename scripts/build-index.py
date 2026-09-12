@@ -111,7 +111,7 @@ def load_classes():
                 "gaps": f"{rel}/gaps.md" if (class_dir / "gaps.md").exists() else None,
                 "gap_count": count_entries(class_dir / "gaps.md", r"^#{2,3}\s+(?!sources-|gaps-)"),
                 "images": f"{rel}/images/CREDITS.md" if (class_dir / "images" / "CREDITS.md").exists() else None,
-                "image_count": len([p for p in (class_dir / "images").glob("*") if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".gif", ".webp")]) if (class_dir / "images").exists() else 0,
+                "image_count": len([p for p in (class_dir / "images").glob("*") if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg")]) if (class_dir / "images").exists() else 0,
             }
             for num, title in FACETS:
                 f = facet_file(class_dir, num)

@@ -15,39 +15,585 @@ Navigate by the question you have:
 
 | Ship | Hull or pennant | Also known as | Navy | Class | Ship notes |
 |---|---|---|---|---|---|
+| Anson | 79 | Jellicoe (name at order, changed before launch) | United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | [notes](united-kingdom/king-george-v-class/ships/anson.md) |
+| Bismarck |  |  | Germany | [Bismarck class](germany/bismarck-class/README.md) | [notes](germany/bismarck-class/ships/bismarck.md) |
+| Clemenceau |  | Schlachtschiff R | France | [Richelieu class](france/richelieu-class/README.md) | [notes](france/richelieu-class/ships/clemenceau.md) |
+| Duke of York | 17 | Anson (name at order, changed before launch) | United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | [notes](united-kingdom/king-george-v-class/ships/duke-of-york.md) |
+| Gascogne |  |  | France | [Richelieu class](france/richelieu-class/README.md) | [notes](france/richelieu-class/ships/gascogne.md) |
+| Howe | 32 | Beatty (name at order, changed 21 February 1940) | United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | [notes](united-kingdom/king-george-v-class/ships/howe.md) |
+| Illinois | BB-65 |  | United States | [Iowa class](united-states/iowa-class/README.md) | [notes](united-states/iowa-class/ships/illinois-bb-65.md) |
+| Impero |  |  | Italy | [Littorio class](italy/littorio-class/README.md) | [notes](italy/littorio-class/ships/impero.md) |
+| Iowa | BB-61 |  | United States | [Iowa class](united-states/iowa-class/README.md) | [notes](united-states/iowa-class/ships/iowa-bb-61.md) |
+| Jean Bart |  |  | France | [Richelieu class](france/richelieu-class/README.md) | [notes](france/richelieu-class/ships/jean-bart.md) |
+| Kentucky | BB-66 |  | United States | [Iowa class](united-states/iowa-class/README.md) | [notes](united-states/iowa-class/ships/kentucky-bb-66.md) |
+| King George V | 41 |  | United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | [notes](united-kingdom/king-george-v-class/ships/king-george-v.md) |
+| Littorio |  | Italia | Italy | [Littorio class](italy/littorio-class/README.md) | [notes](italy/littorio-class/ships/littorio.md) |
+| Missouri | BB-63 |  | United States | [Iowa class](united-states/iowa-class/README.md) | [notes](united-states/iowa-class/ships/missouri-bb-63.md) |
+| Musashi | Warship No. 2 (hull No. 800) | Warship No. 2, 武蔵 | Japan | [Yamato class](japan/yamato-class/README.md) | [notes](japan/yamato-class/ships/musashi.md) |
+| New Jersey | BB-62 |  | United States | [Iowa class](united-states/iowa-class/README.md) | [notes](united-states/iowa-class/ships/new-jersey-bb-62.md) |
+| No. 111 | Hull No. 111 | Warship No. 111 | Japan | [Yamato class](japan/yamato-class/README.md) | [notes](japan/yamato-class/08-service-history.md) |
+| Prince of Wales | 53 |  | United Kingdom | [King George V class](united-kingdom/king-george-v-class/README.md) | [notes](united-kingdom/king-george-v-class/ships/prince-of-wales.md) |
+| Richelieu |  | Q432 | France | [Richelieu class](france/richelieu-class/README.md) | [notes](france/richelieu-class/ships/richelieu.md) |
+| Roma |  |  | Italy | [Littorio class](italy/littorio-class/README.md) | [notes](italy/littorio-class/ships/roma.md) |
+| Shinano | Hull No. 110 | Hull No. 110, 信濃 | Japan | [Yamato class](japan/yamato-class/README.md) | [notes](japan/yamato-class/ships/shinano.md) |
+| Tirpitz |  |  | Germany | [Bismarck class](germany/bismarck-class/README.md) | [notes](germany/bismarck-class/ships/tirpitz.md) |
+| Vittorio Veneto |  |  | Italy | [Littorio class](italy/littorio-class/README.md) | [notes](italy/littorio-class/ships/vittorio-veneto.md) |
+| Wisconsin | BB-64 |  | United States | [Iowa class](united-states/iowa-class/README.md) | [notes](united-states/iowa-class/ships/wisconsin-bb-64.md) |
+| Yamato | Battleship No. 1 | Battleship No. 1, 大和 | Japan | [Yamato class](japan/yamato-class/README.md) | [notes](japan/yamato-class/ships/yamato.md) |
 
 ## Classes by nation
+
+### France
+
+Roster of every class, including those without a dossier: [README](france/README.md).
+
+| Class | Type | Ships | Facet files | Sources | Gaps | Images |
+|---|---|---|---|---|---|---|
+| [Richelieu class](france/richelieu-class/README.md) | battleship | Richelieu, Jean Bart, Clemenceau, Gascogne | [01](france/richelieu-class/01-hull-and-armor.md) [02](france/richelieu-class/02-propulsion-and-power.md) [03](france/richelieu-class/03-armament-and-ammunition.md) [04](france/richelieu-class/04-sensors-fire-control-and-communications.md) [05](france/richelieu-class/05-compartments-and-deck-plans.md) [06](france/richelieu-class/06-crew-and-daily-life.md) [07](france/richelieu-class/07-operations-and-doctrine.md) [08](france/richelieu-class/08-service-history.md) | [50](france/richelieu-class/sources.md) | [10](france/richelieu-class/gaps.md) | 0 |
+
+### Germany
+
+Roster of every class, including those without a dossier: [README](germany/README.md).
+
+| Class | Type | Ships | Facet files | Sources | Gaps | Images |
+|---|---|---|---|---|---|---|
+| [Bismarck class](germany/bismarck-class/README.md) | battleship | Bismarck, Tirpitz | [01](germany/bismarck-class/01-hull-and-armor.md) [02](germany/bismarck-class/02-propulsion-and-power.md) [03](germany/bismarck-class/03-armament-and-ammunition.md) [04](germany/bismarck-class/04-sensors-fire-control-and-communications.md) [05](germany/bismarck-class/05-compartments-and-deck-plans.md) [06](germany/bismarck-class/06-crew-and-daily-life.md) [07](germany/bismarck-class/07-operations-and-doctrine.md) [08](germany/bismarck-class/08-service-history.md) | [38](germany/bismarck-class/sources.md) | [33](germany/bismarck-class/gaps.md) | 0 |
+
+### Italy
+
+Roster of every class, including those without a dossier: [README](italy/README.md).
+
+| Class | Type | Ships | Facet files | Sources | Gaps | Images |
+|---|---|---|---|---|---|---|
+| [Littorio class](italy/littorio-class/README.md) | battleship | Littorio, Vittorio Veneto, Roma, Impero | [01](italy/littorio-class/01-hull-and-armor.md) [02](italy/littorio-class/02-propulsion-and-power.md) [03](italy/littorio-class/03-armament-and-ammunition.md) [04](italy/littorio-class/04-sensors-fire-control-and-communications.md) [05](italy/littorio-class/05-compartments-and-deck-plans.md) [06](italy/littorio-class/06-crew-and-daily-life.md) [07](italy/littorio-class/07-operations-and-doctrine.md) [08](italy/littorio-class/08-service-history.md) | [34](italy/littorio-class/sources.md) | [14](italy/littorio-class/gaps.md) | [7](italy/littorio-class/images/CREDITS.md) |
+
+### Japan
+
+Roster of every class, including those without a dossier: [README](japan/README.md).
+
+| Class | Type | Ships | Facet files | Sources | Gaps | Images |
+|---|---|---|---|---|---|---|
+| [Yamato class](japan/yamato-class/README.md) | battleship | Yamato, Musashi, Shinano, No. 111 | [01](japan/yamato-class/01-hull-and-armor.md) [02](japan/yamato-class/02-propulsion-and-power.md) [03](japan/yamato-class/03-armament-and-ammunition.md) [04](japan/yamato-class/04-sensors-fire-control-and-communications.md) [05](japan/yamato-class/05-compartments-and-deck-plans.md) [06](japan/yamato-class/06-crew-and-daily-life.md) [07](japan/yamato-class/07-operations-and-doctrine.md) [08](japan/yamato-class/08-service-history.md) | [37](japan/yamato-class/sources.md) | [30](japan/yamato-class/gaps.md) | [14](japan/yamato-class/images/CREDITS.md) |
+
+### United Kingdom
+
+Roster of every class, including those without a dossier: [README](united-kingdom/README.md).
+
+| Class | Type | Ships | Facet files | Sources | Gaps | Images |
+|---|---|---|---|---|---|---|
+| [King George V class](united-kingdom/king-george-v-class/README.md) | battleship | King George V, Prince of Wales, Duke of York, Anson, Howe | [01](united-kingdom/king-george-v-class/01-hull-and-armor.md) [02](united-kingdom/king-george-v-class/02-propulsion-and-power.md) [03](united-kingdom/king-george-v-class/03-armament-and-ammunition.md) [04](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md) [05](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md) [06](united-kingdom/king-george-v-class/06-crew-and-daily-life.md) [07](united-kingdom/king-george-v-class/07-operations-and-doctrine.md) [08](united-kingdom/king-george-v-class/08-service-history.md) | [63](united-kingdom/king-george-v-class/sources.md) | [10](united-kingdom/king-george-v-class/gaps.md) | 0 |
+
+### United States
+
+Roster of every class, including those without a dossier: [README](united-states/README.md).
+
+| Class | Type | Ships | Facet files | Sources | Gaps | Images |
+|---|---|---|---|---|---|---|
+| [Iowa class](united-states/iowa-class/README.md) | battleship | Iowa, New Jersey, Missouri, Wisconsin, Illinois, Kentucky | [01](united-states/iowa-class/01-hull-and-armor.md) [02](united-states/iowa-class/02-propulsion-and-power.md) [03](united-states/iowa-class/03-armament-and-ammunition.md) [04](united-states/iowa-class/04-sensors-fire-control-and-communications.md) [05](united-states/iowa-class/05-compartments-and-deck-plans.md) [06](united-states/iowa-class/06-crew-and-daily-life.md) [07](united-states/iowa-class/07-operations-and-doctrine.md) [08](united-states/iowa-class/08-service-history.md) | [193](united-states/iowa-class/sources.md) | [61](united-states/iowa-class/gaps.md) | [16](united-states/iowa-class/images/CREDITS.md) |
 
 ## Weapons
 
 | Weapon | Role | Class | Where |
 |---|---|---|---|
+| 10.5 cm SK C/33 | heavy anti-aircraft battery | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-105-cm-sk-c33) |
+| 100 mm/45 Model 1930 | heavy anti-aircraft | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-100-mm45-model-1930-in-twin-mounts-model-1931) |
+| 12.7 cm/40 Type 89 | heavy anti-aircraft | [Yamato class](japan/yamato-class/README.md) | [section](japan/yamato-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-127-cm40-type-89) |
+| 120 mm/40 Model 1891 | star shell | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#star-shell-guns-120-mm40-model-1891) |
+| 13.2 mm machine gun | light anti-aircraft | [Yamato class](japan/yamato-class/README.md) | [section](japan/yamato-class/03-armament-and-ammunition.md#132-mm-machine-guns) |
+| 13.2 mm/76 Model 1929 Hotchkiss | anti-aircraft machine gun, 1940 to 1943 | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-as-completed-37-mm-and-132-mm) |
+| 14-inch/45 Mark VII in quadruple Mark III and twin Mark II mountings | main battery | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#main-battery-14-inch45-mark-vii-in-quadruple-mark-iii-and-twin-mark-ii-mountings) |
+| 15 cm SK C/28 | secondary battery | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#secondary-battery-15-cm-sk-c28) |
+| 15.5 cm/60 3rd Year Type | secondary battery | [Yamato class](japan/yamato-class/README.md) | [section](japan/yamato-class/03-armament-and-ammunition.md#secondary-battery-155-cm60-3rd-year-type) |
+| 152 mm/55 Ansaldo Model 1934 | secondary battery, Littorio | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#secondary-battery-152-mm55-models-1934-and-1936-in-triple-turrets) |
+| 152 mm/55 Model 1930 | secondary battery, dual purpose | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#secondary-battery-152-mm55-model-1930-in-triple-dual-purpose-turrets-model-1936) |
+| 152 mm/55 OTO Model 1936 | secondary battery, Vittorio Veneto and Roma | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#secondary-battery-152-mm55-models-1934-and-1936-in-triple-turrets) |
+| 16-inch/50 Mark 7 | main battery | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/03-armament-and-ammunition.md#main-battery-16-inch50-mark-7-gun) |
+| 2 cm C/30 and C/38 | light anti-aircraft battery | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-2-cm-c30-and-c38) |
+| 2-pdr QF Mark VIII pom-pom in octuple Mark VI and quadruple Mark VII mountings | close-range anti-aircraft | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-2-pdr-qf-mark-viii-pom-pom-in-octuple-mark-vi-and-quadruple-mark-vii-mountings) |
+| 20 mm Oerlikon | close-range anti-aircraft | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-20-mm-oerlikon) |
+| 20 mm Oerlikon, single and twin mounts | light anti-aircraft | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/03-armament-and-ammunition.md#20-mm-oerlikon-single-and-twin-mounts) |
+| 20 mm/65 Breda Model 1935 | light anti-aircraft | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-20-mm65-breda-model-1935) |
+| 20 mm/70 Oerlikon Mark 4 | light anti-aircraft, Richelieu 1943 refit | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#anti-aircraft-battery-after-the-1943-refit-40-mm-bofors-and-20-mm-oerlikon) |
+| 25 mm/60 Type 96 | light anti-aircraft | [Yamato class](japan/yamato-class/README.md) | [section](japan/yamato-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-25-mm60-type-96) |
+| 3.7 cm SK C/30 | medium anti-aircraft battery | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#medium-anti-aircraft-battery-37-cm-sk-c30) |
+| 37 mm/50 CAIL Model 1933 | light anti-aircraft, 1940 to 1943 | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-as-completed-37-mm-and-132-mm) |
+| 37 mm/54 Breda Models 1932, 1938 and 1939 | light anti-aircraft | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-37-mm54-breda) |
+| 37 mm/70 Model 1935 ACAD | planned light anti-aircraft, never fitted | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-as-completed-37-mm-and-132-mm) |
+| 38 cm SK C/34 | main battery | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#main-battery-38-cm-sk-c34) |
+| 380 mm/45 Model 1935 | main battery | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#main-battery-380-mm45-model-1935-in-quadruple-turrets-model-1935) |
+| 381 mm/50 Ansaldo Model 1934 | main battery | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#main-battery-381-mm50-ansaldo-model-1934-and-model-1939) |
+| 381 mm/50 Model 1939 | main battery, Roma and Impero | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#main-battery-381-mm50-ansaldo-model-1934-and-model-1939) |
+| 40 mm Bofors | close-range anti-aircraft | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-40-mm-bofors) |
+| 40 mm Bofors, quad mount Mark 2 | medium anti-aircraft | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/03-armament-and-ammunition.md#40-mm-bofors-quad-mount-mark-2) |
+| 40 mm/56 Bofors Mark 1 and Mark 2 (quadruple) | light anti-aircraft, Richelieu 1943 refit | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#anti-aircraft-battery-after-the-1943-refit-40-mm-bofors-and-20-mm-oerlikon) |
+| 46 cm/45 Type 94 | main battery | [Yamato class](japan/yamato-class/README.md) | [section](japan/yamato-class/03-armament-and-ammunition.md#main-battery-46-cm45-type-94) |
+| 5-inch/38 Mark 12 in Mark 28 twin mount | secondary battery | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/03-armament-and-ammunition.md#secondary-battery-5-inch38-mark-12-gun-in-mark-28-twin-mounts) |
+| 5.25-inch/50 QF Mark I in twin HA/LA Mark I mountings | secondary battery, dual purpose | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#secondary-battery-525-inch50-qf-mark-i-in-twin-hala-mark-i-mountings) |
+| 53.3 cm torpedo tubes, two quadruple mounts (Tirpitz only) | torpedoes | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#torpedoes-and-depth-charges) |
+| 90 mm/50 Model 1926 | emergency anti-aircraft, Jean Bart 1940 to 1942 | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#jean-barts-emergency-battery-at-casablanca-90-mm-model-1926) |
+| 90 mm/50 Model 1939 | heavy anti-aircraft | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-90-mm50-model-1939-in-stabilised-single-mounts) |
+| Arado Ar 196 | shipboard aircraft | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#aircraft) |
+| Drh LC/34 | main battery twin turret | [Bismarck class](germany/bismarck-class/README.md) | [section](germany/bismarck-class/03-armament-and-ammunition.md#turrets-drh-lc34) |
+| EC 3 ter Gufo | search radar | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/04-sensors-fire-control-and-communications.md#radar) |
+| IMAM Ro.43 | reconnaissance floatplane | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#aircraft-and-catapult) |
+| Loire 130 seaplane | aircraft | [Richelieu class](france/richelieu-class/README.md) | [section](france/richelieu-class/03-armament-and-ammunition.md#aircraft-and-catapults) |
+| Mark 37 director | secondary battery fire control | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/04-sensors-fire-control-and-communications.md#secondary-battery-fire-control) |
+| Mark 38 director | main battery fire control | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/04-sensors-fire-control-and-communications.md#main-battery-fire-control) |
+| Mitsubishi F1M2 Pete | float reconnaissance aircraft | [Yamato class](japan/yamato-class/README.md) | [section](japan/yamato-class/03-armament-and-ammunition.md#aircraft) |
+| Pugliese underwater protection system | torpedo defense | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/01-hull-and-armor.md#pugliese-underwater-protection-system) |
+| Reggiane Re.2000 | catapult fighter | [Littorio class](italy/littorio-class/README.md) | [section](italy/littorio-class/03-armament-and-ammunition.md#aircraft-and-catapult) |
+| Shipboard floatplane and catapults | aviation | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/03-armament-and-ammunition.md#aircraft-and-catapults) |
+| Supermarine Walrus and catapult | aircraft | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#aircraft-supermarine-walrus-and-catapult) |
+| Turret Mark 7, three-gun | main battery turret | [Iowa class](united-states/iowa-class/README.md) | [section](united-states/iowa-class/03-armament-and-ammunition.md#the-three-gun-turret-mark-7-mounts) |
+| Unrotated Projectile (UP) rocket mountings | close-range anti-aircraft, 1940 to 1941 | [King George V class](united-kingdom/king-george-v-class/README.md) | [section](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#unrotated-projectile-up-rocket-mountings) |
 
 ## Topics by facet
 
 ### 01 Hull and armor
 
+- [Richelieu class](france/richelieu-class/01-hull-and-armor.md) (France), status: partial (see gaps.md)
+  - [Hull form and dimensions](france/richelieu-class/01-hull-and-armor.md#hull-form-and-dimensions)
+  - [Displacement by condition](france/richelieu-class/01-hull-and-armor.md#displacement-by-condition)
+  - [Weight breakdown](france/richelieu-class/01-hull-and-armor.md#weight-breakdown)
+  - [Armor scheme](france/richelieu-class/01-hull-and-armor.md#armor-scheme)
+  - [Torpedo defense system](france/richelieu-class/01-hull-and-armor.md#torpedo-defense-system)
+  - [Stability and metacentric height](france/richelieu-class/01-hull-and-armor.md#stability-and-metacentric-height)
+- [Bismarck class](germany/bismarck-class/01-hull-and-armor.md) (Germany), status: partial (see gaps.md)
+  - [Hull form and dimensions](germany/bismarck-class/01-hull-and-armor.md#hull-form-and-dimensions)
+  - [Displacement by condition](germany/bismarck-class/01-hull-and-armor.md#displacement-by-condition)
+  - [Stability and metacentric height](germany/bismarck-class/01-hull-and-armor.md#stability-and-metacentric-height)
+  - [Armor materials](germany/bismarck-class/01-hull-and-armor.md#armor-materials)
+  - [Vertical protection](germany/bismarck-class/01-hull-and-armor.md#vertical-protection)
+  - [Horizontal protection](germany/bismarck-class/01-hull-and-armor.md#horizontal-protection)
+  - [Turrets, barbettes and command posts](germany/bismarck-class/01-hull-and-armor.md#turrets-barbettes-and-command-posts)
+  - [Torpedo defense system](germany/bismarck-class/01-hull-and-armor.md#torpedo-defense-system)
+  - [Subdivision](germany/bismarck-class/01-hull-and-armor.md#subdivision)
+  - [Weight breakdown](germany/bismarck-class/01-hull-and-armor.md#weight-breakdown)
+  - [What the wreck shows](germany/bismarck-class/01-hull-and-armor.md#what-the-wreck-shows)
+- [Littorio class](italy/littorio-class/01-hull-and-armor.md) (Italy), status: covered, with gaps listed at the end
+  - [Hull form and dimensions](italy/littorio-class/01-hull-and-armor.md#hull-form-and-dimensions)
+  - [Displacement by ship and condition](italy/littorio-class/01-hull-and-armor.md#displacement-by-ship-and-condition)
+  - [Armour scheme](italy/littorio-class/01-hull-and-armor.md#armour-scheme)
+  - [Armour trials](italy/littorio-class/01-hull-and-armor.md#armour-trials)
+  - [Pugliese underwater protection system](italy/littorio-class/01-hull-and-armor.md#pugliese-underwater-protection-system)
+  - [Stability and metacentric height](italy/littorio-class/01-hull-and-armor.md#stability-and-metacentric-height)
+  - [Weight breakdown](italy/littorio-class/01-hull-and-armor.md#weight-breakdown)
+- [Yamato class](japan/yamato-class/01-hull-and-armor.md) (Japan), status: covered
+  - [Design history](japan/yamato-class/01-hull-and-armor.md#design-history)
+  - [Hull form and dimensions](japan/yamato-class/01-hull-and-armor.md#hull-form-and-dimensions)
+  - [Displacement by condition](japan/yamato-class/01-hull-and-armor.md#displacement-by-condition)
+  - [Stability](japan/yamato-class/01-hull-and-armor.md#stability)
+  - [Armour scheme](japan/yamato-class/01-hull-and-armor.md#armour-scheme)
+  - [Torpedo protection](japan/yamato-class/01-hull-and-armor.md#torpedo-protection)
+  - [Weight breakdown](japan/yamato-class/01-hull-and-armor.md#weight-breakdown)
+- [King George V class](united-kingdom/king-george-v-class/01-hull-and-armor.md) (United Kingdom), status: partial (see gaps.md)
+  - [Hull form and principal dimensions](united-kingdom/king-george-v-class/01-hull-and-armor.md#hull-form-and-principal-dimensions)
+  - [Displacement and weights](united-kingdom/king-george-v-class/01-hull-and-armor.md#displacement-and-weights)
+  - [Armor scheme](united-kingdom/king-george-v-class/01-hull-and-armor.md#armor-scheme)
+  - [Deck armour over magazines and machinery](united-kingdom/king-george-v-class/01-hull-and-armor.md#deck-armour-over-magazines-and-machinery)
+  - [Underwater protection](united-kingdom/king-george-v-class/01-hull-and-armor.md#underwater-protection)
+  - [What the Prince of Wales wreck survey found](united-kingdom/king-george-v-class/01-hull-and-armor.md#what-the-prince-of-wales-wreck-survey-found)
+  - [Subdivision and stability](united-kingdom/king-george-v-class/01-hull-and-armor.md#subdivision-and-stability)
+- [Iowa class](united-states/iowa-class/01-hull-and-armor.md) (United States), status: partial (see gaps.md)
+  - [Documents behind this facet](united-states/iowa-class/01-hull-and-armor.md#documents-behind-this-facet)
+  - [Hull form and dimensions](united-states/iowa-class/01-hull-and-armor.md#hull-form-and-dimensions)
+  - [Displacement by condition](united-states/iowa-class/01-hull-and-armor.md#displacement-by-condition)
+  - [Draft by condition](united-states/iowa-class/01-hull-and-armor.md#draft-by-condition)
+  - [Armor scheme](united-states/iowa-class/01-hull-and-armor.md#armor-scheme)
+  - [Torpedo defense system](united-states/iowa-class/01-hull-and-armor.md#torpedo-defense-system)
+  - [Stability](united-states/iowa-class/01-hull-and-armor.md#stability)
+  - [Weight distribution](united-states/iowa-class/01-hull-and-armor.md#weight-distribution)
 
 ### 02 Propulsion and power
 
+- [Richelieu class](france/richelieu-class/02-propulsion-and-power.md) (France), status: partial (see gaps.md)
+  - [Boilers](france/richelieu-class/02-propulsion-and-power.md#boilers)
+  - [Turbines, shafts and propellers](france/richelieu-class/02-propulsion-and-power.md#turbines-shafts-and-propellers)
+  - [Power and speed](france/richelieu-class/02-propulsion-and-power.md#power-and-speed)
+  - [Fuel and endurance](france/richelieu-class/02-propulsion-and-power.md#fuel-and-endurance)
+  - [Electrical plant](france/richelieu-class/02-propulsion-and-power.md#electrical-plant)
+  - [Steering gear](france/richelieu-class/02-propulsion-and-power.md#steering-gear)
+  - [Distilling plant and fresh water](france/richelieu-class/02-propulsion-and-power.md#distilling-plant-and-fresh-water)
+  - [Underway replenishment](france/richelieu-class/02-propulsion-and-power.md#underway-replenishment)
+  - [Machinery history](france/richelieu-class/02-propulsion-and-power.md#machinery-history)
+- [Bismarck class](germany/bismarck-class/02-propulsion-and-power.md) (Germany), status: partial (see gaps.md)
+  - [Boilers](germany/bismarck-class/02-propulsion-and-power.md#boilers)
+  - [Turbines and gearing](germany/bismarck-class/02-propulsion-and-power.md#turbines-and-gearing)
+  - [Power and speed](germany/bismarck-class/02-propulsion-and-power.md#power-and-speed)
+  - [Shafts and propellers](germany/bismarck-class/02-propulsion-and-power.md#shafts-and-propellers)
+  - [Steering gear](germany/bismarck-class/02-propulsion-and-power.md#steering-gear)
+  - [Electrical plant](germany/bismarck-class/02-propulsion-and-power.md#electrical-plant)
+  - [Distilling plant](germany/bismarck-class/02-propulsion-and-power.md#distilling-plant)
+  - [Fuel and endurance](germany/bismarck-class/02-propulsion-and-power.md#fuel-and-endurance)
+  - [Underway replenishment](germany/bismarck-class/02-propulsion-and-power.md#underway-replenishment)
+  - [Compressed air, anchors and capstans](germany/bismarck-class/02-propulsion-and-power.md#compressed-air-anchors-and-capstans)
+- [Littorio class](italy/littorio-class/02-propulsion-and-power.md) (Italy), status: partial (see gaps.md)
+  - [Machinery summary](italy/littorio-class/02-propulsion-and-power.md#machinery-summary)
+  - [Machinery arrangement](italy/littorio-class/02-propulsion-and-power.md#machinery-arrangement)
+  - [Trials](italy/littorio-class/02-propulsion-and-power.md#trials)
+  - [Steering](italy/littorio-class/02-propulsion-and-power.md#steering)
+  - [Fuel and endurance](italy/littorio-class/02-propulsion-and-power.md#fuel-and-endurance)
+  - [Electrical plant, distilling plant, underway replenishment](italy/littorio-class/02-propulsion-and-power.md#electrical-plant-distilling-plant-underway-replenishment)
+- [Yamato class](japan/yamato-class/02-propulsion-and-power.md) (Japan), status: partial (see gaps.md)
+  - [Principal machinery characteristics](japan/yamato-class/02-propulsion-and-power.md#principal-machinery-characteristics)
+  - [Machinery lineage](japan/yamato-class/02-propulsion-and-power.md#machinery-lineage)
+  - [Boilers](japan/yamato-class/02-propulsion-and-power.md#boilers)
+  - [Turbines](japan/yamato-class/02-propulsion-and-power.md#turbines)
+  - [Machinery space arrangement](japan/yamato-class/02-propulsion-and-power.md#machinery-space-arrangement)
+  - [Piping systems](japan/yamato-class/02-propulsion-and-power.md#piping-systems)
+  - [Distilling plant](japan/yamato-class/02-propulsion-and-power.md#distilling-plant)
+  - [Pumps and auxiliaries](japan/yamato-class/02-propulsion-and-power.md#pumps-and-auxiliaries)
+  - [Electrical plant](japan/yamato-class/02-propulsion-and-power.md#electrical-plant)
+  - [Fuel](japan/yamato-class/02-propulsion-and-power.md#fuel)
+  - [Burner practice and instrumentation](japan/yamato-class/02-propulsion-and-power.md#burner-practice-and-instrumentation)
+  - [Materials](japan/yamato-class/02-propulsion-and-power.md#materials)
+  - [Documents the mission forwarded](japan/yamato-class/02-propulsion-and-power.md#documents-the-mission-forwarded)
+- [King George V class](united-kingdom/king-george-v-class/02-propulsion-and-power.md) (United Kingdom), status: partial (see gaps.md)
+  - [Arrangement](united-kingdom/king-george-v-class/02-propulsion-and-power.md#arrangement)
+  - [Boilers](united-kingdom/king-george-v-class/02-propulsion-and-power.md#boilers)
+  - [Turbines, shafts and propellers](united-kingdom/king-george-v-class/02-propulsion-and-power.md#turbines-shafts-and-propellers)
+  - [Fuel and endurance](united-kingdom/king-george-v-class/02-propulsion-and-power.md#fuel-and-endurance)
+  - [Electrical plant](united-kingdom/king-george-v-class/02-propulsion-and-power.md#electrical-plant)
+  - [Steering gear](united-kingdom/king-george-v-class/02-propulsion-and-power.md#steering-gear)
+  - [Ventilation](united-kingdom/king-george-v-class/02-propulsion-and-power.md#ventilation)
+- [Iowa class](united-states/iowa-class/02-propulsion-and-power.md) (United States), status: partial (see gaps file)
+  - [Machinery arrangement](united-states/iowa-class/02-propulsion-and-power.md#machinery-arrangement)
+  - [Boilers](united-states/iowa-class/02-propulsion-and-power.md#boilers)
+  - [Turbines and gearing](united-states/iowa-class/02-propulsion-and-power.md#turbines-and-gearing)
+  - [Shafts and propellers](united-states/iowa-class/02-propulsion-and-power.md#shafts-and-propellers)
+  - [Speed](united-states/iowa-class/02-propulsion-and-power.md#speed)
+  - [Electrical plant](united-states/iowa-class/02-propulsion-and-power.md#electrical-plant)
+  - [Fuel](united-states/iowa-class/02-propulsion-and-power.md#fuel)
+  - [Auxiliary systems](united-states/iowa-class/02-propulsion-and-power.md#auxiliary-systems)
 
 ### 03 Armament and ammunition
 
+- [Richelieu class](france/richelieu-class/03-armament-and-ammunition.md) (France), status: covered, with gaps listed at the end
+  - [Battery summary by date](france/richelieu-class/03-armament-and-ammunition.md#battery-summary-by-date)
+  - [Main battery: 380 mm/45 Model 1935 in quadruple turrets Model 1935](france/richelieu-class/03-armament-and-ammunition.md#main-battery-380-mm45-model-1935-in-quadruple-turrets-model-1935)
+  - [Secondary battery: 152 mm/55 Model 1930 in triple dual-purpose turrets Model 1936](france/richelieu-class/03-armament-and-ammunition.md#secondary-battery-152-mm55-model-1930-in-triple-dual-purpose-turrets-model-1936)
+  - [Heavy anti-aircraft battery: 100 mm/45 Model 1930 in twin mounts Model 1931](france/richelieu-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-100-mm45-model-1930-in-twin-mounts-model-1931)
+  - [Light anti-aircraft battery as completed: 37 mm and 13.2 mm](france/richelieu-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-as-completed-37-mm-and-132-mm)
+  - [Anti-aircraft battery after the 1943 refit: 40 mm Bofors and 20 mm Oerlikon](france/richelieu-class/03-armament-and-ammunition.md#anti-aircraft-battery-after-the-1943-refit-40-mm-bofors-and-20-mm-oerlikon)
+  - [Jean Bart's emergency battery at Casablanca: 90 mm Model 1926](france/richelieu-class/03-armament-and-ammunition.md#jean-barts-emergency-battery-at-casablanca-90-mm-model-1926)
+  - [Torpedoes](france/richelieu-class/03-armament-and-ammunition.md#torpedoes)
+  - [Aircraft and catapults](france/richelieu-class/03-armament-and-ammunition.md#aircraft-and-catapults)
+- [Bismarck class](germany/bismarck-class/03-armament-and-ammunition.md) (Germany), status: partial (see gaps.md)
+  - [Main battery: 38 cm SK C/34](germany/bismarck-class/03-armament-and-ammunition.md#main-battery-38-cm-sk-c34)
+  - [Secondary battery: 15 cm SK C/28](germany/bismarck-class/03-armament-and-ammunition.md#secondary-battery-15-cm-sk-c28)
+  - [Heavy anti-aircraft battery: 10.5 cm SK C/33](germany/bismarck-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-105-cm-sk-c33)
+  - [Medium anti-aircraft battery: 3.7 cm SK C/30](germany/bismarck-class/03-armament-and-ammunition.md#medium-anti-aircraft-battery-37-cm-sk-c30)
+  - [Light anti-aircraft battery: 2 cm C/30 and C/38](germany/bismarck-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-2-cm-c30-and-c38)
+  - [Torpedoes and depth charges](germany/bismarck-class/03-armament-and-ammunition.md#torpedoes-and-depth-charges)
+  - [Aircraft](germany/bismarck-class/03-armament-and-ammunition.md#aircraft)
+  - [Ammunition expenditure recorded](germany/bismarck-class/03-armament-and-ammunition.md#ammunition-expenditure-recorded)
+- [Littorio class](italy/littorio-class/03-armament-and-ammunition.md) (Italy), status: covered, with gaps listed at the end
+  - [Battery summary by ship and date](italy/littorio-class/03-armament-and-ammunition.md#battery-summary-by-ship-and-date)
+  - [Main battery: 381 mm/50 Ansaldo Model 1934 and Model 1939](italy/littorio-class/03-armament-and-ammunition.md#main-battery-381-mm50-ansaldo-model-1934-and-model-1939)
+  - [Secondary battery: 152 mm/55 Models 1934 and 1936 in triple turrets](italy/littorio-class/03-armament-and-ammunition.md#secondary-battery-152-mm55-models-1934-and-1936-in-triple-turrets)
+  - [Star shell guns: 120 mm/40 Model 1891](italy/littorio-class/03-armament-and-ammunition.md#star-shell-guns-120-mm40-model-1891)
+  - [Heavy anti-aircraft battery: 90 mm/50 Model 1939 in stabilised single mounts](italy/littorio-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-90-mm50-model-1939-in-stabilised-single-mounts)
+  - [Light anti-aircraft battery: 37 mm/54 Breda](italy/littorio-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-37-mm54-breda)
+  - [Light anti-aircraft battery: 20 mm/65 Breda Model 1935](italy/littorio-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-20-mm65-breda-model-1935)
+  - [Aircraft and catapult](italy/littorio-class/03-armament-and-ammunition.md#aircraft-and-catapult)
+- [Yamato class](japan/yamato-class/03-armament-and-ammunition.md) (Japan), status: covered
+  - [Main battery, 46 cm/45 Type 94](japan/yamato-class/03-armament-and-ammunition.md#main-battery-46-cm45-type-94)
+  - [Main battery turret](japan/yamato-class/03-armament-and-ammunition.md#main-battery-turret)
+  - [Ammunition supply, magazine to breech](japan/yamato-class/03-armament-and-ammunition.md#ammunition-supply-magazine-to-breech)
+  - [Secondary battery, 15.5 cm/60 3rd Year Type](japan/yamato-class/03-armament-and-ammunition.md#secondary-battery-155-cm60-3rd-year-type)
+  - [Heavy anti-aircraft battery, 12.7 cm/40 Type 89](japan/yamato-class/03-armament-and-ammunition.md#heavy-anti-aircraft-battery-127-cm40-type-89)
+  - [Light anti-aircraft battery, 25 mm/60 Type 96](japan/yamato-class/03-armament-and-ammunition.md#light-anti-aircraft-battery-25-mm60-type-96)
+  - [13.2 mm machine guns](japan/yamato-class/03-armament-and-ammunition.md#132-mm-machine-guns)
+  - [Aircraft](japan/yamato-class/03-armament-and-ammunition.md#aircraft)
+  - [Torpedoes](japan/yamato-class/03-armament-and-ammunition.md#torpedoes)
+- [King George V class](united-kingdom/king-george-v-class/03-armament-and-ammunition.md) (United Kingdom), status: partial (see gaps.md)
+  - [Why ten guns and not twelve](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#why-ten-guns-and-not-twelve)
+  - [Main battery: 14-inch/45 Mark VII in quadruple Mark III and twin Mark II mountings](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#main-battery-14-inch45-mark-vii-in-quadruple-mark-iii-and-twin-mark-ii-mountings)
+  - [Mounting data: quadruple Mark III and twin Mark II](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#mounting-data-quadruple-mark-iii-and-twin-mark-ii)
+  - [The loading cycle, magazine to breech](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#the-loading-cycle-magazine-to-breech)
+  - [Flash-tight arrangements](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#flash-tight-arrangements)
+  - [Mounting failures in action](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#mounting-failures-in-action)
+  - [Modifications after the failures](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#modifications-after-the-failures)
+  - [Secondary battery: 5.25-inch/50 QF Mark I in twin HA/LA Mark I mountings](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#secondary-battery-525-inch50-qf-mark-i-in-twin-hala-mark-i-mountings)
+  - [Close-range anti-aircraft: 2-pdr QF Mark VIII pom-pom in octuple Mark VI and quadruple Mark VII mountings](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-2-pdr-qf-mark-viii-pom-pom-in-octuple-mark-vi-and-quadruple-mark-vii-mountings)
+  - [Close-range anti-aircraft: 20 mm Oerlikon](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-20-mm-oerlikon)
+  - [Close-range anti-aircraft: 40 mm Bofors](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-40-mm-bofors)
+  - [Close-range anti-aircraft by date](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#close-range-anti-aircraft-by-date)
+  - [Unrotated Projectile (UP) rocket mountings](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#unrotated-projectile-up-rocket-mountings)
+  - [Aircraft: Supermarine Walrus and catapult](united-kingdom/king-george-v-class/03-armament-and-ammunition.md#aircraft-supermarine-walrus-and-catapult)
+- [Iowa class](united-states/iowa-class/03-armament-and-ammunition.md) (United States), status: partial (see gaps-03.md)
+  - [Main battery: 16-inch/50 Mark 7 gun](united-states/iowa-class/03-armament-and-ammunition.md#main-battery-16-inch50-mark-7-gun)
+  - [The three-gun turret (Mark 7 mounts)](united-states/iowa-class/03-armament-and-ammunition.md#the-three-gun-turret-mark-7-mounts)
+  - [Projectiles](united-states/iowa-class/03-armament-and-ammunition.md#projectiles)
+  - [Propellant](united-states/iowa-class/03-armament-and-ammunition.md#propellant)
+  - [The loading cycle, magazine to breech](united-states/iowa-class/03-armament-and-ammunition.md#the-loading-cycle-magazine-to-breech)
+  - [Secondary battery: 5-inch/38 Mark 12 gun in Mark 28 twin mounts](united-states/iowa-class/03-armament-and-ammunition.md#secondary-battery-5-inch38-mark-12-gun-in-mark-28-twin-mounts)
+  - [Anti-aircraft battery by date](united-states/iowa-class/03-armament-and-ammunition.md#anti-aircraft-battery-by-date)
+  - [Aircraft and catapults](united-states/iowa-class/03-armament-and-ammunition.md#aircraft-and-catapults)
+  - [Weapon placement in words](united-states/iowa-class/03-armament-and-ammunition.md#weapon-placement-in-words)
 
 ### 04 Sensors, fire control, and communications
 
+- [Richelieu class](france/richelieu-class/04-sensors-fire-control-and-communications.md) (France), status: partial (see gaps.md)
+  - [Directors and rangefinders, as designed and completed 1940](france/richelieu-class/04-sensors-fire-control-and-communications.md#directors-and-rangefinders-as-designed-and-completed-1940)
+  - [Damage to the directors, 1940](france/richelieu-class/04-sensors-fire-control-and-communications.md#damage-to-the-directors-1940)
+  - [Radar, by date](france/richelieu-class/04-sensors-fire-control-and-communications.md#radar-by-date)
+  - [Fire control after 1943](france/richelieu-class/04-sensors-fire-control-and-communications.md#fire-control-after-1943)
+  - [Jean Bart's improvised fire control, 1941 to 1942](france/richelieu-class/04-sensors-fire-control-and-communications.md#jean-barts-improvised-fire-control-1941-to-1942)
+  - [Sonar](france/richelieu-class/04-sensors-fire-control-and-communications.md#sonar)
+  - [Radio, antennas, IFF, command spaces](france/richelieu-class/04-sensors-fire-control-and-communications.md#radio-antennas-iff-command-spaces)
+- [Bismarck class](germany/bismarck-class/04-sensors-fire-control-and-communications.md) (Germany), status: partial (see gaps.md)
+  - [Command posts and rangefinders](germany/bismarck-class/04-sensors-fire-control-and-communications.md#command-posts-and-rangefinders)
+  - [Fire control computers and plotting rooms](germany/bismarck-class/04-sensors-fire-control-and-communications.md#fire-control-computers-and-plotting-rooms)
+  - [Anti-aircraft fire control](germany/bismarck-class/04-sensors-fire-control-and-communications.md#anti-aircraft-fire-control)
+  - [Gunnery method](germany/bismarck-class/04-sensors-fire-control-and-communications.md#gunnery-method)
+  - [Radar](germany/bismarck-class/04-sensors-fire-control-and-communications.md#radar)
+  - [Hydrophones and sonar](germany/bismarck-class/04-sensors-fire-control-and-communications.md#hydrophones-and-sonar)
+  - [Radio](germany/bismarck-class/04-sensors-fire-control-and-communications.md#radio)
+  - [Searchlights, mine defence and other sensors](germany/bismarck-class/04-sensors-fire-control-and-communications.md#searchlights-mine-defence-and-other-sensors)
+  - [Command spaces](germany/bismarck-class/04-sensors-fire-control-and-communications.md#command-spaces)
+- [Littorio class](italy/littorio-class/04-sensors-fire-control-and-communications.md) (Italy), status: partial (see gaps.md)
+  - [Directors and rangefinders](italy/littorio-class/04-sensors-fire-control-and-communications.md#directors-and-rangefinders)
+  - [Stabilisation of the sighting and aiming lines](italy/littorio-class/04-sensors-fire-control-and-communications.md#stabilisation-of-the-sighting-and-aiming-lines)
+  - [Anti-aircraft lookout stations](italy/littorio-class/04-sensors-fire-control-and-communications.md#anti-aircraft-lookout-stations)
+  - [Radar](italy/littorio-class/04-sensors-fire-control-and-communications.md#radar)
+  - [Sonar](italy/littorio-class/04-sensors-fire-control-and-communications.md#sonar)
+  - [Radio and signals](italy/littorio-class/04-sensors-fire-control-and-communications.md#radio-and-signals)
+- [Yamato class](japan/yamato-class/04-sensors-fire-control-and-communications.md) (Japan), status: partial (see gaps.md)
+  - [Main battery optics](japan/yamato-class/04-sensors-fire-control-and-communications.md#main-battery-optics)
+  - [Anti-aircraft fire control](japan/yamato-class/04-sensors-fire-control-and-communications.md#anti-aircraft-fire-control)
+  - [Radar](japan/yamato-class/04-sensors-fire-control-and-communications.md#radar)
+  - [Identification and radar warning](japan/yamato-class/04-sensors-fire-control-and-communications.md#identification-and-radar-warning)
+  - [Hydrophones](japan/yamato-class/04-sensors-fire-control-and-communications.md#hydrophones)
+  - [Plotting and fire control stations named in the record](japan/yamato-class/04-sensors-fire-control-and-communications.md#plotting-and-fire-control-stations-named-in-the-record)
+  - [Radio and radio intelligence](japan/yamato-class/04-sensors-fire-control-and-communications.md#radio-and-radio-intelligence)
+- [King George V class](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md) (United Kingdom), status: partial (see gaps.md)
+  - [Radar sets and what each was for](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#radar-sets-and-what-each-was-for)
+  - [Radar fits by date](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#radar-fits-by-date)
+  - [Directors, rangefinders and the fire control table](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#directors-rangefinders-and-the-fire-control-table)
+  - [What the radar did and did not do at the Denmark Strait](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#what-the-radar-did-and-did-not-do-at-the-denmark-strait)
+  - [High Angle Control System](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#high-angle-control-system)
+  - [Type 284 in the Duke of York's night action against Scharnhorst](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#type-284-in-the-duke-of-yorks-night-action-against-scharnhorst)
+  - [Communications](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#communications)
+  - [Radar as the Royal Navy described it to its own people](united-kingdom/king-george-v-class/04-sensors-fire-control-and-communications.md#radar-as-the-royal-navy-described-it-to-its-own-people)
+- [Iowa class](united-states/iowa-class/04-sensors-fire-control-and-communications.md) (United States), status: partial (see `gaps-04.md`)
+  - [Main battery fire control](united-states/iowa-class/04-sensors-fire-control-and-communications.md#main-battery-fire-control)
+  - [Secondary battery fire control](united-states/iowa-class/04-sensors-fire-control-and-communications.md#secondary-battery-fire-control)
+  - [Anti-aircraft directors](united-states/iowa-class/04-sensors-fire-control-and-communications.md#anti-aircraft-directors)
+  - [Search radars by date](united-states/iowa-class/04-sensors-fire-control-and-communications.md#search-radars-by-date)
+  - [Sonar](united-states/iowa-class/04-sensors-fire-control-and-communications.md#sonar)
+  - [Radio](united-states/iowa-class/04-sensors-fire-control-and-communications.md#radio)
+  - [Antennas](united-states/iowa-class/04-sensors-fire-control-and-communications.md#antennas)
+  - [Combat information center](united-states/iowa-class/04-sensors-fire-control-and-communications.md#combat-information-center)
+  - [Navigation and identification](united-states/iowa-class/04-sensors-fire-control-and-communications.md#navigation-and-identification)
+  - [Optical equipment and searchlights](united-states/iowa-class/04-sensors-fire-control-and-communications.md#optical-equipment-and-searchlights)
 
 ### 05 Compartments and deck plans
 
+- [Richelieu class](france/richelieu-class/05-compartments-and-deck-plans.md) (France), status: partial (see gaps.md)
+  - [Deck naming](france/richelieu-class/05-compartments-and-deck-plans.md#deck-naming)
+  - [Machinery spaces, forward to aft](france/richelieu-class/05-compartments-and-deck-plans.md#machinery-spaces-forward-to-aft)
+  - [Electrical and auxiliary spaces](france/richelieu-class/05-compartments-and-deck-plans.md#electrical-and-auxiliary-spaces)
+  - [Magazines and shell rooms](france/richelieu-class/05-compartments-and-deck-plans.md#magazines-and-shell-rooms)
+  - [Hull spaces named in damage reports](france/richelieu-class/05-compartments-and-deck-plans.md#hull-spaces-named-in-damage-reports)
+  - [Superstructure](france/richelieu-class/05-compartments-and-deck-plans.md#superstructure)
+  - [Drawings](france/richelieu-class/05-compartments-and-deck-plans.md#drawings)
+- [Bismarck class](germany/bismarck-class/05-compartments-and-deck-plans.md) (Germany), status: partial (see gaps.md)
+  - [The plans](germany/bismarck-class/05-compartments-and-deck-plans.md#the-plans)
+  - [Deck names](germany/bismarck-class/05-compartments-and-deck-plans.md#deck-names)
+  - [Watertight subdivision and numbering](germany/bismarck-class/05-compartments-and-deck-plans.md#watertight-subdivision-and-numbering)
+  - [Principal spaces by section](germany/bismarck-class/05-compartments-and-deck-plans.md#principal-spaces-by-section)
+  - [Superstructure levels](germany/bismarck-class/05-compartments-and-deck-plans.md#superstructure-levels)
+  - [Boats](germany/bismarck-class/05-compartments-and-deck-plans.md#boats)
+- [Littorio class](italy/littorio-class/05-compartments-and-deck-plans.md) (Italy), status: partial (see gaps.md)
+  - [Decks named in the sources](italy/littorio-class/05-compartments-and-deck-plans.md#decks-named-in-the-sources)
+  - [Principal spaces](italy/littorio-class/05-compartments-and-deck-plans.md#principal-spaces)
+  - [Superstructure levels](italy/littorio-class/05-compartments-and-deck-plans.md#superstructure-levels)
+  - [What the wreck survey identified](italy/littorio-class/05-compartments-and-deck-plans.md#what-the-wreck-survey-identified)
+- [Yamato class](japan/yamato-class/05-compartments-and-deck-plans.md) (Japan), status: partial (see gaps.md)
+  - [Deck naming](japan/yamato-class/05-compartments-and-deck-plans.md#deck-naming)
+  - [Spaces around a main battery turret](japan/yamato-class/05-compartments-and-deck-plans.md#spaces-around-a-main-battery-turret)
+  - [Machinery and storage spaces by frame number](japan/yamato-class/05-compartments-and-deck-plans.md#machinery-and-storage-spaces-by-frame-number)
+  - [Superstructure levels](japan/yamato-class/05-compartments-and-deck-plans.md#superstructure-levels)
+  - [Other spaces named in the record](japan/yamato-class/05-compartments-and-deck-plans.md#other-spaces-named-in-the-record)
+  - [The Yamato Museum 1:10 model](japan/yamato-class/05-compartments-and-deck-plans.md#the-yamato-museum-110-model)
+- [King George V class](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md) (United Kingdom), status: partial (see gaps.md)
+  - [Deck names](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#deck-names)
+  - [Watertight subdivision](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#watertight-subdivision)
+  - [Machinery spaces](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#machinery-spaces)
+  - [Magazines, shell rooms and handing rooms](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#magazines-shell-rooms-and-handing-rooms)
+  - [Living spaces along the profile](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#living-spaces-along-the-profile)
+  - [Superstructure](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#superstructure)
+  - [Hull form](united-kingdom/king-george-v-class/05-compartments-and-deck-plans.md#hull-form)
+- [Iowa class](united-states/iowa-class/05-compartments-and-deck-plans.md) (United States), status: partial (see gaps-05.md)
+  - [Documents behind this facet](united-states/iowa-class/05-compartments-and-deck-plans.md#documents-behind-this-facet)
+  - [1. Deck naming and numbering](united-states/iowa-class/05-compartments-and-deck-plans.md#1-deck-naming-and-numbering)
+  - [2. Frame numbering and compartment designation](united-states/iowa-class/05-compartments-and-deck-plans.md#2-frame-numbering-and-compartment-designation)
+  - [3. Watertight subdivision](united-states/iowa-class/05-compartments-and-deck-plans.md#3-watertight-subdivision)
+  - [4. Space by space, deck by deck](united-states/iowa-class/05-compartments-and-deck-plans.md#4-space-by-space-deck-by-deck)
+  - [5. Superstructure](united-states/iowa-class/05-compartments-and-deck-plans.md#5-superstructure)
+  - [6. Circulation](united-states/iowa-class/05-compartments-and-deck-plans.md#6-circulation)
+  - [7. What differs between the WWII arrangement and the 1984 sheets](united-states/iowa-class/05-compartments-and-deck-plans.md#7-what-differs-between-the-wwii-arrangement-and-the-1984-sheets)
 
 ### 06 Crew and daily life
 
+- [Richelieu class](france/richelieu-class/06-crew-and-daily-life.md) (France), status: partial (see gaps.md)
+  - [Complement by date](france/richelieu-class/06-crew-and-daily-life.md#complement-by-date)
+  - [Commanders](france/richelieu-class/06-crew-and-daily-life.md#commanders)
+  - [Crew composition and 1945](france/richelieu-class/06-crew-and-daily-life.md#crew-composition-and-1945)
+  - [Boats](france/richelieu-class/06-crew-and-daily-life.md#boats)
+  - [Berthing, messing, galleys, rations, water, laundry, sick bay, chapel, watch bill](france/richelieu-class/06-crew-and-daily-life.md#berthing-messing-galleys-rations-water-laundry-sick-bay-chapel-watch-bill)
+- [Bismarck class](germany/bismarck-class/06-crew-and-daily-life.md) (Germany), status: partial (see gaps.md)
+  - [Complement](germany/bismarck-class/06-crew-and-daily-life.md#complement)
+  - [Divisions](germany/bismarck-class/06-crew-and-daily-life.md#divisions)
+  - [Berthing](germany/bismarck-class/06-crew-and-daily-life.md#berthing)
+  - [Messing](germany/bismarck-class/06-crew-and-daily-life.md#messing)
+  - [Watch bill and daily routine](germany/bismarck-class/06-crew-and-daily-life.md#watch-bill-and-daily-routine)
+  - [Medical](germany/bismarck-class/06-crew-and-daily-life.md#medical)
+  - [Other services](germany/bismarck-class/06-crew-and-daily-life.md#other-services)
+  - [Tirpitz](germany/bismarck-class/06-crew-and-daily-life.md#tirpitz)
+- [Littorio class](italy/littorio-class/06-crew-and-daily-life.md) (Italy), status: partial (see gaps.md)
+  - [Complement](italy/littorio-class/06-crew-and-daily-life.md#complement)
+  - [Messing system](italy/littorio-class/06-crew-and-daily-life.md#messing-system)
+  - [The rancio](italy/littorio-class/06-crew-and-daily-life.md#the-rancio)
+  - [Berthing](italy/littorio-class/06-crew-and-daily-life.md#berthing)
+  - [Organisation by number and the daily routine](italy/littorio-class/06-crew-and-daily-life.md#organisation-by-number-and-the-daily-routine)
+  - [Ration scale in weights](italy/littorio-class/06-crew-and-daily-life.md#ration-scale-in-weights)
+  - [Sick bay, laundry, barber, ship's store, chapel](italy/littorio-class/06-crew-and-daily-life.md#sick-bay-laundry-barber-ships-store-chapel)
+- [Yamato class](japan/yamato-class/06-crew-and-daily-life.md) (Japan), status: partial (see gaps.md)
+  - [Complement by date](japan/yamato-class/06-crew-and-daily-life.md#complement-by-date)
+  - [The Japanese Army ration scale, for comparison only](japan/yamato-class/06-crew-and-daily-life.md#the-japanese-army-ration-scale-for-comparison-only)
+  - [The Navy's own standard and Yamato's food](japan/yamato-class/06-crew-and-daily-life.md#the-navys-own-standard-and-yamatos-food)
+  - [Galleys and messing](japan/yamato-class/06-crew-and-daily-life.md#galleys-and-messing)
+  - [Officers versus ratings](japan/yamato-class/06-crew-and-daily-life.md#officers-versus-ratings)
+  - [Manufacturing plant aboard](japan/yamato-class/06-crew-and-daily-life.md#manufacturing-plant-aboard)
+  - [Air conditioning](japan/yamato-class/06-crew-and-daily-life.md#air-conditioning)
+  - [The bridge elevator](japan/yamato-class/06-crew-and-daily-life.md#the-bridge-elevator)
+  - ["Yamato Hotel"](japan/yamato-class/06-crew-and-daily-life.md#yamato-hotel)
+  - [Living spaces named in the record](japan/yamato-class/06-crew-and-daily-life.md#living-spaces-named-in-the-record)
+  - [Watch and daily routine](japan/yamato-class/06-crew-and-daily-life.md#watch-and-daily-routine)
+  - [Archival leads](japan/yamato-class/06-crew-and-daily-life.md#archival-leads)
+- [King George V class](united-kingdom/king-george-v-class/06-crew-and-daily-life.md) (United Kingdom), status: partial (see gaps.md)
+  - [Complement](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#complement)
+  - [Messing](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#messing)
+  - [The rum issue](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#the-rum-issue)
+  - [Sleeping](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#sleeping)
+  - [Sick bay](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#sick-bay)
+  - [Sunday and the ship's chapel](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#sunday-and-the-ships-chapel)
+  - [Laundry and canteen](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#laundry-and-canteen)
+  - [Living conditions in the tropics](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#living-conditions-in-the-tropics)
+  - [Dress and precautions at action stations](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#dress-and-precautions-at-action-stations)
+  - [Watch organisation](united-kingdom/king-george-v-class/06-crew-and-daily-life.md#watch-organisation)
+- [Iowa class](united-states/iowa-class/06-crew-and-daily-life.md) (United States), status: partial (see gaps file)
+  - [Complement by date and per ship](united-states/iowa-class/06-crew-and-daily-life.md#complement-by-date-and-per-ship)
+  - [Ship's organization, departments and divisions](united-states/iowa-class/06-crew-and-daily-life.md#ships-organization-departments-and-divisions)
+  - [Berthing by deck](united-states/iowa-class/06-crew-and-daily-life.md#berthing-by-deck)
+  - [Messing and galleys](united-states/iowa-class/06-crew-and-daily-life.md#messing-and-galleys)
+  - [Rations and menus](united-states/iowa-class/06-crew-and-daily-life.md#rations-and-menus)
+  - [Fresh water](united-states/iowa-class/06-crew-and-daily-life.md#fresh-water)
+  - [Services](united-states/iowa-class/06-crew-and-daily-life.md#services)
+  - [Medical](united-states/iowa-class/06-crew-and-daily-life.md#medical)
+  - [Daily routine](united-states/iowa-class/06-crew-and-daily-life.md#daily-routine)
+  - [Pay and discipline](united-states/iowa-class/06-crew-and-daily-life.md#pay-and-discipline)
+  - [Crew accounts](united-states/iowa-class/06-crew-and-daily-life.md#crew-accounts)
 
 ### 07 Operations and doctrine
 
+- [Richelieu class](france/richelieu-class/07-operations-and-doctrine.md) (France), status: partial (see gaps.md)
+  - [Watch system, general quarters organization, repair parties](france/richelieu-class/07-operations-and-doctrine.md#watch-system-general-quarters-organization-repair-parties)
+  - [Dakar, July 1940: the torpedo hit and the damage control effort](france/richelieu-class/07-operations-and-doctrine.md#dakar-july-1940-the-torpedo-hit-and-the-damage-control-effort)
+  - [Dakar, September 1940: gunnery under fire and the turret II explosions](france/richelieu-class/07-operations-and-doctrine.md#dakar-september-1940-gunnery-under-fire-and-the-turret-ii-explosions)
+  - [The 1943 refit at New York Navy Yard](france/richelieu-class/07-operations-and-doctrine.md#the-1943-refit-at-new-york-navy-yard)
+  - [Home Fleet, November 1943 to March 1944](france/richelieu-class/07-operations-and-doctrine.md#home-fleet-november-1943-to-march-1944)
+  - [Eastern Fleet, 1944](france/richelieu-class/07-operations-and-doctrine.md#eastern-fleet-1944)
+  - [East Indies Fleet, 1945](france/richelieu-class/07-operations-and-doctrine.md#east-indies-fleet-1945)
+  - [Casablanca, 8 to 10 November 1942: Jean Bart as a floating battery](france/richelieu-class/07-operations-and-doctrine.md#casablanca-8-to-10-november-1942-jean-bart-as-a-floating-battery)
+  - [Fleet doctrine documents](france/richelieu-class/07-operations-and-doctrine.md#fleet-doctrine-documents)
+  - [Underway refuelling procedure](france/richelieu-class/07-operations-and-doctrine.md#underway-refuelling-procedure)
+- [Bismarck class](germany/bismarck-class/07-operations-and-doctrine.md) (Germany), status: partial (see gaps.md)
+  - [Watch system and readiness states](germany/bismarck-class/07-operations-and-doctrine.md#watch-system-and-readiness-states)
+  - [Battle stations organization](germany/bismarck-class/07-operations-and-doctrine.md#battle-stations-organization)
+  - [Gunnery procedure from detection to salvo](germany/bismarck-class/07-operations-and-doctrine.md#gunnery-procedure-from-detection-to-salvo)
+  - [Anti-aircraft doctrine](germany/bismarck-class/07-operations-and-doctrine.md#anti-aircraft-doctrine)
+  - [Damage control organization](germany/bismarck-class/07-operations-and-doctrine.md#damage-control-organization)
+  - [Damage control record, 24 to 27 May 1941](germany/bismarck-class/07-operations-and-doctrine.md#damage-control-record-24-to-27-may-1941)
+  - [Shore bombardment](germany/bismarck-class/07-operations-and-doctrine.md#shore-bombardment)
+  - [Doctrine and orders](germany/bismarck-class/07-operations-and-doctrine.md#doctrine-and-orders)
+  - [Underway refueling](germany/bismarck-class/07-operations-and-doctrine.md#underway-refueling)
+- [Littorio class](italy/littorio-class/07-operations-and-doctrine.md) (Italy), status: partial (see gaps.md)
+  - [Employment doctrine](italy/littorio-class/07-operations-and-doctrine.md#employment-doctrine)
+  - [Air defence organisation](italy/littorio-class/07-operations-and-doctrine.md#air-defence-organisation)
+  - [Damage control](italy/littorio-class/07-operations-and-doctrine.md#damage-control)
+  - [The attack on Taranto, 11 to 12 November 1940](italy/littorio-class/07-operations-and-doctrine.md#the-attack-on-taranto-11-to-12-november-1940)
+  - [Cape Matapan, 26 to 29 March 1941](italy/littorio-class/07-operations-and-doctrine.md#cape-matapan-26-to-29-march-1941)
+  - [The sortie of 9 September 1943 and the loss of Roma](italy/littorio-class/07-operations-and-doctrine.md#the-sortie-of-9-september-1943-and-the-loss-of-roma)
+  - [Fuel as an operational constraint](italy/littorio-class/07-operations-and-doctrine.md#fuel-as-an-operational-constraint)
+- [Yamato class](japan/yamato-class/07-operations-and-doctrine.md) (Japan), status: partial (see gaps.md)
+  - [Readiness conditions and closure](japan/yamato-class/07-operations-and-doctrine.md#readiness-conditions-and-closure)
+  - [Battle stations](japan/yamato-class/07-operations-and-doctrine.md#battle-stations)
+  - [Gunnery procedure in action](japan/yamato-class/07-operations-and-doctrine.md#gunnery-procedure-in-action)
+  - [Damage control organisation](japan/yamato-class/07-operations-and-doctrine.md#damage-control-organisation)
+  - [Damage control equipment](japan/yamato-class/07-operations-and-doctrine.md#damage-control-equipment)
+  - [Counterflooding in practice](japan/yamato-class/07-operations-and-doctrine.md#counterflooding-in-practice)
+  - [The mission's overall assessment](japan/yamato-class/07-operations-and-doctrine.md#the-missions-overall-assessment)
+  - [Fleet doctrine and the Ten-ichi-go order](japan/yamato-class/07-operations-and-doctrine.md#fleet-doctrine-and-the-ten-ichi-go-order)
+  - [Refuelling](japan/yamato-class/07-operations-and-doctrine.md#refuelling)
+- [King George V class](united-kingdom/king-george-v-class/07-operations-and-doctrine.md) (United Kingdom), status: partial (see gaps.md)
+  - [Degrees of readiness](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#degrees-of-readiness)
+  - [Action stations](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#action-stations)
+  - [Gunnery procedure, target to salvo](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#gunnery-procedure-target-to-salvo)
+  - [High angle and close range air defence](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#high-angle-and-close-range-air-defence)
+  - [Damage control](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#damage-control)
+  - [Shore bombardment](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#shore-bombardment)
+  - [Fleet handling: fuel as the governing constraint](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#fleet-handling-fuel-as-the-governing-constraint)
+  - [Night action](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#night-action)
+  - [Landing parties](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#landing-parties)
+  - [Underway replenishment](united-kingdom/king-george-v-class/07-operations-and-doctrine.md#underway-replenishment)
+- [Iowa class](united-states/iowa-class/07-operations-and-doctrine.md) (United States), status: partial (see `gaps-07.md`)
+  - [Conditions of readiness](united-states/iowa-class/07-operations-and-doctrine.md#conditions-of-readiness)
+  - [General quarters and battle stations](united-states/iowa-class/07-operations-and-doctrine.md#general-quarters-and-battle-stations)
+  - [Main battery gunnery procedure](united-states/iowa-class/07-operations-and-doctrine.md#main-battery-gunnery-procedure)
+  - [Surface action doctrine](united-states/iowa-class/07-operations-and-doctrine.md#surface-action-doctrine)
+  - [Shore bombardment](united-states/iowa-class/07-operations-and-doctrine.md#shore-bombardment)
+  - [Anti-aircraft doctrine](united-states/iowa-class/07-operations-and-doctrine.md#anti-aircraft-doctrine)
+  - [Damage control](united-states/iowa-class/07-operations-and-doctrine.md#damage-control)
+  - [Underway replenishment](united-states/iowa-class/07-operations-and-doctrine.md#underway-replenishment)
+  - [Flagship duties](united-states/iowa-class/07-operations-and-doctrine.md#flagship-duties)
 
 ### 08 Service history
 
+- [Richelieu class](france/richelieu-class/08-service-history.md) (France), status: covered
+  - [Richelieu](france/richelieu-class/08-service-history.md#richelieu)
+  - [Jean Bart](france/richelieu-class/08-service-history.md#jean-bart)
+  - [Clemenceau](france/richelieu-class/08-service-history.md#clemenceau)
+  - [Gascogne](france/richelieu-class/08-service-history.md#gascogne)
+- [Bismarck class](germany/bismarck-class/08-service-history.md) (Germany), status: covered
+  - [Bismarck](germany/bismarck-class/08-service-history.md#bismarck)
+  - [Tirpitz](germany/bismarck-class/08-service-history.md#tirpitz)
+- [Littorio class](italy/littorio-class/08-service-history.md) (Italy), status: covered
+  - [Construction](italy/littorio-class/08-service-history.md#construction)
+  - [Class timeline](italy/littorio-class/08-service-history.md#class-timeline)
+- [Yamato class](japan/yamato-class/08-service-history.md) (Japan), status: covered
+  - [Building dates](japan/yamato-class/08-service-history.md#building-dates)
+  - [Yamato, 1941 to 1945](japan/yamato-class/08-service-history.md#yamato-1941-to-1945)
+  - [Musashi, 1942 to 1944](japan/yamato-class/08-service-history.md#musashi-1942-to-1944)
+  - [Shinano, 1940 to 1944](japan/yamato-class/08-service-history.md#shinano-1940-to-1944)
+  - [The Japanese loss records](japan/yamato-class/08-service-history.md#the-japanese-loss-records)
+- [King George V class](united-kingdom/king-george-v-class/08-service-history.md) (United Kingdom), status: covered
+  - [Build dates](united-kingdom/king-george-v-class/08-service-history.md#build-dates)
+  - [King George V](united-kingdom/king-george-v-class/08-service-history.md#king-george-v)
+  - [Prince of Wales](united-kingdom/king-george-v-class/08-service-history.md#prince-of-wales)
+  - [Duke of York](united-kingdom/king-george-v-class/08-service-history.md#duke-of-york)
+  - [Anson](united-kingdom/king-george-v-class/08-service-history.md#anson)
+  - [Howe](united-kingdom/king-george-v-class/08-service-history.md#howe)
+  - [Class fate](united-kingdom/king-george-v-class/08-service-history.md#class-fate)
+- [Iowa class](united-states/iowa-class/08-service-history.md) (United States), status: covered
+  - [Iowa (BB-61)](united-states/iowa-class/08-service-history.md#iowa-bb-61)
+  - [New Jersey (BB-62)](united-states/iowa-class/08-service-history.md#new-jersey-bb-62)
+  - [Missouri (BB-63)](united-states/iowa-class/08-service-history.md#missouri-bb-63)
+  - [Wisconsin (BB-64)](united-states/iowa-class/08-service-history.md#wisconsin-bb-64)
+  - [Illinois (BB-65)](united-states/iowa-class/08-service-history.md#illinois-bb-65)
+  - [Kentucky (BB-66)](united-states/iowa-class/08-service-history.md#kentucky-bb-66)
 
 ## Gaps and sources
 
@@ -55,4 +601,10 @@ Source registry used by every dossier: [skills/ww2-warship-research/SOURCES.md](
 
 | Class | Sources file | Entries | Gaps file | Entries | Image credits |
 |---|---|---|---|---|---|
+| [Richelieu class](france/richelieu-class/README.md) | [sources.md](france/richelieu-class/sources.md) | 50 | [gaps.md](france/richelieu-class/gaps.md) | 10 | none |
+| [Bismarck class](germany/bismarck-class/README.md) | [sources.md](germany/bismarck-class/sources.md) | 38 | [gaps.md](germany/bismarck-class/gaps.md) | 33 | none |
+| [Littorio class](italy/littorio-class/README.md) | [sources.md](italy/littorio-class/sources.md) | 34 | [gaps.md](italy/littorio-class/gaps.md) | 14 | [CREDITS.md](italy/littorio-class/images/CREDITS.md) |
+| [Yamato class](japan/yamato-class/README.md) | [sources.md](japan/yamato-class/sources.md) | 37 | [gaps.md](japan/yamato-class/gaps.md) | 30 | [CREDITS.md](japan/yamato-class/images/CREDITS.md) |
+| [King George V class](united-kingdom/king-george-v-class/README.md) | [sources.md](united-kingdom/king-george-v-class/sources.md) | 63 | [gaps.md](united-kingdom/king-george-v-class/gaps.md) | 10 | none |
+| [Iowa class](united-states/iowa-class/README.md) | [sources.md](united-states/iowa-class/sources.md) | 193 | [gaps.md](united-states/iowa-class/gaps.md) | 61 | [CREDITS.md](united-states/iowa-class/images/CREDITS.md) |
 

@@ -44,7 +44,7 @@ These bind every step. The user's standing instruction: nothing invented, nothin
 
    Every line printed is a numbered claim with no citation. Fix each by adding the citation from the notes or by moving the claim to `gaps.md`. Then confirm every `[Sn]` used resolves to an entry in `sources.md`, and every entry in `sources.md` is used at least once. Done when the grep prints nothing and both checks pass.
 
-7. **Index.** Add or update the class row in `warships/<nation>/README.md` and the coverage row in `warships/README.md` (nation, class, ships, facets covered, facets with gaps, date). Done when both index files show the dossier.
+7. **Index.** Write `meta.json` in the dossier folder (schema in `DOSSIER-TEMPLATE.md`), add or update the class row in `warships/<nation>/README.md` and the coverage row in `warships/README.md`, then run `python3 scripts/build-index.py` from the repo root to regenerate `warships/INDEX.md` and `warships/index.json`. Done when the script reports the class and every ship and weapon in `meta.json`, and both README rows show the dossier.
 
 8. **Commit** on the current branch with a message naming the class and the facets covered. Push only if the user asked for the findings to reach the repo remote.
 

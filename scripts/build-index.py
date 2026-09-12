@@ -1,0 +1,264 @@
+#!/usr/bin/env python3
+"""Generate warships/INDEX.md and warships/index.json from the dossiers.
+
+Reads each warships/<nation>/<class>/meta.json plus the headings of every
+facet file, and writes an index an agent can navigate by ship, class, weapon,
+or topic. Run from the repo root after adding or changing a dossier:
+
+    python3 scripts/build-index.py
+
+Only standard library. The index is generated; edit meta.json or the dossier,
+not INDEX.md.
+"""
+import json
+import os
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+WARSHIPS = ROOT / "warships"
+FACETS = [
+    ("01", "hull and armor"),
+    ("02", "propulsion and power"),
+    ("03", "armament and ammunition"),
+    ("04", "sensors, fire control, and communications"),
+    ("05", "compartments and deck plans"),
+    ("06", "crew and daily life"),
+    ("07", "operations and doctrine"),
+    ("08", "service history"),
+]
+NATION_NAMES = {
+    "united-states": "United States",
+    "united-kingdom": "United Kingdom",
+    "japan": "Japan",
+    "germany": "Germany",
+    "italy": "Italy",
+    "france": "France",
+    "soviet-union": "Soviet Union",
+}
+
+
+def slugify(heading: str) -> str:
+    """GitHub-style anchor for a markdown heading."""
+    s = heading.strip().lower()
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"\s+", "-", s)
+    return s
+
+
+def read_headings(path: Path):
+    out = []
+    if not path.exists():
+        return out
+    in_code = False
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        if line.startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code:
+            continue
+        m = re.match(r"^(#{2,3})\s+(.*)$", line)
+        if m:
+            out.append({"level": len(m.group(1)), "text": m.group(2).strip(), "anchor": slugify(m.group(2))})
+    return out
+
+
+def read_status(path: Path):
+    if not path.exists():
+        return "missing"
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines()[:15]:
+        m = re.match(r"^Status:\s*(.+)$", line.strip())
+        if m:
+            return m.group(1).strip()
+    return "unstated"
+
+
+def count_entries(path: Path, pattern: str):
+    if not path.exists():
+        return 0
+    return len(re.findall(pattern, path.read_text(encoding="utf-8", errors="replace"), flags=re.M))
+
+
+def facet_file(folder: Path, num: str):
+    hits = sorted(folder.glob(f"{num}-*.md"))
+    return hits[0] if hits else None
+
+
+def load_classes():
+    classes = []
+    for nation_dir in sorted(p for p in WARSHIPS.iterdir() if p.is_dir()):
+        for class_dir in sorted(p for p in nation_dir.iterdir() if p.is_dir()):
+            meta_path = class_dir / "meta.json"
+            if not meta_path.exists():
+                print(f"warning: no meta.json in {class_dir.relative_to(ROOT)}; skipped", file=sys.stderr)
+                continue
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            rel = class_dir.relative_to(WARSHIPS).as_posix()
+            entry = {
+                "nation": nation_dir.name,
+                "nation_name": NATION_NAMES.get(nation_dir.name, nation_dir.name.replace("-", " ").title()),
+                "class": meta.get("class", class_dir.name),
+                "slug": class_dir.name,
+                "type": meta.get("type", ""),
+                "path": rel,
+                "readme": f"{rel}/README.md",
+                "ships": meta.get("ships", []),
+                "weapons": meta.get("weapons", []),
+                "facets": [],
+                "sources": f"{rel}/sources.md" if (class_dir / "sources.md").exists() else None,
+                "source_count": count_entries(class_dir / "sources.md", r"^S\d+\."),
+                "gaps": f"{rel}/gaps.md" if (class_dir / "gaps.md").exists() else None,
+                "gap_count": count_entries(class_dir / "gaps.md", r"^#{2,3}\s+(?!sources-|gaps-)"),
+                "images": f"{rel}/images/CREDITS.md" if (class_dir / "images" / "CREDITS.md").exists() else None,
+                "image_count": len([p for p in (class_dir / "images").glob("*") if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".gif", ".webp")]) if (class_dir / "images").exists() else 0,
+            }
+            for num, title in FACETS:
+                f = facet_file(class_dir, num)
+                entry["facets"].append({
+                    "num": num,
+                    "title": title,
+                    "file": f"{rel}/{f.name}" if f else None,
+                    "status": read_status(f) if f else "missing",
+                    "headings": read_headings(f) if f else [],
+                })
+            classes.append(entry)
+    return classes
+
+
+def md_link(text, target):
+    return f"[{text}]({target})"
+
+
+def write_index_md(classes):
+    lines = []
+    lines.append("# Warship index")
+    lines.append("")
+    lines.append("Generated by `scripts/build-index.py` from each dossier's `meta.json` and headings. Do not edit by hand; edit the dossier and rerun the script.")
+    lines.append("")
+    lines.append("Navigate by the question you have:")
+    lines.append("")
+    lines.append("- A ship by name or hull number: section [Ships](#ships).")
+    lines.append("- A class or a navy: section [Classes by nation](#classes-by-nation).")
+    lines.append("- A gun, mount, or weapon system: section [Weapons](#weapons).")
+    lines.append("- A topic across classes (how shells were loaded, what the crew ate, where the engine rooms sat): section [Topics by facet](#topics-by-facet), which lists every heading in every facet file.")
+    lines.append("- What is missing: section [Gaps and sources](#gaps-and-sources).")
+    lines.append("- Text search across everything: `scripts/lookup.sh \"<term>\"` prints file and line for each hit.")
+    lines.append("")
+
+    # Ships
+    lines.append("## Ships")
+    lines.append("")
+    lines.append("| Ship | Hull or pennant | Also known as | Navy | Class | Ship notes |")
+    lines.append("|---|---|---|---|---|---|")
+    rows = []
+    for c in classes:
+        for s in c["ships"]:
+            aliases = ", ".join(s.get("aliases", [])) or ""
+            ship_file = s.get("file")
+            link = md_link("notes", f"{c['path']}/{ship_file}") if ship_file and (WARSHIPS / c["path"] / ship_file).exists() else ""
+            rows.append((s["name"], f"| {s['name']} | {s.get('hull','')} | {aliases} | {c['nation_name']} | {md_link(c['class'], c['readme'])} | {link} |"))
+    for _, r in sorted(rows, key=lambda t: t[0].lower()):
+        lines.append(r)
+    lines.append("")
+
+    # Classes by nation
+    lines.append("## Classes by nation")
+    lines.append("")
+    by_nation = {}
+    for c in classes:
+        by_nation.setdefault(c["nation"], []).append(c)
+    for nation in sorted(by_nation, key=lambda n: NATION_NAMES.get(n, n)):
+        lines.append(f"### {NATION_NAMES.get(nation, nation)}")
+        lines.append("")
+        lines.append(f"Roster of every class, including those without a dossier: {md_link('README', f'{nation}/README.md')}.")
+        lines.append("")
+        lines.append("| Class | Type | Ships | Facet files | Sources | Gaps | Images |")
+        lines.append("|---|---|---|---|---|---|---|")
+        for c in by_nation[nation]:
+            ships = ", ".join(s["name"] for s in c["ships"])
+            facet_links = " ".join(md_link(f["num"], f["file"]) for f in c["facets"] if f["file"])
+            src = md_link(str(c["source_count"]), c["sources"]) if c["sources"] else "0"
+            gaps = md_link(str(c["gap_count"]), c["gaps"]) if c["gaps"] else "0"
+            imgs = md_link(str(c["image_count"]), c["images"]) if c["images"] else "0"
+            lines.append(f"| {md_link(c['class'], c['readme'])} | {c['type']} | {ships} | {facet_links} | {src} | {gaps} | {imgs} |")
+        lines.append("")
+
+    # Weapons
+    lines.append("## Weapons")
+    lines.append("")
+    lines.append("| Weapon | Role | Class | Where |")
+    lines.append("|---|---|---|---|")
+    wrows = []
+    for c in classes:
+        for w in c["weapons"]:
+            target = f"{c['path']}/{w.get('file', '03-armament-and-ammunition.md')}"
+            if w.get("anchor"):
+                target += f"#{w['anchor']}"
+            wrows.append((w["designation"].lower(), f"| {w['designation']} | {w.get('role','')} | {md_link(c['class'], c['readme'])} | {md_link('section', target)} |"))
+    for _, r in sorted(wrows):
+        lines.append(r)
+    lines.append("")
+
+    # Topics by facet
+    lines.append("## Topics by facet")
+    lines.append("")
+    for num, title in FACETS:
+        lines.append(f"### {num} {title[0].upper() + title[1:]}")
+        lines.append("")
+        for c in classes:
+            f = next(x for x in c["facets"] if x["num"] == num)
+            if not f["file"]:
+                lines.append(f"- {c['class']} ({c['nation_name']}): no file yet")
+                continue
+            lines.append(f"- {md_link(c['class'], f['file'])} ({c['nation_name']}), status: {f['status']}")
+            for h in f["headings"]:
+                if h["level"] != 2 or h["text"].lower() in ("conflicts between sources", "gaps"):
+                    continue
+                lines.append(f"  - {md_link(h['text'], f['file'] + '#' + h['anchor'])}")
+        lines.append("")
+
+    # Gaps and sources
+    lines.append("## Gaps and sources")
+    lines.append("")
+    lines.append(f"Source registry used by every dossier: {md_link('skills/ww2-warship-research/SOURCES.md', '../skills/ww2-warship-research/SOURCES.md')}.")
+    lines.append("")
+    lines.append("| Class | Sources file | Entries | Gaps file | Entries | Image credits |")
+    lines.append("|---|---|---|---|---|---|")
+    for c in classes:
+        src = md_link("sources.md", c["sources"]) if c["sources"] else "none"
+        gaps = md_link("gaps.md", c["gaps"]) if c["gaps"] else "none"
+        imgs = md_link("CREDITS.md", c["images"]) if c["images"] else "none"
+        lines.append(f"| {md_link(c['class'], c['readme'])} | {src} | {c['source_count']} | {gaps} | {c['gap_count']} | {imgs} |")
+    lines.append("")
+    (WARSHIPS / "INDEX.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_index_json(classes):
+    slim = []
+    for c in classes:
+        slim.append({
+            "nation": c["nation"],
+            "class": c["class"],
+            "slug": c["slug"],
+            "type": c["type"],
+            "path": c["path"],
+            "readme": c["readme"],
+            "ships": c["ships"],
+            "weapons": c["weapons"],
+            "facets": [{"num": f["num"], "title": f["title"], "file": f["file"], "status": f["status"], "headings": [h["text"] for h in f["headings"] if h["level"] == 2]} for f in c["facets"]],
+            "sources": c["sources"],
+            "source_count": c["source_count"],
+            "gaps": c["gaps"],
+            "gap_count": c["gap_count"],
+            "images": c["images"],
+            "image_count": c["image_count"],
+        })
+    (WARSHIPS / "index.json").write_text(json.dumps({"generated_by": "scripts/build-index.py", "classes": slim}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    classes = load_classes()
+    write_index_md(classes)
+    write_index_json(classes)
+    print(f"indexed {len(classes)} classes, {sum(len(c['ships']) for c in classes)} ships, {sum(len(c['weapons']) for c in classes)} weapons")

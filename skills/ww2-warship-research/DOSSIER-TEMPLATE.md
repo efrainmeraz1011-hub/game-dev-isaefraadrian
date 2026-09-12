@@ -6,6 +6,7 @@ One folder per class at `warships/<nation>/<class-slug>/`. Nation slugs: `united
 
 | File | Holds |
 |---|---|
+| `meta.json` | Machine-readable identity the index is built from. Schema under "meta.json" below. |
 | `README.md` | Class overview: type, nation, ships in class with hull numbers and dates, design lineage, what makes the class distinct, and a facet-by-facet status table (covered / gap / not yet researched). |
 | `01-hull-and-armor.md` | Hull form and dimensions; displacement by condition; armor scheme with thickness, material, and inclination per element; torpedo defense system; stability and metacentric height; weight breakdown by group (hull, armor, machinery, armament, fuel, stores) when a source gives one. |
 | `02-propulsion-and-power.md` | Boilers (count, maker, type, pressure, temperature); turbines (maker, type, rated shaft horsepower); reduction gears; shafts and propellers; designed and trial speeds; electrical plant (generator count, type, kW, voltage); steering gear; distilling plant; fuel type, bunkerage, endurance at stated speeds; underway replenishment arrangements. |
@@ -20,6 +21,23 @@ One folder per class at `warships/<nation>/<class-slug>/`. Nation slugs: `united
 | `gaps.md` | One entry per sub-facet with no source: the sub-facet, the queries run, the registry sources checked, the date. |
 | `images/` | Downloaded plans, photographs, diagrams. |
 | `images/CREDITS.md` | One row per file: filename, description, source URL, collection or photographer, license, original caption. |
+
+## meta.json
+
+```json
+{
+  "class": "Iowa class",
+  "type": "battleship",
+  "ships": [
+    {"name": "Iowa", "hull": "BB-61", "aliases": [], "file": "ships/iowa-bb-61.md"}
+  ],
+  "weapons": [
+    {"designation": "16-inch/50 Mark 7", "role": "main battery", "file": "03-armament-and-ammunition.md", "anchor": "main-battery-16-inch50-mark-7"}
+  ]
+}
+```
+
+`ships[].aliases` holds renamings and pre-war names (Littorio became Italia; Marat was Petropavlovsk). `weapons[].anchor` is the GitHub anchor of the heading in the named file (lowercase, punctuation removed, spaces to hyphens); leave it out if the file has no matching heading. Every gun, mount, torpedo, or aircraft type with its own heading in facet 03 gets a row.
 
 ## Section skeleton inside each facet file
 

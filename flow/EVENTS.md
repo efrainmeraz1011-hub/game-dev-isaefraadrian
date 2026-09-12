@@ -46,7 +46,7 @@ Splitting them stops the fights and the text events competing for the same autho
 
 | Catalog | What it holds | Feeds | Size target, v1 |
 |---|---|---|---|
-| **A. Encounters** | 9 objectives, 20 enemy packages, 16 complications, and the condition modifiers | Combat nodes, 35% of the map | ~1,000 valid scenarios |
+| **A. Encounters** | 9 objectives, 25 enemy packages, 16 complications, and the condition modifiers | Combat nodes, 35% of the map | ~1,260 valid scenarios |
 | **B. Events** | Authored situations with choices and costs | The other 65% of the map | 72 templates |
 | **C. Chains** | Consequences that land two to five nodes after the decision that caused them | Both | 14 chains |
 
@@ -189,13 +189,18 @@ This is the cheap multiplier. A fight is assembled, not authored.
 | P11 | Submarine, cautious | Breaks contact, returns later |
 | P12 | Submarine, aggressive | Presses the attack, spends torpedoes |
 | P13 | Submarine pair | Two bearings, one sonar team |
-| P14 | Air, single shadower | Harmless alone, calls a strike |
-| P15 | Air, bomber flight | AA ammunition burn, hull damage |
-| P16 | Air, torpedo bomber flight | Forces manoeuvre, ruins your firing solution |
+| P14 | Air, single shadower | Does no damage and decides everything. Reports your course and speed (R13.6) |
+| P15 | Air, level bombers | High and straight. Rarely hits a turning ship, but near misses spring plates (R13.4) |
+| P16 | Air, torpedo bombers | Must fly low, slow and straight to drop. That run-in is when AA kills them (R13.3) |
 | P17 | Cruiser, isolated | Outguns you at range, you have torpedoes |
 | P18 | Cruiser plus destroyer screen | You cannot reach the cruiser without passing the screen |
 | P19 | Shore battery plus patrol | Fixed, accurate, cannot be sunk, only suppressed |
 | P20 | Auxiliary raider disguised as a merchant | Reads as neutral until it opens fire |
+| P21 | Air, dive bombers | Steep attack from height, accurate. Answered by a hard turn under the dive (R13.3) |
+| P22 | Air, fighter sweep | Strafing. Hurts exposed crew and light mounts, not the hull |
+| P23 | Air, guided-bomb carriers, 1943+ | The launching aircraft must hold course to steer the weapon, so it is vulnerable while guiding (R13.5) |
+| P24 | Escort carrier with a thin screen | Slow and lightly built. The one carrier a destroyer can realistically attack (R14.3) |
+| P25 | Fleet carrier air group, ship off-map | The carrier never appears. You fight waves from a finite group, and every aircraft downed is permanently gone (R14.1, R14.2) |
 
 ### 6.3 Complications
 
@@ -230,7 +235,7 @@ Applied on top, never creating a new scenario, only re-colouring one: `sea` (cal
 4. Validate counterplay before presenting: at least one feasible response must exist given the player's actual loadout [§5.3:1280].
 5. Apply condition modifiers from the sector's weather state.
 
-Rough eligibility across the 2,880 objective × package × complication combinations lands near **35% legal**, or about **1,000 distinct scenarios**, before conditions.
+Rough eligibility across the 3,600 objective × package × complication combinations lands near **35% legal**, or about **1,260 distinct scenarios**, before conditions.
 
 ---
 
@@ -283,13 +288,13 @@ A chain is a consequence that lands later. This is the cheapest way to make a ru
 
 ## 9. What this produces, in numbers
 
-**Fights.** 9 objectives × 20 packages × 16 complications = 2,880 raw combinations. Roughly 35% survive the legality and counterplay rules, so about **1,000 distinct scenarios**, before weather, light and your own damage state. A run fights about 11 times. Ignoring weighting, a player would need on the order of **90 runs** to meet every scenario once.
+**Fights.** 9 objectives × 25 packages × 16 complications = 3,600 raw combinations. Roughly 35% survive the legality and counterplay rules, so about **1,260 distinct scenarios**, before weather, light and your own damage state. A run fights about 11 times. Ignoring weighting, a player would need on the order of **115 runs** to meet every scenario once.
 
 **Events.** 72 templates. Slot variance gives about 2.5 mechanically distinct faces each, so roughly **180 instances**. Gates give a given instance about 3 presentations depending on your build, so roughly **540 distinct event experiences**. A run sees about 19. That is **9 to 10 runs** before a player has seen the whole event layer at least once, and longer before it feels repetitive, because the third time you meet the sinking freighter you have a sea boat and it is a different decision.
 
 **Chains.** 14, each landing somewhere the player did not choose it, which is what makes a run feel authored.
 
-**The honest limit.** Past roughly fifteen runs, the event layer is familiar and the fights are still fresh. That is the correct shape: the fights are the game, the events are the texture. If this needs to hold past thirty runs, the cheapest fix is more enemy packages and complications, not more events. Ten more packages and six more complications would take the scenario count past 2,000 for a fraction of the writing.
+**The honest limit.** Past roughly fifteen runs, the event layer is familiar and the fights are still fresh. That is the correct shape: the fights are the game, the events are the texture. If this needs to hold past thirty runs, the cheapest fix is more enemy packages and complications, not more events. Ten more packages and six more complications would take the scenario count past 2,500 for a fraction of the writing.
 
 ---
 

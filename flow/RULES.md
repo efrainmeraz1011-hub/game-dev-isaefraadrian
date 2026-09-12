@@ -473,6 +473,167 @@ and leaves. It has finite torpedoes, and spending them is a decision it can regr
 
 ---
 
+## R13 · Air attack
+
+The most common way a destroyer died. Each kind of aircraft is a different problem
+and needs different answers, which is what makes an air raid more than an incoming
+damage number.
+
+### R13.1 · Anti-aircraft fire is layered, in three bands [S89 p. 150, S95]
+
+The heavy dual-purpose battery engages at range with time or proximity fuzes. A medium
+automatic band takes over as they close. A close-in band is the last chance, and it is
+firing at something already committed to its attack run.
+
+The evolution is sourced. Designed 1.1-inch quad mounts and 0.50-inch machine guns were
+replaced during building by 40 mm Bofors and 20 mm Oerlikons [S95]. The 1944 text
+confirms 1.1-inch quads on the larger ships gave way to 40 mm twin and quad mounts, and
+that the 20 mm had almost entirely replaced the 0.50-calibre gun [S89, p. 150]. Iowa as
+commissioned in February 1943 carried fifteen quad 40 mm, sixty barrels, and sixty
+single 20 mm [S95].
+
+**Therefore:** an aircraft crosses three separate weapon envelopes on its way in, each
+with its own ammunition, its own crews and its own arcs. Losing one band leaves a hole
+at a specific range rather than a general penalty.
+
+### R13.2 · The proximity fuze is a real, dated step change [S91]
+
+Proximity-fuzed AA VT rounds came into use from late 1942, and by mid-1944 most
+front-line ships carried about three VT rounds for every time-fuzed AA Common round and
+fired them in that ratio [S91].
+
+**Therefore:** VT is a purchasable ammunition type, not a stat. Buying it changes heavy
+AA effectiveness sharply and costs more per round, so the player chooses how much of the
+magazine is VT. A ship that spent its VT early meets the next raid on time fuzes.
+
+### R13.3 · Four attack profiles, four different answers [period]
+
+| Profile | How it attacks | What kills it | What the ship does |
+|---|---|---|---|
+| **Torpedo bomber** | Must descend, slow, and fly straight and level on the run-in to drop | The run-in. It is predictable and in range of everything | Turn to comb the tracks, present the narrowest target, use speed |
+| **Dive bomber** | Steep dive from height, releases close, accurate | Heavy AA on the push-over, close-in guns in the dive | Hard turn under the dive; the bomber has to follow you down |
+| **Level bomber** | High, straight, releases a pattern | Heavy AA only. Often unreachable | Keep turning. Historically they rarely hit a manoeuvring ship |
+| **Fighter strafe** | Low pass with guns | Close-in AA | Little. It hurts exposed crew and light mounts, not the hull |
+
+The point is that no single answer works against all four. A ship optimised for close-in
+fire is nearly helpless against level bombing; a ship with only heavy AA is overrun by
+anything that gets inside it.
+
+### R13.4 · A near miss is not a miss [S28 p. 176, S26 p. 407]
+
+The first bomb to hit Roma on 9 September 1943 passed through the ship and out of the
+hull, exploding in the water beneath and causing serious damage [S28, p. 176; S26, p.
+407]. Italia was hit by one of the same bombs and took several hundred tonnes of sea
+water [S13, note 19].
+
+**Therefore:** bombs that do not land square still spring plates, start flooding and
+shock machinery. An air attack that "missed" can still put a ship into damage control.
+
+### R13.5 · Guided bombs exist from 1943 and have a visible weakness [S13, S28, S26]
+
+Eight aircraft of III/KG 100, flying from Istres, attacked with FX 1400 radio-controlled
+bombs and hit Roma with two; she capsized at 1612 with heavy loss [S13]. A second bomb
+exploded in her forward main-battery magazines and blew number 2 turret clear of the
+ship [R5].
+
+The weakness is the guidance. The launching aircraft has to hold course and keep the
+weapon in sight to steer it.
+
+**Therefore:** the counter is to make that aircraft break off, by AA or by manoeuvre that
+spoils the geometry, and the design should let the player see that the bomber is
+committed rather than merely watching a projectile.
+
+### R13.6 · The aircraft that finds you is more dangerous than the ones that attack [period]
+
+A shadower orbiting at the edge of range does no damage and decides everything. It
+reports your position, course and speed, and the strike that follows arrives knowing all
+three. Driving it off or breaking contact is worth more than shooting down a bomber.
+
+This is already EVT-72 and R6.3. The rule generalises it.
+
+### R13.7 · Aircraft have a radius, and outside it you are safe [period]
+
+Land-based air reaches only so far. Carrier air reaches only so far from its carrier.
+A route can be planned around air cover, and the gap between two air umbrellas is a real
+place on the map, which is a strategic decision rather than a combat one.
+
+### R13.8 · Weather and darkness suppress air attack [period, §1.12:384]
+
+Low cloud, heavy sea and night sharply reduce what aircraft can do, until late-war
+radar-equipped aircraft. Foul weather is shelter. The design document already caps this:
+weather may reduce sortie performance, and a mandatory boss cannot invalidate an
+aviation build for a whole fight without a fallback [§1.12:384].
+
+### R13.9 · Anti-aircraft ammunition burns faster than anything else [§1.10:294]
+
+Sustained close-range fire empties magazines quickly, and at zero that battery cannot
+fire at all. Fire discipline, choosing which band engages and when, is the actual skill.
+
+### R13.10 · A suicide attack breaks the AA arithmetic [period]
+
+Ordinary AA works by making the attacker miss, break off, or die before release. Against
+an aircraft whose weapon is itself, damaging it is not enough. Only destruction works,
+and a burning aircraft still arrives. If the late-war period is in scope this is a
+separate rule, not a damage multiplier.
+
+### R13.11 · Manoeuvre is a defence and it costs fuel [§6.5:1473, R1.3]
+
+Speed and turning enter the hit calculation directly through the target-manoeuvre term.
+Evading air attack is done at high speed, which burns 1.60 fuel per distance under R1.3.
+A day of air attacks is paid for in range.
+
+---
+
+## R14 · Carriers
+
+### R14.1 · You do not fight the carrier. You fight its air group [period]
+
+A fleet carrier engages from beyond the horizon and never appears on the player's chart
+as a target. What arrives is aircraft. Treating a carrier as a surface opponent with a
+health bar would be the single most ahistorical thing in the game.
+
+**Therefore:** a carrier is modelled as an off-map source that generates strikes, with a
+bearing that can be estimated from the direction aircraft arrive and depart.
+
+### R14.2 · The air group is finite, so shooting aircraft down is progress [period]
+
+A carrier embarks a fixed number of aircraft and replacing them at sea is not possible.
+Every aircraft destroyed is permanently gone from the source. A player who survives three
+strikes has measurably weakened an enemy it never saw.
+
+This gives an air battle a win condition other than survival, without inventing one.
+
+### R14.3 · The escort carrier is the one you can actually attack [period]
+
+Escort and light carriers were slow, lightly built and thinly protected. A destroyer that
+gets within gun or torpedo range of one has a real chance, which is exactly why they
+travelled with a screen. This is the carrier that belongs in a surface encounter; the
+fleet carrier is not.
+
+### R14.4 · The screen is the obstacle, not the carrier [period]
+
+Reaching any carrier means getting through what is escorting it. A lone destroyer
+attacking a fleet carrier's screen is choosing to die, and the game should present that
+clearly rather than dressing it as a fight worth taking.
+
+### R14.5 · Carrier aircraft sank capital ships, including in harbour [R3, R1]
+
+Conte di Cavour was sunk in shallow water at Taranto by an air-dropped torpedo on 12
+November 1940 [R3]. Littorio was hit by three torpedoes in the same raid and was under
+repair until April 1941 [R1]. Vittorio Veneto was torpedoed by aircraft at Matapan and
+under repair to August 1941 [R1].
+
+**Therefore:** an anchorage is not safe, and a mission that puts the player in one
+during a carrier raid is period-correct.
+
+### R14.6 · Finding a carrier is a mission, not an encounter [period]
+
+Locating the source of the strikes is a scouting objective under [§1.13:409], and what
+the player does with the position is report it, not attack it. Reporting it to a force
+that can act is a legitimate and period-correct victory.
+
+---
+
 ## R11 · Faction missions
 
 One tasking per navy, offered on some runs and not others. The rules that keep it
@@ -577,7 +738,7 @@ The author writes nine lines. The rules do the rest, and they do it the same way
 
 ## What needs sourcing before this ships
 
-Eleven rules, four missions and most of R12 carry `[period]`. They are believed accurate and are not yet cited, which by this repo's standard means they are not yet facts.
+Eleven rules, four missions and most of R12, R13 and R14 carry `[period]`. They are believed accurate and are not yet cited, which by this repo's standard means they are not yet facts.
 
 | Rule | Claim to verify |
 |---|---|
@@ -600,6 +761,13 @@ Eleven rules, four missions and most of R12 carry `[period]`. They are believed 
 | R12.10 | Knuckles and bubble decoys, and how they read on a set |
 | R12.12 | Two-ship attack procedure, one holding contact while the other runs in |
 | R12.13 | What counted as evidence of a kill, and how often claims were wrong |
+| R13.3 | Attack profiles: run-in speeds and heights, and why level bombing missed ships |
+| R13.6 | Shadower practice, and how a strike was vectored onto a reported contact |
+| R13.7 | Land-based and carrier air combat radii, and the size of the gaps between them |
+| R13.8 | Weather and night limits on air attack, and when radar-equipped aircraft changed them |
+| R13.10 | Whether the late-war suicide-attack period is in scope at all |
+| R14.1, R14.2 | Carrier air group sizes, and replacement at sea |
+| R14.3, R14.4 | Escort carrier protection and speed, and typical screen composition |
 
 `skills/ww2-warship-research/SKILL.md` is the procedure. Each of these is a research task that ends in an `[S…]` or a demotion to `[game]`.
 

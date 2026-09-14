@@ -1,0 +1,145 @@
+{
+  "_stub": "STUB OPEN-03: how many hulls per faction is undecided, and no faction roster exists. These five are the balance model's generic mechanical archetypes (balance_model/MODEL.md), offered to every faction. They are not ship classes.",
+  "_weapons": "STUB OPEN-10: no equipment catalog exists. Damage, reload, ammunition class and base accuracy come from balance_model/simulate.py WEAPONS.",
+  "weapons": {
+    "R": {
+      "name": "Rapid gun",
+      "damage": 4,
+      "reload": 4,
+      "ammo": "shell",
+      "perShot": 1,
+      "accuracy": 0.80,
+      "armorPass": 0.35
+    },
+    "H": {
+      "name": "Heavy gun",
+      "damage": 12,
+      "reload": 12,
+      "ammo": "shell",
+      "perShot": 3,
+      "accuracy": 0.65,
+      "armorPass": 0.80
+    },
+    "E": {
+      "name": "Explosive gun",
+      "damage": 8,
+      "reload": 9,
+      "ammo": "shell",
+      "perShot": 2,
+      "accuracy": 0.72,
+      "armorPass": 0.42
+    },
+    "T": {
+      "name": "Torpedo mount",
+      "damage": 30,
+      "reload": 26,
+      "ammo": "torpedo",
+      "perShot": 1,
+      "accuracy": 0.68,
+      "armorPass": 0.90
+    }
+  },
+  "patterns": {
+    "rapid": { "deck": "RRR", "name": "Three rapid guns" },
+    "heavy": { "deck": "HHH", "name": "Three penetrating guns" },
+    "mixed": { "deck": "RHT", "name": "Rapid, heavy, torpedoes" },
+    "torpedo": { "deck": "RTT", "name": "Rapid gun and two torpedo mounts" },
+    "explosive": { "deck": "RHE", "name": "Rapid, heavy, explosive" }
+  },
+  "hulls": [
+    {
+      "id": "flexible",
+      "name": "Flexible",
+      "hp": 100,
+      "armor": 0.10,
+      "speed": 1.00,
+      "fuelFactor": 1.00,
+      "fuelCapacity": 105,
+      "ammoFactor": 1.00
+    },
+    {
+      "id": "fast",
+      "name": "Fast",
+      "hp": 90,
+      "armor": 0.06,
+      "speed": 1.20,
+      "fuelFactor": 1.06,
+      "fuelCapacity": 85,
+      "ammoFactor": 1.20
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance",
+      "hp": 100,
+      "armor": 0.08,
+      "speed": 0.98,
+      "fuelFactor": 0.85,
+      "fuelCapacity": 140,
+      "ammoFactor": 0.80
+    },
+    {
+      "id": "reinforced",
+      "name": "Reinforced",
+      "hp": 120,
+      "armor": 0.22,
+      "speed": 0.85,
+      "fuelFactor": 1.08,
+      "fuelCapacity": 95,
+      "ammoFactor": 0.95
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "hp": 95,
+      "armor": 0.08,
+      "speed": 1.00,
+      "fuelFactor": 1.00,
+      "fuelCapacity": 120,
+      "ammoFactor": 0.85
+    }
+  ],
+  "supportPackages": [
+    { "id": "protection", "name": "Protection", "armor": 0.10, "pump": 1.3 },
+    { "id": "economy", "name": "Economy", "fuelCapacity": 1.20, "efficiency": 0.90 },
+    { "id": "control", "name": "Control", "accuracy": 0.06, "pump": 1.3, "asw": 0.12 }
+  ],
+  "_modules": "A gate names a module. Content never installs one: the loadout grants it and a port sells it. Step 1 carries no physical mount, arc, or slot cost for any of these (OPEN-10).",
+  "modules": [
+    {
+      "id": "sea_boat",
+      "name": "Sea boat and davits",
+      "price": 24,
+      "note": "Recovery needs a boat and a boat needs davits [R5.1]"
+    },
+    { "id": "workshop", "name": "Machine workshop", "price": 30 },
+    { "id": "diver", "name": "Trained diver", "price": 18 },
+    { "id": "specialist_team", "name": "Ordnance specialist", "price": 26 },
+    { "id": "boarding_party", "name": "Boarding party gear", "price": 16 },
+    { "id": "spare_radio", "name": "Spare radio set", "price": 22 },
+    { "id": "torpedo_tubes", "name": "Torpedo tubes", "price": 0, "grantedByDeck": "T" },
+    { "id": "compatible_shells", "name": "Common calibre", "price": 0, "alwaysOwned": true },
+    { "id": "radar_1", "name": "Radar, search", "price": 28 },
+    { "id": "radar_2", "name": "Radar, fire control", "price": 46, "requires": "radar_1" },
+    { "id": "sonar_1", "name": "Sonar set", "price": 26 },
+    { "id": "sonar_2", "name": "Sonar, trained operators", "price": 42, "requires": "sonar_1" },
+    { "id": "aa_1", "name": "Close-in AA", "price": 20 },
+    {
+      "id": "aa_2",
+      "name": "Layered AA with VT",
+      "price": 44,
+      "requires": "aa_1",
+      "note": "R13.2: VT is bought ammunition, not a stat. Step 1 folds it into the module."
+    },
+    { "id": "smoke_gear", "name": "Smoke generators", "price": 14 }
+  ],
+  "startingLoadouts": [
+    {
+      "id": "escort",
+      "name": "Escort fit",
+      "modules": ["sonar_1", "aa_1", "sea_boat"],
+      "note": "The baseline. Always available to every faction [§2.7:740]."
+    },
+    { "id": "surface", "name": "Surface fit", "modules": ["radar_1", "aa_1", "smoke_gear"] },
+    { "id": "salvage", "name": "Salvage fit", "modules": ["workshop", "sea_boat", "diver"] }
+  ]
+}

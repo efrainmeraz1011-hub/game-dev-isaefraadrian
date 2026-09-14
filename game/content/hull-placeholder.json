@@ -1,0 +1,95 @@
+{
+  "_stub": "STUB OPEN-04: no ship layout exists for any hull. This is flow/BUILD.md section 6 verbatim, marked [game] and not researched. Step 1 does not read it. Step 4 does.",
+  "hull": 100,
+  "compartmentVolume": 10,
+  "floodWarning": 0.65,
+  "founderAt": 0.80,
+  "fieldRepairCeiling": 0.70,
+  "roomCapacity": 3,
+  "teamWork": [1.0, 1.6, 2.0],
+  "compartments": [
+    {
+      "n": 1,
+      "name": "Forward gun mount",
+      "zone": "bow",
+      "systems": ["Gun A"],
+      "team": "Gun A crew"
+    },
+    {
+      "n": 2,
+      "name": "Forward magazine",
+      "zone": "bow",
+      "systems": ["Ammunition supply for Gun A"],
+      "team": null
+    },
+    {
+      "n": 3,
+      "name": "Bridge and wheelhouse",
+      "zone": "bow",
+      "systems": ["Navigation", "Orders", "Helm"],
+      "team": "Bridge watch"
+    },
+    {
+      "n": 4,
+      "name": "Sensor hut",
+      "zone": "midship",
+      "systems": ["Radar", "Sonar", "Radio"],
+      "team": "Sensor crew"
+    },
+    {
+      "n": 5,
+      "name": "Forward boiler room",
+      "zone": "midship",
+      "systems": ["Steam", "Half of propulsion"],
+      "team": null
+    },
+    {
+      "n": 6,
+      "name": "Engine room",
+      "zone": "midship",
+      "systems": ["Propulsion", "Generators"],
+      "team": "Engine crew"
+    },
+    {
+      "n": 7,
+      "name": "Damage-control station",
+      "zone": "midship",
+      "systems": ["Pumps", "Repair gear", "Workshop"],
+      "team": "Damage control"
+    },
+    {
+      "n": 8,
+      "name": "Torpedo and AA deck",
+      "zone": "midship",
+      "systems": ["Torpedo mount", "AA mount"],
+      "team": "AA and torpedo crew"
+    },
+    {
+      "n": 9,
+      "name": "Aft magazine",
+      "zone": "stern",
+      "systems": ["Ammunition for Gun B", "Depth charges"],
+      "team": null
+    },
+    {
+      "n": 10,
+      "name": "Aft gun mount",
+      "zone": "stern",
+      "systems": ["Gun B", "Depth-charge racks"],
+      "team": "Gun B crew"
+    }
+  ],
+  "adjacency": [
+    [1, 2],
+    [2, 3],
+    [3, 4],
+    [4, 5],
+    [5, 6],
+    [6, 7],
+    [7, 8],
+    [8, 9],
+    [9, 10],
+    [4, 6],
+    [7, 9]
+  ]
+}

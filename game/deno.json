@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "bundle": "deno bundle --minify ui/main.ts -o dist/game.js",
+    "dev": "deno task bundle && deno run --allow-net --allow-read jsr:@std/http/file-server .",
+    "check": "deno check headless.ts play.ts sim/*.ts sim/rules/*.ts ui/*.ts",
+    "run": "deno run --allow-read headless.ts",
+    "play": "deno run --allow-read play.ts",
+    "boundary": "deno run --allow-read ../scripts/check-sim-boundary.ts"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "semiColons": true,
+    "singleQuote": false,
+    "exclude": ["dist/"]
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}

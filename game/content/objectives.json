@@ -1,0 +1,23 @@
+{
+  "_source": "flow/EVENTS.md section 6.1, from §1.13:409. The nine objective templates.",
+  "_stub": "STUB OPEN-11: the templates have no manifests. Step 1 uses the success condition as text and the id for package eligibility only.",
+  "objectives": [
+    { "id": "O1", "name": "Survive until exit", "success": "you leave, alive" },
+    { "id": "O2", "name": "Escort merchants through", "success": "named ships reach the far edge" },
+    { "id": "O3", "name": "Evade detection", "success": "you cross without being classified" },
+    { "id": "O4", "name": "Rescue survivors", "success": "recovery completes before the clock" },
+    { "id": "O5", "name": "Disable a raider", "success": "its propulsion or armament stops" },
+    { "id": "O6", "name": "Sink a designated target", "success": "one named ship goes down" },
+    {
+      "id": "O7",
+      "name": "Scout an approach",
+      "success": "you observe and get the information out"
+    },
+    { "id": "O8", "name": "Clear a mine corridor", "success": "a lane is surveyed or swept" },
+    {
+      "id": "O9",
+      "name": "Suppress coastal defences",
+      "success": "shore guns stop firing for a window"
+    }
+  ]
+}

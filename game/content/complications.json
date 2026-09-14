@@ -1,0 +1,113 @@
+{
+  "_source": "flow/EVENTS.md section 6.3. Never two on one budget [§2.13:1047].",
+  "_stub": "STUB OPEN-E1: the multipliers are placeholders. Nothing measured them.",
+  "complications": [
+    {
+      "id": "C1",
+      "name": "Night action",
+      "effect": "no visual identification until close; radar matters or you are blind",
+      "ownDps": 0.80,
+      "enemyDps": 0.85,
+      "requiresModule": "radar_2",
+      "withModule": { "ownDps": 1.05 }
+    },
+    {
+      "id": "C2",
+      "name": "Fog",
+      "effect": "visual gone, sonar degraded, everything at knife range",
+      "ownDps": 0.75,
+      "enemyDps": 0.75,
+      "evasion": 1.15
+    },
+    {
+      "id": "C3",
+      "name": "Heavy sea",
+      "effect": "gunnery and torpedo accuracy down for both sides; boat work impossible",
+      "ownDps": 0.80,
+      "enemyDps": 0.80
+    },
+    {
+      "id": "C4",
+      "name": "Short of the right ammunition",
+      "effect": "the obvious answer is the one you cannot afford",
+      "ownDps": 0.70
+    },
+    {
+      "id": "C5",
+      "name": "Friendly shipping in the line of fire",
+      "effect": "firing arcs constrained, misses have consequences",
+      "ownDps": 0.85,
+      "standingRisk": 4
+    },
+    {
+      "id": "C6",
+      "name": "Minefield bounds the sea room",
+      "effect": "manoeuvre limited on one flank",
+      "evasion": 0.80
+    },
+    {
+      "id": "C7",
+      "name": "Reinforcements on a timer",
+      "effect": "a displayed clock; win before it or leave",
+      "timeLimitSeconds": 240
+    },
+    {
+      "id": "C8",
+      "name": "Enemy already damaged and running",
+      "effect": "pursuit costs fuel and pulls you off route",
+      "enemyHp": 0.65,
+      "pursuitFuel": 8
+    },
+    {
+      "id": "C9",
+      "name": "Rescue obligation in the middle of it",
+      "effect": "survivors in the water where you want to manoeuvre",
+      "evasion": 0.85,
+      "hours": 1
+    },
+    {
+      "id": "C10",
+      "name": "A sensor is out",
+      "effect": "radar or sonar destroyed or unpowered going in",
+      "ownDps": 0.85
+    },
+    {
+      "id": "C11",
+      "name": "A second threat type joins",
+      "effect": "surface fight becomes surface plus air, on one budget",
+      "enemyDps": 1.30
+    },
+    {
+      "id": "C12",
+      "name": "The objective is a window, not a kill",
+      "effect": "hold a position or a bearing for a stated time",
+      "holdSeconds": 180
+    },
+    {
+      "id": "C13",
+      "name": "Fuel state forces a short fight",
+      "effect": "you cannot afford a long engagement or a chase",
+      "timeLimitSeconds": 200
+    },
+    {
+      "id": "C14",
+      "name": "The enemy holds the better position",
+      "effect": "up-sun, up-weather, or between you and the exit",
+      "enemyDps": 1.20,
+      "evasion": 0.85
+    },
+    {
+      "id": "C15",
+      "name": "Neutral shipping present",
+      "effect": "identification required before firing; a mistake costs standing",
+      "ownDps": 0.88,
+      "standingRisk": 6
+    },
+    {
+      "id": "C16",
+      "name": "A damaged friendly needs screening",
+      "effect": "you are protecting something that cannot move fast",
+      "evasion": 0.75
+    }
+  ]
+}

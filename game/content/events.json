@@ -1,0 +1,3112 @@
+{
+  "_generated_by": "scripts/build-events.py from flow/CATALOG-EVENTS.md. Do not edit by hand.",
+  "_magnitudes": "STUB OPEN-E1: every number here comes from the phrase table in scripts/build-events.py, not from the catalog and not from research.",
+  "_skipped": "Faction missions not in the first playable (BUILD.md section 9): MSN-01, MSN-02, MSN-03, MSN-04",
+  "events": [
+    {
+      "id": "EVT-02",
+      "title": "Sealed ration cases adrift",
+      "options": [
+        {
+          "id": "grab_them_fast",
+          "label": "Grab them fast",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "inspect_before_taking",
+          "label": "Inspect before taking",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "leave_them",
+          "label": "Leave them",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "blind trade",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "sea",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-03",
+      "title": "Ammunition on a cargo raft",
+      "options": [
+        {
+          "id": "recover_the_containers",
+          "label": "Recover the containers",
+          "requires": {
+            "module": "compatible_shells"
+          },
+          "gateText": "a compatible calibre",
+          "spend": {
+            "hours": 2,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "inspect_first",
+          "label": "Inspect first",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "gated",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "vessel",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-06",
+      "title": "An abandoned supply launch",
+      "options": [
+        {
+          "id": "take_the_fuel",
+          "label": "Take the fuel",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "take_the_parts",
+          "label": "Take the parts",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "split_the_time_between_both",
+          "label": "Split the time between both",
+          "requires": {},
+          "spend": {
+            "hours": 3
+          },
+          "yieldScale": 0.6,
+          "yields": "salvage"
+        }
+      ],
+      "family": "salvage",
+      "shape": "two goods",
+      "sectors": [
+        1,
+        5
+      ],
+      "slots": [
+        "condition",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-07",
+      "title": "An adrift weapon assembly",
+      "options": [
+        {
+          "id": "salvage_the_mount",
+          "label": "Salvage the mount",
+          "requires": {
+            "cargo": 1
+          },
+          "gateText": "storage room",
+          "spend": {
+            "hours": 2,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "strip_it_for_scrap",
+          "label": "Strip it for Scrap",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "capacity",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-11",
+      "title": "A distress signal of uncertain origin",
+      "options": [
+        {
+          "id": "observe_from_a_distance",
+          "label": "Observe from a distance",
+          "requires": {
+            "module": "radar_2"
+          },
+          "gateText": "radar tier 2 or a scout aircraft",
+          "spend": {
+            "hours": 1,
+            "fuel": 4
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "approach_and_find_out",
+          "label": "Approach and find out",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "routeLayers": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "ignore_it",
+          "label": "Ignore it",
+          "requires": {},
+          "spend": {
+            "morale": -3
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "hidden branch",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "allegiance",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-12",
+      "title": "A wreck chart or dispatch pouch",
+      "options": [
+        {
+          "id": "recover_and_read_it",
+          "label": "Recover and read it",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "information"
+        },
+        {
+          "id": "take_it_and_read_it_later",
+          "label": "Take it and read it later",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "cargo": 1
+          },
+          "yields": "information"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "information",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "vessel",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-15",
+      "title": "A freighter going down with deck cargo still lashed",
+      "options": [
+        {
+          "id": "cut_it_free_under_the_sinking_cl",
+          "label": "Cut it free under the sinking clock",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "detachTeams": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "send_the_boat",
+          "label": "Send the boat",
+          "requires": {
+            "module": "sea_boat"
+          },
+          "gateText": "a sea boat",
+          "spend": {
+            "hours": 1,
+            "detachTeams": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "stand_off_and_watch_her_go",
+          "label": "Stand off and watch her go",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "take or leave",
+      "sectors": [
+        1,
+        5
+      ],
+      "slots": [
+        "vessel",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-16",
+      "title": "An oil slick leading to a half-sunk tanker",
+      "options": [
+        {
+          "id": "pump_as_much_as_you_can_carry",
+          "label": "Pump as much as you can carry",
+          "requires": {},
+          "spend": {
+            "hours": 3
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "take_a_sample_first_then_decide",
+          "label": "Take a sample first, then decide",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "gamble",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-17",
+      "title": "A drifting mine with its detonator intact",
+      "options": [
+        {
+          "id": "strip_it_for_parts",
+          "label": "Strip it for parts",
+          "requires": {
+            "module": "specialist_team"
+          },
+          "gateText": "a specialist team",
+          "spend": {
+            "hours": 2
+          },
+          "teamHealth": -22,
+          "yields": "salvage"
+        },
+        {
+          "id": "sink_it_by_gunfire",
+          "label": "Sink it by gunfire",
+          "requires": {},
+          "spend": {
+            "shell": 5,
+            "hours": 1,
+            "threat": 3
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "steer_well_clear",
+          "label": "Steer well clear",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "fuel": 4
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "known trade",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-18",
+      "title": "A landing craft beached on a sandbar, tide falling",
+      "options": [
+        {
+          "id": "board_her_now",
+          "label": "Board her now",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "detachTeams": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "wait_for_the_tide",
+          "label": "Wait for the tide",
+          "requires": {},
+          "spend": {
+            "hours": 6,
+            "threat": 12
+          },
+          "yields": "none"
+        },
+        {
+          "id": "leave_her",
+          "label": "Leave her",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "debt",
+      "sectors": [
+        2,
+        5
+      ],
+      "slots": [
+        "condition",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-19",
+      "title": "A crated aircraft engine on a raft",
+      "options": [
+        {
+          "id": "take_it_whole_to_sell",
+          "label": "Take it whole to sell",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "break_it_for_parts",
+          "label": "Break it for parts",
+          "requires": {
+            "module": "workshop"
+          },
+          "gateText": "a workshop",
+          "spend": {
+            "hours": 3
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "two goods",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-20",
+      "title": "A weighted codebook bag that failed to sink",
+      "options": [
+        {
+          "id": "recover_it",
+          "label": "Recover it",
+          "requires": {
+            "module": "diver"
+          },
+          "gateText": "a diver or grapnel",
+          "spend": {
+            "hours": 2
+          },
+          "yields": "information"
+        },
+        {
+          "id": "mark_the_position_and_report_it",
+          "label": "Mark the position and report it",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "emissions": 1
+          },
+          "yields": "information"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "information",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-21",
+      "title": "A supply cache marked on a captured chart",
+      "options": [
+        {
+          "id": "divert_to_reach_it",
+          "label": "Divert to reach it",
+          "requires": {},
+          "spend": {
+            "routeLayers": 1,
+            "fuel": 6,
+            "hours": 3
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "note_it_and_carry_on",
+          "label": "Note it and carry on",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "commitment",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [],
+      "requiresFlag": "chart_recovered"
+    },
+    {
+      "id": "EVT-22",
+      "title": "An enemy resupply buoy, mined",
+      "options": [
+        {
+          "id": "disarm_and_empty_it",
+          "label": "Disarm and empty it",
+          "requires": {
+            "module": "specialist_team"
+          },
+          "gateText": "a specialist team",
+          "spend": {
+            "hours": 3
+          },
+          "teamHealth": -22,
+          "yields": "salvage"
+        },
+        {
+          "id": "destroy_it",
+          "label": "Destroy it",
+          "requires": {},
+          "spend": {
+            "shell": 4,
+            "threat": 4
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "leave_it",
+          "label": "Leave it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "gated",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-23",
+      "title": "An abandoned depot on an islet, three lots",
+      "options": [
+        {
+          "id": "take_the_fuel",
+          "label": "Take the fuel",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "take_the_parts",
+          "label": "Take the parts",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "take_the_ammunition",
+          "label": "Take the ammunition",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "cargo": 1
+          },
+          "yields": "salvage"
+        }
+      ],
+      "family": "salvage",
+      "shape": "capacity",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-24",
+      "title": "A hospital ship's jettisoned medical stores",
+      "options": [
+        {
+          "id": "take_them",
+          "label": "Take them",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "standing": -5
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "report_their_position",
+          "label": "Report their position",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "emissions": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "leave_them",
+          "label": "Leave them",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "standing",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "allegiance"
+      ]
+    },
+    {
+      "id": "EVT-25",
+      "title": "A torpedo, run out and floating, still live",
+      "options": [
+        {
+          "id": "recover_it",
+          "label": "Recover it",
+          "requires": {
+            "module": "torpedo_tubes"
+          },
+          "gateText": "torpedo tubes",
+          "spend": {
+            "hours": 2
+          },
+          "gambleHull": 18,
+          "yields": "salvage"
+        },
+        {
+          "id": "sink_it_by_gunfire",
+          "label": "Sink it by gunfire",
+          "requires": {},
+          "spend": {
+            "shell": 5,
+            "hours": 1,
+            "threat": 3
+          },
+          "yields": "salvage"
+        },
+        {
+          "id": "steer_around_it",
+          "label": "Steer around it",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "salvage",
+      "shape": "gamble",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-04",
+      "title": "A raft with a surviving team",
+      "options": [
+        {
+          "id": "take_them_aboard_as_a_team",
+          "label": "Take them aboard as a team",
+          "requires": {
+            "teamSlot": 1
+          },
+          "gateText": "an empty active slot",
+          "spend": {
+            "hours": 1,
+            "rations": 2
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "carry_them_as_passengers",
+          "label": "Carry them as passengers",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "accommodation": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "signal_their_position_and_go",
+          "label": "Signal their position and go",
+          "requires": {},
+          "spend": {
+            "flares": 1,
+            "emissions": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "pass",
+          "label": "Pass",
+          "requires": {},
+          "spend": {
+            "morale": -3
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "take or leave",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "allegiance",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-05",
+      "title": "A civilian survivor raft",
+      "options": [
+        {
+          "id": "recover_them",
+          "label": "Recover them",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "accommodation": 1,
+            "rations": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "relay_their_position",
+          "label": "Relay their position",
+          "requires": {},
+          "spend": {
+            "emissions": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "pass",
+          "label": "Pass",
+          "requires": {},
+          "spend": {
+            "morale": -4
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "standing",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "allegiance",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-26",
+      "title": "Ditched aircrew, enemy nationality",
+      "options": [
+        {
+          "id": "take_them_prisoner",
+          "label": "Take them prisoner",
+          "requires": {
+            "accommodation": 1
+          },
+          "gateText": "the accommodation slot",
+          "spend": {
+            "hours": 1,
+            "accommodation": 1,
+            "rations": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "question_them_alongside_then_lea",
+          "label": "Question them alongside, then leave them",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "leave_them",
+          "label": "Leave them",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "standing",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "light",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-27",
+      "title": "An overloaded lifeboat, more people than you can take",
+      "options": [
+        {
+          "id": "take_the_wounded",
+          "label": "Take the wounded",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "accommodation": 1,
+            "medical": 2
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "take_the_able_bodied",
+          "label": "Take the able-bodied",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "accommodation": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "take_as_many_as_fit_and_go",
+          "label": "Take as many as fit and go",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "accommodation": 1
+          },
+          "yields": "crew"
+        }
+      ],
+      "family": "rescue",
+      "shape": "triage",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-28",
+      "title": "Survivors in fuel oil, air threat inbound",
+      "options": [
+        {
+          "id": "stop_and_recover_them",
+          "label": "Stop and recover them",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "speedOrder": "stop",
+          "yields": "crew"
+        },
+        {
+          "id": "recover_at_slow_speed",
+          "label": "Recover at slow speed",
+          "requires": {},
+          "spend": {
+            "hours": 3,
+            "fuel": 5
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "clear_the_area",
+          "label": "Clear the area",
+          "requires": {},
+          "spend": {
+            "morale": -8,
+            "standing": -5
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "sacrifice",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-29",
+      "title": "A merchant crew who will not leave a ship that will sink",
+      "options": [
+        {
+          "id": "argue_with_them_by_loud_hailer",
+          "label": "Argue with them by loud-hailer",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "board_and_take_them_off",
+          "label": "Board and take them off",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "detachTeams": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "leave_them_to_it",
+          "label": "Leave them to it",
+          "requires": {},
+          "spend": {
+            "morale": -3
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "pursuit",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "vessel",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-30",
+      "title": "Man overboard during a high-speed turn",
+      "options": [
+        {
+          "id": "come_about_on_a_recovery_turn",
+          "label": "Come about on a recovery turn",
+          "requires": {},
+          "spend": {
+            "fuel": 5,
+            "hours": 1
+          },
+          "speedOrder": "slow",
+          "yields": "crew"
+        },
+        {
+          "id": "lower_the_sea_boat",
+          "label": "Lower the sea boat",
+          "requires": {
+            "module": "sea_boat"
+          },
+          "gateText": "a serviceable boat, davits intact, sea state below heavy",
+          "spend": {
+            "detachTeams": 1
+          },
+          "speedOrder": "stop",
+          "yields": "crew"
+        },
+        {
+          "id": "hold_course_and_signal_his_posit",
+          "label": "Hold course and signal his position",
+          "requires": {},
+          "spend": {
+            "morale": -3,
+            "emissions": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "sacrifice",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "light",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-31",
+      "title": "A raft with one officer who knows a minefield lane",
+      "options": [
+        {
+          "id": "recover_him",
+          "label": "Recover him",
+          "requires": {
+            "accommodation": 1
+          },
+          "gateText": "the accommodation slot",
+          "spend": {
+            "hours": 1,
+            "accommodation": 1
+          },
+          "yields": "information"
+        },
+        {
+          "id": "take_his_information_by_hailer_a",
+          "label": "Take his information by hailer and leave him",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "morale": -5
+          },
+          "yields": "information"
+        },
+        {
+          "id": "pass",
+          "label": "Pass",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "information",
+      "sectors": [
+        2,
+        5
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-32",
+      "title": "Survivors showing signs of typhus",
+      "options": [
+        {
+          "id": "take_them_and_treat_them",
+          "label": "Take them and treat them",
+          "requires": {
+            "stock": {
+              "medical": 3
+            }
+          },
+          "gateText": "medical ≥ 3",
+          "spend": {
+            "medical": 3,
+            "accommodation": 1,
+            "hours": 2
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "take_them_without_treatment",
+          "label": "Take them without treatment",
+          "requires": {},
+          "spend": {
+            "accommodation": 1,
+            "hours": 1
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "signal_their_position_and_stand_",
+          "label": "Signal their position and stand clear",
+          "requires": {},
+          "spend": {
+            "emissions": 1,
+            "morale": -4
+          },
+          "yields": "crew"
+        }
+      ],
+      "family": "rescue",
+      "shape": "gamble",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-33",
+      "title": "Your own boat crew overdue from an earlier recovery",
+      "options": [
+        {
+          "id": "search_for_them",
+          "label": "Search for them",
+          "requires": {},
+          "spend": {
+            "hours": 3,
+            "fuel": 5,
+            "threat": 6
+          },
+          "yields": "crew"
+        },
+        {
+          "id": "wait_at_the_rendezvous",
+          "label": "Wait at the rendezvous",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "threat": 4
+          },
+          "speedOrder": "stop",
+          "yields": "none"
+        },
+        {
+          "id": "write_them_off",
+          "label": "Write them off",
+          "requires": {},
+          "spend": {
+            "loseTeams": 1,
+            "morale": -7
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "rescue",
+      "shape": "pursuit",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "light",
+        "sea"
+      ],
+      "requiresFlag": "boat_away"
+    },
+    {
+      "id": "EVT-10",
+      "title": "A merchant offers a finite barter",
+      "options": [
+        {
+          "id": "accept_the_trade",
+          "label": "Accept the trade",
+          "requires": {},
+          "spend": {
+            "scrap": 18,
+            "hours": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "counter_offer",
+          "label": "Counter-offer",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "known trade",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "vessel",
+        "allegiance"
+      ]
+    },
+    {
+      "id": "EVT-13",
+      "title": "A friendly repair party alongside",
+      "options": [
+        {
+          "id": "accept_a_capped_patch",
+          "label": "Accept a capped patch",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "trade_parts_for_their_labour",
+          "label": "Trade parts for their labour",
+          "requires": {},
+          "spend": {
+            "parts": 2,
+            "hours": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "known trade",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-34",
+      "title": "A neutral trawler wants fuel for fish and fresh water",
+      "options": [
+        {
+          "id": "trade_fuel_for_stores",
+          "label": "Trade fuel for stores",
+          "requires": {},
+          "spend": {
+            "fuel": 5,
+            "hours": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "refuse_politely",
+          "label": "Refuse politely",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "take_what_you_want",
+          "label": "Take what you want",
+          "requires": {},
+          "spend": {
+            "morale": -6,
+            "standing": -5
+          },
+          "yields": "standing"
+        }
+      ],
+      "family": "decision",
+      "shape": "known trade",
+      "sectors": [
+        1,
+        5
+      ],
+      "slots": [
+        "allegiance"
+      ]
+    },
+    {
+      "id": "EVT-35",
+      "title": "A friendly submarine asks you to stop pinging",
+      "options": [
+        {
+          "id": "stop_the_active_search",
+          "label": "Stop the active search",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "keep_the_contact",
+          "label": "Keep the contact",
+          "requires": {},
+          "spend": {
+            "standing": -5
+          },
+          "yields": "none"
+        },
+        {
+          "id": "ping_in_a_pattern_that_clears_hi",
+          "label": "Ping in a pattern that clears him",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "standing"
+        }
+      ],
+      "family": "decision",
+      "shape": "two goods",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-36",
+      "title": "The commodore orders you to a station you think is wrong",
+      "options": [
+        {
+          "id": "obey",
+          "label": "Obey",
+          "requires": {},
+          "spend": {
+            "fuel": 6,
+            "routeLayers": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "argue_by_signal",
+          "label": "Argue by signal",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "emissions": 1,
+            "standing": -5
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "ignore_the_order",
+          "label": "Ignore the order",
+          "requires": {},
+          "spend": {
+            "standing": -5
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "standing",
+      "sectors": [
+        2,
+        5
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-37",
+      "title": "An allied ship asks for your last spare parts",
+      "options": [
+        {
+          "id": "give_them_all",
+          "label": "Give them all",
+          "requires": {},
+          "spend": {},
+          "special": [
+            "parts_share"
+          ],
+          "yields": "standing"
+        },
+        {
+          "id": "split_them",
+          "label": "Split them",
+          "requires": {},
+          "spend": {},
+          "special": [
+            "parts_share"
+          ],
+          "yields": "standing"
+        },
+        {
+          "id": "refuse",
+          "label": "Refuse",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "sacrifice",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "vessel"
+      ]
+    },
+    {
+      "id": "EVT-38",
+      "title": "A port official offers to move you up the repair queue",
+      "options": [
+        {
+          "id": "pay_him",
+          "label": "Pay him",
+          "requires": {},
+          "spend": {
+            "scrap": 20
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "wait_your_turn",
+          "label": "Wait your turn",
+          "requires": {},
+          "spend": {
+            "hours": 5,
+            "threat": 10
+          },
+          "yields": "none"
+        },
+        {
+          "id": "report_him",
+          "label": "Report him",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "standing",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-39",
+      "title": "A merchant captain offers his chart library for medical supplies",
+      "options": [
+        {
+          "id": "trade",
+          "label": "Trade",
+          "requires": {
+            "stock": {
+              "medical": 2
+            }
+          },
+          "gateText": "medical ≥ 2",
+          "spend": {
+            "medical": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "offer_scrap_instead",
+          "label": "Offer Scrap instead",
+          "requires": {},
+          "spend": {
+            "scrap": 30
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "known trade",
+      "sectors": [
+        2,
+        5
+      ],
+      "slots": [
+        "vessel"
+      ]
+    },
+    {
+      "id": "EVT-40",
+      "title": "A coastwatcher offers a warning network for a radio set",
+      "options": [
+        {
+          "id": "give_up_a_radio",
+          "label": "Give up a radio",
+          "requires": {
+            "module": "spare_radio"
+          },
+          "gateText": "a spare radio module",
+          "spend": {},
+          "spendModule": "spare_radio",
+          "yields": "none"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "commitment",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-41",
+      "title": "A prize worth taking",
+      "options": [
+        {
+          "id": "put_a_prize_crew_aboard",
+          "label": "Put a prize crew aboard",
+          "requires": {
+            "teams": 2
+          },
+          "gateText": "a spare team",
+          "spend": {
+            "detachTeams": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "sink_her",
+          "label": "Sink her",
+          "requires": {},
+          "spend": {
+            "shell": 6,
+            "hours": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "leave_her",
+          "label": "Leave her",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "sacrifice",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "vessel",
+        "condition"
+      ]
+    },
+    {
+      "id": "EVT-42",
+      "title": "An officer asks to be transferred off after a bad action",
+      "options": [
+        {
+          "id": "release_him_at_the_next_port",
+          "label": "Release him at the next port",
+          "requires": {},
+          "spend": {
+            "detachTeams": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "refuse",
+          "label": "Refuse",
+          "requires": {},
+          "spend": {
+            "morale": -5
+          },
+          "yields": "none"
+        },
+        {
+          "id": "promote_someone_else_into_his_pl",
+          "label": "Promote someone else into his place",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "teamHealth": -5,
+          "yields": "standing"
+        }
+      ],
+      "family": "decision",
+      "shape": "standing",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-43",
+      "title": "A downed pilot's squadron offers air support for his return",
+      "options": [
+        {
+          "id": "return_him",
+          "label": "Return him",
+          "requires": {},
+          "spend": {
+            "accommodation": -1,
+            "fuel": 5,
+            "hours": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "keep_him",
+          "label": "Keep him",
+          "requires": {},
+          "spend": {
+            "rations": 2
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "known trade",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [],
+      "requiresFlag": "aircrew_aboard"
+    },
+    {
+      "id": "EVT-44",
+      "title": "A neutral port sells fuel only if you cover your guns",
+      "options": [
+        {
+          "id": "accept_the_condition",
+          "label": "Accept the condition",
+          "requires": {},
+          "spend": {
+            "hours": 3
+          },
+          "readinessDelay": true,
+          "yields": "standing"
+        },
+        {
+          "id": "refuse_and_look_elsewhere",
+          "label": "Refuse and look elsewhere",
+          "requires": {},
+          "spend": {
+            "fuel": 6,
+            "hours": 2
+          },
+          "yields": "none"
+        },
+        {
+          "id": "bluff_your_way_in",
+          "label": "Bluff your way in",
+          "requires": {},
+          "spend": {
+            "standing": -5
+          },
+          "yields": "standing"
+        }
+      ],
+      "family": "decision",
+      "shape": "gated",
+      "sectors": [
+        2,
+        5
+      ],
+      "slots": [
+        "allegiance"
+      ]
+    },
+    {
+      "id": "EVT-45",
+      "title": "Intelligence offers a route reveal for one of your teams",
+      "options": [
+        {
+          "id": "trade_the_team",
+          "label": "Trade the team",
+          "requires": {
+            "teams": 2
+          },
+          "gateText": "more than one active team",
+          "spend": {
+            "loseTeams": 1
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "decision",
+      "shape": "two goods",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-01",
+      "title": "An unseen mine, already detonated",
+      "options": [
+        {
+          "id": "send_everyone_to_the_breach",
+          "label": "Send everyone to the breach",
+          "requires": {},
+          "spend": {
+            "detachTeams": 3,
+            "hours": 2
+          },
+          "yields": "none"
+        },
+        {
+          "id": "split_between_fire_and_flooding",
+          "label": "Split between fire and flooding",
+          "requires": {},
+          "spend": {
+            "detachTeams": 2,
+            "hours": 2
+          },
+          "yields": "none"
+        },
+        {
+          "id": "patch_it_with_parts_and_keep_the",
+          "label": "Patch it with parts and keep the guns manned",
+          "requires": {},
+          "spend": {
+            "parts": 2
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "sacrifice",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [],
+      "arrivalEffect": "5-10% hull, one breach, then pause"
+    },
+    {
+      "id": "EVT-08",
+      "title": "A fouled propeller",
+      "options": [
+        {
+          "id": "detach_a_team_to_clear_it",
+          "label": "Detach a team to clear it",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "detachTeams": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "send_a_diver",
+          "label": "Send a diver",
+          "requires": {
+            "module": "diver"
+          },
+          "gateText": "a diver",
+          "spend": {
+            "hours": 1,
+            "detachTeams": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "limp_on",
+          "label": "Limp on",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "known trade",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-09",
+      "title": "Storm cargo shift",
+      "options": [
+        {
+          "id": "secure_the_stores",
+          "label": "Secure the stores",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "detachTeams": 2
+          },
+          "yields": "none"
+        },
+        {
+          "id": "reroute_to_easier_water",
+          "label": "Reroute to easier water",
+          "requires": {},
+          "spend": {
+            "fuel": 5,
+            "hours": 3
+          },
+          "yields": "none"
+        },
+        {
+          "id": "press_on_and_accept_the_loss",
+          "label": "Press on and accept the loss",
+          "requires": {},
+          "spend": {},
+          "special": [
+            "stores_share"
+          ],
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "triage",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-46",
+      "title": "A boiler tube lets go",
+      "options": [
+        {
+          "id": "repair_now",
+          "label": "Repair now",
+          "requires": {
+            "stock": {
+              "parts": 3
+            }
+          },
+          "gateText": "parts ≥ 3",
+          "spend": {
+            "parts": 3,
+            "hours": 3
+          },
+          "yields": "none"
+        },
+        {
+          "id": "run_on_reduced_power",
+          "label": "Run on reduced power",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "shut_down_and_drift_while_repair",
+          "label": "Shut down and drift while repairing",
+          "requires": {},
+          "spend": {
+            "hours": 5,
+            "threat": 10
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "known trade",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-47",
+      "title": "The condenser salts up after a near miss",
+      "options": [
+        {
+          "id": "shut_down_and_clean_it",
+          "label": "Shut down and clean it",
+          "requires": {},
+          "spend": {
+            "hours": 4,
+            "threat": 8
+          },
+          "yields": "none"
+        },
+        {
+          "id": "ration_fresh_water",
+          "label": "Ration fresh water",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "run_it_dirty",
+          "label": "Run it dirty",
+          "requires": {},
+          "spend": {},
+          "systemWear": 0.08,
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "debt",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-48",
+      "title": "Steering jams mid-turn",
+      "options": [
+        {
+          "id": "hand_steering_from_aft",
+          "label": "Hand steering from aft",
+          "requires": {},
+          "spend": {
+            "detachTeams": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "stop_engines_and_repair",
+          "label": "Stop engines and repair",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "threat": 5
+          },
+          "speedOrder": "stop",
+          "yields": "none"
+        },
+        {
+          "id": "steer_on_engines",
+          "label": "Steer on engines",
+          "requires": {},
+          "spend": {
+            "fuel": 6
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "gamble",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-49",
+      "title": "A shell in the magazine that did not go off",
+      "options": [
+        {
+          "id": "send_a_team_to_remove_it",
+          "label": "Send a team to remove it",
+          "requires": {},
+          "spend": {
+            "detachTeams": 1,
+            "hours": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "flood_the_magazine",
+          "label": "Flood the magazine",
+          "requires": {},
+          "spend": {
+            "stability": -8,
+            "hours": 1
+          },
+          "special": [
+            "battery_ammunition"
+          ],
+          "yields": "none"
+        },
+        {
+          "id": "post_a_sentry_and_leave_it",
+          "label": "Post a sentry and leave it",
+          "requires": {},
+          "spend": {
+            "detachTeams": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "sacrifice",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-50",
+      "title": "Fog closes in with a submarine known to be near",
+      "options": [
+        {
+          "id": "press_on_slowly",
+          "label": "Press on slowly",
+          "requires": {},
+          "spend": {
+            "hours": 3
+          },
+          "yields": "none"
+        },
+        {
+          "id": "stop_and_listen",
+          "label": "Stop and listen",
+          "requires": {
+            "module": "sonar_2"
+          },
+          "gateText": "sonar tier 2",
+          "spend": {
+            "hours": 2
+          },
+          "speedOrder": "stop",
+          "yields": "none"
+        },
+        {
+          "id": "turn_back_and_go_around",
+          "label": "Turn back and go around",
+          "requires": {},
+          "spend": {
+            "fuel": 5,
+            "hours": 4,
+            "routeLayers": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "gamble",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-51",
+      "title": "Ice building on the upperworks",
+      "options": [
+        {
+          "id": "send_teams_to_clear_it",
+          "label": "Send teams to clear it",
+          "requires": {},
+          "spend": {
+            "detachTeams": 2,
+            "hours": 2
+          },
+          "teamHealth": -12,
+          "yields": "none"
+        },
+        {
+          "id": "accept_the_stability_loss",
+          "label": "Accept the stability loss",
+          "requires": {},
+          "spend": {
+            "stability": -10
+          },
+          "yields": "none"
+        },
+        {
+          "id": "reduce_speed_to_stop_the_spray",
+          "label": "Reduce speed to stop the spray",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "triage",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-52",
+      "title": "Fire in the aviation fuel stowage",
+      "options": [
+        {
+          "id": "fight_it",
+          "label": "Fight it",
+          "requires": {},
+          "spend": {
+            "detachTeams": 2,
+            "hours": 4
+          },
+          "teamHealth": -18,
+          "yields": "none"
+        },
+        {
+          "id": "jettison_the_aviation_fuel",
+          "label": "Jettison the aviation fuel",
+          "requires": {},
+          "spend": {},
+          "special": [
+            "aviation_fuel"
+          ],
+          "yields": "none"
+        },
+        {
+          "id": "seal_the_compartment_and_let_it_",
+          "label": "Seal the compartment and let it burn out",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "systemWear": 0.15,
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "sacrifice",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [],
+      "requiresModule": "aviation"
+    },
+    {
+      "id": "EVT-53",
+      "title": "Depth charges armed by a hit, fire spreading aft",
+      "options": [
+        {
+          "id": "jettison_the_charges",
+          "label": "Jettison the charges",
+          "requires": {},
+          "spend": {
+            "hull": 4
+          },
+          "special": [
+            "all_depth_charges"
+          ],
+          "yields": "none"
+        },
+        {
+          "id": "fight_the_fire",
+          "label": "Fight the fire",
+          "requires": {},
+          "spend": {
+            "detachTeams": 2,
+            "hours": 4
+          },
+          "teamHealth": -18,
+          "yields": "none"
+        },
+        {
+          "id": "flood_the_stern_stowage",
+          "label": "Flood the stern stowage",
+          "requires": {},
+          "spend": {
+            "stability": -22
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "sacrifice",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-54",
+      "title": "Aground on an uncharted shoal, tide falling",
+      "options": [
+        {
+          "id": "kedge_off_now",
+          "label": "Kedge off now",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "detachTeams": 2,
+            "hull": 6
+          },
+          "yields": "none"
+        },
+        {
+          "id": "lighten_ship",
+          "label": "Lighten ship",
+          "requires": {},
+          "spend": {},
+          "special": [
+            "stores_share",
+            "stores_share"
+          ],
+          "yields": "none"
+        },
+        {
+          "id": "wait_for_the_tide",
+          "label": "Wait for the tide",
+          "requires": {},
+          "spend": {
+            "hours": 6,
+            "threat": 12
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "debt",
+      "sectors": [
+        2,
+        5
+      ],
+      "slots": [
+        "sea",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-55",
+      "title": "Contaminated fuel from the last replenishment",
+      "options": [
+        {
+          "id": "purge_the_tanks",
+          "label": "Purge the tanks",
+          "requires": {
+            "module": "workshop"
+          },
+          "gateText": "a workshop",
+          "spend": {
+            "hours": 3
+          },
+          "special": [
+            "contaminated_fuel"
+          ],
+          "yields": "none"
+        },
+        {
+          "id": "keep_burning_it",
+          "label": "Keep burning it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "run_on_the_clean_reserve_only",
+          "label": "Run on the clean reserve only",
+          "requires": {},
+          "spend": {},
+          "special": [
+            "clean_reserve_only"
+          ],
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "debt",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-56",
+      "title": "Gyro compass failure",
+      "options": [
+        {
+          "id": "navigate_by_magnetic_and_star_si",
+          "label": "Navigate by magnetic and star sights",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "stop_and_repair_it",
+          "label": "Stop and repair it",
+          "requires": {},
+          "spend": {
+            "hours": 3,
+            "parts": 2
+          },
+          "yields": "information"
+        },
+        {
+          "id": "follow_the_coast",
+          "label": "Follow the coast",
+          "requires": {},
+          "spend": {
+            "fuel": 6,
+            "threat": 5
+          },
+          "yields": "information"
+        }
+      ],
+      "family": "hazard",
+      "shape": "information",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-57",
+      "title": "A near miss opens a seam below the waterline, slowly",
+      "options": [
+        {
+          "id": "patch_it_now",
+          "label": "Patch it now",
+          "requires": {
+            "stock": {
+              "parts": 2
+            }
+          },
+          "gateText": "parts ≥ 2",
+          "spend": {
+            "parts": 2,
+            "hours": 1,
+            "detachTeams": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "shore_it_temporarily",
+          "label": "Shore it temporarily",
+          "requires": {},
+          "spend": {
+            "detachTeams": 1,
+            "parts": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "watch_it",
+          "label": "Watch it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "hazard",
+      "shape": "debt",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-14",
+      "title": "Quiet water, no contacts",
+      "options": [
+        {
+          "id": "rest_the_crew",
+          "label": "Rest the crew",
+          "requires": {},
+          "spend": {
+            "hours": 4,
+            "rations": 4,
+            "threat": 8
+          },
+          "yields": "none"
+        },
+        {
+          "id": "press_on",
+          "label": "Press on",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "two goods",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [
+        "sea",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-58",
+      "title": "Flat calm, nothing on any sensor",
+      "options": [
+        {
+          "id": "rest_the_crew",
+          "label": "Rest the crew",
+          "requires": {},
+          "spend": {
+            "hours": 4,
+            "rations": 4
+          },
+          "yields": "none"
+        },
+        {
+          "id": "run_drills",
+          "label": "Run drills",
+          "requires": {},
+          "spend": {
+            "hours": 3,
+            "rations": 3
+          },
+          "yields": "none"
+        },
+        {
+          "id": "do_maintenance",
+          "label": "Do maintenance",
+          "requires": {},
+          "spend": {
+            "hours": 3,
+            "parts": 2
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "two goods",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-59",
+      "title": "A burial at sea for the men lost in the last action",
+      "options": [
+        {
+          "id": "hold_the_service",
+          "label": "Hold the service",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "press_on",
+          "label": "Press on",
+          "requires": {},
+          "spend": {
+            "morale": -4
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "standing",
+      "sectors": [
+        1,
+        6
+      ],
+      "slots": [],
+      "requiresFlag": "team_lost_recently"
+    },
+    {
+      "id": "EVT-60",
+      "title": "Mail reaches you at a rendezvous",
+      "options": [
+        {
+          "id": "distribute_it_now",
+          "label": "Distribute it now",
+          "requires": {},
+          "spend": {
+            "hours": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "hold_it_for_the_next_quiet_node",
+          "label": "Hold it for the next quiet node",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "debt",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-61",
+      "title": "The sonar team reports a contact that turns out to be dolphins",
+      "options": [
+        {
+          "id": "investigate",
+          "label": "Investigate",
+          "requires": {},
+          "spend": {
+            "hours": 1,
+            "emissions": 1
+          },
+          "yields": "information"
+        },
+        {
+          "id": "carry_on",
+          "label": "Carry on",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "information",
+      "sectors": [
+        1,
+        4
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-62",
+      "title": "A friendly aircraft identifies you correctly for once",
+      "options": [
+        {
+          "id": "signal_back",
+          "label": "Signal back",
+          "requires": {},
+          "spend": {
+            "flares": 1,
+            "emissions": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "stay_silent",
+          "label": "Stay silent",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "take or leave",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-63",
+      "title": "An exhausted section asks to swap watches",
+      "options": [
+        {
+          "id": "swap_them",
+          "label": "Swap them",
+          "requires": {},
+          "spend": {
+            "hours": 2
+          },
+          "yields": "none"
+        },
+        {
+          "id": "hold_the_bill_as_it_is",
+          "label": "Hold the bill as it is",
+          "requires": {},
+          "spend": {
+            "morale": -3
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "quiet",
+      "shape": "two goods",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": []
+    },
+    {
+      "id": "EVT-64",
+      "title": "A lone raider that turns away",
+      "options": [
+        {
+          "id": "chase_her",
+          "label": "Chase her",
+          "requires": {},
+          "spend": {
+            "fuel": 9,
+            "hours": 2,
+            "routeLayers": 1
+          },
+          "speedOrder": "flank",
+          "yields": "none"
+        },
+        {
+          "id": "shadow_her",
+          "label": "Shadow her",
+          "requires": {
+            "module": "radar_2"
+          },
+          "gateText": "radar tier 2",
+          "spend": {
+            "hours": 2,
+            "emissions": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "hold_station",
+          "label": "Hold station",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "pursuit",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "vessel",
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-65",
+      "title": "A submarine caught on the surface charging batteries",
+      "options": [
+        {
+          "id": "close_and_gun_her",
+          "label": "Close and gun her",
+          "requires": {},
+          "spend": {
+            "fuel": 9,
+            "shell": 5
+          },
+          "speedOrder": "flank",
+          "yields": "none"
+        },
+        {
+          "id": "attack_her_submerged_after_she_d",
+          "label": "Attack her submerged after she dives",
+          "requires": {},
+          "spend": {
+            "depth": 4,
+            "hours": 3
+          },
+          "yields": "none"
+        },
+        {
+          "id": "report_and_carry_on",
+          "label": "Report and carry on",
+          "requires": {},
+          "spend": {
+            "emissions": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "pursuit",
+      "sectors": [
+        2,
+        6
+      ],
+      "slots": [
+        "light",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-66",
+      "title": "An enemy destroyer escorting a damaged merchant",
+      "options": [
+        {
+          "id": "kill_the_escort",
+          "label": "Kill the escort",
+          "requires": {},
+          "spend": {},
+          "leadsToFight": true,
+          "yields": "none"
+        },
+        {
+          "id": "kill_the_merchant",
+          "label": "Kill the merchant",
+          "requires": {},
+          "spend": {
+            "shell": 12,
+            "hull": 6
+          },
+          "leadsToFight": true,
+          "yields": "none"
+        },
+        {
+          "id": "shadow_and_report",
+          "label": "Shadow and report",
+          "requires": {},
+          "spend": {
+            "hours": 2,
+            "emissions": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "two goods",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "vessel"
+      ]
+    },
+    {
+      "id": "EVT-67",
+      "title": "A convoy under attack over the horizon",
+      "options": [
+        {
+          "id": "join",
+          "label": "Join",
+          "requires": {},
+          "spend": {
+            "fuel": 9,
+            "shell": 10
+          },
+          "speedOrder": "flank",
+          "leadsToFight": true,
+          "yields": "none"
+        },
+        {
+          "id": "skirt_it",
+          "label": "Skirt it",
+          "requires": {},
+          "spend": {
+            "fuel": 6,
+            "hours": 2
+          },
+          "yields": "none"
+        },
+        {
+          "id": "report_and_continue",
+          "label": "Report and continue",
+          "requires": {},
+          "spend": {
+            "emissions": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "commitment",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-68",
+      "title": "An armed trawler that will not heave to",
+      "options": [
+        {
+          "id": "fire_on_her",
+          "label": "Fire on her",
+          "requires": {},
+          "spend": {
+            "shell": 5,
+            "threat": 4
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "board_her",
+          "label": "Board her",
+          "requires": {
+            "module": "boarding_party"
+          },
+          "gateText": "a boarding party",
+          "spend": {
+            "detachTeams": 1,
+            "hours": 2
+          },
+          "yields": "standing"
+        },
+        {
+          "id": "let_her_go",
+          "label": "Let her go",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "standing",
+      "sectors": [
+        1,
+        5
+      ],
+      "slots": [
+        "allegiance"
+      ]
+    },
+    {
+      "id": "EVT-69",
+      "title": "A minelayer working a fresh field",
+      "options": [
+        {
+          "id": "attack_now",
+          "label": "Attack now",
+          "requires": {},
+          "spend": {
+            "shell": 10,
+            "threat": 5
+          },
+          "leadsToFight": true,
+          "yields": "none"
+        },
+        {
+          "id": "wait_and_survey_what_she_lays",
+          "label": "Wait and survey what she lays",
+          "requires": {},
+          "spend": {
+            "hours": 3,
+            "emissions": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "avoid_the_area",
+          "label": "Avoid the area",
+          "requires": {},
+          "spend": {
+            "fuel": 6,
+            "routeLayers": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "commitment",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "light",
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-70",
+      "title": "A shore battery covering the only short route",
+      "options": [
+        {
+          "id": "suppress_it",
+          "label": "Suppress it",
+          "requires": {},
+          "spend": {
+            "shell": 30,
+            "aa": 10
+          },
+          "yields": "none"
+        },
+        {
+          "id": "go_the_long_way",
+          "label": "Go the long way",
+          "requires": {},
+          "spend": {
+            "fuel": 5,
+            "hours": 5,
+            "threat": 10
+          },
+          "yields": "none"
+        },
+        {
+          "id": "run_past_at_speed",
+          "label": "Run past at speed",
+          "requires": {},
+          "gateText": "smoke gear helps",
+          "spend": {
+            "fuel": 9,
+            "smoke": 2
+          },
+          "speedOrder": "flank",
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "two goods",
+      "sectors": [
+        4,
+        6
+      ],
+      "slots": [
+        "light"
+      ]
+    },
+    {
+      "id": "EVT-71",
+      "title": "Torpedo boats at night, many small contacts",
+      "options": [
+        {
+          "id": "fight_with_radar",
+          "label": "Fight with radar",
+          "requires": {
+            "module": "radar_2"
+          },
+          "gateText": "radar tier 2",
+          "spend": {
+            "emissions": 1
+          },
+          "yields": "none"
+        },
+        {
+          "id": "fight_with_starshell",
+          "label": "Fight with starshell",
+          "requires": {},
+          "spend": {
+            "flares": 1,
+            "aa": 14,
+            "shell": 8
+          },
+          "yields": "none"
+        },
+        {
+          "id": "withdraw",
+          "label": "Withdraw",
+          "requires": {},
+          "spend": {
+            "fuel": 9,
+            "hull": 4
+          },
+          "speedOrder": "flank",
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "gated",
+      "sectors": [
+        4,
+        6
+      ],
+      "slots": [
+        "sea"
+      ]
+    },
+    {
+      "id": "EVT-72",
+      "title": "An aircraft shadowing at the edge of range",
+      "options": [
+        {
+          "id": "ignore_it",
+          "label": "Ignore it",
+          "requires": {},
+          "spend": {},
+          "yields": "none"
+        },
+        {
+          "id": "fire_at_extreme_range",
+          "label": "Fire at extreme range",
+          "requires": {
+            "module": "aa_2"
+          },
+          "gateText": "AA tier 2",
+          "spend": {
+            "aa": 12,
+            "threat": 3
+          },
+          "yields": "none"
+        },
+        {
+          "id": "alter_course_away",
+          "label": "Alter course away",
+          "requires": {},
+          "spend": {
+            "fuel": 4,
+            "hours": 2,
+            "routeLayers": 1
+          },
+          "yields": "none"
+        }
+      ],
+      "family": "combat",
+      "shape": "hidden branch",
+      "sectors": [
+        3,
+        6
+      ],
+      "slots": [
+        "light"
+      ]
+    }
+  ]
+}

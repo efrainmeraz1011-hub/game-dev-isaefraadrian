@@ -85,6 +85,10 @@ one runs end to end.
 
 ### Step 1 · A whole run, no combat screen
 
+**Built.** `game/`, September 12 2026. `cd game && deno task play` plays one run;
+`deno task run 200` plays two hundred headless in about 150ms. See
+[game/AGENTS.md](../game/AGENTS.md).
+
 Run setup, six sectors, the node graph, travel with fuel and hours, events that spend
 and resolve, a port, a boss, a debrief. **Fights resolve as a single roll** against the
 package's strength, with the result printed. No tactical screen at all.
@@ -98,10 +102,15 @@ correct for now.
 
 ### Step 2 · Draw it
 
+**Built.** `game/ui/` + `game/index.html`, September 13 2026. `cd game && deno task dev`.
+
 Canvas. Sector map with nodes and edges, a resource bar, an event panel with options and
 their costs, a port screen, a debrief. Rectangles and text.
 
 Done when: you never need the console to play.
+
+`cutaway.ts` and `chart.ts` from the layout above are deliberately absent: they are the
+ship and the sea chart, which belong to steps 4 and 3. An empty file is not a stub.
 
 ### Step 3 · The tactical screen
 

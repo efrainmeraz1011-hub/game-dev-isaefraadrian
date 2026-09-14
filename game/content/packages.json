@@ -1,0 +1,281 @@
+{
+  "_source": "flow/EVENTS.md section 6.2. The 25 enemy packages.",
+  "_stub": "STUB OPEN-09: no enemy roster exists. hp and dps are scaled from the balance model's ordinary enemy (hp 76, dps 0.155) and its armored enemy (hp 100). Nothing here is researched.",
+  "_growth": "Per sector s (0-indexed): hp x (1 + 0.16 s), dps x (1 + 0.10 s) [balance_model candidate config].",
+  "packages": [
+    {
+      "id": "P1",
+      "name": "Lone patrol craft",
+      "kind": "surface",
+      "hp": 45,
+      "dps": 0.10,
+      "sectors": [1, 4],
+      "avoidable": true,
+      "objectives": ["O1", "O3", "O4", "O7", "O8"]
+    },
+    {
+      "id": "P2",
+      "name": "Patrol pair",
+      "kind": "surface",
+      "hp": 80,
+      "dps": 0.16,
+      "sectors": [1, 5],
+      "avoidable": true,
+      "objectives": ["O1", "O2", "O3", "O4", "O7"]
+    },
+    {
+      "id": "P3",
+      "name": "Armed trawler",
+      "kind": "surface",
+      "hp": 70,
+      "dps": 0.12,
+      "sectors": [1, 4],
+      "avoidable": true,
+      "objectives": ["O1", "O5", "O6"]
+    },
+    {
+      "id": "P4",
+      "name": "Destroyer, gun-heavy",
+      "kind": "surface",
+      "hp": 100,
+      "dps": 0.20,
+      "sectors": [2, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O3", "O5", "O6"]
+    },
+    {
+      "id": "P5",
+      "name": "Destroyer, torpedo-heavy",
+      "kind": "surface",
+      "hp": 92,
+      "dps": 0.24,
+      "sectors": [2, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O3", "O5", "O6"]
+    },
+    {
+      "id": "P6",
+      "name": "Destroyer pair, coordinated",
+      "kind": "surface",
+      "hp": 175,
+      "dps": 0.32,
+      "sectors": [3, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O3"]
+    },
+    {
+      "id": "P7",
+      "name": "Destroyer plus torpedo-boat screen",
+      "kind": "surface",
+      "hp": 150,
+      "dps": 0.28,
+      "sectors": [3, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O3"]
+    },
+    {
+      "id": "P8",
+      "name": "Torpedo boat swarm",
+      "kind": "surface",
+      "hp": 110,
+      "dps": 0.26,
+      "sectors": [2, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O2", "O4"]
+    },
+    {
+      "id": "P9",
+      "name": "Corvette escorting a merchant",
+      "kind": "surface",
+      "hp": 85,
+      "dps": 0.13,
+      "sectors": [1, 5],
+      "avoidable": true,
+      "objectives": ["O1", "O6"]
+    },
+    {
+      "id": "P10",
+      "name": "Minelayer plus escort",
+      "kind": "surface",
+      "hp": 105,
+      "dps": 0.15,
+      "sectors": [3, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O6", "O8"]
+    },
+    {
+      "id": "P11",
+      "name": "Submarine, cautious",
+      "kind": "submarine",
+      "hp": 40,
+      "dps": 0.14,
+      "sectors": [1, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O2", "O3", "O4"]
+    },
+    {
+      "id": "P12",
+      "name": "Submarine, aggressive",
+      "kind": "submarine",
+      "hp": 45,
+      "dps": 0.22,
+      "sectors": [2, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O4"]
+    },
+    {
+      "id": "P13",
+      "name": "Submarine pair",
+      "kind": "submarine",
+      "hp": 85,
+      "dps": 0.28,
+      "sectors": [4, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O2", "O3"]
+    },
+    {
+      "id": "P14",
+      "name": "Air, single shadower",
+      "kind": "air",
+      "hp": 12,
+      "dps": 0.02,
+      "sectors": [2, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O3", "O4", "O7", "O8"]
+    },
+    {
+      "id": "P15",
+      "name": "Air, level bombers",
+      "kind": "air",
+      "hp": 60,
+      "dps": 0.10,
+      "sectors": [3, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O2", "O4"]
+    },
+    {
+      "id": "P16",
+      "name": "Air, torpedo bombers",
+      "kind": "air",
+      "hp": 55,
+      "dps": 0.26,
+      "sectors": [3, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O4"]
+    },
+    {
+      "id": "P17",
+      "name": "Cruiser, isolated",
+      "kind": "armored",
+      "hp": 220,
+      "dps": 0.34,
+      "sectors": [4, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O3", "O5", "O6"]
+    },
+    {
+      "id": "P18",
+      "name": "Cruiser plus destroyer screen",
+      "kind": "armored",
+      "hp": 300,
+      "dps": 0.42,
+      "sectors": [5, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O3"]
+    },
+    {
+      "id": "P19",
+      "name": "Shore battery plus patrol",
+      "kind": "shore",
+      "hp": 160,
+      "dps": 0.22,
+      "sectors": [4, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O3", "O7", "O8", "O9"]
+    },
+    {
+      "id": "P20",
+      "name": "Auxiliary raider disguised as a merchant",
+      "kind": "surface",
+      "hp": 120,
+      "dps": 0.20,
+      "sectors": [2, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O5", "O6"]
+    },
+    {
+      "id": "P21",
+      "name": "Air, dive bombers",
+      "kind": "air",
+      "hp": 58,
+      "dps": 0.24,
+      "sectors": [3, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2", "O4"]
+    },
+    {
+      "id": "P22",
+      "name": "Air, fighter sweep",
+      "kind": "air",
+      "hp": 40,
+      "dps": 0.08,
+      "sectors": [2, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O3", "O4", "O7"]
+    },
+    {
+      "id": "P23",
+      "name": "Air, guided-bomb carriers, 1943+",
+      "kind": "air",
+      "hp": 62,
+      "dps": 0.30,
+      "sectors": [4, 6],
+      "avoidable": false,
+      "objectives": ["O1", "O2"]
+    },
+    {
+      "id": "P24",
+      "name": "Escort carrier with a thin screen",
+      "kind": "surface",
+      "hp": 190,
+      "dps": 0.18,
+      "sectors": [5, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O5", "O6"]
+    },
+    {
+      "id": "P25",
+      "name": "Fleet carrier air group, ship off-map",
+      "kind": "air",
+      "hp": 150,
+      "dps": 0.30,
+      "sectors": [5, 6],
+      "avoidable": true,
+      "objectives": ["O1", "O3", "O7"]
+    }
+  ],
+  "bosses": [
+    {
+      "id": "B1",
+      "name": "Heavy cruiser, worked-up crew",
+      "kind": "armored",
+      "hp": 260,
+      "dps": 0.30
+    },
+    {
+      "id": "B2",
+      "name": "Fast battleship, damaged and running",
+      "kind": "armored",
+      "hp": 240,
+      "dps": 0.36
+    },
+    {
+      "id": "B3",
+      "name": "Pocket battleship with a destroyer screen",
+      "kind": "armored",
+      "hp": 285,
+      "dps": 0.26
+    }
+  ],
+  "_bossStub": "STUB OPEN-13: no boss manifest exists. B1 is the balance model's candidate boss verbatim (hp 260, dps 0.30). B2 and B3 trade hull against damage around it at roughly equal total strength. That is a shape, not a design."
+}

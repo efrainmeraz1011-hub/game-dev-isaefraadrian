@@ -17,3 +17,10 @@ scratch/
 
 # Local filesystem metadata
 .DS_Store
+
+# Generated browser bundle. `deno task bundle` rebuilds it.
+game/dist/
+
+# Per-agent, per-machine editor config. AGENTS.md is the shared source of truth
+# and carries no mechanism only one agent has.
+.claude/

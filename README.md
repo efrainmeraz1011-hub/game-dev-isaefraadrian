@@ -4,6 +4,17 @@ A living game-design workspace for an original WWII-inspired destroyer roguelite
 
 The repo holds two halves. The **design** half specifies the game. The **research** half is a source-cited reference on real WWII warships that the design draws on for names, numbers, and procedures.
 
+## Play the first visual build
+
+The [playable visual build](game/VISUAL_V1.md) integrates the naval sprites with the existing campaign: player ship on the left, contacts and orders on the right, and a fixed HUD around them. The guide includes screenshots, controls, and a repeatable armed-trawler encounter.
+
+```sh
+cd game
+deno task dev
+```
+
+This prototype resolves fights in single exchanges. Real-time tactical combat and the playable room cutaway remain future work.
+
 ## Design: start here
 
 - [Foundational game-logic design — v0.9](WW2_Naval_Roguelite_Game_Logic.md)
@@ -18,7 +29,7 @@ The repo holds two halves. The **design** half specifies the game. The **researc
 - [Co-op and 1v1 multiplayer proposals](docs/MULTIPLAYER_PROPOSALS.md)
 - [Earlier design snapshots](revisions/README.md)
 
-The design document is the primary specification. It covers basic logic, progression, saving, end game, replayability, and factors/variances/variables. Its direction emphasizes harder combinations of mechanics, rarer or partial resupply, different enemy loadouts, consequential events, and uncertain information, through successive sectors. Interactive radar/sonar tracking and linked torpedo-evasion decisions are specified. Version 0.9 also publishes the FTL coverage review and multiplayer brainstorming; multiplayer remains exploratory, and the review flags outstanding armor simplification and magazine/weapon-utility work. The first static sprite pack is now available; renderer integration and the playable ship cutaway remain pending.
+The design document is the primary specification. It covers basic logic, progression, saving, end game, replayability, and factors/variances/variables. Its direction emphasizes harder combinations of mechanics, rarer or partial resupply, different enemy loadouts, consequential events, and uncertain information, through successive sectors. Interactive radar/sonar tracking and linked torpedo-evasion decisions are specified. Version 0.9 also publishes the FTL coverage review and multiplayer brainstorming; multiplayer remains exploratory, and the review flags outstanding armor simplification and magazine/weapon-utility work. The first sprite pack is integrated into the playable campaign UI; the playable ship cutaway remains pending.
 
 ## Game assets
 

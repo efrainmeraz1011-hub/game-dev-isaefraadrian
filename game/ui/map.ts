@@ -12,8 +12,23 @@ import type { Action, MapNode } from "../sim/types.ts";
 import { C, F, M } from "./theme.ts";
 import type { Surface } from "./draw.ts";
 
-const NODE_W_MAX = 118;
-const NODE_H = 44;
+const NODE_W_MAX = 164;
+const NODE_H = 58;
+
+const MAP_ICONS: Record<MapNode["kind"], string> = {
+  open_water: "water",
+  island: "island",
+  strait: "strait",
+  convoy_rendezvous: "convoy",
+  patrol_lane: "patrol",
+  salvage_site: "salvage",
+  weather_front: "weather",
+  minefield: "minefield",
+  port: "port",
+  anchorage: "anchorage",
+  distress_call: "distress",
+  operation_area: "operation",
+};
 
 /** What reconnaissance permits, as a colour [§5.2:1272 step 9]. */
 function threatInk(node: MapNode): string {
@@ -40,7 +55,7 @@ export function drawChart(
   box: { x: number; y: number; w: number; h: number },
 ): void {
   const sector = currentSector(s);
-  g.rect(box.x, box.y, box.w, box.h, C.panel, C.panelEdge);
+  g.frame("panel_base", box.x, box.y, box.w, box.h);
 
   g.text(sector.name.toUpperCase(), box.x + M.pad, box.y + 22, {
     font: F.label,
@@ -106,8 +121,8 @@ export function drawChart(
   for (let l = 0; l < layers.length; l++) {
     for (const node of layers[l]) {
       const p = centre(box, colW, top, usableH, layers, l, node);
-      const x = p.x - nodeW / 2;
-      const y = p.y - NODE_H / 2;
+      const x = Math.round(p.x - nodeW / 2);
+      const y = Math.round(p.y - NODE_H / 2);
       const here = node.id === s.nodeId;
       const action = live.get(node.id);
       const selectable = l === next && action !== undefined;
@@ -120,27 +135,33 @@ export function drawChart(
       } else if (selectable) edge = action!.enabled ? C.routeLive : C.bad;
       else if (!node.visited && l < next) fill = C.panel;
 
-      const hovered = selectable && g.hit(x, y, nodeW, NODE_H, action!.id);
+      const hovered = selectable && action!.enabled &&
+        g.hit(
+          x,
+          y,
+          nodeW,
+          NODE_H,
+          action!.id,
+          `${action!.label}. ${action!.preview?.join(". ") ?? ""}`,
+        );
       g.rect(x, y, nodeW, NODE_H, hovered ? C.panelEdge : fill, edge);
 
       const ink = here ? C.ground : selectable ? C.ink : C.inkFaint;
-      g.text(clip(g, label(node), nodeW - 26), x + 8, y + 19, { font: F.small, colour: ink });
+      g.sprite(`map_${MAP_ICONS[node.kind]}`, x + 8, y + 10, 16, 16);
+      g.text(clip(g, label(node), nodeW - 40), x + 32, y + 22, { font: F.small, colour: ink });
 
-      if (node.kind === "port" && !here) {
-        g.text("⚓", x + nodeW - 18, y + 19, { font: F.small, colour: C.port });
-      }
       if (selectable) {
         const cost = travelCost(s, node);
         const cash = terse
           ? `${cost.fuel.toFixed(0)}f`
           : `${cost.fuel.toFixed(1)}f  ${cost.hours.toFixed(1)}h`;
-        g.text(cash, x + 8, y + 34, {
+        g.text(cash, x + 8, y + 46, {
           font: F.mono,
           colour: action!.enabled ? C.inkDim : C.bad,
         });
-        g.rect(x + nodeW - 11, y + 26, 5, 10, threatInk(node));
+        g.rect(x + nodeW - 11, y + 36, 5, 10, threatInk(node));
       } else if (here) {
-        g.text(terse ? "here" : "you are here", x + 8, y + 34, { font: F.mono, colour: C.ground });
+        g.text(terse ? "here" : "you are here", x + 8, y + 46, { font: F.mono, colour: C.ground });
       }
     }
   }

@@ -2,20 +2,22 @@
  * Colours, type and spacing. The only file in the project allowed to have an
  * opinion about how anything looks.
  *
- * Rectangles and text [BUILD.md section 4 step 2]. A chart table under a dim
- * lamp: dark ground, pale ink, one amber for warnings and one red for damage.
- * Nothing here is a sprite and nothing here is final.
+ * The naval sprite pack uses slate frames, pale ink and brass corners.
+ * Shared colours keep live overlays readable against those asset backgrounds.
  */
 
 export const C: Record<string, string> = {
-  ground: "#0e1418",
-  panel: "#141d23",
-  panelEdge: "#243138",
-  raised: "#1b262d",
+  sea: "#132932",
+  waterLine: "#1b343d",
+  scrim: "rgba(4, 12, 17, 0.86)",
+  ground: "#102128",
+  panel: "#1b303b",
+  panelEdge: "#425e68",
+  raised: "#314a56",
 
-  ink: "#dfe7ea",
-  inkDim: "#8fa3ac",
-  inkFaint: "#5a6c76",
+  ink: "#deece6",
+  inkDim: "#a0b8bb",
+  inkFaint: "#849fa6",
 
   ship: "#6fb3d2",
   route: "#2e424d",
@@ -24,7 +26,7 @@ export const C: Record<string, string> = {
   good: "#7bb661",
   warn: "#d9a441",
   bad: "#c4593f",
-  port: "#c9a227",
+  port: "#ddbd80",
 
   hull: "#7bb661",
   hullLow: "#c4593f",
@@ -46,7 +48,7 @@ export const M = {
   gap: 10,
   statusHeight: 74,
   logHeight: 62,
-  radius: 3,
+  radius: 0,
 } as const;
 
 /** Hull colour by how much of it is left. Amber is the warning, not a mood. */

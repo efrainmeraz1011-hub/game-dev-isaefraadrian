@@ -3,26 +3,75 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Destroyer</title>
+    <meta name="theme-color" content="#102128" />
+    <title>Destroyer — First Patrol</title>
     <style>
     html,
     body {
       margin: 0;
+      width: 100%;
       height: 100%;
-      background: #0e1418;
-      color: #dfe7ea;
-      font: 14px system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+      background: #080f14;
+      color: #deece6;
+      font: 14px system-ui, sans-serif;
       overscroll-behavior: none;
+    }
+    body {
+      display: grid;
+      place-items: center;
+    }
+    #viewport {
+      position: relative;
+      flex: none;
     }
     #stage {
       display: block;
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
+      image-rendering: pixelated;
+    }
+    #controls {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    #controls button {
+      position: absolute;
+      pointer-events: auto;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      color: transparent;
+      cursor: pointer;
+    }
+    #controls button:focus-visible {
+      outline: 2px solid #e5bf77;
+      outline-offset: -4px;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+      border: 0;
     }
     </style>
   </head>
   <body>
-    <canvas id="stage"></canvas>
+    <main id="viewport" aria-label="Destroyer campaign">
+      <canvas id="stage"
+        aria-label="Ship, supplies, crew, weapons and sector chart. Use the buttons to issue orders."></canvas>
+      <section id="readout" class="sr-only" aria-label="Patrol details"></section>
+      <div id="controls" role="group" aria-label="Available orders"></div>
+    </main>
+    <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+    <noscript>This game needs JavaScript. Enable it, then reload to begin a patrol.</noscript>
     <script type="module" src="dist/game.js"></script>
   </body>
 </html>

@@ -1,0 +1,311 @@
+{
+  "source": "raw/ui_frames.png",
+  "source_sha256": "f1f587f65fbe836b5c62c836a6419d7da3e0025389353d0320fb5d22c2232634",
+  "source_size": [
+    512,
+    384
+  ],
+  "source_alpha_values": [
+    0,
+    255
+  ],
+  "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+  "method": "8-connected nonzero-alpha component bounds; visually confirmed twelve separate UI elements.",
+  "state_assignment": "Right column, top to bottom: normal, hover, focus, pressed, selected, disabled. Names follow the requested ordered states and visual appearance.",
+  "notes": [
+    "Tight original crops preserve source pixels and include edge contact by design.",
+    "Use ui-nine-slice.json for validated compact templates and assembly, rather than resizing original crops.",
+    "The focus source is147x39, other button sources147x40; assembled controls share common target dimensions."
+  ],
+  "slices": [
+    {
+      "id": "button_normal",
+      "file": "assets/ui/button_normal.png",
+      "source_rect_xywh": [
+        348,
+        14,
+        147,
+        40
+      ],
+      "source_bounds_xyxy_exclusive": [
+        348,
+        14,
+        495,
+        54
+      ],
+      "visible_component_pixels": 5871,
+      "export_size": [
+        147,
+        40
+      ],
+      "sha256": "500a75a2e3828825ec7e96a63207c7217517a809c449081628ce07444569e97a",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "button_hover",
+      "file": "assets/ui/button_hover.png",
+      "source_rect_xywh": [
+        348,
+        68,
+        147,
+        40
+      ],
+      "source_bounds_xyxy_exclusive": [
+        348,
+        68,
+        495,
+        108
+      ],
+      "visible_component_pixels": 5868,
+      "export_size": [
+        147,
+        40
+      ],
+      "sha256": "44a022e0f7b09105c25488908eb47fcb63ef6ec137ffe1bc09233a2aca8295a5",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "button_focus",
+      "file": "assets/ui/button_focus.png",
+      "source_rect_xywh": [
+        348,
+        122,
+        147,
+        39
+      ],
+      "source_bounds_xyxy_exclusive": [
+        348,
+        122,
+        495,
+        161
+      ],
+      "visible_component_pixels": 5723,
+      "export_size": [
+        147,
+        39
+      ],
+      "sha256": "5a9eeaab1e8098696363a1d3606b84b08c90ce64b24dab29927cc42a572ee798",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "button_pressed",
+      "file": "assets/ui/button_pressed.png",
+      "source_rect_xywh": [
+        348,
+        176,
+        147,
+        40
+      ],
+      "source_bounds_xyxy_exclusive": [
+        348,
+        176,
+        495,
+        216
+      ],
+      "visible_component_pixels": 5863,
+      "export_size": [
+        147,
+        40
+      ],
+      "sha256": "d2cf0cbec9085f1064508ea717f5eb01a69536b32d216ef229d898146ab95f03",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "button_selected",
+      "file": "assets/ui/button_selected.png",
+      "source_rect_xywh": [
+        348,
+        230,
+        147,
+        40
+      ],
+      "source_bounds_xyxy_exclusive": [
+        348,
+        230,
+        495,
+        270
+      ],
+      "visible_component_pixels": 5864,
+      "export_size": [
+        147,
+        40
+      ],
+      "sha256": "718c5990d0f6f84a25ffc7428ee3d7d74f42a4980f351605d635737a16645a93",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "button_disabled",
+      "file": "assets/ui/button_disabled.png",
+      "source_rect_xywh": [
+        348,
+        284,
+        147,
+        40
+      ],
+      "source_bounds_xyxy_exclusive": [
+        348,
+        284,
+        495,
+        324
+      ],
+      "visible_component_pixels": 5864,
+      "export_size": [
+        147,
+        40
+      ],
+      "sha256": "65cd3a0c3145822a8709dc43df04e5a441a437b131d16b9b45a04adcee533dfa",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "panel_base",
+      "file": "assets/ui/panel_base.png",
+      "source_rect_xywh": [
+        18,
+        14,
+        154,
+        124
+      ],
+      "source_bounds_xyxy_exclusive": [
+        18,
+        14,
+        172,
+        138
+      ],
+      "visible_component_pixels": 19092,
+      "export_size": [
+        154,
+        124
+      ],
+      "sha256": "e44cc72acd5717b30b23cbcaba0b1c31bc4d6268053b51dc7d14efda2306a171",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "panel_contact",
+      "file": "assets/ui/panel_contact.png",
+      "source_rect_xywh": [
+        187,
+        14,
+        147,
+        194
+      ],
+      "source_bounds_xyxy_exclusive": [
+        187,
+        14,
+        334,
+        208
+      ],
+      "visible_component_pixels": 28509,
+      "export_size": [
+        147,
+        194
+      ],
+      "sha256": "0eb34042ba57b1f8c0a45dd175a08f8edd2b680db68a4ffdff67ad80302afa70",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "panel_dialog",
+      "file": "assets/ui/panel_dialog.png",
+      "source_rect_xywh": [
+        18,
+        222,
+        316,
+        148
+      ],
+      "source_bounds_xyxy_exclusive": [
+        18,
+        222,
+        334,
+        370
+      ],
+      "visible_component_pixels": 46752,
+      "export_size": [
+        316,
+        148
+      ],
+      "sha256": "42d8fccd74ae24afec587341eb5cb956d3423e4a1e68801999f2911625a769b3",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "meter_wide",
+      "file": "assets/ui/meter_wide.png",
+      "source_rect_xywh": [
+        18,
+        153,
+        155,
+        24
+      ],
+      "source_bounds_xyxy_exclusive": [
+        18,
+        153,
+        173,
+        177
+      ],
+      "visible_component_pixels": 1695,
+      "export_size": [
+        155,
+        24
+      ],
+      "sha256": "8c385809195d0f4493800b7fcf66fc302e050838cdebfd59a66432a04d86fd92",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "meter_compact",
+      "file": "assets/ui/meter_compact.png",
+      "source_rect_xywh": [
+        56,
+        192,
+        117,
+        20
+      ],
+      "source_bounds_xyxy_exclusive": [
+        56,
+        192,
+        173,
+        212
+      ],
+      "visible_component_pixels": 1168,
+      "export_size": [
+        117,
+        20
+      ],
+      "sha256": "73300de558a500bbc643e423feddb5bc12fecfb50c0b8c4bc13e5eafa7ea3d05",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    },
+    {
+      "id": "icon_socket",
+      "file": "assets/ui/icon_socket.png",
+      "source_rect_xywh": [
+        18,
+        184,
+        32,
+        32
+      ],
+      "source_bounds_xyxy_exclusive": [
+        18,
+        184,
+        50,
+        216
+      ],
+      "visible_component_pixels": 580,
+      "export_size": [
+        32,
+        32
+      ],
+      "sha256": "4d71edac6713503a49e0186c4738d742e574b3d370ac04a8c96698930daf558d",
+      "operation": "Integer crop only; no resampling, recoloring, alpha thresholding, or redrawing.",
+      "nine_slice_insets": null
+    }
+  ],
+  "reusable_nine_slice_contract": "ui-nine-slice.json"
+}

@@ -1,0 +1,1377 @@
+{
+  "asset_count": 72,
+  "exact_rgba_matches": 72,
+  "visible_pixels_and_alpha_matches": 72,
+  "allowed_difference": "Only RGB values under fully transparent pixels may normalize in Aseprite. Alpha changes and visible RGB changes always fail.",
+  "atlas": "naval-ui-assets-v1-export-check.png",
+  "results": [
+    {
+      "id": "icon_aa",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        4,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_ammunition",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        24,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_boiler",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        44,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_bridge",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        64,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_crew",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        84,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_depth_charges",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        104,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_engine",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        124,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_flares",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        144,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_fuel",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        164,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_gun",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        184,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_hull",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        204,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_medical",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        224,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_parts",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        244,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_radar",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        264,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_rations",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        284,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_scrap",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        304,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_shells",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        324,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_smoke",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        344,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_sonar",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        364,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_threat",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        384,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_time",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        404,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_torpedoes",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        424,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_anchorage",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        444,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_convoy",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        464,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_distress",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        484,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_island",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        504,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_minefield",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        524,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_operation",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        544,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_patrol",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        564,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_port",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        584,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_salvage",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        604,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_strait",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        624,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_water",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        644,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "map_weather",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        664,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "weapon_explosive",
+      "size": [
+        32,
+        32
+      ],
+      "atlas_rect": [
+        684,
+        4,
+        32,
+        32
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "weapon_heavy",
+      "size": [
+        32,
+        32
+      ],
+      "atlas_rect": [
+        720,
+        4,
+        32,
+        32
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "weapon_rapid",
+      "size": [
+        32,
+        32
+      ],
+      "atlas_rect": [
+        756,
+        4,
+        32,
+        32
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "weapon_torpedo",
+      "size": [
+        32,
+        32
+      ],
+      "atlas_rect": [
+        792,
+        4,
+        32,
+        32
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "crew_sailor",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        828,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "hazard_fire",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        848,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "hazard_flood",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        868,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "contact_unknown",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        888,
+        4,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "player_destroyer",
+      "size": [
+        256,
+        128
+      ],
+      "atlas_rect": [
+        4,
+        40,
+        256,
+        128
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "enemy_trawler",
+      "size": [
+        128,
+        64
+      ],
+      "atlas_rect": [
+        264,
+        40,
+        128,
+        64
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "button_normal",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        396,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "button_hover",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        417,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "button_focus",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        438,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "button_pressed",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        459,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "button_selected",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        480,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "button_disabled",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        501,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "panel_base",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        522,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "panel_contact",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        543,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "panel_dialog",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        564,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "meter_wide",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        585,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "meter_compact",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        606,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "icon_socket",
+      "size": [
+        17,
+        17
+      ],
+      "atlas_rect": [
+        627,
+        40,
+        17,
+        17
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_boiler",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        648,
+        40,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_bridge",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        716,
+        40,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_control",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        784,
+        40,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_engine",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        852,
+        40,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_gun",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        920,
+        40,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_magazine",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        4,
+        172,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_sensors",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        72,
+        172,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_torpedo",
+      "size": [
+        64,
+        48
+      ],
+      "atlas_rect": [
+        140,
+        172,
+        64,
+        48
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_boiler",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        208,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_bridge",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        228,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_control",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        248,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_engine",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        268,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_gun",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        288,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_magazine",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        308,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_sensors",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        328,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    },
+    {
+      "id": "room_icon_torpedo",
+      "size": [
+        16,
+        16
+      ],
+      "atlas_rect": [
+        348,
+        172,
+        16,
+        16
+      ],
+      "exact_rgba_match": true,
+      "visible_pixels_and_alpha_match": true,
+      "exact_rgba_mismatch_pixels": 0,
+      "alpha_mismatch_pixels": 0,
+      "visible_rgb_mismatch_pixels": 0,
+      "fully_transparent_rgb_difference_pixels": 0
+    }
+  ]
+}

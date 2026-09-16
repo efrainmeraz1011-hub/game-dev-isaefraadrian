@@ -1,0 +1,9 @@
+{
+  "catalog_assets": 72,
+  "catalog_images_loaded": 144,
+  "catalog_horizontal_overflow": false,
+  "search_room_icon_engine_count": 1,
+  "room_icon_family_count": 8,
+  "reset_count": 72,
+  "verification": "Read visible browser DOM and screenshot after loading final offline catalog."
+}

@@ -1,0 +1,1088 @@
+{
+  "asset_count": 72,
+  "read_errors": [],
+  "method": "Native RGBA pixel measurements plus source-to-Aseprite atlas comparison. Original artwork was reviewed at native and4x sizes before publication.",
+  "limitations": "These checks verify export integrity, not gameplay fit or historical accuracy.",
+  "assets": [
+    {
+      "relative_source": "assets/contacts/contact_unknown.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "89ff83a8a747f9da8e1cd340fe5e90601cbd7eaf4b935742ba66605d18a7a6cc",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        3,
+        2,
+        13,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/crew/crew_sailor.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "fa1e9896b98e8fa9d5d2408c46fe411352a113b08bed8aa3ed85234227cc129b",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 8,
+      "visible_bounds_xyxy_exclusive": [
+        4,
+        1,
+        13,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/hazards/hazard_fire.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "16d8fe3ebab92d7a7a24ead67f7a9e04d81ceef845f1e60e9d1c1e2e66c4b877",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/hazards/hazard_flood.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "e8e91141613d1cf580d1b1e0e9cbe601a0279477141d3acda16b6b34b98fff76",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 7,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_aa.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "fe3813642778cdbffeeaa906a34665e6091b68650a6bd1686f0cafd44da17071",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        3,
+        2,
+        13,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_ammunition.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "d5b422390a658fb0d2e46178ee3b18ac5840bf71afb3c52cabcc2cb27ce21ac8",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        3,
+        15,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_boiler.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "9ee9c12a5c342b9ab428c70c368826d24aeafa3cb7ad56cd5949e54b16bc281d",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_bridge.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "21f022dcdf93acb1ea6860b6e271d0137ac8919ac7621128fb23fb6acc438c16",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_crew.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "4e6a4dc32433388cba229e563ba0311dbfc9fe79bbb831ab4d0b3b3eb32fa33e",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_depth_charges.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "e7d2a06431a324afc0ee0fbc71c7c127db0b4b91161c143634cd405355b8e354",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_engine.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "30045f1755b797e65bb719ee03773224463fccd3d0ecf4bc774944116d17c9ce",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        3,
+        3,
+        13,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_flares.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "5d8391cf2840bfb8835bf1f9af4f8bff5076594454718311d6033e85efce4555",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_fuel.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "51584860c029717a867b56190406fa5f954656aa4f62b879ba8fb46f5070ede4",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        4,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_gun.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "1e4459c9827f17bdf1f7847d3b3c706ed1e9d400c55fde15c71ff96614e4aee9",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_hull.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "c977b4cc4f78ad7f0db8fb5cbda19d601a969eca28c74e4f27a96645a9d393ac",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        3,
+        1,
+        13,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_medical.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "0b7b1656eb9b31b6dc7559f724c25da3b99977ef8d681a7fdb1eb64d632a1241",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_parts.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "96d8ae006ebf639cae3687dd0ed445bf87f2f8bc14070d4aa52688ef47b470ec",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_radar.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "7b68acebeec8b3aa8d458baf03b60850879fa8bcd24fa2607ca7ecd2a942eb55",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_rations.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "b115a530929879d262aa8d0908e49e5270dea9e7fc396dae4e42f7efe7a6374c",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_scrap.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "0b6dd3eb947a6b47ba1b924e411d63707003d620c505e2b4be5ba8ae7dc0cac5",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_shells.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "52358e0be2aea737fff6d75ce4639f37125bb36ae8a385ad7cdd465eb0441acd",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_smoke.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "d945d1fd09044a4117b5f1dc567fcb2d718faaf7bb1a257552e4831d53c5a2ad",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_sonar.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "1c6b9694e2ef63a7bcd8310121b303030bf7cf2426a7698c767ed25a6a6e9ecc",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_threat.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "3b05e740e3bf75e041f7ea8725d3e938badda73adbe6b163674349f1bdf062ef",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_time.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "01eec09aba8e58810016d3ff66b77caa8398c1cf7b14ad79d7c6f0ce4be4a14f",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/icons/icon_torpedoes.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "f099fcf2c58f9296fa0118ddd4d6b4bc535b943e7237d82435be5d961b42b059",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        4,
+        14,
+        12
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_anchorage.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "57f45a74c17ba73f6b7639f6c359cae99bbed090a1dfdf59363278551d7687c5",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_convoy.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "34f2116bc1cdf1d843a54f201dbdd219412caa3188bc733824eca5a88524fcd4",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_distress.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "72bb7b07a492a47cc68ea095bd80478e1df084e65d38f6bab21dbc9d9d6ae063",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_island.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "6e9a2bde8e0c2777bef03a6f4ee3c6e68a1e0900a8aa50b176783da1b851197c",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        4,
+        15,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_minefield.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "8688850e1f065687a696966f89ee0ca4cbf5d82c417531ab76a22b08fa6e15fe",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_operation.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "409e4f1460855f933cea16fc38826a9b28491ce753b73776d4188f1c18136282",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        4,
+        1,
+        12,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_patrol.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "7e48ddf0a036a9ea6e6311371a36a4a2bf3407b30e5db8b4b1c5023219df36d3",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        5,
+        3,
+        12,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_port.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "2cc46311d5a37e5d618aa998f1666d903dc0ab454e2da83f5d186ad0fbdb8d96",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 6,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_salvage.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "bc7b6aeb460a15f38dac6576056b266f8ac9e3cebda44a32d2ffe96a31f01429",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 4,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_strait.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "6292bdb2f72c686ebc23b5a8bdb55438e23e14a32c39d4a24ca655d6fbbe046c",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        3,
+        14,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_water.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "df1eb143e769dfd00a73f3d997c5f083f76da71e19d34c3300da03b37595ff56",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        5,
+        16,
+        11
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/map/map_weather.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "58014170615ef0008c921c278b6aa1d5da9a931a183b2ffa90322f0245c8e444",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_boiler.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "c5c68c9ee18983a77b710a7340fe100db8b3aebd55bf8048faa68b86348d9501",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_bridge.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "6315fc712f7c3ba64f92f6d79b9b8d1a866b14c105e4c3c1ab1f991a07362a29",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_control.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "0984d48c99e0434ae542f610dd5e86c83b565822493d910b3b704cc5d2c756ed",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_engine.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "71e88d112bed35199a6f8e61251bfd4d47061bb0d5f0d464e26068bc4ac4c18b",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        3,
+        3,
+        13,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_gun.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "ff7c4468378b2747ccdc8745e46478ff6696fc8342e9d36a57f6343760c798ec",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        2,
+        14,
+        13
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_magazine.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "f0fd6d67ab3c59e7d644253bd88eda6ccbc6d0417e6f4dd9ee5aa543a41648be",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        3,
+        15,
+        14
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_sensors.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "ab2be69df1df4c3431381a9a92f01c55abb067f8cec91250b2217723c5feaee8",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/room-icons/room_icon_torpedo.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "2279a734aa7d760e26380786c5c3a573c11bc4f0168865967a18c02523390ce6",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        4,
+        14,
+        12
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_boiler.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "52a1177f9a02e54c12be6750bb3bf255a3539c9c3b76afce707fd1a2ac9e18a8",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 3,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_bridge.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "935d165a0f2a8e878673a8a36b2015dd1b720fb7c4dbf0632d86e073d127064c",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_control.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "baf8b0ba295d8f67a2ca2c4acf114a4e7493ab3e00bc7bace6591744e4ae4c4c",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_engine.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "ae10696e4b5faae87d6d91d8dc3080c6140306d6d13d521e3252fc05186a6947",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_gun.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "f326caedd5c4a01412936a2b76deba77aa8f85d602f687defac561a1b8a5ce4d",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_magazine.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "f48981e2ebc9a1f14381dccb76d5738e339c9bd7afb4a3a3ee279a0d6a23547a",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_sensors.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "68f8cf80b3b5866632729142f3f235abf1be553d72bccc6c1beca83ab4bca5c0",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/rooms/room_torpedo.png",
+      "width": 64,
+      "height": 48,
+      "sha256": "02dccbfa0d1ced4252b4f3af228b683484d2f49ff2dba7b66c2857fe4aae0d36",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 2,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        64,
+        48
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ships/enemy_trawler.png",
+      "width": 128,
+      "height": 64,
+      "sha256": "447e0d8b5854f7ef1f30c2a1ed6e43a1745dfdcb9d3dbb8116db5a4864032b23",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 16,
+      "visible_bounds_xyxy_exclusive": [
+        13,
+        5,
+        105,
+        56
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ships/player_destroyer.png",
+      "width": 256,
+      "height": 128,
+      "sha256": "008f5094075a3f6fe0bcea4754c931b01cd362f212b6f5d41ddde06dbcc3e5a2",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 16,
+      "visible_bounds_xyxy_exclusive": [
+        6,
+        26,
+        248,
+        94
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/button_disabled.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "6136cc002c8a7dbf9804e7aeedeb6d070706c35dc33918348495398d3f083ae5",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 7,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/button_focus.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "8e22a3314c8d9f74341529e8ea06983afa589e1f5f4ea3459c53e2ed8e7ba2bd",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/button_hover.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "c6c72254fa6456cc466309a17f35d7f564d9a5b27cb3697858cffcd982befdf5",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 8,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/button_normal.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "94e92a9c0b6471351e9ab83bab2f874c824c90c008c374819bb2c8c432756e6a",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/button_pressed.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "5859cee5d640407eac90f8a6a42975f88c29c49941166c4a198ade462a2a7d86",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/button_selected.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "d528b4ce871d4e508340e4f76c6aa377c7c68a939264fff3d577c4bf22308abf",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 7,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/icon_socket.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "9c2635d016b464e5a0abf4abcec9f2650cd5eaa2cab0a17203cbc2f067d24d1a",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/meter_compact.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "7c16e3aede26fda6b076fda80a85993e05c107757eae960c1b8b9d510ef91823",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 7,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/meter_wide.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "f316d87487b3a47b89bd9aad5fd46a11fc7adb48a1fcc0daa168ee81b3a206aa",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/panel_base.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "61561f1f94e90a704399373ee366735470222d75c2cc14d3a2643dbd1d926f44",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 10,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/panel_contact.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "b115349240b5470aecdce86da581eca733137aaae2895e58bf19886684b70260",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 7,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/ui-tiles/panel_dialog.png",
+      "width": 17,
+      "height": 17,
+      "sha256": "24b7bcbe70bb5002d6c01def3915c318b42b9edfcb548cb4dd37f825bdbf5b67",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 9,
+      "visible_bounds_xyxy_exclusive": [
+        0,
+        0,
+        17,
+        17
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/weapons/weapon_explosive.png",
+      "width": 32,
+      "height": 32,
+      "sha256": "a976bd6116a5ac9f3d0a752df4d25a9d39e40ea983a6d68ac13dd12e6c10702e",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 8,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        10,
+        30,
+        22
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/weapons/weapon_heavy.png",
+      "width": 32,
+      "height": 32,
+      "sha256": "a69372d4867a71a272026ce77386a5430a1f672cf85709cb3295b13e9d39ed77",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 8,
+      "visible_bounds_xyxy_exclusive": [
+        1,
+        10,
+        31,
+        22
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/weapons/weapon_rapid.png",
+      "width": 32,
+      "height": 32,
+      "sha256": "84d67acb8f852ff99968e80cd0f1d22b159dde1c2d459a3a087f1519243dc010",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 8,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        9,
+        30,
+        23
+      ],
+      "small_alpha_components": 0
+    },
+    {
+      "relative_source": "assets/weapons/weapon_torpedo.png",
+      "width": 32,
+      "height": 32,
+      "sha256": "8a61b69ca8bfd3a4947c9271cab02a2aee5af624b62ac69bdb5a9b36e27a79b3",
+      "partial_alpha_pixels": 0,
+      "visible_rgb_color_count": 5,
+      "visible_bounds_xyxy_exclusive": [
+        2,
+        6,
+        29,
+        26
+      ],
+      "small_alpha_components": 0
+    }
+  ]
+}

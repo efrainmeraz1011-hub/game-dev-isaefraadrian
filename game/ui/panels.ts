@@ -8,6 +8,7 @@
  * that is what teaches the player what to buy [EVENTS.md section 4].
  */
 import { describeFight, packageOf } from "../sim/encounter.ts";
+import { moduleDef } from "../sim/content.ts";
 import { eventById } from "../sim/events.ts";
 import { capacityFor } from "../sim/rules/r1-resources.ts";
 import { stabilizationBlockers } from "../sim/rules/r7-damage.ts";
@@ -148,7 +149,7 @@ function scene(s: RunState): { title: string; sub: string; body: string } {
       if (!ev) break;
       return {
         title: ev.title,
-        sub: `${ev.id} · ${ev.family} · ${ev.shape}`,
+        sub: "EVENT",
         body: ev.arrivalEffect ?? "",
       };
     }
@@ -199,17 +200,19 @@ export function drawPanel(
   box: Box,
   scroll: number,
 ): number {
-  g.rect(box.x, box.y, box.w, box.h, C.panel, C.panelEdge);
+  g.frame("panel_base", box.x, box.y, box.w, box.h);
   const left = box.x + M.pad;
-  const width = box.w - M.pad * 2;
-  let y = box.y + 26 - scroll;
-  g.clipped(box.x + 1, box.y + 1, box.w - 2, box.h - 2, () => {
+  const width = box.w - M.pad * 2 - 6;
+  const contentTop = box.y + M.pad;
+  const contentBottom = box.y + box.h - 38;
+  let y = contentTop + 15 - scroll;
+  g.clipped(left, contentTop, width, contentBottom - contentTop, () => {
     const sc = scene(s);
     // "Corvette escorting a merchant · Survive until exit · A damaged friendly
     // needs screening" is three authored pieces joined. It wraps.
-    y = g.wrapped(sc.title, left, y, width, { font: F.title, colour: C.ink, lineHeight: 21 }) - 4;
+    y = g.wrapped(sc.title, left, y, width, { font: F.title, colour: C.ink, lineHeight: 21 }) + 2;
     if (sc.sub) {
-      y = g.wrapped(sc.sub, left, y, width, { font: F.label, colour: C.inkFaint, lineHeight: 13 });
+      y = g.wrapped(sc.sub, left, y, width, { font: F.small, colour: C.inkDim, lineHeight: 15 });
     }
     if (sc.body) {
       y += 4;
@@ -239,18 +242,56 @@ export function drawPanel(
     for (const a of blocked) y = drawAction(g, a, left, y, width, false);
   });
 
-  const overflow = Math.max(0, y - (box.y + box.h - M.pad));
-  if (overflow > 0 || scroll > 0) {
-    // A bar on the right edge, sized to what is showing. It is not draggable:
-    // the wheel moves it, and step 2 does not need more than that.
-    const track = box.h - 16;
-    const total = track + overflow;
-    const thumb = Math.max(28, (track / total) * track);
-    const at = (scroll / Math.max(1, overflow)) * (track - thumb);
-    g.rect(box.x + box.w - 7, box.y + 8, 4, track, C.panelEdge);
-    g.rect(box.x + box.w - 7, box.y + 8 + at, 4, thumb, C.inkDim);
-  }
+  // Add the offset back before measuring: scrolling must never shorten the
+  // content or hide its final choice.
+  const overflow = Math.max(0, y + scroll - contentBottom);
+  drawScrollControls(g, box, contentTop, contentBottom, scroll, overflow);
   return overflow;
+}
+
+/** Visible alternatives to the mouse wheel, kept outside the clipped content. */
+function drawScrollControls(
+  g: Surface,
+  box: Box,
+  top: number,
+  bottom: number,
+  scroll: number,
+  overflow: number,
+): void {
+  if (overflow <= 0) return;
+  const track = bottom - top;
+  const thumb = Math.max(24, Math.floor(track * track / (track + overflow)));
+  const at = Math.round(Math.min(1, Math.max(0, scroll / overflow)) * (track - thumb));
+  g.rect(box.x + box.w - 14, top, 3, track, C.panelEdge);
+  g.rect(box.x + box.w - 14, top + at, 3, thumb, C.inkDim);
+
+  const y = box.y + box.h - 32;
+  const buttons = [
+    { id: "ui:scroll_up", label: "Up", x: box.x + box.w - 152, enabled: scroll > 0 },
+    {
+      id: "ui:scroll_down",
+      label: "Down",
+      x: box.x + box.w - 84,
+      enabled: scroll < overflow,
+    },
+  ];
+  for (const button of buttons) {
+    const hovered = button.enabled &&
+      g.hit(button.x, y, 60, 24, button.id, `Scroll ${button.label.toLowerCase()}`);
+    g.frame(
+      button.enabled ? (hovered ? "button_hover" : "button_normal") : "button_disabled",
+      button.x,
+      y,
+      60,
+      24,
+    );
+    g.text(button.label, button.x + 30, y + 16, {
+      font: F.small,
+      colour: button.enabled ? C.ink : C.inkFaint,
+      align: "center",
+    });
+  }
+  g.text("Scroll for more", box.x + M.pad, y + 16, { font: F.small, colour: C.inkDim });
 }
 
 function drawAction(
@@ -264,37 +305,35 @@ function drawAction(
   const previews = a.preview ?? [];
   // Some labels are a sentence: "Go to general quarters (Condition I): all
   // stations manned, fatigue accrues". They wrap, they do not run off the edge.
-  const labelLines = wrapCount(g, a.label, w - 20, F.body);
-  const previewLines = previews.reduce((n, p) => n + wrapCount(g, p, w - 20, F.mono), 0);
-  const h = 10 + labelLines * 17 + previewLines * 14;
-  const hovered = enabled && g.hit(x, y, w, h, a.id);
+  const innerWidth = w - 28;
+  const labelLines = wrapCount(g, a.label, innerWidth, F.body);
+  const previewLines = previews.reduce((n, p) => n + wrapCount(g, p, innerWidth, F.small), 0);
+  const reasonLines = !enabled && a.reason ? wrapCount(g, a.reason, innerWidth, F.small) : 0;
+  const h = 24 + labelLines * 18 + (previewLines + reasonLines) * 15;
+  const hovered = enabled && g.hit(x, y, w, h, a.id, [a.label, ...previews].join(". "));
 
-  g.rect(x, y, w, h, hovered ? C.raised : "transparent", enabled ? C.panelEdge : "transparent");
-  if (enabled) {
-    g.line(x, y, x, y + h, hovered ? C.routeLive : C.panelEdge, 2);
-  }
+  g.frame(enabled ? (hovered ? "button_hover" : "button_normal") : "button_disabled", x, y, w, h);
 
-  let cursor = g.wrapped(a.label, x + 10, y + 17, w - 20, {
+  let cursor = g.wrapped(a.label, x + 14, y + 24, innerWidth, {
     font: F.body,
     colour: enabled ? C.ink : C.inkFaint,
-    lineHeight: 17,
+    lineHeight: 18,
   }) + 1;
   if (!enabled && a.reason) {
-    cursor = g.wrapped(a.reason, x + 10, cursor - 2, w - 20, {
+    cursor = g.wrapped(a.reason, x + 14, cursor, innerWidth, {
       font: F.small,
-      colour: C.bad,
-      lineHeight: 14,
+      colour: C.warn,
+      lineHeight: 15,
     });
-    return cursor + 6;
   }
   for (const p of previews) {
-    cursor = g.wrapped(p, x + 10, cursor, w - 20, {
-      font: F.mono,
+    cursor = g.wrapped(p, x + 14, cursor, innerWidth, {
+      font: F.small,
       colour: C.inkDim,
-      lineHeight: 14,
+      lineHeight: 15,
     });
   }
-  return y + h + 6;
+  return y + h + 8;
 }
 
 /** How many lines a label will take once wrapped, so the row can reserve them. */
@@ -335,55 +374,76 @@ export function drawLog(g: Surface, s: RunState, box: Box): void {
 // --- The debrief ------------------------------------------------------------
 
 export function drawDebrief(g: Surface, d: Debrief, box: Box, scroll: number): number {
-  g.rect(box.x, box.y, box.w, box.h, C.panel, C.panelEdge);
-  const left = box.x + M.pad;
-  let y = box.y + 46 - scroll;
-  let end = y;
-  g.clipped(box.x + 1, box.y + 1, box.w - 2, box.h - 2, () => {
-    const colour = d.outcome === "victory" ? C.good : d.outcome === "defeat" ? C.bad : C.warn;
-    g.text(d.outcome.toUpperCase(), left, y, { font: "600 30px system-ui, sans-serif", colour });
-    y += 26;
-    g.text(d.reason, left, y, { font: F.body, colour: C.inkDim });
-    y += 30;
-
-    const facts: [string, string][] = [
-      ["SEED", String(d.seed)],
-      ["BUILD", `${d.faction} · ${d.build}`],
-      ["REACHED", `sector ${d.sectorsReached} · ${d.nodesVisited} nodes · ${d.hours}h`],
-      [
-        "BOSS",
-        `${d.bossArchetype} · phase ${d.bossPhaseReached + 1} · ${
-          d.bossDestroyed ? "sunk" : "afloat"
-        }`,
-      ],
-      ["TEAMS LOST", d.teamsLost.join(", ") || "none"],
-      ["ENDED WITH", `${d.scrap} Scrap · ${d.upgrades} upgrades`],
-      ["FITTED", d.modules.join(", ")],
-    ];
-    for (const [k, v] of facts) {
-      g.text(k, left, y, { font: F.label, colour: C.inkFaint });
-      g.text(v, left + 110, y, { font: F.small, colour: C.ink });
-      y += 19;
-    }
-
-    y += 14;
-    g.text("WHAT HAPPENED", left, y, { font: F.label, colour: C.inkFaint });
-    g.text("walked from the log, not written", left + 130, y, {
-      font: F.label,
-      colour: C.inkFaint,
-    });
-    y += 18;
-    for (const t of d.timeline) {
-      g.text(t, left, y, { font: F.mono, colour: C.inkDim });
-      y += 16;
-    }
-
-    y += 14;
-    const w = 170;
-    const hovered = g.hit(left, y, w, 34, "new_run");
-    g.rect(left, y, w, 34, hovered ? C.raised : "transparent", C.routeLive);
-    g.text("Another run", left + 16, y + 22, { font: F.body, colour: C.ink });
-    end = y + 40;
+  g.frame("panel_dialog", box.x, box.y, box.w, box.h);
+  const left = box.x + 24;
+  const colour = d.outcome === "victory" ? C.good : d.outcome === "defeat" ? C.bad : C.warn;
+  g.text(d.outcome.toUpperCase(), left, box.y + 44, {
+    font: "600 28px system-ui, sans-serif",
+    colour,
   });
-  return Math.max(0, end - (box.y + box.h - M.pad));
+  const bodyTop = g.wrapped(d.reason, left, box.y + 72, box.w - 48, {
+    font: F.body,
+    colour: C.inkDim,
+    lineHeight: 18,
+  }) + 16;
+  const bodyBottom = box.y + box.h - 70;
+  const factsWidth = Math.floor((box.w - 72) * 0.4);
+  const timelineLeft = left + factsWidth + 32;
+  const timelineWidth = box.x + box.w - 30 - timelineLeft;
+  g.line(timelineLeft - 16, bodyTop, timelineLeft - 16, bodyBottom, C.panelEdge);
+
+  const facts: [string, string][] = [
+    ["SEED", String(d.seed)],
+    ["BUILD", `${d.faction} · ${d.build}`],
+    ["REACHED", `Sector ${d.sectorsReached} · ${d.nodesVisited} nodes · ${d.hours} hours`],
+    [
+      "FINAL CONTACT",
+      `${d.bossArchetype} · phase ${d.bossPhaseReached + 1} · ${
+        d.bossDestroyed ? "sunk" : "afloat"
+      }`,
+    ],
+    ["TEAMS LOST", d.teamsLost.join(", ") || "None"],
+    ["ENDED WITH", `${d.scrap} scrap · ${d.upgrades} upgrades`],
+    ["FITTED", d.modules.map((id) => moduleDef(id)?.name ?? id).join(", ") || "None"],
+  ];
+  let factsY = bodyTop + 12;
+  for (const [key, value] of facts) {
+    g.text(key, left, factsY, { font: F.label, colour: C.inkFaint });
+    factsY = g.wrapped(value, left, factsY + 18, factsWidth, {
+      font: F.small,
+      colour: C.ink,
+      lineHeight: 16,
+    }) + 8;
+  }
+
+  g.text("PATROL TIMELINE", timelineLeft, bodyTop + 12, { font: F.label, colour: C.inkFaint });
+  const timelineTop = bodyTop + 28;
+  let timelineY = timelineTop + 13 - scroll;
+  g.clipped(timelineLeft, timelineTop, timelineWidth, bodyBottom - timelineTop, () => {
+    for (const entry of d.timeline) {
+      timelineY = g.wrapped(entry, timelineLeft, timelineY, timelineWidth - 10, {
+        font: F.small,
+        colour: C.inkDim,
+        lineHeight: 16,
+      }) + 8;
+    }
+    if (d.timeline.length === 0) {
+      g.text("No patrol events recorded.", timelineLeft, timelineY, { colour: C.inkDim });
+    }
+  });
+  const overflow = Math.max(0, timelineY + scroll - bodyBottom);
+  const scrollBox = {
+    x: timelineLeft - 16,
+    y: box.y,
+    w: box.x + box.w - timelineLeft + 16,
+    h: box.h,
+  };
+  drawScrollControls(g, scrollBox, timelineTop, bodyBottom, scroll, overflow);
+
+  g.line(left, bodyBottom + 10, box.x + box.w - 24, bodyBottom + 10, C.panelEdge);
+  const footerY = box.y + box.h - 50;
+  const hovered = g.hit(left, footerY, 180, 34, "new_run", "Another run");
+  g.frame(hovered ? "button_hover" : "button_normal", left, footerY, 180, 34);
+  g.text("Another run", left + 90, footerY + 22, { font: F.body, colour: C.ink, align: "center" });
+  return overflow;
 }

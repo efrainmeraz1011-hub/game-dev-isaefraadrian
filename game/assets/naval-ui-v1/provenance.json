@@ -1,0 +1,2843 @@
+{
+  "generator": "PixelLab MCP",
+  "notes": [
+    "Selected final pack only; generation experiments and account logs are not part of this repository artifact.",
+    "Stable job IDs identify generation and cleanup; this file is descriptive and contains no live download links or credentials.",
+    "AI-generated schematic artwork is not a historically validated ship or compartment plan."
+  ],
+  "assets": [
+    {
+      "id": "icon_aa",
+      "file": "assets/icons/icon_aa.png",
+      "sha256": "fe3813642778cdbffeeaa906a34665e6091b68650a6bd1686f0cafd44da17071",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "3aaeedfc-9e7a-4b9d-9f7b-699fe5115322",
+        "request": {
+          "description": "Single game HUD glyph: two short upright anti-aircraft cartridges joined at the base. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156203
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_ammunition",
+      "file": "assets/icons/icon_ammunition.png",
+      "sha256": "d5b422390a658fb0d2e46178ee3b18ac5840bf71afb3c52cabcc2cb27ce21ac8",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "6b29a539-b6fa-4b3e-a907-82d302288fbe",
+        "request": {
+          "description": "Single game HUD glyph: three upright artillery shells on one flat rack. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156221
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_boiler",
+      "file": "assets/icons/icon_boiler.png",
+      "sha256": "9ee9c12a5c342b9ab428c70c368826d24aeafa3cb7ad56cd5949e54b16bc281d",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "f2b654e4-bf64-42ee-bfa9-fd35e5cc8045",
+        "request": {
+          "description": "Single game HUD glyph: one compact boiler with a small flame-shaped inset. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156220
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_bridge",
+      "file": "assets/icons/icon_bridge.png",
+      "sha256": "21f022dcdf93acb1ea6860b6e271d0137ac8919ac7621128fb23fb6acc438c16",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "860bb6ca-e73c-4c03-b0ea-b279be3d1f4c",
+        "request": {
+          "description": "Single game HUD glyph: one simple six-spoke ship steering wheel. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156215
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_crew",
+      "file": "assets/icons/icon_crew.png",
+      "sha256": "4e6a4dc32433388cba229e563ba0311dbfc9fe79bbb831ab4d0b3b3eb32fa33e",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "02fcddc6-0c87-43b7-898f-0d671bcc0b41",
+        "request": {
+          "description": "Single game HUD glyph: two very simple sailor busts with flat caps. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156213
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_depth_charges",
+      "file": "assets/icons/icon_depth_charges.png",
+      "sha256": "e7d2a06431a324afc0ee0fbc71c7c127db0b4b91161c143634cd405355b8e354",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "81841859-db89-400c-8ef3-a0b087871cf4",
+        "request": {
+          "description": "Single game HUD glyph: one squat cylindrical depth charge with two horizontal bands. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156205
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_engine",
+      "file": "assets/icons/icon_engine.png",
+      "sha256": "30045f1755b797e65bb719ee03773224463fccd3d0ecf4bc774944116d17c9ce",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "4fbf6207-5f91-4c4a-bfb3-2086f5cf846b",
+        "request": {
+          "description": "Flat monochrome game HUD pictogram of one bold simple cogwheel: a solid ivory disk with eight square teeth and one transparent circular center hole. SOLID WHITE/IVORY shape only on transparent background. Exactly16x16pixels with1px empty margin. Only ONE opaque color #E6EDE3. No black outline, no shadows, no shading, no textures, no gray pixels, no antialias. Clear simple silhouette from a minimal pixel icon set, not an illustration or realistic object.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "lineless",
+          "seed": 9156900
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "128c4b39-8766-4a9f-9c74-67b4b3fb25b1",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_flares",
+      "file": "assets/icons/icon_flares.png",
+      "sha256": "5d8391cf2840bfb8835bf1f9af4f8bff5076594454718311d6033e85efce4555",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "fb9ca13f-7549-449a-b8e7-babace1de564",
+        "request": {
+          "description": "Single game HUD glyph: one flare cartridge with a tiny three-ray burst above it. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156209
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_fuel",
+      "file": "assets/icons/icon_fuel.png",
+      "sha256": "51584860c029717a867b56190406fa5f954656aa4f62b879ba8fb46f5070ede4",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "7a285210-a60f-499b-9434-51cb169dbd04",
+        "request": {
+          "description": "Single game HUD glyph: one simple metal fuel can with a diagonal handle. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156201
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_gun",
+      "file": "assets/icons/icon_gun.png",
+      "sha256": "1e4459c9827f17bdf1f7847d3b3c706ed1e9d400c55fde15c71ff96614e4aee9",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "f88067f2-efa6-4be3-b9f1-576fa2c09bb9",
+        "request": {
+          "description": "Flat monochrome game HUD pictogram of one bold simple naval gun silhouette: a low rectangular ivory turret, one thick horizontal barrel pointing right, and a short wide base. SOLID WHITE/IVORY shape only on transparent background. Exactly16x16pixels with1px empty margin. Only ONE opaque color #E6EDE3. No black outline, no shadows, no shading, no textures, no gray pixels, no antialias. Clear simple silhouette from a minimal pixel icon set, not an illustration or realistic object.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "lineless",
+          "seed": 9156902
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "128c4b39-8766-4a9f-9c74-67b4b3fb25b1",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_hull",
+      "file": "assets/icons/icon_hull.png",
+      "sha256": "c977b4cc4f78ad7f0db8fb5cbda19d601a969eca28c74e4f27a96645a9d393ac",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "3d5172f5-6a17-4226-abbb-bfa5976dc93d",
+        "request": {
+          "description": "Single game HUD glyph: a simple side-view ship hull shield emblem. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156200
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_medical",
+      "file": "assets/icons/icon_medical.png",
+      "sha256": "0b7b1656eb9b31b6dc7559f724c25da3b99977ef8d681a7fdb1eb64d632a1241",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "bfc4e52b-8a70-4e4f-a687-86fd3c014d1b",
+        "request": {
+          "description": "Single game HUD glyph: one solid medical plus cross. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156207
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_parts",
+      "file": "assets/icons/icon_parts.png",
+      "sha256": "96d8ae006ebf639cae3687dd0ed445bf87f2f8bc14070d4aa52688ef47b470ec",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "e98401be-dcf3-4470-9ea4-e95c3eeaf087",
+        "request": {
+          "description": "Single game HUD glyph: one open-jaw wrench tilted diagonally. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156206
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_radar",
+      "file": "assets/icons/icon_radar.png",
+      "sha256": "7b68acebeec8b3aa8d458baf03b60850879fa8bcd24fa2607ca7ecd2a942eb55",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "4d79b95d-1a73-4abe-8d53-d890eda4b274",
+        "request": {
+          "description": "Single game HUD glyph: one parabolic radar antenna on a short support. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156217
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_rations",
+      "file": "assets/icons/icon_rations.png",
+      "sha256": "b115a530929879d262aa8d0908e49e5270dea9e7fc396dae4e42f7efe7a6374c",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "f6ee036e-cfbe-4761-8fda-65705d98e76e",
+        "request": {
+          "description": "Single game HUD glyph: one closed square ration crate with crossed lid straps. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156208
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_scrap",
+      "file": "assets/icons/icon_scrap.png",
+      "sha256": "0b6dd3eb947a6b47ba1b924e411d63707003d620c505e2b4be5ba8ae7dc0cac5",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "d02b285e-8cc8-4223-adf4-625b29969ae7",
+        "request": {
+          "description": "Single game HUD glyph: two stacked rectangular steel ingots. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156211
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_shells",
+      "file": "assets/icons/icon_shells.png",
+      "sha256": "52358e0be2aea737fff6d75ce4639f37125bb36ae8a385ad7cdd465eb0441acd",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "8c066c32-d967-4afb-8790-63e940c3506c",
+        "request": {
+          "description": "Single game HUD glyph: one pointed artillery shell standing upright. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156202
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_smoke",
+      "file": "assets/icons/icon_smoke.png",
+      "sha256": "d945d1fd09044a4117b5f1dc567fcb2d718faaf7bb1a257552e4831d53c5a2ad",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "ba1dd996-e8e7-4fe0-9531-76c4e58e7572",
+        "request": {
+          "description": "Single game HUD glyph: one compact smoke canister with a simple curl rising above. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156210
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_sonar",
+      "file": "assets/icons/icon_sonar.png",
+      "sha256": "1c6b9694e2ef63a7bcd8310121b303030bf7cf2426a7698c767ed25a6a6e9ecc",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "e7adbf5a-82e7-45b0-a332-189d6069dae6",
+        "request": {
+          "description": "Single game HUD glyph: one central dot surrounded by two open symmetric signal arcs. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156218
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_threat",
+      "file": "assets/icons/icon_threat.png",
+      "sha256": "3b05e740e3bf75e041f7ea8725d3e938badda73adbe6b163674349f1bdf062ef",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "3f485c97-2366-42ba-9efb-7990e77ff9ee",
+        "request": {
+          "description": "Single game HUD glyph: one warning triangle with a bold central exclamation mark. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156212
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_time",
+      "file": "assets/icons/icon_time.png",
+      "sha256": "01eec09aba8e58810016d3ff66b77caa8398c1cf7b14ad79d7c6f0ce4be4a14f",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "d80aa743-713c-4d20-bfc1-9622152d1d1a",
+        "request": {
+          "description": "Single game HUD glyph: one simple analog clock face with two hands. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156214
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_torpedoes",
+      "file": "assets/icons/icon_torpedoes.png",
+      "sha256": "f099fcf2c58f9296fa0118ddd4d6b4bc535b943e7237d82435be5d961b42b059",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "3c5d40eb-c6b9-49bf-a6b1-5a0eb90bc61d",
+        "request": {
+          "description": "Single game HUD glyph: one long horizontal torpedo with pointed right nose and cross fins at left. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156204
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_anchorage",
+      "file": "assets/map/map_anchorage.png",
+      "sha256": "57f45a74c17ba73f6b7639f6c359cae99bbed090a1dfdf59363278551d7687c5",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "73247596-1475-472b-8c29-9330e92f080f",
+        "request": {
+          "description": "Single map marker glyph of one simple nautical anchor, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156509
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_convoy",
+      "file": "assets/map/map_convoy.png",
+      "sha256": "34f2116bc1cdf1d843a54f201dbdd219412caa3188bc733824eca5a88524fcd4",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "b4474f80-6bc1-43ee-b10c-b3cd774fc538",
+        "request": {
+          "description": "Single map marker glyph of two small freighter silhouettes, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156503
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_distress",
+      "file": "assets/map/map_distress.png",
+      "sha256": "72bb7b07a492a47cc68ea095bd80478e1df084e65d38f6bab21dbc9d9d6ae063",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "f1ff3cb9-8571-411c-b55b-d1925bc4b81e",
+        "request": {
+          "description": "Single map marker glyph of a compact life ring with one small alert ray, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156510
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_island",
+      "file": "assets/map/map_island.png",
+      "sha256": "6e9a2bde8e0c2777bef03a6f4ee3c6e68a1e0900a8aa50b176783da1b851197c",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "fdfc06ef-b2aa-481a-8a14-5e9229c06fc6",
+        "request": {
+          "description": "Single map marker glyph of one compact island with one rock, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156501
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_minefield",
+      "file": "assets/map/map_minefield.png",
+      "sha256": "8688850e1f065687a696966f89ee0ca4cbf5d82c417531ab76a22b08fa6e15fe",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "0473daa2-158d-4c8f-9faf-20557dc4fed7",
+        "request": {
+          "description": "Single map marker glyph of one round naval contact mine with four spikes, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156507
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_operation",
+      "file": "assets/map/map_operation.png",
+      "sha256": "409e4f1460855f933cea16fc38826a9b28491ce753b73776d4188f1c18136282",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "4006b8d5-bfb8-4964-8ccd-a82be065fe88",
+        "request": {
+          "description": "Single map marker glyph of a simple pennant above a target ring, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156511
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_patrol",
+      "file": "assets/map/map_patrol.png",
+      "sha256": "7e48ddf0a036a9ea6e6311371a36a4a2bf3407b30e5db8b4b1c5023219df36d3",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "056f5c09-d73a-4296-b645-8347cd6fca9e",
+        "request": {
+          "description": "Single map marker glyph of a small signal flag on a short mast, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156504
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_port",
+      "file": "assets/map/map_port.png",
+      "sha256": "2cc46311d5a37e5d618aa998f1666d903dc0ab454e2da83f5d186ad0fbdb8d96",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "7b5cd425-88ba-49a8-a4ed-e415ab640adc",
+        "request": {
+          "description": "Single map marker glyph of a pier with a small crane, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156508
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_salvage",
+      "file": "assets/map/map_salvage.png",
+      "sha256": "bc7b6aeb460a15f38dac6576056b266f8ac9e3cebda44a32d2ffe96a31f01429",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "2758a285-6e37-4839-9b50-36ba974b00fd",
+        "request": {
+          "description": "Single map marker glyph of one half-sunken cargo crate with a lifting hook, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156505
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_strait",
+      "file": "assets/map/map_strait.png",
+      "sha256": "6292bdb2f72c686ebc23b5a8bdb55438e23e14a32c39d4a24ca655d6fbbe046c",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "89daa7aa-38f1-4c38-9253-b60b86c961a9",
+        "request": {
+          "description": "Single map marker glyph of two cliff banks separated by a narrow water channel, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156502
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_water",
+      "file": "assets/map/map_water.png",
+      "sha256": "df1eb143e769dfd00a73f3d997c5f083f76da71e19d34c3300da03b37595ff56",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "04186082-4cd9-4d81-ade0-05bf6f8d04f6",
+        "request": {
+          "description": "Single map marker glyph of three short parallel wave strokes, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156500
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_weather",
+      "file": "assets/map/map_weather.png",
+      "sha256": "58014170615ef0008c921c278b6aa1d5da9a931a183b2ffa90322f0245c8e444",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "d90c0a48-7539-47d4-9511-d8d617e8614c",
+        "request": {
+          "description": "Single map marker glyph of a simple cloud with three rain strokes, for a WWII naval chart. One bold clear pale ivory silhouette with dark navy continuous1pixel outline and at most one steel-gray shade. Centered on transparent16x16canvas,2pixel empty gutter, no circular badge frame. Exact native pixel grid, flat pixel clusters, no antialiasing, no noise, no gradients, no text or numbers. Clear at16pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156506
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_explosive",
+      "file": "assets/weapons/weapon_explosive.png",
+      "sha256": "a976bd6116a5ac9f3d0a752df4d25a9d39e40ea983a6d68ac13dd12e6c10702e",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "8b3d608f-005c-496f-95e9-df2c3d6ccfa8",
+        "request": {
+          "description": "One compact WWII naval single gun turret seen side on facing RIGHT with an adjacent small amber artillery-shell pictogram. Muted slate and dark continuous outline. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers. Keep the horizontal subject within a24pixel wide by12pixel high central area, with the rest transparent.",
+          "width": 32,
+          "height": 32,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156607
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_heavy",
+      "file": "assets/weapons/weapon_heavy.png",
+      "sha256": "a69372d4867a71a272026ce77386a5430a1f672cf85709cb3295b13e9d39ed77",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "0944b810-e3d7-46a3-b502-3f07f1bfa1c6",
+        "request": {
+          "description": "One compact WWII naval single gun turret in orthographic side view facing RIGHT, noticeably thicker long barrel. Muted slate housing, ivory highlight, dark continuous outline. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers. Keep the horizontal subject within a24pixel wide by12pixel high central area, with the rest transparent.",
+          "width": 32,
+          "height": 32,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156605
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_rapid",
+      "file": "assets/weapons/weapon_rapid.png",
+      "sha256": "84d67acb8f852ff99968e80cd0f1d22b159dde1c2d459a3a087f1519243dc010",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "e535e939-5996-434d-be0c-a3ad4e3fc818",
+        "request": {
+          "description": "One compact WWII naval single gun turret in orthographic side view facing RIGHT, short slender barrel. Muted slate housing, ivory highlight, dark continuous outline. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers. Keep the horizontal subject within a24pixel wide by12pixel high central area, with the rest transparent.",
+          "width": 32,
+          "height": 32,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156604
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_torpedo",
+      "file": "assets/weapons/weapon_torpedo.png",
+      "sha256": "8a61b69ca8bfd3a4947c9271cab02a2aee5af624b62ac69bdb5a9b36e27a79b3",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "4c53a6e9-2e1c-4b85-b95d-7e0ce97dc1b4",
+        "request": {
+          "description": "One compact WWII triple torpedo launching mount seen side on facing RIGHT, three long horizontal launch tubes on one cradle. Muted slate with ivory highlight and dark continuous outline. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers. Keep the horizontal subject within a24pixel wide by12pixel high central area, with the rest transparent.",
+          "width": 32,
+          "height": 32,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156606
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "crew_sailor",
+      "file": "assets/crew/crew_sailor.png",
+      "sha256": "fa1e9896b98e8fa9d5d2408c46fe411352a113b08bed8aa3ed85234227cc129b",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "57e86caa-03a7-45ba-af99-04f3f038cf87",
+        "request": {
+          "description": "One tiny upright WWII sailor game token, facing the viewer, flat white sailor cap, navy blue blouse and trousers, a simple warm skin face, two separated dark shoes. Whole body visible, readable chunky silhouette. Neutral standing pose, no weapon, no accessories, no extra people. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156600
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "5ef98978-6ed6-4f05-8d9e-9a76b5282814",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "hazard_fire",
+      "file": "assets/hazards/hazard_fire.png",
+      "sha256": "16d8fe3ebab92d7a7a24ead67f7a9e04d81ceef845f1e60e9d1c1e2e66c4b877",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "e1594100-9567-4604-b8ea-44d8e0acc01f",
+        "request": {
+          "description": "One compact game hazard flame with three clear tongues, muted amber and red clusters with dark outline. No smoke and no floating particles. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156601
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "5ef98978-6ed6-4f05-8d9e-9a76b5282814",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "hazard_flood",
+      "file": "assets/hazards/hazard_flood.png",
+      "sha256": "e8e91141613d1cf580d1b1e0e9cbe601a0279477141d3acda16b6b34b98fff76",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "2d77d891-71cc-428e-b679-85600e92cfe8",
+        "request": {
+          "description": "One compact breach/flood hazard symbol: two bold blue wave crests beneath one short downward water stream. Dark navy outline, pale cyan highlight, no droplets outside. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156602
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "5ef98978-6ed6-4f05-8d9e-9a76b5282814",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "contact_unknown",
+      "file": "assets/contacts/contact_unknown.png",
+      "sha256": "89ff83a8a747f9da8e1cd340fe5e90601cbd7eaf4b935742ba66605d18a7a6cc",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "88e63b8c-f0a9-48a8-a917-17e0a8e7d4a2",
+        "request": {
+          "description": "One bold question mark game contact glyph, pale ivory fill and continuous dark navy outline. No frame, no background. Original WWII naval game sprite, isolated on transparent background. Strict nativepixel grid, centered with2pxempty padding, at most6flat colors, clean continuous intentional contours, no blur, no shadow, no gradients, no dithering, no words or numbers.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156603
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "128c4b39-8766-4a9f-9c74-67b4b3fb25b1",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "player_destroyer",
+      "file": "assets/ships/player_destroyer.png",
+      "sha256": "008f5094075a3f6fe0bcea4754c931b01cd362f212b6f5d41ddde06dbcc3e5a2",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "660b93f7-74eb-41ef-9832-305235944217",
+        "request": {
+          "description": "One complete WWII American Fletcher-style DESTROYER sprite viewed perfectly SIDE ON, stern left, sharp bow right. Entire vessel visible with12px empty transparent margins on all sides. Small ship centered within230x100area of256x128canvas. Two upright funnels, compact bridge at right-of-center, three small simple gun housings, one thin connected mast. Long continuous slim gray hull and muted red waterline. CLOSED hull, no rooms. Quiet flat pixel colors: navy outlines, slate steel, muted sage highlights. Big deliberate clusters, no blur, no anti-aliasing, no loose speckles, no sea, no shadow, no text. Accurate modest destroyer proportions, no large battleship turrets.",
+          "width": 256,
+          "height": 128,
+          "no_background": true,
+          "seed": 9156702
+        }
+      },
+      "intermediate_job_ids": [
+        "35ae2a3b-2e9e-4a57-86ed-24487a21205b",
+        "27b9394c-2b38-497a-93ba-dc4b265d16ff"
+      ],
+      "final_cleanup_job_id": "6602ab60-57f4-4cdd-b910-6787fc1c9261",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "enemy_trawler",
+      "file": "assets/ships/enemy_trawler.png",
+      "sha256": "447e0d8b5854f7ef1f30c2a1ed6e43a1745dfdcb9d3dbb8116db5a4864032b23",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "08815238-87dd-4cf5-853d-7ee6497c8200",
+        "request": {
+          "description": "One COMPLETE small WWII ARMED FISHING TRAWLER in strict orthographic SIDE view. Bow points LEFT, stern RIGHT. Whole vessel centered in128x64canvas with8px transparent margin. Compact wheelhouse, one short funnel, one connected mast and one tiny deck gun. Simple dark slate hull with muted cream cabin and brick-red waterline. Native crisp1px contour, 6flat opaque colors, broad quiet clusters. No loose pixels, no gradients, no anti-aliasing. No sea/wake/shadow/text. Clean lowdetail game sprite.",
+          "width": 128,
+          "height": 64,
+          "no_background": true,
+          "seed": 9156703
+        }
+      },
+      "intermediate_job_ids": [
+        "2ec91ea1-f35e-4946-81c9-64b0bc20fa68"
+      ],
+      "final_cleanup_job_id": "14e422f3-e233-41d5-bda1-55d270709d62",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "button_normal",
+      "file": "assets/ui-tiles/button_normal.png",
+      "sha256": "94e92a9c0b6471351e9ab83bab2f874c824c90c008c374819bb2c8c432756e6a",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "button_hover",
+      "file": "assets/ui-tiles/button_hover.png",
+      "sha256": "c6c72254fa6456cc466309a17f35d7f564d9a5b27cb3697858cffcd982befdf5",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "button_focus",
+      "file": "assets/ui-tiles/button_focus.png",
+      "sha256": "8e22a3314c8d9f74341529e8ea06983afa589e1f5f4ea3459c53e2ed8e7ba2bd",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "button_pressed",
+      "file": "assets/ui-tiles/button_pressed.png",
+      "sha256": "5859cee5d640407eac90f8a6a42975f88c29c49941166c4a198ade462a2a7d86",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "button_selected",
+      "file": "assets/ui-tiles/button_selected.png",
+      "sha256": "d528b4ce871d4e508340e4f76c6aa377c7c68a939264fff3d577c4bf22308abf",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "button_disabled",
+      "file": "assets/ui-tiles/button_disabled.png",
+      "sha256": "6136cc002c8a7dbf9804e7aeedeb6d070706c35dc33918348495398d3f083ae5",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "panel_base",
+      "file": "assets/ui-tiles/panel_base.png",
+      "sha256": "61561f1f94e90a704399373ee366735470222d75c2cc14d3a2643dbd1d926f44",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "panel_contact",
+      "file": "assets/ui-tiles/panel_contact.png",
+      "sha256": "b115349240b5470aecdce86da581eca733137aaae2895e58bf19886684b70260",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "panel_dialog",
+      "file": "assets/ui-tiles/panel_dialog.png",
+      "sha256": "24b7bcbe70bb5002d6c01def3915c318b42b9edfcb548cb4dd37f825bdbf5b67",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "meter_wide",
+      "file": "assets/ui-tiles/meter_wide.png",
+      "sha256": "f316d87487b3a47b89bd9aad5fd46a11fc7adb48a1fcc0daa168ee81b3a206aa",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "meter_compact",
+      "file": "assets/ui-tiles/meter_compact.png",
+      "sha256": "7c16e3aede26fda6b076fda80a85993e05c107757eae960c1b8b9d510ef91823",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "icon_socket",
+      "file": "assets/ui-tiles/icon_socket.png",
+      "sha256": "9c2635d016b464e5a0abf4abcec9f2650cd5eaa2cab0a17203cbc2f067d24d1a",
+      "generation": {
+        "tool": "create_ui_asset",
+        "job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+        "request": {
+          "name": "Naval UI v1 - reusable frames",
+          "width": 512,
+          "height": 384,
+          "no_background": true,
+          "seed": 9156101,
+          "color_palette": "dark navy #142A30, desaturated blue steel #536F73, pale ivory #D8E0D1, muted brass #B69B62, restrained amber #E0BA68, brick red #A75543",
+          "description": "Original WWII naval tactics game UI sprite sheet. Precisely preserve the supplied separate rectangles, all on transparent empty background. Clean native pixel art on a one pixel grid, thin continuous 1 pixel dark outer border and 1 pixel ivory inner edge, squared corners with tiny 2 pixel corner cuts, very flat matte naval steel. Large completely quiet flat dark teal interiors for dynamic text. Subtle brass corner fasteners only, no texture noise, no glossy shading, no gradients, no blur. Top left small panel, tall contact panel beside it, large lower dialog panel. Right column six blank button state plates, same shape each: normal navy, hover lighter steel, focus ivory rim, pressed darker inset, selected amber rim, disabled desaturated dark. Two empty horizontal meter frames at left middle and a small square icon socket. ALL pieces independent disconnected with transparent gutters. NO text, NO letters, NO numbers, NO symbols, NO logos. UI frames only, never render a game screenshot.",
+          "pieces": [
+            {
+              "id": "panel",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 8,
+              "w": 160,
+              "h": 128,
+              "radius": 0
+            },
+            {
+              "id": "contact",
+              "kind": "rounded_rect",
+              "x": 184,
+              "y": 8,
+              "w": 152,
+              "h": 200,
+              "radius": 0
+            },
+            {
+              "id": "dialog",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 224,
+              "w": 328,
+              "h": 152,
+              "radius": 0
+            },
+            {
+              "id": "button_normal",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 8,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_hover",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 64,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_focus",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 120,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_pressed",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 176,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_selected",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 232,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "button_disabled",
+              "kind": "rounded_rect",
+              "x": 352,
+              "y": 288,
+              "w": 152,
+              "h": 40,
+              "radius": 0
+            },
+            {
+              "id": "meter",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 152,
+              "w": 160,
+              "h": 24,
+              "radius": 0
+            },
+            {
+              "id": "meter_small",
+              "kind": "rounded_rect",
+              "x": 48,
+              "y": 192,
+              "w": 120,
+              "h": 20,
+              "radius": 0
+            },
+            {
+              "id": "socket",
+              "kind": "rounded_rect",
+              "x": 8,
+              "y": 184,
+              "w": 32,
+              "h": 32,
+              "radius": 0
+            }
+          ]
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": null,
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary."
+    },
+    {
+      "id": "room_boiler",
+      "file": "assets/rooms/room_boiler.png",
+      "sha256": "52a1177f9a02e54c12be6750bb3bf255a3539c9c3b76afce707fd1a2ac9e18a8",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "9a8c8205-ddc0-449f-9487-a503031962c7",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091580,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One broad horizontal boiler cylinder, with one large round furnace hatch at its left end and one short chimney. The round cylinder is the unmistakable main form. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_bridge",
+      "file": "assets/rooms/room_bridge.png",
+      "sha256": "935d165a0f2a8e878673a8a36b2015dd1b720fb7c4dbf0632d86e073d127064c",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "cce0edcf-70c1-4619-ad70-d046584a5a2c",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091581,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One broad horizontal chart table viewed from above, with a single folded map shape on its tabletop. A clear rectangular table silhouette; absolutely no machinery or chimney. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_control",
+      "file": "assets/rooms/room_control.png",
+      "sha256": "baf8b0ba295d8f67a2ca2c4acf114a4e7493ab3e00bc7bace6591744e4ae4c4c",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "acc45ddc-b09d-450f-8994-32826ba25a5b",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091582,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One broad rectangular damage-control cabinet with one large circular coiled hose loop on its face. The square cabinet and round hose loop are unmistakable. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_engine",
+      "file": "assets/rooms/room_engine.png",
+      "sha256": "ae10696e4b5faae87d6d91d8dc3080c6140306d6d13d521e3252fc05186a6947",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "221ccc62-8752-48c0-a3cd-3a96ed442123",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091583,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One broad low engine block with three large stepped cylinder-head humps across its top. A clear three-hump piston-block silhouette; no round boiler or chimney. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_gun",
+      "file": "assets/rooms/room_gun.png",
+      "sha256": "f326caedd5c4a01412936a2b76deba77aa8f85d602f687defac561a1b8a5ce4d",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "7fd3d4e2-6164-426f-8f6b-11a853116ae2",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091584,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One low naval gun breech and broad supporting cradle with a short thick horizontal barrel extending to the right. A clear horizontal gun silhouette. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_magazine",
+      "file": "assets/rooms/room_magazine.png",
+      "sha256": "f48981e2ebc9a1f14381dccb76d5738e339c9bd7afb4a3a3ee279a0d6a23547a",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "b2f42023-0aaf-4995-a3f2-c16d056db388",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091585,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One shallow horizontal rack holding four large upright pointed artillery shells side by side. Four broad repeated shell silhouettes, not tiny marks. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_sensors",
+      "file": "assets/rooms/room_sensors.png",
+      "sha256": "68f8cf80b3b5866632729142f3f235abf1be553d72bccc6c1beca83ab4bca5c0",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "77048f28-b49b-46ce-b295-eca0910de828",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091586,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: One wide shallow console with two large square screen areas side by side and a continuous broad base. A clear twin-screen silhouette. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_torpedo",
+      "file": "assets/rooms/room_torpedo.png",
+      "sha256": "02dccbfa0d1ced4252b4f3af228b683484d2f49ff2dba7b66c2857fe4aae0d36",
+      "generation": {
+        "tool": "create_image_pro_flash",
+        "job_id": "a815db91-e4de-4cbe-9be6-b3fe9a6d3e13",
+        "request": {
+          "width": 64,
+          "height": 48,
+          "no_background": false,
+          "seed": 2026091587,
+          "description": "A SIMPLE QUIET ROOM FLOOR BACKDROP,64x48 pixels, opaque full rectangle, for an original WWII ship-cutaway strategy game. The whole rectangle is an uninterrupted very pale sage floor #D9EBDF. In only the upper third, y3 through19, place this one large restrained low-contrast equipment silhouette: Two long broad horizontal torpedo-tube cylinders stacked in parallel, with rounded ends and a low rectangular support. Two clearly separated parallel tubes. Equipment spans most of width x8 through56 but never extends into the lower half. The entire lower half y24 through47 is blank, flat, unmarked very pale sage for separately rendered crew. Use exactly THREE CLOSE SAGE COLORS like the supplied reference: floor #D9EBDF, equipment #9AB19F, secondary equipment #BAC5BA. Broad flat shapes only, perfectly crisp stepped pixel boundaries. No black or dark outlines. NO walls, NO border, NO frame, NO tiled floor, NO floor squares, NO panel seams, NO noise, NO hatch marks, NO stipple, NO tiny texture, NO shadows, NO gradients, NO glow, NO text, NO numbers, NO symbol badges, NO crew. This is a subdued background equipment hint, not a detailed scene or standalone icon."
+        }
+      },
+      "intermediate_job_ids": [],
+      "final_cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_boiler",
+      "file": "assets/room-icons/room_icon_boiler.png",
+      "sha256": "c5c68c9ee18983a77b710a7340fe100db8b3aebd55bf8048faa68b86348d9501",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "f2b654e4-bf64-42ee-bfa9-fd35e5cc8045",
+        "request": {
+          "description": "Single game HUD glyph: one compact boiler with a small flame-shaped inset. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156220
+        }
+      },
+      "intermediate_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_bridge",
+      "file": "assets/room-icons/room_icon_bridge.png",
+      "sha256": "6315fc712f7c3ba64f92f6d79b9b8d1a866b14c105e4c3c1ab1f991a07362a29",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "860bb6ca-e73c-4c03-b0ea-b279be3d1f4c",
+        "request": {
+          "description": "Single game HUD glyph: one simple six-spoke ship steering wheel. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156215
+        }
+      },
+      "intermediate_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_control",
+      "file": "assets/room-icons/room_icon_control.png",
+      "sha256": "0984d48c99e0434ae542f610dd5e86c83b565822493d910b3b704cc5d2c756ed",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "e98401be-dcf3-4470-9ea4-e95c3eeaf087",
+        "request": {
+          "description": "Single game HUD glyph: one open-jaw wrench tilted diagonally. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156206
+        }
+      },
+      "intermediate_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_engine",
+      "file": "assets/room-icons/room_icon_engine.png",
+      "sha256": "71e88d112bed35199a6f8e61251bfd4d47061bb0d5f0d464e26068bc4ac4c18b",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "4fbf6207-5f91-4c4a-bfb3-2086f5cf846b",
+        "request": {
+          "description": "Flat monochrome game HUD pictogram of one bold simple cogwheel: a solid ivory disk with eight square teeth and one transparent circular center hole. SOLID WHITE/IVORY shape only on transparent background. Exactly16x16pixels with1px empty margin. Only ONE opaque color #E6EDE3. No black outline, no shadows, no shading, no textures, no gray pixels, no antialias. Clear simple silhouette from a minimal pixel icon set, not an illustration or realistic object.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "lineless",
+          "seed": 9156900
+        }
+      },
+      "intermediate_job_ids": [
+        "128c4b39-8766-4a9f-9c74-67b4b3fb25b1"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_gun",
+      "file": "assets/room-icons/room_icon_gun.png",
+      "sha256": "ff7c4468378b2747ccdc8745e46478ff6696fc8342e9d36a57f6343760c798ec",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "f88067f2-efa6-4be3-b9f1-576fa2c09bb9",
+        "request": {
+          "description": "Flat monochrome game HUD pictogram of one bold simple naval gun silhouette: a low rectangular ivory turret, one thick horizontal barrel pointing right, and a short wide base. SOLID WHITE/IVORY shape only on transparent background. Exactly16x16pixels with1px empty margin. Only ONE opaque color #E6EDE3. No black outline, no shadows, no shading, no textures, no gray pixels, no antialias. Clear simple silhouette from a minimal pixel icon set, not an illustration or realistic object.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "lineless",
+          "seed": 9156902
+        }
+      },
+      "intermediate_job_ids": [
+        "128c4b39-8766-4a9f-9c74-67b4b3fb25b1"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_magazine",
+      "file": "assets/room-icons/room_icon_magazine.png",
+      "sha256": "f0fd6d67ab3c59e7d644253bd88eda6ccbc6d0417e6f4dd9ee5aa543a41648be",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "6b29a539-b6fa-4b3e-a907-82d302288fbe",
+        "request": {
+          "description": "Single game HUD glyph: three upright artillery shells on one flat rack. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156221
+        }
+      },
+      "intermediate_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_sensors",
+      "file": "assets/room-icons/room_icon_sensors.png",
+      "sha256": "ab2be69df1df4c3431381a9a92f01c55abb067f8cec91250b2217723c5feaee8",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "4d79b95d-1a73-4abe-8d53-d890eda4b274",
+        "request": {
+          "description": "Single game HUD glyph: one parabolic radar antenna on a short support. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156217
+        }
+      },
+      "intermediate_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "room_icon_torpedo",
+      "file": "assets/room-icons/room_icon_torpedo.png",
+      "sha256": "2279a734aa7d760e26380786c5c3a573c11bc4f0168865967a18c02523390ce6",
+      "generation": {
+        "tool": "create_image_pixen",
+        "job_id": "3c5d40eb-c6b9-49bf-a6b1-5a0eb90bc61d",
+        "request": {
+          "description": "Single game HUD glyph: one long horizontal torpedo with pointed right nose and cross fins at left. Exactly one clear functional symbol, centered on a transparent 16x16 canvas with 2 pixels transparent margin. Original WWII naval tactics interface. Icon is flat pale ivory with desaturated gray secondary pixels and a dark navy continuous 1-pixel outline. Use a compact bold silhouette, crisp intentional pixel clusters, maximum 4 opaque colors, no shading gradients, no dithering, no blur, no drop shadow, no background tile, no decorative frame, no labels or numbers. Readable at native 16 pixels.",
+          "width": 16,
+          "height": 16,
+          "no_background": true,
+          "detail": "low detail",
+          "outline": "single color outline",
+          "seed": 9156204
+        }
+      },
+      "intermediate_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "final_cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    }
+  ]
+}

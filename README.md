@@ -18,7 +18,12 @@ The repo holds two halves. The **design** half specifies the game. The **researc
 - [Co-op and 1v1 multiplayer proposals](docs/MULTIPLAYER_PROPOSALS.md)
 - [Earlier design snapshots](revisions/README.md)
 
-The design document is the primary specification. It covers basic logic, progression, saving, end game, replayability, and factors/variances/variables. Its direction emphasizes harder combinations of mechanics, rarer or partial resupply, different enemy loadouts, consequential events, and uncertain information, through successive sectors. Interactive radar/sonar tracking and linked torpedo-evasion decisions are specified. Version 0.9 also publishes the FTL coverage review and multiplayer brainstorming; multiplayer remains exploratory, and the review flags outstanding armor simplification and magazine/weapon-utility work. Sprites and visual styling remain deferred.
+The design document is the primary specification. It covers basic logic, progression, saving, end game, replayability, and factors/variances/variables. Its direction emphasizes harder combinations of mechanics, rarer or partial resupply, different enemy loadouts, consequential events, and uncertain information, through successive sectors. Interactive radar/sonar tracking and linked torpedo-evasion decisions are specified. Version 0.9 also publishes the FTL coverage review and multiplayer brainstorming; multiplayer remains exploratory, and the review flags outstanding armor simplification and magazine/weapon-utility work. The first static sprite pack is now available; renderer integration and the playable ship cutaway remain pending.
+
+## Game assets
+
+- **[First asset set — Naval UI v1](game/assets/naval-ui-v1/README.md)**: 72 static sprites and UI pieces, editable Aseprite source, preview, offline catalog, and import metadata.
+- [Asset pack index](game/assets/README.md)
 
 ## Research: start here
 

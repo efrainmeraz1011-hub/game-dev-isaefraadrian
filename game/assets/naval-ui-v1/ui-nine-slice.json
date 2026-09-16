@@ -1,0 +1,1230 @@
+{
+  "version": 1,
+  "source_manifest": "ui-slices.json",
+  "operation": "Integer cropping and tiling only. Every8x8 source corner preserved pixel for pixel. No resampling, recoloring, antialiasing, or contour redrawing.",
+  "template_design": "17x17 compact source. Four8x8 corners, four1px repeating edge strips, one source center pixel. Edge strips are the most frequent existing strip; no averaged colors.",
+  "source_edge_policy": "Clean repeated strips intentionally omit nonrepeatable incidental wear from the large originals; originals remain available unchanged.",
+  "entries": [
+    {
+      "id": "button_normal",
+      "source": "assets/ui/button_normal.png",
+      "source_sha256": "500a75a2e3828825ec7e96a63207c7217517a809c449081628ce07444569e97a",
+      "source_size": [
+        147,
+        40
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          32,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          32,
+          8,
+          8
+        ],
+        "top": [
+          73,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          73,
+          32,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          19,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          19,
+          8,
+          1
+        ],
+        "center": [
+          138,
+          19,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/button_normal.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "94e92a9c0b6471351e9ab83bab2f874c824c90c008c374819bb2c8c432756e6a",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        32,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "button_hover",
+      "source": "assets/ui/button_hover.png",
+      "source_sha256": "44a022e0f7b09105c25488908eb47fcb63ef6ec137ffe1bc09233a2aca8295a5",
+      "source_size": [
+        147,
+        40
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          32,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          32,
+          8,
+          8
+        ],
+        "top": [
+          73,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          73,
+          32,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          19,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          19,
+          8,
+          1
+        ],
+        "center": [
+          138,
+          19,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/button_hover.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "c6c72254fa6456cc466309a17f35d7f564d9a5b27cb3697858cffcd982befdf5",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        32,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "button_focus",
+      "source": "assets/ui/button_focus.png",
+      "source_sha256": "5a9eeaab1e8098696363a1d3606b84b08c90ce64b24dab29927cc42a572ee798",
+      "source_size": [
+        147,
+        39
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          31,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          31,
+          8,
+          8
+        ],
+        "top": [
+          73,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          73,
+          31,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          19,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          19,
+          8,
+          1
+        ],
+        "center": [
+          73,
+          19,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/button_focus.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "8e22a3314c8d9f74341529e8ea06983afa589e1f5f4ea3459c53e2ed8e7ba2bd",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        32,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "button_pressed",
+      "source": "assets/ui/button_pressed.png",
+      "source_sha256": "d2cf0cbec9085f1064508ea717f5eb01a69536b32d216ef229d898146ab95f03",
+      "source_size": [
+        147,
+        40
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          32,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          32,
+          8,
+          8
+        ],
+        "top": [
+          67,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          73,
+          32,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          23,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          19,
+          8,
+          1
+        ],
+        "center": [
+          138,
+          19,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/button_pressed.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "5859cee5d640407eac90f8a6a42975f88c29c49941166c4a198ade462a2a7d86",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        32,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "button_selected",
+      "source": "assets/ui/button_selected.png",
+      "source_sha256": "718c5990d0f6f84a25ffc7428ee3d7d74f42a4980f351605d635737a16645a93",
+      "source_size": [
+        147,
+        40
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          32,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          32,
+          8,
+          8
+        ],
+        "top": [
+          73,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          72,
+          32,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          19,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          19,
+          8,
+          1
+        ],
+        "center": [
+          138,
+          19,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/button_selected.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "d528b4ce871d4e508340e4f76c6aa377c7c68a939264fff3d577c4bf22308abf",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        32,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "button_disabled",
+      "source": "assets/ui/button_disabled.png",
+      "source_sha256": "65cd3a0c3145822a8709dc43df04e5a441a437b131d16b9b45a04adcee533dfa",
+      "source_size": [
+        147,
+        40
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          32,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          32,
+          8,
+          8
+        ],
+        "top": [
+          73,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          68,
+          32,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          19,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          19,
+          8,
+          1
+        ],
+        "center": [
+          138,
+          19,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/button_disabled.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "6136cc002c8a7dbf9804e7aeedeb6d070706c35dc33918348495398d3f083ae5",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        32,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "panel_base",
+      "source": "assets/ui/panel_base.png",
+      "source_sha256": "e44cc72acd5717b30b23cbcaba0b1c31bc4d6268053b51dc7d14efda2306a171",
+      "source_size": [
+        154,
+        124
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          146,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          116,
+          8,
+          8
+        ],
+        "bottom_right": [
+          146,
+          116,
+          8,
+          8
+        ],
+        "top": [
+          75,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          76,
+          116,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          56,
+          8,
+          1
+        ],
+        "right": [
+          146,
+          61,
+          8,
+          1
+        ],
+        "center": [
+          145,
+          61,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/panel_base.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "61561f1f94e90a704399373ee366735470222d75c2cc14d3a2643dbd1d926f44",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        24,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "panel_contact",
+      "source": "assets/ui/panel_contact.png",
+      "source_sha256": "0eb34042ba57b1f8c0a45dd175a08f8edd2b680db68a4ffdff67ad80302afa70",
+      "source_size": [
+        147,
+        194
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          139,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          186,
+          8,
+          8
+        ],
+        "bottom_right": [
+          139,
+          186,
+          8,
+          8
+        ],
+        "top": [
+          73,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          73,
+          186,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          96,
+          8,
+          1
+        ],
+        "right": [
+          139,
+          97,
+          8,
+          1
+        ],
+        "center": [
+          138,
+          96,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/panel_contact.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "b115349240b5470aecdce86da581eca733137aaae2895e58bf19886684b70260",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        24,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "panel_dialog",
+      "source": "assets/ui/panel_dialog.png",
+      "source_sha256": "42d8fccd74ae24afec587341eb5cb956d3423e4a1e68801999f2911625a769b3",
+      "source_size": [
+        316,
+        148
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          308,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          140,
+          8,
+          8
+        ],
+        "bottom_right": [
+          308,
+          140,
+          8,
+          8
+        ],
+        "top": [
+          157,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          157,
+          140,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          71,
+          8,
+          1
+        ],
+        "right": [
+          308,
+          73,
+          8,
+          1
+        ],
+        "center": [
+          306,
+          73,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/panel_dialog.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "24b7bcbe70bb5002d6c01def3915c318b42b9edfcb548cb4dd37f825bdbf5b67",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        24,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "meter_wide",
+      "source": "assets/ui/meter_wide.png",
+      "source_sha256": "8c385809195d0f4493800b7fcf66fc302e050838cdebfd59a66432a04d86fd92",
+      "source_size": [
+        155,
+        24
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          147,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          16,
+          8,
+          8
+        ],
+        "bottom_right": [
+          147,
+          16,
+          8,
+          8
+        ],
+        "top": [
+          76,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          77,
+          16,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          11,
+          8,
+          1
+        ],
+        "right": [
+          147,
+          11,
+          8,
+          1
+        ],
+        "center": [
+          146,
+          11,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/meter_wide.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "f316d87487b3a47b89bd9aad5fd46a11fc7adb48a1fcc0daa168ee81b3a206aa",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        24,
+        20
+      ],
+      "content_padding_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "meter_compact",
+      "source": "assets/ui/meter_compact.png",
+      "source_sha256": "73300de558a500bbc643e423feddb5bc12fecfb50c0b8c4bc13e5eafa7ea3d05",
+      "source_size": [
+        117,
+        20
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          109,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          12,
+          8,
+          8
+        ],
+        "bottom_right": [
+          109,
+          12,
+          8,
+          8
+        ],
+        "top": [
+          58,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          50,
+          12,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          9,
+          8,
+          1
+        ],
+        "right": [
+          109,
+          9,
+          8,
+          1
+        ],
+        "center": [
+          108,
+          9,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/meter_compact.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "7c16e3aede26fda6b076fda80a85993e05c107757eae960c1b8b9d510ef91823",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        24,
+        20
+      ],
+      "content_padding_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "icon_socket",
+      "source": "assets/ui/icon_socket.png",
+      "source_sha256": "4d71edac6713503a49e0186c4738d742e574b3d370ac04a8c96698930daf558d",
+      "source_size": [
+        32,
+        32
+      ],
+      "native_patch_rectangles_xywh": {
+        "top_left": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "top_right": [
+          24,
+          0,
+          8,
+          8
+        ],
+        "bottom_left": [
+          0,
+          24,
+          8,
+          8
+        ],
+        "bottom_right": [
+          24,
+          24,
+          8,
+          8
+        ],
+        "top": [
+          15,
+          0,
+          1,
+          8
+        ],
+        "bottom": [
+          15,
+          24,
+          1,
+          8
+        ],
+        "left": [
+          0,
+          15,
+          8,
+          1
+        ],
+        "right": [
+          24,
+          15,
+          8,
+          1
+        ],
+        "center": [
+          23,
+          15,
+          1,
+          1
+        ]
+      },
+      "compact_template": "assets/ui-tiles/icon_socket.png",
+      "template_size": [
+        17,
+        17
+      ],
+      "template_sha256": "9c2635d016b464e5a0abf4abcec9f2650cd5eaa2cab0a17203cbc2f067d24d1a",
+      "insets_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "mode": "tile; never stretch",
+      "mechanical_minimum_size": [
+        17,
+        17
+      ],
+      "recommended_minimum_size": [
+        24,
+        24
+      ],
+      "content_padding_ltrb": [
+        8,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "assembled_tests": [
+    {
+      "id": "button_normal",
+      "size": [
+        64,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "button_hover",
+      "size": [
+        64,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "button_focus",
+      "size": [
+        64,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "button_pressed",
+      "size": [
+        64,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "button_selected",
+      "size": [
+        64,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "button_disabled",
+      "size": [
+        64,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "panel_base",
+      "size": [
+        137,
+        66
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "panel_contact",
+      "size": [
+        169,
+        220
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "panel_dialog",
+      "size": [
+        490,
+        276
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "meter_wide",
+      "size": [
+        128,
+        20
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "meter_compact",
+      "size": [
+        80,
+        20
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "icon_socket",
+      "size": [
+        24,
+        24
+      ],
+      "corners_pixel_identical": true,
+      "binary_alpha": true
+    }
+  ],
+  "proof_native": "qa/ui-nine-slice/proof-native.png",
+  "validation": {
+    "corner_identity": "All requested test outputs compare pixel-identical to their corresponding original corners.",
+    "alpha": "All requested outputs retain binary alpha.",
+    "visual_review": "Native proof sheet and all twelve individual4x target files reviewed. No open alpha gaps or new seams observed at joins; original corner color variations preserved.",
+    "example_assembler": "scripts/assemble_ui.py matches all twelve saved target outputs pixel for pixel and rejects dimensions below17px."
+  }
+}

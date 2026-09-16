@@ -1,0 +1,3122 @@
+{
+  "schema_version": 1,
+  "pack_id": "naval-ui-assets-v1",
+  "generated_at_utc": "2026-09-16T00:52:19.959642+00:00",
+  "status": "static-pilot-candidate",
+  "asset_count": 72,
+  "family_counts": {
+    "HUD and system icons": 22,
+    "Map symbols": 12,
+    "Weapon symbols": 4,
+    "Crew token": 1,
+    "Hazards": 2,
+    "Unknown contact": 1,
+    "Ship exteriors": 2,
+    "UI nine-slice templates": 12,
+    "Quiet room backgrounds": 8,
+    "Room function icons": 8
+  },
+  "scope": "72 selected static pixel-art candidates, including eight dark room-function glyphs. No gameplay integration, animation, six-role badge set or playable ten-room cutaway.",
+  "native_layout_reference": [
+    640,
+    360
+  ],
+  "intended_primary_scale": 2,
+  "atlas": {
+    "width": 1024,
+    "height": 1024,
+    "gutter": 4,
+    "packing": "native-size shelf, no rotation"
+  },
+  "supplementary_sources_excluded_from_primary_manifest": [
+    "assets/ui",
+    "raw/ui_frames.png",
+    "references"
+  ],
+  "assets": [
+    {
+      "id": "icon_aa",
+      "path": "assets/icons/icon_aa.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "3aaeedfc-9e7a-4b9d-9f7b-699fe5115322",
+      "original_source_job_id": "3aaeedfc-9e7a-4b9d-9f7b-699fe5115322",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_aa",
+      "cleanup_request_id": "clean_icon_aa",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "fe3813642778cdbffeeaa906a34665e6091b68650a6bd1686f0cafd44da17071",
+      "bytes": 230,
+      "atlas_rect": [
+        4,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_ammunition",
+      "path": "assets/icons/icon_ammunition.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "6b29a539-b6fa-4b3e-a907-82d302288fbe",
+      "original_source_job_id": "6b29a539-b6fa-4b3e-a907-82d302288fbe",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_ammunition",
+      "cleanup_request_id": "clean_icon_ammunition",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "d5b422390a658fb0d2e46178ee3b18ac5840bf71afb3c52cabcc2cb27ce21ac8",
+      "bytes": 197,
+      "atlas_rect": [
+        24,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_boiler",
+      "path": "assets/icons/icon_boiler.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "f2b654e4-bf64-42ee-bfa9-fd35e5cc8045",
+      "original_source_job_id": "f2b654e4-bf64-42ee-bfa9-fd35e5cc8045",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_boiler",
+      "cleanup_request_id": "clean_icon_boiler",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "9ee9c12a5c342b9ab428c70c368826d24aeafa3cb7ad56cd5949e54b16bc281d",
+      "bytes": 294,
+      "atlas_rect": [
+        44,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_bridge",
+      "path": "assets/icons/icon_bridge.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "860bb6ca-e73c-4c03-b0ea-b279be3d1f4c",
+      "original_source_job_id": "860bb6ca-e73c-4c03-b0ea-b279be3d1f4c",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_bridge",
+      "cleanup_request_id": "clean_icon_bridge",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "21f022dcdf93acb1ea6860b6e271d0137ac8919ac7621128fb23fb6acc438c16",
+      "bytes": 291,
+      "atlas_rect": [
+        64,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_crew",
+      "path": "assets/icons/icon_crew.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "02fcddc6-0c87-43b7-898f-0d671bcc0b41",
+      "original_source_job_id": "02fcddc6-0c87-43b7-898f-0d671bcc0b41",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_crew",
+      "cleanup_request_id": "clean_icon_crew",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "4e6a4dc32433388cba229e563ba0311dbfc9fe79bbb831ab4d0b3b3eb32fa33e",
+      "bytes": 310,
+      "atlas_rect": [
+        84,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_depth_charges",
+      "path": "assets/icons/icon_depth_charges.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "81841859-db89-400c-8ef3-a0b087871cf4",
+      "original_source_job_id": "81841859-db89-400c-8ef3-a0b087871cf4",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_depth_charges",
+      "cleanup_request_id": "clean_icon_depth_charges",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "e7d2a06431a324afc0ee0fbc71c7c127db0b4b91161c143634cd405355b8e354",
+      "bytes": 321,
+      "atlas_rect": [
+        104,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_engine",
+      "path": "assets/icons/icon_engine.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "4fbf6207-5f91-4c4a-bfb3-2086f5cf846b",
+      "original_source_job_id": "4fbf6207-5f91-4c4a-bfb3-2086f5cf846b",
+      "cleanup_job_id": "128c4b39-8766-4a9f-9c74-67b4b3fb25b1",
+      "source_request_id": "icon_engine_flat",
+      "cleanup_request_id": "final_icon_engine_flat",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "30045f1755b797e65bb719ee03773224463fccd3d0ecf4bc774944116d17c9ce",
+      "bytes": 182,
+      "atlas_rect": [
+        124,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_flares",
+      "path": "assets/icons/icon_flares.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "fb9ca13f-7549-449a-b8e7-babace1de564",
+      "original_source_job_id": "fb9ca13f-7549-449a-b8e7-babace1de564",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_flares",
+      "cleanup_request_id": "clean_icon_flares",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "5d8391cf2840bfb8835bf1f9af4f8bff5076594454718311d6033e85efce4555",
+      "bytes": 262,
+      "atlas_rect": [
+        144,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_fuel",
+      "path": "assets/icons/icon_fuel.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "7a285210-a60f-499b-9434-51cb169dbd04",
+      "original_source_job_id": "7a285210-a60f-499b-9434-51cb169dbd04",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_fuel",
+      "cleanup_request_id": "clean_icon_fuel",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "51584860c029717a867b56190406fa5f954656aa4f62b879ba8fb46f5070ede4",
+      "bytes": 245,
+      "atlas_rect": [
+        164,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_gun",
+      "path": "assets/icons/icon_gun.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "f88067f2-efa6-4be3-b9f1-576fa2c09bb9",
+      "original_source_job_id": "f88067f2-efa6-4be3-b9f1-576fa2c09bb9",
+      "cleanup_job_id": "128c4b39-8766-4a9f-9c74-67b4b3fb25b1",
+      "source_request_id": "icon_gun_flat",
+      "cleanup_request_id": "final_icon_gun_flat",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "1e4459c9827f17bdf1f7847d3b3c706ed1e9d400c55fde15c71ff96614e4aee9",
+      "bytes": 302,
+      "atlas_rect": [
+        184,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_hull",
+      "path": "assets/icons/icon_hull.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "3d5172f5-6a17-4226-abbb-bfa5976dc93d",
+      "original_source_job_id": "3d5172f5-6a17-4226-abbb-bfa5976dc93d",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_hull",
+      "cleanup_request_id": "clean_icon_hull",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "c977b4cc4f78ad7f0db8fb5cbda19d601a969eca28c74e4f27a96645a9d393ac",
+      "bytes": 311,
+      "atlas_rect": [
+        204,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_medical",
+      "path": "assets/icons/icon_medical.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "bfc4e52b-8a70-4e4f-a687-86fd3c014d1b",
+      "original_source_job_id": "bfc4e52b-8a70-4e4f-a687-86fd3c014d1b",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_medical",
+      "cleanup_request_id": "clean_icon_medical",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "0b7b1656eb9b31b6dc7559f724c25da3b99977ef8d681a7fdb1eb64d632a1241",
+      "bytes": 219,
+      "atlas_rect": [
+        224,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_parts",
+      "path": "assets/icons/icon_parts.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "e98401be-dcf3-4470-9ea4-e95c3eeaf087",
+      "original_source_job_id": "e98401be-dcf3-4470-9ea4-e95c3eeaf087",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_parts",
+      "cleanup_request_id": "clean_icon_parts",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "96d8ae006ebf639cae3687dd0ed445bf87f2f8bc14070d4aa52688ef47b470ec",
+      "bytes": 290,
+      "atlas_rect": [
+        244,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_radar",
+      "path": "assets/icons/icon_radar.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "4d79b95d-1a73-4abe-8d53-d890eda4b274",
+      "original_source_job_id": "4d79b95d-1a73-4abe-8d53-d890eda4b274",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_radar",
+      "cleanup_request_id": "clean_icon_radar",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "7b68acebeec8b3aa8d458baf03b60850879fa8bcd24fa2607ca7ecd2a942eb55",
+      "bytes": 339,
+      "atlas_rect": [
+        264,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_rations",
+      "path": "assets/icons/icon_rations.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "f6ee036e-cfbe-4761-8fda-65705d98e76e",
+      "original_source_job_id": "f6ee036e-cfbe-4761-8fda-65705d98e76e",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_rations",
+      "cleanup_request_id": "clean_icon_rations",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "b115a530929879d262aa8d0908e49e5270dea9e7fc396dae4e42f7efe7a6374c",
+      "bytes": 267,
+      "atlas_rect": [
+        284,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_scrap",
+      "path": "assets/icons/icon_scrap.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "d02b285e-8cc8-4223-adf4-625b29969ae7",
+      "original_source_job_id": "d02b285e-8cc8-4223-adf4-625b29969ae7",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_scrap",
+      "cleanup_request_id": "clean_icon_scrap",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "0b6dd3eb947a6b47ba1b924e411d63707003d620c505e2b4be5ba8ae7dc0cac5",
+      "bytes": 376,
+      "atlas_rect": [
+        304,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_shells",
+      "path": "assets/icons/icon_shells.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "8c066c32-d967-4afb-8790-63e940c3506c",
+      "original_source_job_id": "8c066c32-d967-4afb-8790-63e940c3506c",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_shells",
+      "cleanup_request_id": "clean_icon_shells",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "52358e0be2aea737fff6d75ce4639f37125bb36ae8a385ad7cdd465eb0441acd",
+      "bytes": 293,
+      "atlas_rect": [
+        324,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_smoke",
+      "path": "assets/icons/icon_smoke.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "ba1dd996-e8e7-4fe0-9531-76c4e58e7572",
+      "original_source_job_id": "ba1dd996-e8e7-4fe0-9531-76c4e58e7572",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_smoke",
+      "cleanup_request_id": "clean_icon_smoke",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "d945d1fd09044a4117b5f1dc567fcb2d718faaf7bb1a257552e4831d53c5a2ad",
+      "bytes": 290,
+      "atlas_rect": [
+        344,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_sonar",
+      "path": "assets/icons/icon_sonar.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "e7adbf5a-82e7-45b0-a332-189d6069dae6",
+      "original_source_job_id": "e7adbf5a-82e7-45b0-a332-189d6069dae6",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_sonar",
+      "cleanup_request_id": "clean_icon_sonar",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "1c6b9694e2ef63a7bcd8310121b303030bf7cf2426a7698c767ed25a6a6e9ecc",
+      "bytes": 261,
+      "atlas_rect": [
+        364,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_threat",
+      "path": "assets/icons/icon_threat.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "3f485c97-2366-42ba-9efb-7990e77ff9ee",
+      "original_source_job_id": "3f485c97-2366-42ba-9efb-7990e77ff9ee",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_threat",
+      "cleanup_request_id": "clean_icon_threat",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "3b05e740e3bf75e041f7ea8725d3e938badda73adbe6b163674349f1bdf062ef",
+      "bytes": 328,
+      "atlas_rect": [
+        384,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_time",
+      "path": "assets/icons/icon_time.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "d80aa743-713c-4d20-bfc1-9622152d1d1a",
+      "original_source_job_id": "d80aa743-713c-4d20-bfc1-9622152d1d1a",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_time",
+      "cleanup_request_id": "clean_icon_time",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "01eec09aba8e58810016d3ff66b77caa8398c1cf7b14ad79d7c6f0ce4be4a14f",
+      "bytes": 285,
+      "atlas_rect": [
+        404,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "icon_torpedoes",
+      "path": "assets/icons/icon_torpedoes.png",
+      "width": 16,
+      "height": 16,
+      "family": "HUD and system icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "3c5d40eb-c6b9-49bf-a6b1-5a0eb90bc61d",
+      "original_source_job_id": "3c5d40eb-c6b9-49bf-a6b1-5a0eb90bc61d",
+      "cleanup_job_id": "02115751-6dff-431d-a3d2-b2f74f64731f",
+      "source_request_id": "icon_torpedoes",
+      "cleanup_request_id": "clean_icon_torpedoes",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "f099fcf2c58f9296fa0118ddd4d6b4bc535b943e7237d82435be5d961b42b059",
+      "bytes": 198,
+      "atlas_rect": [
+        424,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_anchorage",
+      "path": "assets/map/map_anchorage.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "73247596-1475-472b-8c29-9330e92f080f",
+      "original_source_job_id": "73247596-1475-472b-8c29-9330e92f080f",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_anchorage",
+      "cleanup_request_id": "final_map_anchorage",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "57f45a74c17ba73f6b7639f6c359cae99bbed090a1dfdf59363278551d7687c5",
+      "bytes": 283,
+      "atlas_rect": [
+        444,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_convoy",
+      "path": "assets/map/map_convoy.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "b4474f80-6bc1-43ee-b10c-b3cd774fc538",
+      "original_source_job_id": "b4474f80-6bc1-43ee-b10c-b3cd774fc538",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_convoy",
+      "cleanup_request_id": "final_map_convoy",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "34f2116bc1cdf1d843a54f201dbdd219412caa3188bc733824eca5a88524fcd4",
+      "bytes": 290,
+      "atlas_rect": [
+        464,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_distress",
+      "path": "assets/map/map_distress.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "f1ff3cb9-8571-411c-b55b-d1925bc4b81e",
+      "original_source_job_id": "f1ff3cb9-8571-411c-b55b-d1925bc4b81e",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_distress",
+      "cleanup_request_id": "final_map_distress",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "72bb7b07a492a47cc68ea095bd80478e1df084e65d38f6bab21dbc9d9d6ae063",
+      "bytes": 327,
+      "atlas_rect": [
+        484,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_island",
+      "path": "assets/map/map_island.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "fdfc06ef-b2aa-481a-8a14-5e9229c06fc6",
+      "original_source_job_id": "fdfc06ef-b2aa-481a-8a14-5e9229c06fc6",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_island",
+      "cleanup_request_id": "final_map_island",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "6e9a2bde8e0c2777bef03a6f4ee3c6e68a1e0900a8aa50b176783da1b851197c",
+      "bytes": 255,
+      "atlas_rect": [
+        504,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_minefield",
+      "path": "assets/map/map_minefield.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "0473daa2-158d-4c8f-9faf-20557dc4fed7",
+      "original_source_job_id": "0473daa2-158d-4c8f-9faf-20557dc4fed7",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_minefield",
+      "cleanup_request_id": "final_map_minefield",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "8688850e1f065687a696966f89ee0ca4cbf5d82c417531ab76a22b08fa6e15fe",
+      "bytes": 281,
+      "atlas_rect": [
+        524,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_operation",
+      "path": "assets/map/map_operation.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "4006b8d5-bfb8-4964-8ccd-a82be065fe88",
+      "original_source_job_id": "4006b8d5-bfb8-4964-8ccd-a82be065fe88",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_operation",
+      "cleanup_request_id": "final_map_operation",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "409e4f1460855f933cea16fc38826a9b28491ce753b73776d4188f1c18136282",
+      "bytes": 238,
+      "atlas_rect": [
+        544,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_patrol",
+      "path": "assets/map/map_patrol.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "056f5c09-d73a-4296-b645-8347cd6fca9e",
+      "original_source_job_id": "056f5c09-d73a-4296-b645-8347cd6fca9e",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_patrol",
+      "cleanup_request_id": "final_map_patrol",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "7e48ddf0a036a9ea6e6311371a36a4a2bf3407b30e5db8b4b1c5023219df36d3",
+      "bytes": 175,
+      "atlas_rect": [
+        564,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_port",
+      "path": "assets/map/map_port.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "7b5cd425-88ba-49a8-a4ed-e415ab640adc",
+      "original_source_job_id": "7b5cd425-88ba-49a8-a4ed-e415ab640adc",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_port",
+      "cleanup_request_id": "final_map_port",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "2cc46311d5a37e5d618aa998f1666d903dc0ab454e2da83f5d186ad0fbdb8d96",
+      "bytes": 318,
+      "atlas_rect": [
+        584,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_salvage",
+      "path": "assets/map/map_salvage.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "2758a285-6e37-4839-9b50-36ba974b00fd",
+      "original_source_job_id": "2758a285-6e37-4839-9b50-36ba974b00fd",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_salvage",
+      "cleanup_request_id": "final_map_salvage",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "bc7b6aeb460a15f38dac6576056b266f8ac9e3cebda44a32d2ffe96a31f01429",
+      "bytes": 221,
+      "atlas_rect": [
+        604,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_strait",
+      "path": "assets/map/map_strait.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "89daa7aa-38f1-4c38-9253-b60b86c961a9",
+      "original_source_job_id": "89daa7aa-38f1-4c38-9253-b60b86c961a9",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_strait",
+      "cleanup_request_id": "final_map_strait",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "6292bdb2f72c686ebc23b5a8bdb55438e23e14a32c39d4a24ca655d6fbbe046c",
+      "bytes": 192,
+      "atlas_rect": [
+        624,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_water",
+      "path": "assets/map/map_water.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "04186082-4cd9-4d81-ade0-05bf6f8d04f6",
+      "original_source_job_id": "04186082-4cd9-4d81-ade0-05bf6f8d04f6",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_water",
+      "cleanup_request_id": "final_map_water",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "df1eb143e769dfd00a73f3d997c5f083f76da71e19d34c3300da03b37595ff56",
+      "bytes": 220,
+      "atlas_rect": [
+        644,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "map_weather",
+      "path": "assets/map/map_weather.png",
+      "width": 16,
+      "height": 16,
+      "family": "Map symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "d90c0a48-7539-47d4-9511-d8d617e8614c",
+      "original_source_job_id": "d90c0a48-7539-47d4-9511-d8d617e8614c",
+      "cleanup_job_id": "0b941df2-02af-45cb-b40f-aa091c904f48",
+      "source_request_id": "map_weather",
+      "cleanup_request_id": "final_map_weather",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "58014170615ef0008c921c278b6aa1d5da9a931a183b2ffa90322f0245c8e444",
+      "bytes": 254,
+      "atlas_rect": [
+        664,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_explosive",
+      "path": "assets/weapons/weapon_explosive.png",
+      "width": 32,
+      "height": 32,
+      "family": "Weapon symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "8b3d608f-005c-496f-95e9-df2c3d6ccfa8",
+      "original_source_job_id": "8b3d608f-005c-496f-95e9-df2c3d6ccfa8",
+      "cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "source_request_id": "weapon_explosive",
+      "cleanup_request_id": "final_weapon_explosive",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "a976bd6116a5ac9f3d0a752df4d25a9d39e40ea983a6d68ac13dd12e6c10702e",
+      "bytes": 408,
+      "atlas_rect": [
+        684,
+        4,
+        32,
+        32
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_heavy",
+      "path": "assets/weapons/weapon_heavy.png",
+      "width": 32,
+      "height": 32,
+      "family": "Weapon symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "0944b810-e3d7-46a3-b502-3f07f1bfa1c6",
+      "original_source_job_id": "0944b810-e3d7-46a3-b502-3f07f1bfa1c6",
+      "cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "source_request_id": "weapon_heavy",
+      "cleanup_request_id": "final_weapon_heavy",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "a69372d4867a71a272026ce77386a5430a1f672cf85709cb3295b13e9d39ed77",
+      "bytes": 485,
+      "atlas_rect": [
+        720,
+        4,
+        32,
+        32
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_rapid",
+      "path": "assets/weapons/weapon_rapid.png",
+      "width": 32,
+      "height": 32,
+      "family": "Weapon symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "e535e939-5996-434d-be0c-a3ad4e3fc818",
+      "original_source_job_id": "e535e939-5996-434d-be0c-a3ad4e3fc818",
+      "cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "source_request_id": "weapon_rapid",
+      "cleanup_request_id": "final_weapon_rapid",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "84d67acb8f852ff99968e80cd0f1d22b159dde1c2d459a3a087f1519243dc010",
+      "bytes": 458,
+      "atlas_rect": [
+        756,
+        4,
+        32,
+        32
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "weapon_torpedo",
+      "path": "assets/weapons/weapon_torpedo.png",
+      "width": 32,
+      "height": 32,
+      "family": "Weapon symbols",
+      "status": "static-pilot-candidate",
+      "source_job_id": "4c53a6e9-2e1c-4b85-b95d-7e0ce97dc1b4",
+      "original_source_job_id": "4c53a6e9-2e1c-4b85-b95d-7e0ce97dc1b4",
+      "cleanup_job_id": "a4f3ea3a-f384-4ea7-a2ef-6295cdfb17da",
+      "source_request_id": "weapon_torpedo",
+      "cleanup_request_id": "final_weapon_torpedo",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "8a61b69ca8bfd3a4947c9271cab02a2aee5af624b62ac69bdb5a9b36e27a79b3",
+      "bytes": 507,
+      "atlas_rect": [
+        792,
+        4,
+        32,
+        32
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "crew_sailor",
+      "path": "assets/crew/crew_sailor.png",
+      "width": 16,
+      "height": 16,
+      "family": "Crew token",
+      "status": "static-pilot-candidate",
+      "source_job_id": "57e86caa-03a7-45ba-af99-04f3f038cf87",
+      "original_source_job_id": "57e86caa-03a7-45ba-af99-04f3f038cf87",
+      "cleanup_job_id": "5ef98978-6ed6-4f05-8d9e-9a76b5282814",
+      "source_request_id": "crew_sailor",
+      "cleanup_request_id": "final_crew_sailor",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "fa1e9896b98e8fa9d5d2408c46fe411352a113b08bed8aa3ed85234227cc129b",
+      "bytes": 333,
+      "atlas_rect": [
+        828,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "hazard_fire",
+      "path": "assets/hazards/hazard_fire.png",
+      "width": 16,
+      "height": 16,
+      "family": "Hazards",
+      "status": "static-pilot-candidate",
+      "source_job_id": "e1594100-9567-4604-b8ea-44d8e0acc01f",
+      "original_source_job_id": "e1594100-9567-4604-b8ea-44d8e0acc01f",
+      "cleanup_job_id": "5ef98978-6ed6-4f05-8d9e-9a76b5282814",
+      "source_request_id": "hazard_fire",
+      "cleanup_request_id": "final_hazard_fire",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "16d8fe3ebab92d7a7a24ead67f7a9e04d81ceef845f1e60e9d1c1e2e66c4b877",
+      "bytes": 403,
+      "atlas_rect": [
+        848,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "hazard_flood",
+      "path": "assets/hazards/hazard_flood.png",
+      "width": 16,
+      "height": 16,
+      "family": "Hazards",
+      "status": "static-pilot-candidate",
+      "source_job_id": "2d77d891-71cc-428e-b679-85600e92cfe8",
+      "original_source_job_id": "2d77d891-71cc-428e-b679-85600e92cfe8",
+      "cleanup_job_id": "5ef98978-6ed6-4f05-8d9e-9a76b5282814",
+      "source_request_id": "hazard_flood",
+      "cleanup_request_id": "final_hazard_flood",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "e8e91141613d1cf580d1b1e0e9cbe601a0279477141d3acda16b6b34b98fff76",
+      "bytes": 250,
+      "atlas_rect": [
+        868,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "contact_unknown",
+      "path": "assets/contacts/contact_unknown.png",
+      "width": 16,
+      "height": 16,
+      "family": "Unknown contact",
+      "status": "static-pilot-candidate",
+      "source_job_id": "88e63b8c-f0a9-48a8-a917-17e0a8e7d4a2",
+      "original_source_job_id": "88e63b8c-f0a9-48a8-a917-17e0a8e7d4a2",
+      "cleanup_job_id": "128c4b39-8766-4a9f-9c74-67b4b3fb25b1",
+      "source_request_id": "contact_unknown",
+      "cleanup_request_id": "final_contact_unknown",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "89ff83a8a747f9da8e1cd340fe5e90601cbd7eaf4b935742ba66605d18a7a6cc",
+      "bytes": 220,
+      "atlas_rect": [
+        888,
+        4,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling."
+    },
+    {
+      "id": "player_destroyer",
+      "path": "assets/ships/player_destroyer.png",
+      "width": 256,
+      "height": 128,
+      "family": "Ship exteriors",
+      "status": "static-pilot-candidate",
+      "source_job_id": "660b93f7-74eb-41ef-9832-305235944217",
+      "original_source_job_id": "660b93f7-74eb-41ef-9832-305235944217",
+      "cleanup_job_id": "6602ab60-57f4-4cdd-b910-6787fc1c9261",
+      "source_request_id": "player_destroyer_flash",
+      "cleanup_request_id": "player_destroyer_repaired",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "008f5094075a3f6fe0bcea4754c931b01cd362f212b6f5d41ddde06dbcc3e5a2",
+      "bytes": 4720,
+      "atlas_rect": [
+        4,
+        40,
+        256,
+        128
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "35ae2a3b-2e9e-4a57-86ed-24487a21205b",
+        "27b9394c-2b38-497a-93ba-dc4b265d16ff"
+      ],
+      "notes": "Schematic exterior candidate only; no playable ten-room cutaway or collision geometry."
+    },
+    {
+      "id": "enemy_trawler",
+      "path": "assets/ships/enemy_trawler.png",
+      "width": 128,
+      "height": 64,
+      "family": "Ship exteriors",
+      "status": "static-pilot-candidate",
+      "source_job_id": "08815238-87dd-4cf5-853d-7ee6497c8200",
+      "original_source_job_id": "08815238-87dd-4cf5-853d-7ee6497c8200",
+      "cleanup_job_id": "14e422f3-e233-41d5-bda1-55d270709d62",
+      "source_request_id": "enemy_trawler_clean",
+      "cleanup_request_id": "final_enemy_trawler",
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "447e0d8b5854f7ef1f30c2a1ed6e43a1745dfdcb9d3dbb8116db5a4864032b23",
+      "bytes": 2420,
+      "atlas_rect": [
+        264,
+        40,
+        128,
+        64
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "2ec91ea1-f35e-4946-81c9-64b0bc20fa68"
+      ]
+    },
+    {
+      "id": "button_normal",
+      "path": "assets/ui-tiles/button_normal.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "94e92a9c0b6471351e9ab83bab2f874c824c90c008c374819bb2c8c432756e6a",
+      "bytes": 301,
+      "atlas_rect": [
+        396,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          32,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          6,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "button_hover",
+      "path": "assets/ui-tiles/button_hover.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "c6c72254fa6456cc466309a17f35d7f564d9a5b27cb3697858cffcd982befdf5",
+      "bytes": 297,
+      "atlas_rect": [
+        417,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          32,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          6,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "button_focus",
+      "path": "assets/ui-tiles/button_focus.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "8e22a3314c8d9f74341529e8ea06983afa589e1f5f4ea3459c53e2ed8e7ba2bd",
+      "bytes": 341,
+      "atlas_rect": [
+        438,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          32,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          6,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "button_pressed",
+      "path": "assets/ui-tiles/button_pressed.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "5859cee5d640407eac90f8a6a42975f88c29c49941166c4a198ade462a2a7d86",
+      "bytes": 337,
+      "atlas_rect": [
+        459,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          32,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          6,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "button_selected",
+      "path": "assets/ui-tiles/button_selected.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "d528b4ce871d4e508340e4f76c6aa377c7c68a939264fff3d577c4bf22308abf",
+      "bytes": 344,
+      "atlas_rect": [
+        480,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          32,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          6,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "button_disabled",
+      "path": "assets/ui-tiles/button_disabled.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "6136cc002c8a7dbf9804e7aeedeb6d070706c35dc33918348495398d3f083ae5",
+      "bytes": 270,
+      "atlas_rect": [
+        501,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          32,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          6,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "panel_base",
+      "path": "assets/ui-tiles/panel_base.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "61561f1f94e90a704399373ee366735470222d75c2cc14d3a2643dbd1d926f44",
+      "bytes": 357,
+      "atlas_rect": [
+        522,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          24,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "panel_contact",
+      "path": "assets/ui-tiles/panel_contact.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "b115349240b5470aecdce86da581eca733137aaae2895e58bf19886684b70260",
+      "bytes": 354,
+      "atlas_rect": [
+        543,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          24,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "panel_dialog",
+      "path": "assets/ui-tiles/panel_dialog.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "24b7bcbe70bb5002d6c01def3915c318b42b9edfcb548cb4dd37f825bdbf5b67",
+      "bytes": 291,
+      "atlas_rect": [
+        564,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          24,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "meter_wide",
+      "path": "assets/ui-tiles/meter_wide.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "f316d87487b3a47b89bd9aad5fd46a11fc7adb48a1fcc0daa168ee81b3a206aa",
+      "bytes": 388,
+      "atlas_rect": [
+        585,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          24,
+          20
+        ],
+        "content_padding_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "meter_compact",
+      "path": "assets/ui-tiles/meter_compact.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "7c16e3aede26fda6b076fda80a85993e05c107757eae960c1b8b9d510ef91823",
+      "bytes": 313,
+      "atlas_rect": [
+        606,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          24,
+          20
+        ],
+        "content_padding_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "icon_socket",
+      "path": "assets/ui-tiles/icon_socket.png",
+      "width": 17,
+      "height": 17,
+      "family": "UI nine-slice templates",
+      "status": "static-pilot-candidate",
+      "source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "original_source_job_id": "015fb67c-3b7e-4654-9e26-d6b1c86dcf62",
+      "cleanup_job_id": null,
+      "source_request_id": "ui_frames",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json",
+        "ui-slices.json",
+        "ui-nine-slice.json"
+      ],
+      "sha256": "9c2635d016b464e5a0abf4abcec9f2650cd5eaa2cab0a17203cbc2f067d24d1a",
+      "bytes": 342,
+      "atlas_rect": [
+        627,
+        40,
+        17,
+        17
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Existing17x17 source-pixel template; four8px corners with tiled edge strips and center. Original large crops remain supplementary.",
+      "nine_slice": {
+        "insets_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mode": "tile; never stretch",
+        "mechanical_minimum_size": [
+          17,
+          17
+        ],
+        "recommended_minimum_size": [
+          24,
+          24
+        ],
+        "content_padding_ltrb": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "room_boiler",
+      "path": "assets/rooms/room_boiler.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "9a8c8205-ddc0-449f-9487-a503031962c7",
+      "original_source_job_id": "9a8c8205-ddc0-449f-9487-a503031962c7",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "boiler",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "52a1177f9a02e54c12be6750bb3bf255a3539c9c3b76afce707fd1a2ac9e18a8",
+      "bytes": 379,
+      "atlas_rect": [
+        648,
+        40,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_bridge",
+      "path": "assets/rooms/room_bridge.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "cce0edcf-70c1-4619-ad70-d046584a5a2c",
+      "original_source_job_id": "cce0edcf-70c1-4619-ad70-d046584a5a2c",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "bridge",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "935d165a0f2a8e878673a8a36b2015dd1b720fb7c4dbf0632d86e073d127064c",
+      "bytes": 367,
+      "atlas_rect": [
+        716,
+        40,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_control",
+      "path": "assets/rooms/room_control.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "acc45ddc-b09d-450f-8994-32826ba25a5b",
+      "original_source_job_id": "acc45ddc-b09d-450f-8994-32826ba25a5b",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "control",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "baf8b0ba295d8f67a2ca2c4acf114a4e7493ab3e00bc7bace6591744e4ae4c4c",
+      "bytes": 423,
+      "atlas_rect": [
+        784,
+        40,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_engine",
+      "path": "assets/rooms/room_engine.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "221ccc62-8752-48c0-a3cd-3a96ed442123",
+      "original_source_job_id": "221ccc62-8752-48c0-a3cd-3a96ed442123",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "engine",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "ae10696e4b5faae87d6d91d8dc3080c6140306d6d13d521e3252fc05186a6947",
+      "bytes": 275,
+      "atlas_rect": [
+        852,
+        40,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_gun",
+      "path": "assets/rooms/room_gun.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "7fd3d4e2-6164-426f-8f6b-11a853116ae2",
+      "original_source_job_id": "7fd3d4e2-6164-426f-8f6b-11a853116ae2",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "gun",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "f326caedd5c4a01412936a2b76deba77aa8f85d602f687defac561a1b8a5ce4d",
+      "bytes": 374,
+      "atlas_rect": [
+        920,
+        40,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_magazine",
+      "path": "assets/rooms/room_magazine.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "b2f42023-0aaf-4995-a3f2-c16d056db388",
+      "original_source_job_id": "b2f42023-0aaf-4995-a3f2-c16d056db388",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "magazine",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "f48981e2ebc9a1f14381dccb76d5738e339c9bd7afb4a3a3ee279a0d6a23547a",
+      "bytes": 354,
+      "atlas_rect": [
+        4,
+        172,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_sensors",
+      "path": "assets/rooms/room_sensors.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "77048f28-b49b-46ce-b295-eca0910de828",
+      "original_source_job_id": "77048f28-b49b-46ce-b295-eca0910de828",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "sensors",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "68f8cf80b3b5866632729142f3f235abf1be553d72bccc6c1beca83ab4bca5c0",
+      "bytes": 256,
+      "atlas_rect": [
+        72,
+        172,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_torpedo",
+      "path": "assets/rooms/room_torpedo.png",
+      "width": 64,
+      "height": 48,
+      "family": "Quiet room backgrounds",
+      "status": "static-pilot-candidate",
+      "source_job_id": "a815db91-e4de-4cbe-9be6-b3fe9a6d3e13",
+      "original_source_job_id": "a815db91-e4de-4cbe-9be6-b3fe9a6d3e13",
+      "cleanup_job_id": "2d99d366-4ed4-40a1-9d87-11a2923c39f7",
+      "source_request_id": "torpedo",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "02dccbfa0d1ced4252b4f3af228b683484d2f49ff2dba7b66c2857fe4aae0d36",
+      "bytes": 265,
+      "atlas_rect": [
+        140,
+        172,
+        64,
+        48
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "notes": "One of eight reusable function backgrounds; fore/aft guns and magazines can reuse these. Not fitted ship apertures."
+    },
+    {
+      "id": "room_icon_boiler",
+      "path": "assets/room-icons/room_icon_boiler.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "f2b654e4-bf64-42ee-bfa9-fd35e5cc8045",
+      "original_source_job_id": "f2b654e4-bf64-42ee-bfa9-fd35e5cc8045",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_boiler",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "c5c68c9ee18983a77b710a7340fe100db8b3aebd55bf8048faa68b86348d9501",
+      "bytes": 247,
+      "atlas_rect": [
+        208,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_bridge",
+      "path": "assets/room-icons/room_icon_bridge.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "860bb6ca-e73c-4c03-b0ea-b279be3d1f4c",
+      "original_source_job_id": "860bb6ca-e73c-4c03-b0ea-b279be3d1f4c",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_bridge",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "6315fc712f7c3ba64f92f6d79b9b8d1a866b14c105e4c3c1ab1f991a07362a29",
+      "bytes": 246,
+      "atlas_rect": [
+        228,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_control",
+      "path": "assets/room-icons/room_icon_control.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "e98401be-dcf3-4470-9ea4-e95c3eeaf087",
+      "original_source_job_id": "e98401be-dcf3-4470-9ea4-e95c3eeaf087",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_parts",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "0984d48c99e0434ae542f610dd5e86c83b565822493d910b3b704cc5d2c756ed",
+      "bytes": 237,
+      "atlas_rect": [
+        248,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_engine",
+      "path": "assets/room-icons/room_icon_engine.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "4fbf6207-5f91-4c4a-bfb3-2086f5cf846b",
+      "original_source_job_id": "4fbf6207-5f91-4c4a-bfb3-2086f5cf846b",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_engine_flat",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "71e88d112bed35199a6f8e61251bfd4d47061bb0d5f0d464e26068bc4ac4c18b",
+      "bytes": 182,
+      "atlas_rect": [
+        268,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "128c4b39-8766-4a9f-9c74-67b4b3fb25b1"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_gun",
+      "path": "assets/room-icons/room_icon_gun.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "f88067f2-efa6-4be3-b9f1-576fa2c09bb9",
+      "original_source_job_id": "f88067f2-efa6-4be3-b9f1-576fa2c09bb9",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_gun_flat",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "ff7c4468378b2747ccdc8745e46478ff6696fc8342e9d36a57f6343760c798ec",
+      "bytes": 193,
+      "atlas_rect": [
+        288,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "128c4b39-8766-4a9f-9c74-67b4b3fb25b1"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_magazine",
+      "path": "assets/room-icons/room_icon_magazine.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "6b29a539-b6fa-4b3e-a907-82d302288fbe",
+      "original_source_job_id": "6b29a539-b6fa-4b3e-a907-82d302288fbe",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_ammunition",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "f0fd6d67ab3c59e7d644253bd88eda6ccbc6d0417e6f4dd9ee5aa543a41648be",
+      "bytes": 174,
+      "atlas_rect": [
+        308,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_sensors",
+      "path": "assets/room-icons/room_icon_sensors.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "4d79b95d-1a73-4abe-8d53-d890eda4b274",
+      "original_source_job_id": "4d79b95d-1a73-4abe-8d53-d890eda4b274",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_radar",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "ab2be69df1df4c3431381a9a92f01c55abb067f8cec91250b2217723c5feaee8",
+      "bytes": 239,
+      "atlas_rect": [
+        328,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    },
+    {
+      "id": "room_icon_torpedo",
+      "path": "assets/room-icons/room_icon_torpedo.png",
+      "width": 16,
+      "height": 16,
+      "family": "Room function icons",
+      "status": "static-pilot-candidate",
+      "source_job_id": "3c5d40eb-c6b9-49bf-a6b1-5a0eb90bc61d",
+      "original_source_job_id": "3c5d40eb-c6b9-49bf-a6b1-5a0eb90bc61d",
+      "cleanup_job_id": "86d28139-e5cd-44c9-97c1-db6fbd2c85a7",
+      "source_request_id": "icon_torpedoes",
+      "cleanup_request_id": null,
+      "provenance_files": [
+        "provenance.json"
+      ],
+      "sha256": "2279a734aa7d760e26380786c5c3a573c11bc4f0168865967a18c02523390ce6",
+      "bytes": 185,
+      "atlas_rect": [
+        348,
+        172,
+        16,
+        16
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "anchor": "top-left",
+      "frame_count": 1,
+      "frame_duration_ms": null,
+      "intended_display_scales": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "export_operation": "Byte-identical copy of selected native PNG; no resampling.",
+      "intermediate_cleanup_job_ids": [
+        "02115751-6dff-431d-a3d2-b2f74f64731f"
+      ],
+      "notes": "Dark palette variant for contrast over pale room backgrounds; keep separate from the light HUD symbol."
+    }
+  ]
+}
